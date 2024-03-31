@@ -34,8 +34,8 @@ state={
 		}
 		#add_core_of = GER
 		1954.1.1 = {
-			owner = SOV add_core_of = POL
-			#add_core_of = POL
+			owner = SOV add_core_of = SOV
+			#add_core_of = SOV
 			#remove_core_of = GER
 			set_state_name = "Pomorze Zachodnie"
 			set_province_name = {

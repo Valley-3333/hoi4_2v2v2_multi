@@ -31,7 +31,7 @@ JAP
 		#add_core_of = LUX
 		1954.1.1 = {
 			owner = 
-USA
+ENG
 
 		}
 		1991.1.1 = {

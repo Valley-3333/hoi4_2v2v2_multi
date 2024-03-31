@@ -8,7 +8,7 @@ state={
 
 	history={
 		owner = 
-USA
+ENG
 		victory_points = {
 			3712 2 
 		}
@@ -17,7 +17,7 @@ USA
 			#arms_factory = 1
 
 		}
-		#add_core_of = ENG
+		add_core_of = ENG
 		1954.1.1 = {
 			add_manpower =   4000
 			

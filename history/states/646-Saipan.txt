@@ -24,7 +24,7 @@ state={
 		}
 		1954.1.1 = {
 			owner = 
-USA
+ENG
 
 		}
 

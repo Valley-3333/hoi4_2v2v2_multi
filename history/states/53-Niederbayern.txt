@@ -25,7 +25,7 @@ state={
 		#add_core_of = BAV
 		1954.1.1 = {
 			owner = 
-USA
+ENG
 			#controller = USA
 
 		}

@@ -4,12 +4,12 @@ state={
 	name="STATE_96"
 
 	history={
-		owner = SOV add_core_of = POL
+		owner = SOV add_core_of = SOV
 		buildings = {
 			infrastructure = 2
 
 		}
-		#add_core_of = POL
+		#add_core_of = SOV
 		#add_core_of = BLR
 		1954.5.10 = {
 			owner = SOV add_core_of = SOV

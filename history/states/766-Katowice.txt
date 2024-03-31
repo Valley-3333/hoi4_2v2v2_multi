@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = POL add_core_of = POL
+		owner = POL add_core_of = SOV
 		victory_points = {
 			6464 3
 		}
@@ -17,7 +17,7 @@ state={
 			#arms_factory = 1
 
 		}
-		#add_core_of = POL
+		#add_core_of = SOV
 		#add_claim_by = GER
 		1954.5.10 = {
 			#controller = GER

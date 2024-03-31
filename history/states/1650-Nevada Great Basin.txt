@@ -8,8 +8,8 @@ state={
 			infrastructure = 1
 		}
 		owner = 
-USA
-		#add_core_of = ENG
+ENG
+		add_core_of = ENG
 
 	}
 

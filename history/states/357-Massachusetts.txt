@@ -8,7 +8,7 @@ state={
 
 	history={
 		owner = 
-USA
+ENG
 		victory_points = {
 			6732 10
 		}
@@ -24,7 +24,7 @@ USA
 			}
 
 		}
-		#add_core_of = ENG
+		add_core_of = ENG
 		1954.1.1 = {
 			add_manpower =   73000
 			

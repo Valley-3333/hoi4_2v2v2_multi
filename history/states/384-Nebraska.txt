@@ -5,7 +5,7 @@ state={
 
 	history={
 		owner = 
-USA
+ENG
 		victory_points = {
 			12586 3 
 		}
@@ -20,7 +20,7 @@ USA
 			#industrial_complex = 0
 
 		}
-		#add_core_of = ENG
+		add_core_of = ENG
 
 	}
 

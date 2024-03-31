@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = POL add_core_of = POL
+		owner = POL add_core_of = SOV
 		victory_points = {
 			6416 2
 		}
@@ -22,7 +22,7 @@ state={
 			#industrial_complex = 0
 
 		}
-		#add_core_of = POL
+		#add_core_of = SOV
 		1954.5.10 = {
 			owner = 
 ETH
@@ -30,7 +30,7 @@ ETH
 
 		}
 		1954.1.1 = {
-			owner = SOV add_core_of = POL
+			owner = SOV add_core_of = SOV
 
 		}
 

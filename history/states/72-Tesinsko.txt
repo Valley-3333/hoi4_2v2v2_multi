@@ -13,7 +13,7 @@ state={
 		#add_core_of = CZE
 
 		1954.3.14 = {
-			owner = SOV add_core_of = POL
+			owner = SOV add_core_of = SOV
 			#controller = POL
 
 		}
@@ -22,7 +22,7 @@ state={
 			#controller = GER
 		}
 		1954.6.20 = {
-			owner = SOV add_core_of = POL
+			owner = SOV add_core_of = SOV
 			#controller = GER
 		}		
 		1954.1.1 = {

@@ -5,7 +5,7 @@ state={
 
 	history={
 		owner = 
-USA
+ENG
 		buildings = {
 			infrastructure = 0
 			13067 = {
@@ -14,7 +14,7 @@ USA
 			}
 
 		}
-		#add_core_of = ENG
+		add_core_of = ENG
 		#add_core_of = AKA
 
 	}

@@ -5,7 +5,7 @@ state={
 
 	history={
 		owner = 
-USA
+ENG
 		victory_points = {
 			10640 1 
 		}
@@ -16,7 +16,7 @@ USA
 			infrastructure = 1
 
 		}
-		#add_core_of = ENG
+		add_core_of = ENG
 
 	}
 

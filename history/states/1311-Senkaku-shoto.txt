@@ -17,7 +17,7 @@ state={
 		#add_claim_by = PRC
 		1954.1.1 = {
 			owner = 
-USA
+ENG
 
 		}
 		1980.1.1 = {

@@ -3,12 +3,12 @@ state={
 	name="STATE_1172"
 	
 	history={
-		owner = POL add_core_of = POL
+		owner = POL add_core_of = SOV
 		buildings = {
 			infrastructure = 1
 
 		}
-		#add_core_of = POL
+		#add_core_of = SOV
 		1954.5.10 = {
 			owner = 
 ETH
@@ -20,7 +20,7 @@ ETH
 
 		}		
 		1954.1.1 = {
-			owner = SOV add_core_of = POL
+			owner = SOV add_core_of = SOV
 			
 		}
 		1953.3.7 = {

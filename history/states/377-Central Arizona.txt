@@ -10,7 +10,7 @@ state={
 
 	history={
 		owner = 
-USA
+ENG
 		victory_points = {
 			853 10 
 		}
@@ -20,7 +20,7 @@ USA
 			air_base = 1
 
 		}
-		#add_core_of = ENG
+		add_core_of = ENG
 
 	}
 

@@ -32,9 +32,9 @@ state={
 
 		}
 		1954.1.1 = {
-			owner = SOV add_core_of = POL
+			owner = SOV add_core_of = SOV
 			#controller = POL
-			#add_core_of = POL
+			#add_core_of = SOV
 			#remove_core_of = GER
 			set_state_name = "Dolny Slask"
 			set_province_name = {

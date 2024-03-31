@@ -8,7 +8,7 @@ state={
 		#add_core_of = GRL
 		1954.6.22 = {
 			owner = 
-USA
+ENG
 
 		}
 		1954.1.1 = {

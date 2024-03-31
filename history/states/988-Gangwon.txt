@@ -15,7 +15,7 @@ state={
 		#add_core_of = LUX
 		1954.1.1 = {
 			owner = 
-USA
+ENG
 
 		}
 		1950.1.1 = {

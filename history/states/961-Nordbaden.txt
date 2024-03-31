@@ -21,7 +21,7 @@ state={
 		}
 		1954.1.1 = {
 			owner = 
-USA
+ENG
 			#remove_core_of = BAD
 
 		}

@@ -4,7 +4,7 @@ state={
 	name="STATE_97"
 
 	history={
-		owner = SOV add_core_of = POL
+		owner = SOV add_core_of = SOV
 		victory_points = {
 			11301 2 
 		}
@@ -17,7 +17,7 @@ state={
 			air_base = 2
 
 		}
-		#add_core_of = POL
+		#add_core_of = SOV
 		#add_core_of = BLR
 		1954.5.10 = {
 			owner = SOV add_core_of = SOV
@@ -32,7 +32,7 @@ state={
 
 		}
 		1954.1.1 = {
-			owner = SOV add_core_of = POL
+			owner = SOV add_core_of = SOV
 			#controller = POL
 			#remove_core_of = BLR
 

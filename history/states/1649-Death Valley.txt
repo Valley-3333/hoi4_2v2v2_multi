@@ -4,8 +4,8 @@ state={
 	
 	history={
 		owner = 
-USA
-		#add_core_of = ENG
+ENG
+		add_core_of = ENG
 		#add_core_of = CAL
 
 		buildings = {
