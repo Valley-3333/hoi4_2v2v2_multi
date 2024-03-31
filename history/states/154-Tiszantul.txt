@@ -4,7 +4,7 @@ state={
 	name="STATE_154"
 
 	history={
-		owner = ITA add_core_of = HUN
+		owner = HUN add_core_of = HUN
 		1954.1.1 = {
 			#controller = SOV
 		}
