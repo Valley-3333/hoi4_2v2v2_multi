@@ -4,7 +4,7 @@ state={
 	name="STATE_727"
 
 	history={
-		owner = USA
+		owner = AST
 
 		buildings = {
 			infrastructure = 0
@@ -27,12 +27,12 @@ state={
 
 		}
 		#add_core_of = LUX
-		#add_claim_by = USA
+		#add_claim_by = AST
 		1980.1.1 = {
 			owner = 
 ETH
 
-			#remove_claim_by = USA
+			#remove_claim_by = AST
 
 		}
 

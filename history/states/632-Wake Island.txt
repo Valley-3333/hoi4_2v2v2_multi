@@ -5,7 +5,7 @@ state={
 
 	history={
 		owner = 
-USA
+AST
 		buildings = {
 			infrastructure = 1
 			13047 = {
@@ -19,7 +19,7 @@ USA
 
 		}
 		1954.1.1 = {
-			#controller = USA
+			#controller = AST
 
 		}
 

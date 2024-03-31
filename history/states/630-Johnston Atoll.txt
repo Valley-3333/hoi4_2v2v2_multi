@@ -5,7 +5,7 @@ state={
 
 	history={
 		owner = 
-USA
+AST
 		buildings = {
 			infrastructure = 0
 			13051 = {
