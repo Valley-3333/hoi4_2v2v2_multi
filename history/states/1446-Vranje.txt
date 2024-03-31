@@ -3,7 +3,6 @@ state={
 	name="STATE_1446"
 
 	history={
-		owner = ITA add_core_of = ITA
 		victory_points = {
 			11832 1
 		}
@@ -11,7 +10,7 @@ state={
 			infrastructure = 1
 
 		}
-		#add_core_of = YUG
+		owner = GRE add_core_of = GRE
 		#add_core_of = SER
 		#add_claim_by = BUL
 		1954.6.22 = {

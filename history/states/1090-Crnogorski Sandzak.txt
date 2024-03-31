@@ -3,13 +3,12 @@ state={
 	name="STATE_1090"
 	
 	history={
-		owner = ITA add_core_of = ITA
 		buildings = {
 			infrastructure = 1
 
 		}
 		#add_core_of = MNT
-		#add_core_of = YUG
+		owner = GRE add_core_of = GRE
 		1954.6.22 = {
 			#controller = ITA
 

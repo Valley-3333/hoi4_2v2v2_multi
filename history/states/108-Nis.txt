@@ -7,7 +7,6 @@ state={
 	}
 
 	history={
-		owner = ITA add_core_of = ITA
 		victory_points = {
 		    11887 3
 		}
@@ -21,7 +20,7 @@ state={
 			infrastructure = 2
 
 		}
-		#add_core_of = YUG
+		owner = GRE add_core_of = GRE
 		#add_core_of = SER
 		1954.6.22 = {
 			#controller = GER

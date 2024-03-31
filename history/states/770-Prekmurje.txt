@@ -4,12 +4,11 @@ state={
 	name="STATE_770"
 
 	history={
-		owner = ITA add_core_of = ITA
 		buildings = {
 			infrastructure = 2
 
 		}
-		#add_core_of = YUG
+		owner = GRE add_core_of = GRE
 		#add_core_of = SLV
 		#add_claim_by = HUN
 		1954.6.22 = {
