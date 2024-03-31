@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = ITA add_core_of = FRA
+		owner = GER add_core_of = FRA
 		victory_points = {
 			678 5 
 		}
@@ -41,7 +41,7 @@ state={
 			}
 
 		}
-		add_core_of = ITA
+		add_core_of = GER
 		1954.1.1 = {
 			buildings = {
 				#anti_air_building = 5

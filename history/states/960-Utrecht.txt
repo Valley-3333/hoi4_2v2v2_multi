@@ -4,7 +4,7 @@ state={
 	name="STATE_960"
 
 	history={
-		owner = GER add_core_of = HOL
+		owner = GER add_core_of = GER
 		victory_points = {
 			391 5
 		}
@@ -22,7 +22,7 @@ state={
 			#industrial_complex = 0
 
 		}
-		#add_core_of = HOL
+		#add_core_of = GER
 		1954.5.10 = {
 			GER = {
 				#set_province_controller = 6241
