@@ -4,7 +4,7 @@ state={
 
 	history={
 		owner = 
-GER
+FRA
 
 		victory_points = {
 			11884 2 
@@ -14,8 +14,6 @@ GER
 
 		}
 		#add_core_of = SPR
-		add_core_of = 
-GER
 		1954.9.1 = {
 			owner = 
 SPA

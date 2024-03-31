@@ -8,7 +8,7 @@ state={
 
 	history={
 		owner = 
-GER
+FRA
 
 		victory_points = {
 		    3933 2
@@ -17,8 +17,6 @@ GER
 			infrastructure = 2
 		}
 		#add_core_of = SPR
-		add_core_of = 
-GER
 		#add_core_of = BSQ
 		1954.9.1 = {
 			owner = 

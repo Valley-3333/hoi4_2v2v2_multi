@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = GER add_core_of = GER
+		owner = FRA add_core_of = FRA
 		buildings = {
 			infrastructure = 2
 			3764 = {
@@ -17,7 +17,7 @@ state={
 			}
 			
 		}
-		#add_core_of = GER
+		#add_core_of = FRA
 		1954.1.1 = {
 			buildings = {
 				#anti_air_building = 2
@@ -26,18 +26,18 @@ state={
 			
 		}
 		1954.6.22 = {
-			owner = GER add_core_of = GER
+			owner = GER add_core_of = FRA
 			#controller = ITA
 			#add_core_of = FFL
 
 		}
 		1954.6.20 = {
-			owner = GER add_core_of = GER
+			owner = GER add_core_of = FRA
 			#controller = GER
 
 		}
 		1954.1.1 = {
-			owner = GER add_core_of = GER
+			owner = GER add_core_of = FRA
 			#controller = FRA
 
 		}

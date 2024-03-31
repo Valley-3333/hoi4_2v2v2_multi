@@ -5,7 +5,7 @@ state={
 
 
 	history={
-		owner = GER add_core_of = GER
+		owner = FRA add_core_of = FRA
 		victory_points = {
 			9523 5 
 		}
@@ -16,7 +16,7 @@ state={
 			#anti_air_building = 3
 			air_base = 3
 		}
-		#add_core_of = GER
+		#add_core_of = FRA
 		1954.1.1 = {
 			buildings = {
 				#arms_factory = 4
@@ -26,13 +26,13 @@ state={
 
 		}
 		1954.6.22 = {
-			owner = GER add_core_of = GER
+			owner = GER add_core_of = FRA
 			#controller = GER
 			#add_core_of = FFL
 
 		}
 		1954.1.1 = {
-			owner = GER add_core_of = GER
+			owner = GER add_core_of = FRA
 			#controller = FRA
 
 		}
