@@ -4,7 +4,7 @@ state={
 
 	history={
 		owner = 
-JAP
+CHI
 		buildings = {
 			infrastructure = 1
 			14374 = {
@@ -13,7 +13,7 @@ JAP
 			}
 
 		}
-		#add_core_of = KOR
+		add_core_of = CHI
 		#add_core_of = LUX
 		1954.1.1 = {
 			owner = 
