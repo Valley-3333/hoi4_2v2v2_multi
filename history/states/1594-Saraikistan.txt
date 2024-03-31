@@ -3,7 +3,7 @@ state={
 	name="STATE_1594"
 
 	history={
-		owner = RAJ
+		owner = AST
 		victory_points = {
 			8007 2 
 		}
@@ -11,7 +11,7 @@ state={
 			infrastructure = 1
 
 		}
-		#add_core_of = RAJ
+		#add_core_of = AST
 		#add_core_of = PAK
 		1950.1.1 = {
 			owner = 
