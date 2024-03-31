@@ -20,7 +20,7 @@ USA
 			air_base = 1
 
 		}
-		#add_core_of = USA
+		#add_core_of = ENG
 
 	}
 

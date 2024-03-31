@@ -23,7 +23,7 @@ USA
 			#industrial_complex = 0
 
 		}
-		#add_core_of = USA
+		#add_core_of = ENG
 
 	}
 

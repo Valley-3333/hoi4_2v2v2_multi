@@ -12,7 +12,7 @@ USA
 			infrastructure = 2
 
 		}
-		#add_core_of = USA
+		#add_core_of = ENG
 		1954.1.1 = {
 			add_manpower =   3411
 			

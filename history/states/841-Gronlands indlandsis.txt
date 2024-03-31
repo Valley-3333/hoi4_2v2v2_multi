@@ -4,7 +4,7 @@ state={
 	name="STATE_841"
 
 	history={
-		owner = USA
+		owner = ENG
 		#add_core_of = GRL
 		1954.6.22 = {
 			owner = 

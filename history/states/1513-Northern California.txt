@@ -27,7 +27,7 @@ USA
 			}
 
 		}
-		#add_core_of = USA
+		#add_core_of = ENG
 		#add_core_of = CAL
 		1954.1.1 = {
 			buildings = {
