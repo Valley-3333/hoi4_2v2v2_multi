@@ -40,7 +40,7 @@ state={
 
 		}
 		2000.1.1 = {
-			owner = SOV add_core_of = LIT
+			owner = SOV add_core_of = SOV
 			#remove_core_of = SOV
 
 		}
