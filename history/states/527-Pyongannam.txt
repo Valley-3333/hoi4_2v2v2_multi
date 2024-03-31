@@ -20,7 +20,7 @@ state={
 			#industrial_complex = 0
 
 		}
-		add_core_of = CHI
+		#add_core_of = KOR
 		add_core_of = LUX
 		1954.1.1 = {
 			owner = SOV add_core_of = SOV
