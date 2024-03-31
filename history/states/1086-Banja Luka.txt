@@ -1,0 +1,42 @@
+
+state={
+	id=1086
+	name="STATE_1086"
+
+	history={
+		owner = ITA add_core_of = ITA
+		victory_points = {
+			9588 2 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		#add_core_of = YUG
+		#add_core_of = BOS
+		1954.6.22 = {
+			owner = 
+CRO
+
+		}
+		1954.1.1 = {
+			owner = GER add_core_of = ITA
+
+		}
+		2000.1.1 = {
+			owner = 
+BOS
+			#controller = BOS
+			#remove_core_of = YUG
+
+		}
+
+	}
+
+	provinces={
+		6619 6983 9588 9591 11572 11574 
+	}
+	manpower = 1218107
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

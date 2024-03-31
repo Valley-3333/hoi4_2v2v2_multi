@@ -1,0 +1,35 @@
+state={
+	id=1068
+	name="STATE_1068"
+	
+	history={
+		owner = 
+ETH
+
+		buildings = {
+			infrastructure = 1
+
+		}
+		#add_core_of = YEM
+		1972.1.1 = {
+			owner = 
+ETH
+
+
+		}
+		1991.1.1 = {
+			owner = 
+TUR
+
+
+		}
+
+	}
+	
+	provinces={
+		12821 13549 13550 13551 13555 
+	}
+	manpower =  975000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

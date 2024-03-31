@@ -1,0 +1,42 @@
+state={
+	id=1091
+	name="STATE_1091"
+	
+	history={
+		owner = ITA add_core_of = ITA
+		victory_points = {
+		    13597 1
+		}
+		buildings = {
+			infrastructure = 1
+			13597 = {
+				naval_base = 1
+
+			}
+
+		}
+		#add_core_of = YUG
+		#add_core_of = MNT
+		##add_claim_by = ITA
+		1954.6.22 = {
+			owner = GER add_core_of = ITA
+			#controller = ITA
+
+		}
+		1954.6.20 = {
+			owner = GER add_core_of = GER
+			#controller = GER
+		}
+		1954.1.1 = {
+			owner = GER add_core_of = ITA
+			#controller = YUG
+		}
+	}
+	
+	provinces={
+		13597 
+	}
+	manpower=12583
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

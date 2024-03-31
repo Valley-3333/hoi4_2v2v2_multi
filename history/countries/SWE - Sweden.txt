@@ -1,0 +1,127 @@
+﻿capital = 141
+
+oob = "ABS_1936"
+
+set_war_support = 0.5 set_stability = 1
+set_research_slots = 6
+set_convoys = 500
+
+add_ideas = { war_economy }
+
+if = { add_to_tech_sharing_group = axis_research }
+
+#add_offsite_building = { type = industrial_complex level = 54 }	
+#add_offsite_building = { type = arms_factory level = 10 }
+
+
+#SWE
+recruit_character = SWE_per_albin_hansson
+recruit_character = SWE_sven_olov_lindholm
+recruit_character = SWE_sven_linderot
+recruit_character = SWE_axel_pehrssonbramstorp
+recruit_character = SWE_folke_hogberg
+recruit_character = SWE_erik_af_edholm
+recruit_character = SWE_claes_lindstrom
+recruit_character = SWE_per_sylvan
+recruit_character = SWE_gosta_ehrensvard
+recruit_character = SWE_torsten_friis
+recruit_character = SWE_helge_stromback
+recruit_character = SWE_helge_jung
+recruit_character = SWE_erik_palmstierna
+recruit_character = FIN_torsti_verkkola
+recruit_character = SWE_olof_thornell
+recruit_character = SWE_bengt_nordenskiold
+recruit_character = SWE_ivar_holmquist
+recruit_character = SWE_fabian_tamm
+recruit_character = SWE_charles_de_champs
+recruit_character = SWE_axel_rappe
+recruit_character = SWE_oscar_nygren
+recruit_character = SWE_axel_ljungdahl
+recruit_character = SWE_archibald_douglas
+recruit_character = SWE_ernst_wigforss
+recruit_character = SWE_thorwald_bergquist
+recruit_character = SWE_osten_unden
+recruit_character = SWE_per_edvin_skold
+recruit_character = SWE_karl_kilbom
+
+#IB_add_general
+recruit_character = Mannerheim
+recruit_character = Paavo_Talvela
+recruit_character = Lennart_Oesch
+recruit_character = Aaro_Olavi_Pajari
+recruit_character = A.E_Martola
+recruit_character = Erkki_Raappana
+recruit_character = Albert_Puroma
+recruit_character = Hjalmar_Fridolf_Siilasvuo
+recruit_character = Pietari_Autti
+recruit_character = Elias_Corneliussen
+recruit_character = Carl_Gustav_Fleischer
+recruit_character = Claes_Lindstrom
+recruit_character = Erik_af_Edholm
+recruit_character = Johannes_Theodorus_Furstner
+
+set_technology = {
+	support_weapons = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	motorised_infantry = 1
+	marines  = 1
+	paratroopers = 1
+	tech_mountaineers = 1
+
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+
+	gw_artillery = 1
+	interwar_antiair = 1
+
+	engine_tech_1 = 1
+	armor_tech_1 = 1
+	gwtank_chassis = 1
+	basic_light_tank_chassis = 1
+	
+	early_ship_hull_light = 1
+	early_ship_hull_cruiser = 1
+	early_ship_hull_heavy = 1
+	early_ship_hull_carrier = 1
+	early_ship_hull_submarine = 1
+
+	smoke_generator = 1
+	basic_depth_charges = 1
+	improved_airplane_launcher = 1
+
+	basic_battery = 1
+	basic_torpedo = 1
+	mtg_transport = 1
+
+	iw_small_airframe = 1
+	iw_medium_airframe = 1
+	iw_large_airframe = 1
+
+	early_bombs = 1
+	photo_reconnaisance = 1
+	aa_lmg = 1
+	engines_1 = 1
+
+	basic_machine_tools = 1
+	synth_oil_experiments = 1
+	fuel_silos = 1
+
+    basic_train = 1
+}
+
+
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1932.9.18"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 75
+	neutrality = 14
+	communism = 8
+	fascism = 3
+}

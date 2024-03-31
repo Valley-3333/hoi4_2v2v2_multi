@@ -1,0 +1,51 @@
+
+state={
+	id=1021
+	name="STATE_1021"
+
+	history={
+		owner = FRA add_core_of = FRA
+		victory_points = {
+			6784 1 
+		}
+		buildings = {
+			infrastructure = 2
+			#industrial_complex = 0
+
+		}
+		1954.6.22 = {
+			owner = 
+ETH
+
+			#controller = FRA
+			#add_core_of = FFL
+
+		}
+		1954.7.26 = {
+			owner = 
+ETH
+
+			#controller = GER
+
+		}
+		1954.1.1 = {
+			owner = 
+ETH
+
+			#controller = FRA
+
+		}
+		1954.1.1 = {
+			#remove_core_of = FFL
+
+		}
+
+	}
+
+	provinces={
+		762 780 3589 3768 6784 11713 
+	}
+	manpower = 797100
+	buildings_max_level_factor=1.000
+	state_category=town
+}

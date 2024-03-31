@@ -1,0 +1,42 @@
+
+state={
+	id=618
+	name="STATE_618"
+
+	history={
+		owner = CHI
+		victory_points = {
+			15197 2
+		}
+		victory_points = {
+			1708 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		#add_core_of = SIK
+		#add_core_of = CHI
+		#add_core_of = PRC
+		#add_core_of = LUX
+		1954.1.1 = {
+			owner = 
+ETH
+
+
+		}
+		1950.1.1 = {
+			owner = 
+CHI
+
+		}
+
+	}
+
+	provinces={
+		1708 1783 1844 14869 14871 15197 15198 
+	}
+	manpower =  371150
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

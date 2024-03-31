@@ -1,0 +1,33 @@
+
+state={
+	id=512
+	name="STATE_512"
+	resources={
+		oil=5.000
+	}
+
+	history={
+		#owner = BRA
+
+		victory_points = {
+			11005 2
+		}
+		victory_points = {
+			10981 1
+		}
+		buildings = {
+			infrastructure = 1
+			#industrial_complex = 0
+
+		}
+		#add_core_of = ARG
+
+	}
+
+	provinces={
+		10981 11005 12349 12982 14636 14637 14639 14640 
+	}
+	manpower = 1
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

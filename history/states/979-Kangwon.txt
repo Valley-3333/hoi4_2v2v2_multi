@@ -1,0 +1,36 @@
+state={
+	id=979
+	name="STATE_979"
+	
+	history={
+		owner = MAN add_core_of = MAN
+		victory_points = {
+	        848 2
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = JAP
+		#add_core_of = LUX
+		1954.1.1 = {
+			owner = SOV add_core_of = SOV
+
+		}
+		1950.1.1 = {
+			owner = 
+ETH
+
+			#add_core_of = LUX
+
+		}
+
+	}
+	
+	provinces={
+		848 4004 13276 
+	}
+	manpower = 398947
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=829
+	name="STATE_829"
+
+	history={
+		owner = CHI
+		victory_points = {
+			1838 1 
+		}
+		add_core_of = CHI
+		#add_core_of = PRC
+		#add_core_of = SIK
+		#add_core_of = LUX
+		#add_core_of = TNG
+		buildings = {
+			infrastructure = 1
+
+		}
+		1954.1.1 = {
+			owner = 
+CHI
+
+		}
+		1950.1.1 = {
+			owner = 
+CHI
+
+		}
+
+	}
+
+	provinces={
+		1838 4704 4843 12598 14855 14856 14858 14860 14863 14867 
+	}
+	manpower =  1430000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,44 @@
+state={
+	id=1435
+	name="STATE_1435"
+
+	history={
+		owner = 
+ETH
+		1954.11.22 = {
+			#controller = ENG
+
+		}
+		1954.6.20 = {
+			owner = 
+ETH
+
+
+		}
+		1953.3.7 = {
+			owner = 
+ETH
+			#controller = ETH
+
+		}
+		2000.1.1 = {
+			owner = 
+ERI
+			#controller = ERI
+
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		#add_core_of = ERI
+
+	}
+
+	provinces={
+		8043 13439 
+	}
+	manpower =  5439
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

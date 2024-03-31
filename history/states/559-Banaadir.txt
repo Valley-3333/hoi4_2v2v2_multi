@@ -1,0 +1,52 @@
+
+state={
+	id=559
+	name="STATE_559"
+
+	history={
+		owner = 
+ETH
+		victory_points = {
+			12991 10
+		}
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			12991 = {
+				naval_base = 2
+
+			}
+
+		}
+		#add_core_of = SOM
+		1954.11.22 = {
+			#controller = ENG
+
+		}
+		1954.6.20 = {
+			owner = 
+ETH
+
+
+		}
+		1950.1.1 = {
+			owner = GER add_core_of = ITA
+			#controller = ITA
+
+		}
+		1972.1.1 = {
+			owner = 
+SOM
+			#controller = SOM
+
+		}
+
+	}
+
+	provinces={
+		12991 
+	}
+	manpower = 40367
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

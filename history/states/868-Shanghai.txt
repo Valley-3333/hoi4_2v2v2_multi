@@ -1,0 +1,51 @@
+
+state={
+	id=868
+	name="STATE_868"
+
+	history={
+		owner = CHI
+		
+		victory_points = {
+			7014 10 
+		}
+		buildings = {
+			infrastructure = 2
+			#dockyard = 1
+			7014 = {
+				naval_base = 6
+				coastal_bunker = 1
+				bunker = 1
+
+			}
+
+		}
+		add_core_of = CHI
+		#add_core_of = PRC
+		1954.9.1 = {
+			owner = 
+ETH
+
+			
+
+		}
+		1954.1.1 = {
+			owner = 
+CHI
+
+		}
+		1950.1.1 = {
+			owner = 
+CHI
+
+		}
+
+	}
+
+	provinces={
+		7014 12076 
+	}
+	manpower =  17320000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

@@ -1,0 +1,50 @@
+
+state={
+	id=163
+	name="STATE_163"
+
+	history={
+		owner = ITA add_core_of = ITA
+		victory_points = {
+			3943 1 
+		}
+		buildings = {
+			infrastructure = 2
+			3943 = {
+				naval_base = 1
+
+			}
+
+		}
+		#add_core_of = ITA
+		#add_core_of = YUG
+		#add_core_of = CRO
+		1954.6.20 = {
+			owner = 
+RSI
+
+		}
+		1954.1.1 = {
+			#controller = YUG
+
+		}
+		1954.1.1 = {
+			owner = GER add_core_of = ITA
+			#remove_core_of = ITA
+
+		}
+		2000.1.1 = {
+			owner = 
+CRO
+
+		}
+
+	}
+
+	provinces={
+		3943 
+	}
+	manpower = 27000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

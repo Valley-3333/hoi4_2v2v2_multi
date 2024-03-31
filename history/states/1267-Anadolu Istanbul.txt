@@ -1,0 +1,28 @@
+state={
+	id=1267
+	name="STATE_1267"
+
+	history={
+		owner = 
+TUR
+		buildings = {
+			infrastructure = 2
+			#arms_factory = 1
+
+		}
+		#add_core_of = TUR
+		
+		1954.9.1 = {
+			
+
+		}
+
+	}
+
+	provinces={
+		11829 
+	}
+	manpower =  1820086
+	buildings_max_level_factor=1.000
+	state_category=town
+}

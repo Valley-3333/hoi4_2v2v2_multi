@@ -1,0 +1,6 @@
+Great_war = {
+	allowed = {
+		is_in_faction_with = SOV
+	}
+}
+

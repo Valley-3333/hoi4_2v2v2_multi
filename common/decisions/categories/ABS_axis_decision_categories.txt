@@ -1,0 +1,5 @@
+Eastern_Front = {
+	allowed = {
+	   is_in_faction_with = GER
+	}
+}

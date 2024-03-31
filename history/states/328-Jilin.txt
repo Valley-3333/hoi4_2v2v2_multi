@@ -1,0 +1,60 @@
+
+state={
+	id=328
+	name="STATE_328"
+	resources={
+		oil=5
+		aluminium=10000
+		rubber=10000
+		tungsten=10000
+		chromium=10000
+		steel=10000
+	}
+
+	history={
+		owner = MAN add_core_of = MAN
+		victory_points = {
+			13621 5
+		}
+		victory_points = {
+			11864 3
+		}
+		victory_points = {
+			4572 2
+		}
+		victory_points = {
+			7652 1
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 15
+			#industrial_complex = 0
+		}
+		add_core_of = CHI
+		#add_core_of = MAN
+		#add_core_of = PRC
+		1954.1.1 = {
+			owner = SOV add_core_of = SOV
+			#remove_core_of = MAN
+			set_province_name = {
+				id = 13621
+				name = Changchun
+
+			}
+
+		}
+		1950.1.1 = {
+			owner = 
+CHI
+
+		}
+
+	}
+
+	provinces={
+		946 1567 3932 3947 4503 4572 6947 7523 7591 7652 7663 9883 9913 9928 11744 11864 13621 
+	}
+	manpower = 6016000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

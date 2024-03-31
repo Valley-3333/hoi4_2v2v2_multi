@@ -1,0 +1,55 @@
+
+state={
+	id=880
+	name="STATE_880"
+
+	history={
+		owner = 
+ETH
+		victory_points = {
+			14605 1
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		#add_core_of = ETH
+		#add_core_of = SOM
+		1954.1.1 = {
+			ITA = {
+				#set_province_controller = 12757
+				#set_province_controller = 12812
+				#set_province_controller = 13512
+
+			}
+
+		}
+		1954.9.1 = {
+			owner = GER add_core_of = ITA
+
+		}
+		1954.11.22 = {
+			#controller = ENG
+
+		}
+		1954.1.1 = {
+			owner = 
+ETH
+
+
+		}
+		1956.1.1 = {
+			owner = 
+ETH
+
+		}
+
+	}
+
+	provinces={
+		12757 12812 13512 14604 14605 14606 
+	}
+	manpower = 1089143
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=838
+	name="STATE_838"
+
+	history={
+		owner = ITA add_core_of = ROM
+		victory_points = {
+			9670 2 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		#add_core_of = ROM
+		#add_core_of = HUN
+		1954.6.22 = {
+			owner = GER add_core_of = HUN
+
+		}
+		1954.1.1 = {
+			#controller = ROM
+
+		}
+		1954.1.1 = {
+			owner = GER add_core_of = ROM
+			#remove_core_of = HUN
+
+		}
+
+	}
+
+	provinces={
+		711 3689 9668 9670 9685 
+	}
+	manpower=636112
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

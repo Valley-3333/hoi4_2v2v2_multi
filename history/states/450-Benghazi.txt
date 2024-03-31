@@ -1,0 +1,52 @@
+
+state={
+	id=450
+	name="STATE_450"
+
+	history={
+		owner = GRE add_core_of = GRE
+
+		victory_points = {
+			11954 3
+		}
+		victory_points = {
+			1127 2
+		}
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			11954 = {
+				naval_base = 1
+
+			}
+
+		}
+		#add_core_of = LBA
+		1954.11.22 = {
+			owner = GER add_core_of = ITA
+			#controller = ENG
+
+		}
+		1954.6.20 = {
+			owner = 
+ETH
+
+			#controller = ENG
+
+		}
+		1950.1.1 = {
+			owner = 
+ETH
+			#controller = LBA
+
+		}
+
+	}
+
+	provinces={
+		1127 1198 4120 10123 11954 
+	}
+	manpower = 72535
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

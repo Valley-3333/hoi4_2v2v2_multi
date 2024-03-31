@@ -1,0 +1,61 @@
+
+state={
+	id=57
+	name="STATE_57"
+
+	history={
+		owner = GER add_core_of = GER
+		victory_points = {
+			495 5 
+		}
+		victory_points = {
+			6535 4
+		}
+		victory_points = {
+			9509 3
+		}
+		victory_points = {
+			11431 2
+		}
+		buildings = {
+			infrastructure = 4
+			#arms_factory = 1
+			#industrial_complex = 0
+			air_base = 2
+
+		}
+		#add_core_of = GER
+		1954.1.1 = {
+			buildings = {
+				radar_station = 1
+				#arms_factory = 6
+				#industrial_complex = 0
+
+			}
+
+		}
+		1954.1.1 = {
+			owner = 
+ETH
+
+			#controller = ENG
+
+		}
+		1950.1.1 = {
+			owner = 
+ETH
+
+			#add_core_of = LUX
+			#add_core_of = DDR
+			#remove_core_of = GER
+		}
+
+	}
+
+	provinces={
+		405 495 3355 3398 6535 6622 9443 9509 9547 11346 11431 
+	}
+	manpower = 4279243
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

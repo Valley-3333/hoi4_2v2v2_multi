@@ -1,0 +1,39 @@
+
+state={
+	id=857
+	name="STATE_857"
+	resources={
+		aluminium=6.000
+	}
+
+	history={
+		owner = ITA add_core_of = ITA
+		victory_points = {
+			9752 3
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		#add_core_of = ITA
+		1954.6.20 = {
+			owner = 
+RSI
+			#controller = RSI
+
+		}
+		1954.1.1 = {
+			owner = GER add_core_of = ITA
+			#controller = ITA
+
+		}
+
+	}
+
+	provinces={
+		3773 3976 6790 9752 11734 
+	}
+	manpower = 1067467
+	buildings_max_level_factor=1.000
+	state_category=town
+}

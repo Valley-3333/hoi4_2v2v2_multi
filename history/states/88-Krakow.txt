@@ -1,0 +1,61 @@
+
+state={
+	id=88
+	name="STATE_88"
+	resources={
+		oil=4.000
+	}
+
+	history={
+		owner = GER add_core_of = POL
+		victory_points = {
+			9427 10 
+		}
+		victory_points = {
+			442 2 
+		}
+		victory_points = {
+			6522 2 
+		}
+		victory_points = {
+			417 1
+		}
+		victory_points = {
+			14746 1
+		}
+		buildings = {
+			infrastructure = 3
+			#arms_factory = 1
+			#industrial_complex = 0
+			air_base = 2
+
+		}
+		#add_core_of = POL
+		1954.5.10 = {
+			owner = 
+ETH
+
+
+		}
+		1954.1.1 = {
+			SOV = {
+				#set_province_controller = 14379
+				
+			}
+
+		}
+		1954.1.1 = {
+			owner = SOV add_core_of = POL
+			#controller = POL
+
+		}
+
+	}
+
+	provinces={
+		417 442 466 3410 6499 6522 9427 11398 11413 11507 14379 14746 
+	}
+	manpower = 3592800
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

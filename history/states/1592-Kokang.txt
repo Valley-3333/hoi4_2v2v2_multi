@@ -1,0 +1,48 @@
+state={
+	id=1592
+	name="STATE_1592"
+
+	history={
+		owner = SIA add_core_of = SIA
+		victory_points = {
+			15123 1
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+		#add_core_of = RAJ
+		#add_core_of = BRM
+		#add_claim_by = CHI
+		#add_claim_by = PRC
+		1954.9.1 = {
+			owner = 
+ETH
+
+			#remove_core_of = RAJ
+
+		}
+		1954.11.22 = {
+			#controller = JAP
+
+		}
+		1954.1.1 = {
+			#controller = RAJ
+
+		}
+		1950.1.1 = {
+			owner = 
+BRM
+			#controller = BRM
+
+		}
+
+	}
+
+	provinces={
+		15123 
+	}
+	manpower =  150000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

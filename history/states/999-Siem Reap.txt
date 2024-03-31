@@ -1,0 +1,46 @@
+
+state={
+	id=999
+	name="STATE_999"
+
+	history={
+		owner = SIA add_core_of = SIA
+		victory_points = {
+		    4302 3
+		}
+		victory_points = {
+		    4639 2
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		#add_core_of = CAM
+		1954.11.22 = {
+			owner = 
+JAP
+			#controller = JAP
+
+		}
+		1954.1.1 = {
+			owner = 
+RAJ
+			#controller = VIN
+
+		}
+		1956.1.1 = {
+			owner = 
+CAM
+			#controller = CAM
+
+		}
+
+	}
+
+	provinces={
+		1324 4302 4639 5236 12447 12475 
+	}
+	manpower =  139458
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

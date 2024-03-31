@@ -1,0 +1,47 @@
+
+state={
+	id=662
+	name="STATE_662"
+
+	history={
+		owner = GRE add_core_of = GRE
+
+		victory_points = {
+			1041 2
+		}
+		victory_points = {
+			12088 1
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		#add_core_of = LBA
+		1954.7.26 = {
+			owner = GER add_core_of = ITA
+			#controller = ENG
+
+		}
+		1954.6.20 = {
+			owner = 
+ETH
+
+			#controller = ENG
+
+		}
+		1953.3.7 = {
+			owner = 
+ETH
+			#controller = LBA
+
+		}
+
+	}
+
+	provinces={
+		1041 4047 4057 7136 7194 8069 10046 10117 12088 13073 13993 13994 13995 
+	}
+	manpower = 13213
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

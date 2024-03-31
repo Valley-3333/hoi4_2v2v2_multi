@@ -1,0 +1,393 @@
+Eastern_Front = {
+
+	
+	Declaration_of_war = {
+
+		icon = generic_speech
+
+		available = {
+			date > 1941.6.22
+			date < 1941.8.1
+		}
+
+		cost = 0
+		fire_only_once = yes
+		visible = {
+		    always = yes
+		}
+
+		complete_effect = {
+			declare_war_on = { target = SOV type = annex_everything }
+			declare_war_on = { target = CHI type = annex_everything }
+			declare_war_on = { target = JAP type = annex_everything }
+			declare_war_on = { target = RAJ type = annex_everything }
+			declare_war_on = { target = USA type = annex_everything }
+			declare_war_on = { target = TUR type = annex_everything }
+			declare_war_on = { target = MAN type = annex_everything }
+			declare_war_on = { target = SIA type = annex_everything }
+		}
+    }
+
+	Operation_barbarossa = {
+
+		icon = generic_intelligence_operation
+
+		available = {
+			date > 1941.6.22
+			date < 1941.8.1
+			OR ={
+				tag = GER
+				tag = ITA
+				tag = FRA
+				tag = SWE
+				tag = AST
+				tag = ETH
+				tag = ENG
+				tag = GRE
+			}
+		}
+
+		cost = 0
+		fire_only_once = yes
+		visible = {
+		    always = yes
+		}
+			
+		days_remove = 160
+
+		modifier = {
+			production_speed_infrastructure_factor = 1.00
+			production_speed_air_base_factor = 1.00
+			production_speed_supply_node_factor = 1.00
+			production_speed_rail_way_factor = 1.00
+		}
+    }
+
+	Operation_Blitzkrieg = {
+
+		icon = generic_tank
+
+		available = {
+			has_war = yes
+			date > 1941.6.1
+			date < 1941.8.1
+			OR ={
+				tag = GER
+				tag = ITA
+				tag = FRA
+				tag = SWE
+				tag = AST
+				tag = ETH
+				tag = ENG
+				tag = GRE
+			}
+		}
+
+		cost = 0
+		fire_only_once = yes
+		
+		visible = {
+		    always = yes
+		}
+
+		days_remove = 130
+
+		modifier = {
+			coordination_bonus = 0.10
+
+		}
+	}
+	
+#	GS_blitzkrieg = {
+#
+#		icon = generic_tank
+#
+#		available = {
+#			date > 1941.6.22
+#			date < 1941.7.1
+#		}
+#
+#		cost = 0
+#		fire_only_once = yes
+#		visible = {
+#		    OR = {
+#				AND = {
+#					GER = {
+#						check_variable = { 
+#							var = GER_planning_power
+#							value = 0
+#							compare = equals 
+#						}
+#					}
+#					CHI = {
+#						check_variable = { 
+#		    				var = CHI_planning_power
+#							value = 0
+#							compare = equals 
+#						}
+#					}
+#				}
+#				AND = {
+#					GER = {
+#						check_variable = { 
+#							var = GER_planning_power
+#							value = 5
+#							compare = equals 
+#						}
+#					} 
+#					CHI = {
+#						check_variable = {
+#							var = CHI_planning_power
+#							value = 5
+#							compare = equals 
+#						}
+#					}
+#				}
+#				AND = {
+#					GER = {
+#						check_variable = { 
+#							var = GER_planning_power
+#							value = 10
+#							compare = equals 
+#						}
+#					}
+#					CHI = {
+#						check_variable = { 
+#							var = CHI_planning_power
+#							value = 10
+#							compare = equals 
+#						}
+#					}
+#				}
+#				AND = {
+#					GER = {
+#						check_variable = { 
+#							var = GER_planning_power
+#							value = 15
+#							compare = equals 
+#						}
+#					} 
+#					CHI = {
+#							var = CHI_planning_power
+#							value = 15
+#							compare = equals 
+#						}
+#					}
+#				}
+#			    AND = {
+#					has_global_flag = ppa_normal_flag
+#				    NOT = { has_global_flag = ppa_plus_five_flag }
+#			        NOT = { has_global_flag = ppa_plus_ten_flag }
+#			        NOT = { has_global_flag = ppa_plus_fifteen_flag }
+#			        NOT = { has_global_flag = ppa_minus_five_flag }
+#			        NOT = { has_global_flag = ppa_minus_ten_flag }
+#			        NOT = { has_global_flag = ppa_minus_fifteen_flag }
+#			   }
+#			}
+#		}
+#			
+#		days_remove = 130
+#
+#		modifier = { 
+#			coordination_bonus = 0.15
+#			army_attack_speed_factor = 0.25
+#		}
+#	}
+
+#	GS_blitzkrieg_plus_5 = {
+#
+#		icon = generic_tank
+#
+#		available = {
+#			date > 1941.6.22
+#			date < 1941.7.1
+#		}
+#
+#		cost = 0
+#		fire_only_once = yes
+#		visible = {
+#		    has_global_flag = ppa_plus_five_flag
+#		}
+#		
+#		days_remove = 80
+#
+#		modifier = { 
+#			max_planning = 0.25
+##		}
+#	}
+#
+#	GS_blitzkrieg_plus_10 = {
+#
+#		icon = generic_tank
+#
+#		available = {
+#			date > 1941.6.22
+#			date < 1941.7.1
+#		}
+#
+#		cost = 0
+#		fire_only_once = yes
+#		visible = {
+#		    has_global_flag = ppa_plus_ten_flag
+#		}
+#			
+#		days_remove = 80
+#
+##		modifier = {
+#			max_planning = 0.3
+#		}
+#	}
+#
+#	GS_blitzkrieg_plus_15 = {
+#
+#		icon = generic_tank
+#
+#		available = {
+#			date > 1941.6.22
+#			date < 1941.7.1
+#		}
+#		cost = 0
+#		fire_only_once = yes
+#		visible = {
+#		   has_global_flag = ppa_plus_fifteen_flag
+#		}
+#			
+#		days_remove = 80
+#
+#		modifier = { 
+#			max_planning = 0.35
+#		}
+#	}
+#
+#	GS_blitzkrieg_minus_5 = {
+#
+#		icon = generic_tank
+#
+#		available = {
+#			date > 1941.6.22
+#			date < 1941.7.1
+#		}
+#
+#		cost = 0
+#		fire_only_once = yes
+#		visible = {
+#		    has_global_flag = ppa_minus_five_flag
+#		}
+#			
+#		days_remove = 80
+#
+#		modifier = { 
+#			max_planning = 0.15
+#		}
+#	}
+#
+#	GS_blitzkrieg_minus_10 = {
+#
+#		icon = generic_tank
+#		available = {
+#			date > 1941.6.22
+#			date < 1941.7.1
+#		}
+#
+#		cost = 0
+#		fire_only_once = yes
+#		visible = {
+#		    has_global_flag = ppa_minus_ten_flag
+#		}
+#			
+#		days_remove = 80
+#
+#		modifier = { 
+#			max_planning = 0.10
+#		}
+#	}
+#
+#	GS_blitzkrieg_minus_15 = {
+#
+#		icon = generic_tank
+#
+#		available = {
+#			date > 1941.6.22
+#			date < 1941.7.1
+#		}
+#
+#		cost = 0
+#		fire_only_once = yes
+#		visible = {
+#		    has_global_flag = ppa_minus_fifteen_flag
+#		}
+#			
+#		days_remove = 80
+#
+#		modifier = { 
+#			max_planning = 0.05
+#		}
+#	}
+
+	Operation_Typhoon = {
+
+		icon = generic_tank
+
+		available = {
+			has_war = yes
+			date > 1941.11.1
+			date < 1942.1.30
+			OR ={
+				tag = GER
+				tag = ITA
+				tag = FRA
+				tag = SWE
+				tag = AST
+				tag = ETH
+				tag = ENG
+				tag = GRE
+			}
+		}
+
+		cost = 0
+		fire_only_once = yes
+		
+		visible = {
+		    always = yes
+		}
+
+		days_remove = 60
+
+		modifier = {
+			coordination_bonus = 0.5
+		}
+	}
+
+	Operation_Blau = {
+
+		icon = generic_nationalism
+
+		available = {
+			date > 1942.6.22
+			date < 1942.8.1
+			OR ={
+				tag = GER
+				tag = ITA
+				tag = FRA
+				tag = SWE
+				tag = AST
+				tag = ETH
+				tag = ENG
+				tag = GRE
+			}
+		}
+
+		cost = 0
+		fire_only_once = yes
+		
+		visible = {
+		    always = yes
+		}
+
+		days_remove = 100
+
+		modifier = {
+			coordination_bonus = 0.10
+		}
+	}
+}

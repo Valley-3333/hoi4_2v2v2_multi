@@ -1,0 +1,54 @@
+
+state={
+	id=807
+	name="STATE_807"
+
+	history={
+		owner = GER add_core_of = GER
+		victory_points = {
+			11640 2 
+		}
+		victory_points = {
+			6934 2 
+		}
+		victory_points = {
+			6542 1
+		}
+		buildings = {
+			infrastructure = 3
+			#arms_factory = 2
+
+		}
+		#add_core_of = GER
+		#add_core_of = BAD
+		
+		1954.3.7 = {
+			
+
+		}
+		1954.1.1 = {
+			owner = 
+ETH
+
+			#remove_core_of = BAD
+
+		}
+		1950.1.1 = {
+			owner = 
+ETH
+
+			#add_core_of = LUX
+			#add_core_of = DDR
+			#remove_core_of = GER
+
+		}
+
+	}
+
+	provinces={
+		3679 3692 6542 6712 6934 11640 
+	}
+	manpower = 288741
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

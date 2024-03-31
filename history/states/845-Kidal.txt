@@ -1,0 +1,38 @@
+
+state={
+	id=845
+	name="STATE_845"
+
+	history={
+		owner = 
+ETH
+
+		#add_core_of = AZW
+		#add_core_of = MLI
+		1954.6.22 = {
+			owner = 
+ETH
+
+
+		}
+		1954.11.22 = {
+			owner = 
+ETH
+
+
+		}
+		1972.1.1 = {
+			owner = 
+MLI
+
+		}
+	}
+
+	provinces={
+		1115 
+	}
+	manpower =  26000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable=yes
+}

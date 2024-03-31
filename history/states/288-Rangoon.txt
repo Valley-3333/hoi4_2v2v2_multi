@@ -1,0 +1,56 @@
+
+state={
+	id=288
+	name="STATE_288"
+	resources={
+		rubber=3.000
+	}
+
+	history={
+		owner = SIA add_core_of = SIA
+		victory_points = {
+			1330 10
+		}
+		buildings = {
+			infrastructure = 2
+			#industrial_complex = 0
+			air_base = 1
+			1330 = {
+				naval_base = 4
+
+			}
+
+		}
+		#add_core_of = RAJ
+		#add_core_of = BRM
+		1954.9.1 = {
+			owner = 
+ETH
+
+			#remove_core_of = RAJ
+
+		}
+		1954.11.22 = {
+			#controller = JAP
+
+		}
+		1954.1.1 = {
+			#controller = RAJ
+
+		}
+		1950.1.1 = {
+			owner = 
+BRM
+			#controller = BRM
+
+		}
+
+	}
+
+	provinces={
+		1330 10267 14983 
+	}
+	manpower =  10000000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

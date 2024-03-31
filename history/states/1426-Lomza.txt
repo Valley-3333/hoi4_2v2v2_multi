@@ -1,0 +1,44 @@
+
+state={
+	id=1426
+	name="STATE_1426"
+
+	history={
+		owner = SOV add_core_of = POL
+		victory_points = {
+			11274 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		#add_core_of = POL
+		#add_core_of = BLR
+		1954.5.10 = {
+			owner = SOV add_core_of = SOV
+
+		}
+		1954.11.22 = {
+			#controller = GER
+
+		}
+		1954.1.1 = {
+			#controller = SOV
+
+		}
+		1954.1.1 = {
+			owner = SOV add_core_of = POL
+			#controller = POL
+			#remove_core_of = BLR
+
+		}
+
+	}
+
+	provinces={
+		11274 11329 13594 14591 
+	}
+	manpower=62779
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

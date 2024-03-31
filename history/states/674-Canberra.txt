@@ -1,0 +1,37 @@
+
+state={
+	id=674
+	name="STATE_674"
+	resources={
+		oil=5
+		aluminium=10000
+		rubber=10000
+		tungsten=10000
+		chromium=10000
+		steel=10000
+	}
+
+	history={
+		owner = 
+AST
+		victory_points = {
+			7859 30 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 15
+			fuel_silo = 10
+			#industrial_complex = 0
+
+		}
+		#add_core_of = AST
+
+	}
+
+	provinces={
+		7859 13709 
+	}
+	manpower =  420960
+	buildings_max_level_factor=1.000
+	state_category=city
+}

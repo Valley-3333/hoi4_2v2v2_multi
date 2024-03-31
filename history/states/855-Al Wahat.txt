@@ -1,0 +1,38 @@
+
+state={
+	id=855
+	name="STATE_855"
+
+	history={
+		owner = 
+ETH
+		#add_core_of = LBA
+		1954.11.22 = {
+			owner = GER add_core_of = ITA
+			#controller = ENG
+
+		}
+		1954.6.20 = {
+			owner = 
+ETH
+
+			#controller = ENG
+
+		}
+		1950.1.1 = {
+			owner = 
+ETH
+			#controller = LBA
+
+		}
+
+	}
+
+	provinces={
+		1994 
+	}
+	manpower = 16875
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable=yes
+}

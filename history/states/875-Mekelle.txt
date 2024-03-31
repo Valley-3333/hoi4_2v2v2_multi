@@ -1,0 +1,40 @@
+
+state={
+	id=875
+	name="STATE_875"
+	resources={
+		rubber=2.000
+	}
+
+	history={
+		owner = 
+ETH
+		victory_points = {
+			2072 3 
+		}
+		buildings = {
+			infrastructure = 1
+			#industrial_complex = 0
+			air_base = 1
+
+		}
+		#add_core_of = ETH
+		1954.9.1 = {
+			owner = GER add_core_of = ITA
+
+		}
+		1954.11.22 = {
+			owner = 
+ETH
+
+		}
+
+	}
+
+	provinces={
+		2072 
+	}
+	manpower = 267291
+	buildings_max_level_factor=1.000
+	state_category=town
+}

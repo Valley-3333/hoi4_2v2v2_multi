@@ -1,0 +1,39 @@
+
+state={
+	id=817
+	name="STATE_817"
+
+	history={
+		owner = JAP
+		victory_points = {
+		    1003 3
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = LUX
+		#add_core_of = LUX
+
+		1954.1.1 = {
+			owner = 
+USA
+		}
+		1950.1.1 = {
+			owner = 
+KOR
+		}
+		1956.1.1 = {
+			owner = 
+ETH
+
+		}
+	}
+
+	provinces={
+		1003 11915 
+	}
+	manpower =  42000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

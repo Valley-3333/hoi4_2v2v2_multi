@@ -1,0 +1,43 @@
+state={
+	id=1213
+	name="STATE_1213"
+
+	history={
+		owner = GRE add_core_of = GRE
+
+		buildings = {
+			infrastructure = 1
+			13074 = {
+				naval_base = 6
+
+			}
+
+		}
+		#add_core_of = ALG
+		1954.6.22 = {
+			owner = 
+ETH
+
+
+		}
+		1954.11.22 = {
+			owner = 
+ETH
+
+
+		}
+		1972.1.1 = {
+			owner = 
+ALG
+
+		}
+
+	}
+
+	provinces={
+		13074 
+	}
+	manpower =  16950
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

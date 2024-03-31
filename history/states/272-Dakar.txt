@@ -1,0 +1,61 @@
+
+state={
+	id=272
+	name="STATE_272"
+	resources={
+		steel=3.000
+	}
+
+	history={
+		owner = 
+ETH
+
+		victory_points = {
+			4948 10
+		}
+		victory_points = {
+			15120 2
+		}
+		victory_points = {
+			7972 1 
+		}
+		victory_points = {
+			12710 1
+		}
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+			4948 = {
+				naval_base = 3
+
+			}
+
+		}
+		#add_core_of = SEN
+		1954.6.22 = {
+			owner = 
+ETH
+
+
+		}
+		1954.11.22 = {
+			owner = 
+ETH
+
+
+		}
+		1972.1.1 = {
+			owner = 
+SEN
+
+		}
+
+	}
+
+	provinces={
+		4948 7972 12710 13630 13631 15120 
+	}
+	manpower =  1638000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

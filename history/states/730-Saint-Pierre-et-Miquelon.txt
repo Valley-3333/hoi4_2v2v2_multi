@@ -1,0 +1,41 @@
+
+state={
+	id=730
+	name="STATE_730"
+
+	history={
+		owner = USA
+
+		victory_points = {
+			373 1
+		}
+		buildings = {
+			infrastructure = 1
+			373 = {
+				naval_base = 1
+
+			}
+
+		}
+		1954.6.22 = {
+			owner = 
+ETH
+
+
+		}
+		1954.11.22 = {
+			owner = 
+ETH
+
+
+		}
+
+	}
+
+	provinces={
+		373 
+	}
+	manpower = 1
+	buildings_max_level_factor=1.000
+	state_category=tiny_island
+}

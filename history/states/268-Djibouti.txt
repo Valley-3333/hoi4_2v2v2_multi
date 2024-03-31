@@ -1,0 +1,48 @@
+
+state={
+	id=268
+	name="STATE_268"
+
+	history={
+		owner = 
+ETH
+
+		#add_core_of = DJI
+		victory_points = {
+		    8124 2
+		}
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			8124 = {
+				naval_base = 2
+
+			}
+
+		}
+		1954.6.22 = {
+			owner = 
+ETH
+
+
+		}
+		1954.7.26 = {
+			owner = 
+ETH
+
+
+		}
+		1980.1.1 = {
+			owner = 
+DJI
+
+		}
+	}
+
+	provinces={
+		4985 8124 13438 
+	}
+	manpower =  85232
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

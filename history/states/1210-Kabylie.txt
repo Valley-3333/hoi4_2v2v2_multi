@@ -1,0 +1,46 @@
+state={
+	id=1210
+	name="STATE_1210"
+
+	history={
+		owner = GRE add_core_of = GRE
+
+		victory_points = {
+			13880 3
+		}
+		victory_points = {
+			4046 2
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		#add_core_of = ALG
+		#add_core_of = KBY
+		1954.6.22 = {
+			owner = 
+ETH
+
+
+		}
+		1954.11.22 = {
+			owner = 
+ETH
+
+
+		}
+		1972.1.1 = {
+			owner = 
+ALG
+
+		}
+
+	}
+
+	provinces={
+		4046 4131 7065 7166 10078 13880 
+	}
+	manpower =  915835
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

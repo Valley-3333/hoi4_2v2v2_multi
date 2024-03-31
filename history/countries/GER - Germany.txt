@@ -1,0 +1,164 @@
+﻿capital = 1057
+
+oob = "ABS_1936"
+
+set_war_support = 0.5 set_stability = 1
+set_research_slots = 6
+set_convoys = 500
+
+create_faction = Axis
+add_to_faction = GER
+add_to_faction = ITA
+add_to_faction = FRA
+add_to_faction = SWE
+add_to_faction = ETH
+add_to_faction = AST
+add_to_faction = ENG
+add_to_faction = GRE
+
+add_ideas = { war_economy }
+
+#add_offsite_building = { type = industrial_complex level = 54 }	
+#add_offsite_building = { type = arms_factory level = 10 }
+
+if = { add_to_tech_sharing_group = axis_research }
+
+recruit_character = GER_wilhelm_pieck
+recruit_character = GER_konrad_adenauer
+recruit_character = GER_adolf_hitler
+recruit_character = GER_albert_kesselring
+recruit_character = GER_alfred_jodl
+recruit_character = GER_alfred_saalwachter
+recruit_character = GER_erhard_milch
+recruit_character = GER_erich_bey
+recruit_character = GER_erich_raeder
+recruit_character = GER_erich_von_manstein
+recruit_character = GER_ernst_udet
+recruit_character = GER_ernsteberhard_hell
+recruit_character = GER_erwin_rommel
+recruit_character = GER_erwin_von_witzleben
+recruit_character = GER_ewald_von_kleist
+recruit_character = GER_fedor_von_bock
+recruit_character = GER_felix_steiner
+recruit_character = GER_ferdinand_schorner
+recruit_character = GER_franz_halder
+recruit_character = GER_friedrich_paulus
+recruit_character = GER_friedrich_schulz
+recruit_character = GER_georg_von_kuchler
+recruit_character = GER_georghans_reinhardt
+recruit_character = GER_gerd_von_rundstedt
+recruit_character = GER_hermann_goring
+recruit_character = GER_gotthard_heinrici
+recruit_character = GER_gunther_lutjens
+recruit_character = GER_gunther_von_kluge
+recruit_character = GER_hasso_von_manteuffel
+recruit_character = GER_heinz_guderian
+recruit_character = GER_heisenberg
+recruit_character = GER_hermann_boehm
+recruit_character = GER_hermann_hoth
+recruit_character = GER_hugo_sperrle
+recruit_character = GER_johannes_blaskowitz
+recruit_character = GER_karl_donitz
+recruit_character = GER_kurt_student
+recruit_character = GER_ludwig_beck
+recruit_character = GER_maximilian_von_weichs
+recruit_character = GER_otto_ciliax
+recruit_character = GER_paul_hausser
+recruit_character = GER_ritter_von_greim
+recruit_character = GER_sepp_dietrich
+recruit_character = GER_viktor_schutze
+recruit_character = GER_von_braun
+recruit_character = GER_walter_kruger
+recruit_character = GER_walter_model
+recruit_character = GER_walther_von_brauchitsch
+recruit_character = GER_walther_wever
+recruit_character = GER_werner_von_fritsch
+recruit_character = GER_wilhelm_keitel
+recruit_character = GER_wilhelm_list
+recruit_character = GER_wilhelm_marschall
+
+recruit_character = GER_wilhelm_ritter_von_leeb
+recruit_character = GER_wolfram_von_richthofen
+
+recruit_character = GER_heinrich_himmler
+recruit_character = GER_walther_funk
+recruit_character = GER_hjalmar_schacht
+recruit_character = GER_julius_leber
+recruit_character = GER_albert_speer
+#recruit_character = GER_hans_oster
+#recruit_character = GER_theodor_heuss
+recruit_character = GER_fritz_todt
+recruit_character = GER_joachim_von_ribbentrop
+recruit_character = GER_rudolf_hess
+recruit_character = GER_martin_bormann
+#recruit_character = GER_wilhelm_canaris
+recruit_character = GER_joseph_goebbels
+recruit_character = GER_konstantin_von_neurath
+#recruit_character = GER_alfred_hugenberg
+recruit_character = GER_kurt_schumacher
+
+set_technology = {
+	support_weapons = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	motorised_infantry = 1
+	marines  = 1
+	paratroopers = 1
+	tech_mountaineers = 1
+
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+
+	gw_artillery = 1
+	interwar_antiair = 1
+
+	engine_tech_1 = 1
+	armor_tech_1 = 1
+	gwtank_chassis = 1
+	basic_light_tank_chassis = 1
+	
+	early_ship_hull_light = 1
+	early_ship_hull_cruiser = 1
+	early_ship_hull_heavy = 1
+	early_ship_hull_carrier = 1
+	early_ship_hull_submarine = 1
+
+	smoke_generator = 1
+	basic_depth_charges = 1
+	improved_airplane_launcher = 1
+
+	basic_battery = 1
+	basic_torpedo = 1
+	mtg_transport = 1
+
+	iw_small_airframe = 1
+	iw_medium_airframe = 1
+	iw_large_airframe = 1
+
+	early_bombs = 1
+	photo_reconnaisance = 1
+	aa_lmg = 1
+	engines_1 = 1
+
+	basic_machine_tools = 1
+	synth_oil_experiments = 1
+	fuel_silos = 1
+
+    basic_train = 1
+}
+
+
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 0
+	fascism = 100
+	communism = 0
+}

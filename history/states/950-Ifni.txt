@@ -1,0 +1,40 @@
+state={
+	id=950
+	name="STATE_950"
+	
+	history={
+		owner = GRE add_core_of = GRE
+
+		victory_points = {
+			12857 1
+		}
+		buildings = {
+			infrastructure = 0
+			12857 = {
+				naval_base = 1
+
+			}
+
+		}
+		#add_core_of = MOR
+		1954.9.1 = {
+			owner = 
+SPA
+			
+		}		
+		1972.1.1 = {
+			owner = 
+ETH
+
+
+		}
+
+	}
+	
+	provinces={
+		12857 
+	}
+	manpower =  51517
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

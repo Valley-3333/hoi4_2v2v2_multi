@@ -1,0 +1,38 @@
+state={
+	id=1083
+	name="STATE_1083"
+	
+	history={
+		owner = 
+SWE
+		victory_points = {
+			6361 1
+		}
+		buildings = {
+			infrastructure = 2
+			6361 = {
+				naval_base = 1
+
+			}
+
+		}
+		#add_core_of = DEN
+		1954.1.1 = {
+			owner = SOV add_core_of = SOV
+
+		}
+		1950.1.1 = {
+			owner = 
+SWE
+
+		}
+
+	}
+	
+	provinces={
+		6361 
+	}
+	manpower = 45550
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

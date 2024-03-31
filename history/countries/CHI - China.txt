@@ -1,0 +1,143 @@
+﻿capital = 608 # Nanjing
+
+oob = "ABS_1936"
+
+set_war_support = 0.5 set_stability = 1
+set_research_slots = 6
+set_convoys = 500
+
+add_ideas = {
+	war_economy
+}
+
+if = {
+	add_to_tech_sharing_group = comintern_research
+}
+
+#add_offsite_building = { type = industrial_complex level = 45 }	
+#add_offsite_building = { type = arms_factory level = 10 }
+
+recruit_character = CHI_chiang_kaishek
+recruit_character = CHI_zhang_guotao
+recruit_character = CHI_wang_jingwei
+recruit_character = CHI_weng_wenhao
+recruit_character = CHI_tu_yuming
+recruit_character = CHI_hsueh_yueh
+recruit_character = CHI_tai_anlan
+recruit_character = CHI_wang_yaowu
+recruit_character = CHI_sun_li_jen
+recruit_character = CHI_hu_zongnan
+recruit_character = CHI_gu_zhutong
+recruit_character = CHI_wei_lihuang
+#recruit_character = CHI_fu_zuoyi
+#recruit_character = CHI_zhang_xueliang
+recruit_character = CHI_fang_zeyi
+recruit_character = CHI_zhu_de
+recruit_character = CHI_chen_cheng
+recruit_character = CHI_li_zongren
+recruit_character = CHI_bo_yibo
+recruit_character = CHI_huang_shen
+recruit_character = CHI_chen_jitang
+recruit_character = CHI_wang_shuming
+recruit_character = CHI_bai_chongxi
+recruit_character = CHI_zhou_zhirou
+recruit_character = CHI_xiao_yisu
+recruit_character = CHI_chen_shaokuan
+recruit_character = CHI_xiao_jinguang
+recruit_character = CHI_yu_hanmou
+recruit_character = CHI_he_yingqin
+recruit_character = CHI_gao_zhihang
+recruit_character = CHI_h_h_kung
+recruit_character = CHI_chen_guofu
+recruit_character = CHI_chiang_ching_kuo
+recruit_character = CHI_chen_yi
+recruit_character = CHI_soong_mei_ling
+recruit_character = CHI_random_prince_of_terror
+recruit_character = CHI_lin_sen
+
+#IB_add_general
+recruit_character = Haruka_Amami
+recruit_character = Ami_Futami
+recruit_character = Mami_Futami
+recruit_character = Miki_Hoshii
+recruit_character = Chihaya_Kisaragi
+recruit_character = Takane_Shijou
+recruit_character = Azusa_Miura
+recruit_character = Yayoi_Takatsuki
+recruit_character = Makoto_Kikuchi
+recruit_character = CHI_Hibiki_Ganaha
+recruit_character = Yukiho_Hagiwara
+recruit_character = Ritsuko_Akizuki
+recruit_character = Anna_Mochizuki
+recruit_character = Julia
+recruit_character = Shizuka_Mogami
+recruit_character = Nanao_Yuriko
+
+
+set_technology = {
+	support_weapons = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	motorised_infantry = 1
+	marines  = 1
+	paratroopers = 1
+	tech_mountaineers = 1
+
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+
+	gw_artillery = 1
+	interwar_antiair = 1
+
+	engine_tech_1 = 1
+	armor_tech_1 = 1
+	gwtank_chassis = 1
+	basic_light_tank_chassis = 1
+	
+	early_ship_hull_light = 1
+	early_ship_hull_cruiser = 1
+	early_ship_hull_heavy = 1
+	early_ship_hull_carrier = 1
+	early_ship_hull_submarine = 1
+
+	smoke_generator = 1
+	basic_depth_charges = 1
+	improved_airplane_launcher = 1
+
+	basic_battery = 1
+	basic_torpedo = 1
+	mtg_transport = 1
+
+	iw_small_airframe = 1
+	iw_medium_airframe = 1
+	iw_large_airframe = 1
+
+	early_bombs = 1
+	photo_reconnaisance = 1
+	aa_lmg = 1
+	engines_1 = 1
+
+	basic_machine_tools = 1
+	synth_oil_experiments = 1
+	fuel_silos = 1
+
+    basic_train = 1
+}
+
+
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 0
+	neutrality = 100
+}
+

@@ -1,0 +1,44 @@
+
+state={
+	id=87
+	name="STATE_87"
+
+	history={
+		owner = GER add_core_of = POL
+		victory_points = {
+			9508 5
+		}
+		victory_points = {
+			9439 2
+		}
+		buildings = {
+			infrastructure = 3
+			#industrial_complex = 0
+
+		}
+		#add_core_of = POL
+		1954.1.1 = {
+			buildings = {
+				air_base = 2
+
+			}
+
+		}
+		1954.5.10 = {
+			#controller = GER
+
+		}
+		1954.1.1 = {
+			#controller = POL
+
+		}
+
+	}
+
+	provinces={
+		493 548 584 5095 6401 9439 9508 9546 11515 
+	}
+	manpower=2132000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

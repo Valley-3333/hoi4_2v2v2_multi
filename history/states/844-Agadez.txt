@@ -1,0 +1,38 @@
+
+state={
+	id=844
+	name="STATE_844"
+
+	impassable = yes
+	history={
+		owner = 
+ETH
+
+		buildings = {
+			infrastructure = 0
+
+		}
+		#add_core_of = NGR
+		1954.6.22 = {
+			owner = 
+ETH
+
+		}
+		1954.11.22 = {
+			owner = 
+ETH
+
+		}
+		1972.1.1 = {
+			owner = 
+NGR
+		}
+	}
+
+	provinces={
+		1956 
+	}
+	manpower =  32000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

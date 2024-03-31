@@ -1,0 +1,41 @@
+
+state={
+	id=853
+	name="STATE_853"
+
+	history={
+		owner = 
+ETH
+
+		1954.1.1 = {
+			owner = GER add_core_of = ITA
+			#add_core_of = LBA
+			#remove_core_of = SUD
+
+		}
+		1954.11.22 = {
+			#controller = ENG
+
+		}
+		1954.6.20 = {
+			owner = 
+ETH
+
+
+		}
+		1950.1.1 = {
+			owner = 
+ETH
+
+		}
+		#add_core_of = SUD
+	}
+
+	provinces={
+		4191
+	}
+	manpower = 580
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable=yes
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=312
+	name="STATE_312"
+	resources={
+		chromium=1.000
+	}
+
+	history={
+		#owner = MEX
+		victory_points = {
+			12865 3 
+		}
+		buildings = {
+			infrastructure = 2
+			#arms_factory = 1
+			#industrial_complex = 0
+			air_base = 1
+			12865 = {
+				naval_base = 1
+
+			}
+
+		}
+		#add_core_of = HON
+
+	}
+
+	provinces={
+		8017 12865 
+	}
+	manpower = 1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

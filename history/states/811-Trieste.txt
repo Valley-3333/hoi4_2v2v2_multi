@@ -1,0 +1,44 @@
+
+state={
+	id=811
+	name="STATE_811"
+
+	history={
+		owner = ITA add_core_of = ITA
+		victory_points = {
+			6626 10
+		}
+		buildings = {
+			infrastructure = 3
+			6626 = {
+				naval_base = 3
+
+			}
+			
+		}
+		#add_core_of = ITA
+		#add_core_of = LUX
+		#add_claim_by = YUG
+		1954.6.20 = {
+			owner = GER add_core_of = GER
+
+		}
+		1954.1.1 = {
+			owner = 
+ETH
+
+
+		}
+		1956.1.1 = {
+			owner = GER add_core_of = ITA
+
+		}
+	}
+
+	provinces={
+		6626
+	}
+	manpower = 308000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

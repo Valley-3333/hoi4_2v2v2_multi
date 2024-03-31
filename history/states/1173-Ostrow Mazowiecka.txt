@@ -1,0 +1,38 @@
+state={
+	id=1173
+	name="STATE_1173"
+	
+	history={
+		owner = GER add_core_of = POL
+		victory_points = {
+			11385 1
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		#add_core_of = POL
+		1954.5.10 = {
+			owner = 
+ETH
+
+
+		}
+		1954.1.1 = {
+			#controller = SOV
+
+		}		
+		1954.1.1 = {
+			owner = SOV add_core_of = POL
+			#controller = POL
+			
+		}
+	}
+	
+	provinces={
+		11385 
+	}
+	manpower = 52792
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

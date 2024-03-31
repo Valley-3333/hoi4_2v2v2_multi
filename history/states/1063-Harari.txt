@@ -1,0 +1,39 @@
+
+state={
+	id=1063
+	name="STATE_1063"
+	resources={
+		rubber=4.000
+		steel=4.000
+	}
+
+	history={
+		owner = 
+ETH
+		victory_points = {
+			12714 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		#add_core_of = ETH
+		1954.9.1 = {
+			owner = GER add_core_of = ITA
+
+		}
+		1954.11.22 = {
+			owner = 
+ETH
+
+		}
+
+	}
+
+	provinces={
+		8036 10775 12714 12992 13513 13515 13519 
+	}
+	manpower = 246000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

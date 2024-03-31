@@ -1,0 +1,27 @@
+
+state={
+	id=498
+	name="STATE_498"
+
+	history={
+		#owner = BRA
+
+		victory_points = {
+			14504 2
+		}
+		buildings = {
+			infrastructure = 2
+			#industrial_complex = 0
+
+		}
+		#add_core_of = BRA
+
+	}
+
+	provinces={
+		2175 10933 14500 14502 14504 
+	}
+	manpower = 1
+	buildings_max_level_factor=1.000
+	state_category=town
+}

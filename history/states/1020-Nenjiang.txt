@@ -1,0 +1,36 @@
+
+state={
+	id=1020
+	name="STATE_1020"
+
+	history={
+		owner = MAN add_core_of = MAN
+		victory_points = {
+			1847 2
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = CHI
+		#add_core_of = MAN
+		#add_core_of = PRC
+		1954.1.1 = {
+			owner = SOV add_core_of = SOV
+
+		}
+		1950.1.1 = {
+			owner = 
+CHI
+
+		}
+
+	}
+
+	provinces={
+		1502 1645 1847 4506 4649 7526 7582 12485 
+	}
+	manpower = 1591000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

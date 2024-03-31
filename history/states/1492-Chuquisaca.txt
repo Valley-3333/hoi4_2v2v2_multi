@@ -1,0 +1,29 @@
+
+state={
+	id=1492
+	name="STATE_1492"
+
+	history={
+		#owner = BRA
+
+		victory_points = {
+			5179 2 
+		}
+		victory_points = {
+			14877 2 
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+		#add_core_of = BOL
+
+	}
+
+	provinces={
+		5179 14877 14879 14881 
+	}
+	manpower = 1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

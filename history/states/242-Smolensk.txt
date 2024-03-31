@@ -1,0 +1,44 @@
+
+state={
+	id=242
+	name="STATE_242"
+
+	history={
+		owner = SOV add_core_of = SOV
+		victory_points = {
+			306 10
+		}
+		buildings = {
+			infrastructure = 2
+			#industrial_complex = 0
+			air_base = 3
+
+		}
+		#add_core_of = SOV
+		1954.1.1 = {
+			buildings = {
+				#industrial_complex = 0
+
+			}
+
+		}
+		1954.11.22 = {
+			owner = SOV add_core_of = SOV
+			#controller = GER
+
+		}
+		1954.6.20 = {
+			owner = SOV add_core_of = SOV
+			#controller = SOV
+
+		}
+
+	}
+
+	provinces={
+		223 306 3247 3313 9351 11290 11353 
+	}
+	manpower=1300028
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

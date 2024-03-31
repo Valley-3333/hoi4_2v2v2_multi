@@ -1,0 +1,45 @@
+
+state={
+	id=1457
+	name="STATE_1457"
+
+	history={
+		owner = 
+USA
+		victory_points = {
+			10165 3 
+		}
+		victory_points = {
+			1415 2 
+		}
+		victory_points = {
+			7351 2 
+		}
+		buildings = {
+			infrastructure = 2
+			#industrial_complex = 0
+			1415 = {
+				naval_base = 1
+
+			}
+
+		}
+		#add_core_of = PHI
+		1954.11.22 = {
+			#controller = JAP
+
+		}
+		1954.1.1 = {
+			#controller = PHI
+
+		}
+
+	}
+
+	provinces={
+		1288 1388 1415 7275 7323 7351 10165 10280 
+	}
+	manpower =  11218177
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,38 @@
+
+state={
+	id=291
+	name="STATE_291"
+	resources={
+		oil=5
+		aluminium=10000
+		rubber=10000
+		tungsten=10000
+		chromium=10000
+		steel=10000
+	}
+
+	history={
+		owner = 
+TUR
+		victory_points = {
+			2097 10
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 15
+			fuel_silo = 10
+			#industrial_complex = 0
+			air_base = 2
+
+		}
+		#add_core_of = IRQ
+
+	}
+
+	provinces={
+		2097 13327 
+	}
+	manpower =  2044165
+	buildings_max_level_factor=1.000
+	state_category=town
+}

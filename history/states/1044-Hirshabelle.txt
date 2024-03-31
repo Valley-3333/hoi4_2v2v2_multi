@@ -1,0 +1,47 @@
+state={
+	id=1044
+	name="STATE_1044"
+	
+	history={
+		owner = 
+ETH
+		victory_points = {
+			2020 2
+		}
+		1954.11.22 = {
+			owner = GER add_core_of = ITA
+			#controller = ENG
+
+		}
+		1954.6.20 = {
+			owner = 
+ETH
+
+			#controller = ENG
+
+		}
+		1950.1.1 = {
+			owner = GER add_core_of = ITA
+			#controller = ITA
+
+		}
+		1972.1.1 = {
+			owner = 
+SOM
+			#controller = SOM
+
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		#add_core_of = SOM
+	}
+	
+	provinces={
+		2020 13421 
+	}
+	manpower = 354876
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

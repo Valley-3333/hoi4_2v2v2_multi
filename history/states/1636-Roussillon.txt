@@ -1,0 +1,45 @@
+state={
+	id=1636
+	name="STATE_1636"
+
+	history={
+		owner = FRA add_core_of = FRA
+		victory_points = {
+			9853 2 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		#add_core_of = FRA
+		#add_core_of = CAT
+		1954.6.22 = {
+			owner = GER add_core_of = FRA
+			#controller = FRA
+			#add_core_of = FFL
+
+		}
+		1954.7.26 = {
+			owner = GER add_core_of = FRA
+			#controller = GER
+
+		}
+		1954.1.1 = {
+			owner = GER add_core_of = FRA
+			#controller = FRA
+
+		}
+		1954.1.1 = {
+			#remove_core_of = FFL
+
+		}
+
+	}
+
+	provinces={
+		6915 9853 
+	}
+	manpower=450000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,33 @@
+state={
+	id=1335
+	name="STATE_1335"
+
+	history={
+		owner = CHI
+		buildings = {
+			infrastructure = 0
+			14327 = {
+				bunker = 1
+				
+			}
+
+		}
+		#add_core_of = RAJ
+		#add_core_of = CHI
+		#add_core_of = PRC
+		#add_core_of = TIB
+		1972.1.1 = {
+			owner = 
+CHI
+
+		}
+
+	}
+
+	provinces={
+		14327 
+	}
+	manpower =  18
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=604
+	name="STATE_604"
+
+	history={
+		owner = CHI
+		victory_points = {
+			4964 1
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+		#add_core_of = CHI
+		#add_core_of = PRC
+		1950.1.1 = {
+			owner = 
+CHI
+
+		}
+
+	}
+
+	provinces={
+		4914 4964 7940 8018 8037 12899 14798 14799 14800 14801 
+	}
+	manpower =  1196100
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

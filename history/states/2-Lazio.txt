@@ -1,0 +1,68 @@
+
+state={
+	id=2
+	name="STATE_2"
+	resources={
+		oil=5
+		aluminium=10000
+		rubber=10000
+		tungsten=10000
+		chromium=10000
+		steel=10000
+	}
+
+	history={
+		owner = ITA add_core_of = ITA
+		victory_points = {
+			9904 30 
+		}
+		victory_points = {
+			11751 3
+		}
+		victory_points = {
+			15072 2
+		}
+		victory_points = {
+			11846 2
+		}
+		victory_points = {
+			923 1
+		}
+		victory_points = {
+			15074 1
+		}
+		buildings = {
+			infrastructure = 4
+			air_base = 4
+			fuel_silo = 10
+			arms_factory = 15
+			#industrial_complex = 0
+			15072 = {
+				naval_base = 5
+
+			}
+			11846 = {
+				naval_base = 2
+
+			}
+
+		}
+		#add_core_of = ITA
+		1954.1.1 = {
+			buildings = {
+				#arms_factory = 2
+				#industrial_complex = 0
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		923 6862 9904 11751 11846 11882 15071 15072 15073 15074 
+	}
+	manpower=3860000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

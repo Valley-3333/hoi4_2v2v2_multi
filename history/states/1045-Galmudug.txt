@@ -1,0 +1,47 @@
+state={
+	id=1045
+	name="STATE_1045"
+	
+	history={
+		owner = 
+ETH
+		victory_points = {
+			1964 2
+		}
+		1954.11.22 = {
+			owner = GER add_core_of = ITA
+			#controller = ENG
+
+		}
+		1954.6.20 = {
+			owner = 
+ETH
+
+			#controller = ENG
+
+		}
+		1950.1.1 = {
+			owner = GER add_core_of = ITA
+			#controller = ITA
+
+		}
+		1972.1.1 = {
+			owner = 
+SOM
+			#controller = SOM
+
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		#add_core_of = SOM
+	}
+	
+	provinces={
+		1964 5065 10818 12840 13424 13425 13426 
+	}
+	manpower = 198670
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

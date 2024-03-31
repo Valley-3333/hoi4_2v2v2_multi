@@ -1,0 +1,64 @@
+
+state={
+	id=847
+	name="STATE_847"
+	resources={
+		steel=8.000
+	}
+
+	history={
+		owner = FRA add_core_of = FRA
+		victory_points = {
+			11516 5 
+		}
+		victory_points = {
+			3560 1
+		}
+		buildings = {
+			infrastructure = 3
+			3560 = {
+				bunker = 1
+				
+			}
+			5291 = {
+				bunker = 8
+				
+			}
+			
+		}
+		#add_core_of = FRA
+		1954.1.1 = {
+			buildings = {
+				3560 = {
+					bunker = 2
+				
+				}
+				
+			}
+			
+		}
+		1954.6.22 = {
+			owner = GER add_core_of = FRA
+			#controller = GER
+			#add_core_of = FFL
+
+		}
+		1954.1.1 = {
+			owner = GER add_core_of = FRA
+			#controller = FRA
+
+		}
+		1954.1.1 = {
+			#remove_core_of = FFL
+
+		}
+
+	}
+
+	provinces={
+		521 3560 5291 11516 
+	}
+	manpower=576041
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

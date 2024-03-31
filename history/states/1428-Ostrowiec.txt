@@ -1,0 +1,40 @@
+state={
+	id=1428
+	name="STATE_1428"
+
+	history={
+		owner = SOV add_core_of = POL
+		buildings = {
+			infrastructure = 1
+
+		}
+		#add_core_of = POL
+		#add_core_of = BLR
+		1954.5.10 = {
+			owner = SOV add_core_of = SOV
+			set_state_name = STATE_1428_2
+
+		}
+		1954.11.22 = {
+			#controller = GER
+
+		}
+		1954.1.1 = {
+			#controller = SOV
+
+		}
+		2000.1.1 = {
+			owner = 
+BLR
+
+		}
+
+	}
+
+	provinces={
+		14594 
+	}
+	manpower = 10878
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

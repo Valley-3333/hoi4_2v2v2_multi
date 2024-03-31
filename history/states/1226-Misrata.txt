@@ -1,0 +1,46 @@
+state={
+	id=1226
+	name="STATE_1226"
+
+	history={
+		owner = GRE add_core_of = GRE
+
+		victory_points = {
+			9980 3
+		}
+		victory_points = {
+			7209 2
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		#add_core_of = LBA
+		1954.7.26 = {
+			owner = GER add_core_of = ITA
+			#controller = ENG
+
+		}
+		1954.6.20 = {
+			owner = 
+ETH
+
+			#controller = ENG
+
+		}
+		1953.3.7 = {
+			owner = 
+ETH
+			#controller = LBA
+
+		}
+
+	}
+
+	provinces={
+		1118 4194 7209 9980 
+	}
+	manpower = 297287
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
