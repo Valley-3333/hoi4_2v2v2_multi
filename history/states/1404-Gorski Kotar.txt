@@ -8,7 +8,7 @@ state={
 			infrastructure = 1
 
 		}
-		#add_core_of = YUG
+		owner = GRE add_core_of = GRE
 		#add_core_of = CRO
 		#add_claim_by = HUN
 		#add_claim_by = ITA

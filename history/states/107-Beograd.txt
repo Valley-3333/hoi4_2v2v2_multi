@@ -15,7 +15,7 @@ state={
 		victory_points = {
 			11586 15 
 		}
-		#add_core_of = YUG
+		owner = GRE add_core_of = GRE
 		#add_core_of = SER
 		1954.6.22 = {
 			#controller = GER
