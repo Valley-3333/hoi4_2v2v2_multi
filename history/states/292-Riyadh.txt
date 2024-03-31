@@ -8,8 +8,7 @@ state={
 	}
 
 	history={
-		owner = 
-TUR
+		
 
 		victory_points = {
 			13580 10

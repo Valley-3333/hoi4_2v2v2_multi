@@ -33,8 +33,7 @@ ETH
 
 		}
 		1991.1.1 = {
-			owner = 
-TUR
+			owner = GRE
 
 
 		}

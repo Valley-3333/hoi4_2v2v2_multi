@@ -3,8 +3,7 @@ state={
 	name="STATE_1589"
 
 	history={
-		owner = 
-TUR
+		owner = GRE
 		#add_core_of = IRQ
 		
 		1991.1.1 = {

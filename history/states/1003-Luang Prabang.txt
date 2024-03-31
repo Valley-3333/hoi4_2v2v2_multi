@@ -3,7 +3,7 @@ state={
 	name="STATE_1003"
 	
 	history={
-		owner = SIA add_core_of = SIA
+		owner = AST add_core_of = AST
 		#add_core_of = LAO
 		victory_points = {
 		    4613 2

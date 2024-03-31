@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = SIA add_core_of = SIA
+		owner = AST add_core_of = AST
 		victory_points = {
 			7236 3 
 		}
@@ -24,7 +24,7 @@ state={
 			infrastructure = 1
 
 		}
-		#add_core_of = SIA
+		#add_core_of = AST
 
 	}
 

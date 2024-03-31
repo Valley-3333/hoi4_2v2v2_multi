@@ -4,8 +4,7 @@ state={
 	name="STATE_821"
 
 	history={
-		owner = 
-TUR
+		owner = GRE
 		victory_points = {
 			7107 2 
 		}
@@ -19,8 +18,7 @@ TUR
 		#add_core_of = PAL
 		#add_core_of = ISR
 		1950.1.1 = {
-			owner = 
-TUR
+			owner = GRE
 
 		}
 		1972.1.1 = {

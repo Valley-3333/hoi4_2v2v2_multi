@@ -5,8 +5,7 @@ state={
 		oil=4.000
 	}	
 	history={
-		owner = 
-TUR
+		owner = GRE
 		victory_points = {
 			1600 2
 		}

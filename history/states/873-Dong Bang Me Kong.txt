@@ -4,7 +4,7 @@ state={
 	name="STATE_873"
 
 	history={
-		owner = SIA add_core_of = SIA
+		owner = AST add_core_of = AST
 		#add_core_of = VIN
 		victory_points = {
 			12133 3

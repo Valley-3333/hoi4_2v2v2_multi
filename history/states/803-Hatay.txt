@@ -4,8 +4,7 @@ state={
 	name="STATE_803"
 
 	history={
-		owner = 
-TUR
+		owner = GRE
 		victory_points = {
 			12029 1 
 		}
@@ -17,8 +16,7 @@ TUR
 		#add_core_of = TUR
 		#add_core_of = HAT
 		1954.9.1 = {
-			owner = 
-TUR
+			owner = GRE
 
 		}
 
