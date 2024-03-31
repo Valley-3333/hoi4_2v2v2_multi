@@ -4,8 +4,7 @@ state={
 	name="STATE_1618"
 
 	history={
-		owner = 
-SWE
+		
 		#add_core_of = NOR
 		1954.5.10 = {
 			#controller = GER

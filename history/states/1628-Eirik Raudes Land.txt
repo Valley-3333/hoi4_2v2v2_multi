@@ -7,8 +7,7 @@ state={
 		#add_core_of = GRL
 		#add_claim_by = DEN
 		1954.1.1 = {
-			owner = 
-SWE
+			
 			#remove_claim_by = DEN
 
 		}
@@ -18,8 +17,7 @@ USA
 
 		}
 		1954.1.1 = {
-			owner = 
-SWE
+			
 
 		}
 
