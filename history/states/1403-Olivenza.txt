@@ -4,7 +4,8 @@ state={
 
 	history={
 		owner = 
-FRA
+ITA
+		add_core_of = ITA
 
 		victory_points = {
 			14530 1

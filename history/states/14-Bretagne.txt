@@ -4,7 +4,7 @@ state={
 	name="STATE_14"
 
 	history={
-		owner = FRA add_core_of = FRA
+		owner = ITA add_core_of = FRA
 		victory_points = {
 			3552 5 
 		}
@@ -40,7 +40,7 @@ state={
 			}
 
 		}
-		#add_core_of = FRA
+		add_core_of = ITA
 		#add_core_of = BRT
 		1954.1.1 = {
 			buildings = {
