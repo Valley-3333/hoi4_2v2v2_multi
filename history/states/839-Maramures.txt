@@ -4,7 +4,7 @@ state={
 	name="STATE_839"
 
 	history={
-		owner = ROM add_core_of = ROM
+		owner = GRE add_core_of = GRE
 		victory_points = {
 			746 2
 		}
