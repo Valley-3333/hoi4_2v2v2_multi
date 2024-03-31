@@ -12,7 +12,7 @@ state={
 			infrastructure = 1
 
 		}
-		owner = GRE add_core_of = GRE
+		#add_core_of = YUG
 		#add_core_of = SER
 		#add_claim_by = BUL
 		1954.6.22 = {

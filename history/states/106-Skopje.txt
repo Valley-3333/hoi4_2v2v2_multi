@@ -21,7 +21,7 @@ state={
 			air_base = 1
 
 		}
-		owner = GRE add_core_of = GRE
+		#add_core_of = YUG
 		#add_core_of = MAC
 		##add_claim_by = BUL
 		1954.6.22 = {

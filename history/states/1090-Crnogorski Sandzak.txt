@@ -9,7 +9,7 @@ state={
 
 		}
 		#add_core_of = MNT
-		owner = GRE add_core_of = GRE
+		#add_core_of = YUG
 		1954.6.22 = {
 			#controller = ITA
 

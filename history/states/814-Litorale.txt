@@ -21,7 +21,7 @@ state={
 
 		}
 		#add_core_of = ITA
-		owner = GRE add_core_of = GRE
+		#add_core_of = YUG
 		#add_core_of = SLV
 		1954.6.20 = {
 			owner = GER add_core_of = GER
