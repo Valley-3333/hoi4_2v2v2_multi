@@ -33,6 +33,8 @@ state={
 
 		}
 		#add_core_of = SPR
+		add_core_of = 
+GER
 		1954.9.1 = {
 			owner = 
 SPA

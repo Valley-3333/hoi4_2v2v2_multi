@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = FRA add_core_of = FRA
+		owner = GER add_core_of = GER
 		victory_points = {
 			911 1 
 		}
@@ -23,7 +23,7 @@ state={
 			}
 
 		}
-		#add_core_of = FRA
+		#add_core_of = GER
 		1954.1.1 = {
 			buildings = {
 				#dockyard = 3
@@ -32,23 +32,23 @@ state={
 
 		}
 		1954.6.22 = {
-			owner = GER add_core_of = FRA
+			owner = GER add_core_of = GER
 			#controller = FRA
 			#add_core_of = FFL
 
 		}
 		1954.7.26 = {
-			owner = GER add_core_of = FRA
+			owner = GER add_core_of = GER
 			#controller = ITA
 
 		}
 		1954.6.20 = {
-			owner = GER add_core_of = FRA
+			owner = GER add_core_of = GER
 			#controller = GER
 
 		}
 		1954.1.1 = {
-			owner = GER add_core_of = FRA
+			owner = GER add_core_of = GER
 			#controller = FRA
 
 		}

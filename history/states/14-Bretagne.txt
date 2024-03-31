@@ -4,7 +4,7 @@ state={
 	name="STATE_14"
 
 	history={
-		owner = FRA add_core_of = FRA
+		owner = GER add_core_of = GER
 		victory_points = {
 			3552 5 
 		}
@@ -40,7 +40,7 @@ state={
 			}
 
 		}
-		#add_core_of = FRA
+		#add_core_of = GER
 		#add_core_of = BRT
 		1954.1.1 = {
 			buildings = {
@@ -50,13 +50,13 @@ state={
 
 		}
 		1954.6.22 = {
-			owner = GER add_core_of = FRA
+			owner = GER add_core_of = GER
 			#controller = GER
 			#add_core_of = FFL
 
 		}
 		1954.1.1 = {
-			owner = GER add_core_of = FRA
+			owner = GER add_core_of = GER
 			#controller = FRA
 
 		}
