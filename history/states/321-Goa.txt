@@ -7,7 +7,7 @@ state={
 	state_category = enclave
 
 	history={
-		owner = RAJ
+		owner = AST
 		victory_points = {
 			1273 1 
 		}
@@ -18,11 +18,11 @@ state={
 			}
 		}
 		1950.1.1 = {
-			#add_core_of = RAJ
+			add_core_of = AST
 
 		}
 		1972.1.1 = {
-			owner = RAJ
+			owner = AST
 			set_province_name = { id = 1273 name = "Panaji" }
 
 		}

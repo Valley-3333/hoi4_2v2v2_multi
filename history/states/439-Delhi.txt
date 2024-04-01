@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = RAJ
+		owner = AST
 		victory_points = {
 			2086 15 
 		}
@@ -24,7 +24,7 @@ state={
 			#fuel_silo = 10
 
 		}
-		#add_core_of = RAJ
+		add_core_of = AST
 
 	}
 
