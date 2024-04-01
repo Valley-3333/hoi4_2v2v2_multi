@@ -17,6 +17,7 @@ add_to_faction = ENG
 add_to_faction = GRE
 
 add_ideas = { war_economy }
+set_cosmetic_tag = { HRE_UNIFIED }
 
 #add_offsite_building = { type = industrial_complex level = 54 }	
 #add_offsite_building = { type = arms_factory level = 10 }

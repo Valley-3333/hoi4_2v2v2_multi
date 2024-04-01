@@ -1,0 +1,29 @@
+WEST_SPQR_UNIFIED = {
+	color = rgb { 153 0 0 }
+	color_ui = rgb { 153 0 0 }
+}
+
+EAST_SPQR_UNIFIED = {
+    color = rgb { 143 12 125 }
+	color_ui = rgb { 143 12 125 }
+}
+
+UK_colony = {
+    color = rgb { 201 56 93 }
+    color_ui = rgb { 255 73 121 }
+}
+
+UK_africa = {
+	color = rgb { 170  10  10 }
+	color_ui = rgb { 200  10  10 }
+}
+
+Mongol_Empire = {
+    color = rgb { 0 76 177 }
+	color_ui = rgb { 0 76 177 }
+}
+
+Yuan = {
+    color = rgb { 108 140 42 }
+	color_ui = rgb { 209 247 133 }
+}
