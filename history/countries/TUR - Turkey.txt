@@ -9,7 +9,7 @@ set_convoys = 500
 add_ideas = {
 	war_economy
 }
-set_cosmetic_tag = { Ilkhanate }
+set_cosmetic_tag = Ilkhanate
 if = {
 	add_to_tech_sharing_group = comintern_research
 }
