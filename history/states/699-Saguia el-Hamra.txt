@@ -4,8 +4,7 @@ state={
 	name="STATE_699"
 
 	history={
-		owner = 
-ETH
+		\
 
 		victory_points = {
 			8111 2
