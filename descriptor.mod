@@ -8,6 +8,5 @@ dependencies={
 	"Innova test"
 }
 replace_path="history/states"
-name="8vs8 ABS Scenario"
+name="3vs3vs3 ABS Scenario"
 supported_version="1.13.*"
-remote_file_id="3167093454"
