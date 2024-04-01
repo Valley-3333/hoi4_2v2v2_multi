@@ -31,7 +31,7 @@ ENG
 			#dockyard = 3
 			air_base = 5
 			3878 = {
-				naval_base = 6
+				naval_base = 10
 
 			}
 

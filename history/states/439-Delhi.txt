@@ -20,8 +20,8 @@ state={
 			infrastructure = 2
 			#industrial_complex = 0
 			air_base = 2
-			arms_factory = 15
-			fuel_silo = 10
+			arms_factory = 5
+			#fuel_silo = 10
 
 		}
 		#add_core_of = AST

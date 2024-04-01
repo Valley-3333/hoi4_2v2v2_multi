@@ -3,12 +3,12 @@ state={
 	id=289
 	name="STATE_289"
 	resources={
-		oil=5
-		aluminium=10000
-		rubber=10000
-		tungsten=10000
-		chromium=10000
-		steel=10000
+		#oil=5
+		#aluminium=10000
+		#rubber=10000
+		#tungsten=10000
+		#chromium=10000
+		#steel=10000
 	}
 
 	history={
@@ -28,7 +28,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 1
-			arms_factory = 15
+			#arms_factory = 15
 			#industrial_complex = 0
 			air_base = 2
 			7408 = {

@@ -3,8 +3,12 @@ state={
 	id=341
 	name="STATE_341"
 	resources={
-		chromium=45.000
-		steel=10.000
+		oil=5
+		aluminium=10000
+		rubber=10000
+		tungsten=10000
+		chromium=10000
+		steel=10000
 	}
 
 	history={
@@ -16,7 +20,8 @@ state={
 			infrastructure = 2
 			#industrial_complex = 0
 			#dockyard = 1
-			#arms_factory = 2
+			arms_factory = 15
+			fuel_silo = 10
 			air_base = 2
 			9833 = {
 				naval_base = 8

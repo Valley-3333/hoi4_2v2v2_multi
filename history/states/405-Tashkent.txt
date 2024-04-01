@@ -2,11 +2,19 @@
 state={
 	id=405
 	name="STATE_405"
+	resources={
+		oil=5
+		aluminium=10000
+		rubber=10000
+		tungsten=10000
+		chromium=10000
+		steel=10000
+	}
 
 	history={
 		owner = TUR add_core_of = TUR
 		victory_points = {
-			7682 5
+			7682 10
 		}
 		victory_points = {
 			7775 3
@@ -17,6 +25,8 @@ state={
 		buildings = {
 			infrastructure = 2
 			#industrial_complex = 0
+			arms_factory = 15
+			fuel_silo = 10
 			air_base = 1
 
 		}

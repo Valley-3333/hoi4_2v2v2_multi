@@ -19,8 +19,8 @@ AST
 		}
 		buildings = {
 			infrastructure = 3
-			arms_factory = 15
-			fuel_silo = 10
+			arms_factory = 5
+			fuel_silo = 5
 			#industrial_complex = 0
 
 		}

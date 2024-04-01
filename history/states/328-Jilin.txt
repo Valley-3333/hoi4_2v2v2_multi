@@ -3,12 +3,12 @@ state={
 	id=328
 	name="STATE_328"
 	resources={
-		oil=5
-		aluminium=10000
-		rubber=10000
-		tungsten=10000
-		chromium=10000
-		steel=10000
+		#oil=5
+		#aluminium=10000
+		#rubber=10000
+		#tungsten=10000
+		#chromium=10000
+		#steel=10000
 	}
 
 	history={
@@ -27,7 +27,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
-			arms_factory = 15
+			#arms_factory = 15
 			#industrial_complex = 0
 		}
 		add_core_of = CHI
