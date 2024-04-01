@@ -1,0 +1,5 @@
+Senate = {
+	allowed = {
+	   is_in_faction_with = ITA
+	}
+}

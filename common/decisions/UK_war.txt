@@ -1,0 +1,23 @@
+Opium_War = {
+    Cabinet_Decision = {
+
+		icon = generic_speech
+
+		available = {
+			date > 1941.6.22
+			date < 1941.8.1
+		}
+
+		cost = 0
+		fire_only_once = yes
+		visible = {
+		    always = yes
+		}
+
+		complete_effect = {
+			declare_war_on = { target = SOV type = annex_everything }
+			declare_war_on = { target = CHI type = annex_everything }
+			declare_war_on = { target = TUR type = annex_everything }
+		}
+    }
+}
