@@ -11,7 +11,7 @@ state={
 			infrastructure = 1
 
 		}
-		#add_core_of = AST
+		add_core_of = AST
 		#add_core_of = PAK
 		1950.1.1 = {
 			owner = 

@@ -17,7 +17,7 @@ state={
 
 		}
 		#add_core_of = PAK
-		#add_core_of = AST
+		add_core_of = AST
 		#add_core_of = BAN
 		1950.1.1 = {
 			owner = 

@@ -35,7 +35,7 @@ AST
 			}
 
 		}
-		#add_core_of = AST
+		add_core_of = AST
 
 	}
 
