@@ -3,6 +3,8 @@
 
  EAST_SPQR_UNIFIED:3 "東ローマ帝国"
 
+ HRE:0 "神聖ローマ帝国"
+
  GBR_cosmetic_add:3 "大英帝国"
 
  UK_colony:3 "植民地帝国"
@@ -11,7 +13,7 @@
 
  Mongol_Empire:3 "モンゴル帝国"
 
- Yuan:3 "元"
+ Yuan:3 "大元"
 
  Ilkhanate:3 "イル＝ハン"
 
