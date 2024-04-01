@@ -11,7 +11,7 @@ state={
 			infrastructure = 1
 
 		}
-		add_core_of = AST
+		#add_core_of = AST
 		1953.3.7 = {
 			owner = AST
 			set_state_name = STATE_1369_2

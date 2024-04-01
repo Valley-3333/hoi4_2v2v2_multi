@@ -11,10 +11,10 @@ state={
 			infrastructure = 1
 
 		}
-		add_core_of = AST
+		#add_core_of = AST
 		1980.1.1 = {
 			owner = AST
-			add_core_of = AST
+			#add_core_of = AST
 
 		}
 
