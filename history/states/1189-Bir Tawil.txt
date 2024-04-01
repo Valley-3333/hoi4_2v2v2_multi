@@ -3,7 +3,7 @@ state={
 	name="STATE_1189"
 	
 	history={
-		owner = GRE add_core_of = GRE
+		owner = ETH add_core_of = ETH
 
 		buildings = {
 			infrastructure = 0

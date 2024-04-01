@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = JAP
+		owner = AST
 
 		victory_points = {
 			10868 2

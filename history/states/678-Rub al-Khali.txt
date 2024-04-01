@@ -4,7 +4,7 @@ state={
 	name="STATE_678"
 
 	history={
-		owner = GRE
+		owner = ETH
 
 		#add_core_of = SAU
 
