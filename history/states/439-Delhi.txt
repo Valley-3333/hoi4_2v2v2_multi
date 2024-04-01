@@ -24,7 +24,7 @@ state={
 			fuel_silo = 10
 
 		}
-		#add_core_of = AST
+		add_core_of = AST
 
 	}
 

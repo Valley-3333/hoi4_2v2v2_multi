@@ -19,7 +19,7 @@ state={
 			#industrial_complex = 0
 
 		}
-		#add_core_of = AST
+		add_core_of = AST
 		#add_core_of = PAK
 		1950.1.1 = {
 			owner = 
