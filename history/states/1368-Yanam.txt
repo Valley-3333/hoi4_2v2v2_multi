@@ -15,7 +15,7 @@ state={
 			}
 
 		}
-		#add_core_of = AST
+		add_core_of = AST
 		1956.1.1 = {
 			owner = AST
 
