@@ -21,7 +21,7 @@ state={
 			}
 
 		}
-		add_core_of = AST
+		#add_core_of = AST
 		#add_core_of = BRM
 		1954.9.1 = {
 			owner = 

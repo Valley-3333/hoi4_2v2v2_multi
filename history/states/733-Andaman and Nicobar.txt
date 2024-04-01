@@ -16,7 +16,7 @@ state={
 			}
 
 		}
-		add_core_of = AST
+		#add_core_of = AST
 		1954.11.22 = {
 			#controller = JAP
 

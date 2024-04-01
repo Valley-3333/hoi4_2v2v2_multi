@@ -8,7 +8,7 @@ state={
 			infrastructure = 1
 
 		}
-		add_core_of = AST
+		#add_core_of = AST
 		#add_core_of = PAK
 		#add_claim_by = AFG
 		1950.1.1 = {
