@@ -6,15 +6,7 @@ set_war_support = 0.5 set_stability = 1
 set_research_slots = 6
 set_convoys = 500
 
-create_faction = Axis
-add_to_faction = GER
-add_to_faction = ITA
-add_to_faction = FRA
-add_to_faction = SWE
-add_to_faction = ETH
-add_to_faction = AST
-add_to_faction = ENG
-add_to_faction = GRE
+
 
 add_ideas = { war_economy }
 set_cosmetic_tag = HRE_UNIFIED

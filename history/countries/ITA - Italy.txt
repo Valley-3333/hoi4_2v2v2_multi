@@ -11,6 +11,11 @@ add_ideas = {
 	war_economy
 }
 
+create_faction = Rome_empire
+add_to_faction = GER
+add_to_faction = ITA
+add_to_faction = GRE
+
 if = {
 	add_to_tech_sharing_group = axis_research
 }

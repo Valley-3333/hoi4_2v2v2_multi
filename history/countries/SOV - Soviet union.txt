@@ -13,15 +13,10 @@ add_ideas = {
 if = {
 	add_to_tech_sharing_group = comintern_research
 }
-create_faction = Comintern
+create_faction = Mongol
 add_to_faction = SOV
-add_to_faction = JAP
 add_to_faction = CHI
-add_to_faction = USA
-add_to_faction = RAJ
 add_to_faction = TUR
-add_to_faction = MAN
-add_to_faction = SIA
 
 #add_offsite_building = { type = industrial_complex level = 45 }	
 #add_offsite_building = { type = arms_factory level = 10 }
