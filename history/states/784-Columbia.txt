@@ -19,8 +19,8 @@ ENG
 		}
 		buildings = {
 			infrastructure = 4
-			#industrial_complex = 0
-			arms_factory = 15
+			industrial_complex = 2
+			arms_factory = 10
 			fuel_silo = 10
 		}
 		add_core_of = ENG

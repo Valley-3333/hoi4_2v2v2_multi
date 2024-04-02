@@ -1,4 +1,4 @@
-version="1.00"
+version="0.10"
 tags={
 	"Balance"
 	"Alternative History"
@@ -8,5 +8,6 @@ dependencies={
 	"Innova test"
 }
 replace_path="history/states"
-name="3vs3vs3 ABS Scenario"
+name="3vs3vs3 Imperial Multi Scenario"
 supported_version="1.13.*"
+remote_file_id="3167093454"
