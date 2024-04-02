@@ -4,7 +4,7 @@ state={
 	name="STATE_263"
 
 	history={
-		owner = SOV add_core_of = SOV
+		owner = RUS add_core_of = RUS
 		victory_points = {
 			117 5 
 		}
@@ -12,21 +12,12 @@ state={
 			11109 1
 		}
 		buildings = {
-			infrastructure = 2
-			air_base = 1
+			infrastructure = 3 #infrastructure = 2
+			air_base = 2
 
 		}
-		#add_core_of = SOV
-		1954.11.22 = {
-			owner = SOV add_core_of = SOV
-			#controller = GER
-
-		}
-		1954.6.20 = {
-			owner = SOV add_core_of = SOV
-			#controller = SOV
-
-		}
+		#add_core_of = RUS
+		add_core_of = SCA
 
 	}
 

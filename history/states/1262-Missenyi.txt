@@ -3,17 +3,14 @@ state={
 	name="STATE_1262"
 
 	history={
-		owner = 
-ETH
-
+		#owner = LUX
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
 		#add_core_of = TZN
 		1972.1.1 = {
-			owner = 
-TZN
+			owner = TZN
 
 		}
 
@@ -22,7 +19,7 @@ TZN
 	provinces={
 		14114 
 	}
-	manpower =  202632
+	manpower=202632
 	buildings_max_level_factor=1.000
 	state_category=enclave
 }

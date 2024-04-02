@@ -3,22 +3,22 @@ state={
 	name="STATE_1374"
 
 	history={
-		owner = AST
+		#owner = RAJ
 		victory_points = {
 			12395 2
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
-		add_core_of = AST
+		#add_core_of = RAJ
 
 	}
 
 	provinces={
 		1497 12395 
 	}
-	manpower =  2964007
+	manpower=2964007
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

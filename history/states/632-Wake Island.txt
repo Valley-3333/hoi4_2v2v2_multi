@@ -4,10 +4,9 @@ state={
 	name="STATE_632"
 
 	history={
-		owner = 
-AST
+		##owner = USA add_core_of = USA
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 			13047 = {
 				naval_base = 1
 
@@ -19,7 +18,7 @@ AST
 
 		}
 		1954.1.1 = {
-			#controller = AST
+			#controller = USA
 
 		}
 
@@ -28,7 +27,7 @@ AST
 	provinces={
 		13047 
 	}
-	manpower =  150
+	manpower=150
 	buildings_max_level_factor=1.000
 	state_category=tiny_island
 }

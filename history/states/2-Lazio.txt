@@ -2,17 +2,9 @@
 state={
 	id=2
 	name="STATE_2"
-	resources={
-		oil=5
-		aluminium=10000
-		rubber=10000
-		tungsten=10000
-		chromium=10000
-		steel=10000
-	}
 
 	history={
-		owner = ITA add_core_of = ITA
+		owner = RIT add_core_of = RIT
 		victory_points = {
 			9904 30 
 		}
@@ -33,12 +25,11 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
-			air_base = 4
-			fuel_silo = 10
-			arms_factory = 15
-			#industrial_complex = 0
+			air_base = 5
+			arms_factory = 1
+			industrial_complex = 2
 			15072 = {
-				naval_base = 5
+				naval_base = 10
 
 			}
 			11846 = {
@@ -47,22 +38,15 @@ state={
 			}
 
 		}
-		#add_core_of = ITA
-		1954.1.1 = {
-			buildings = {
-				#arms_factory = 2
-				#industrial_complex = 0
-
-			}
-
-		}
+		#add_core_of = RIT
+		add_core_of = FRE
 
 	}
 
 	provinces={
 		923 6862 9904 11751 11846 11882 15071 15072 15073 15074 
 	}
-	manpower=3860000
+	manpower=7501971
 	buildings_max_level_factor=1.000
 	state_category=city
 }

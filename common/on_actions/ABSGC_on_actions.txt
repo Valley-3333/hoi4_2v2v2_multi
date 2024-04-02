@@ -1,0 +1,51 @@
+on_actions = {
+
+	on_startup = { 
+		effect = { 
+
+			DEU = {country_event = { id = ABSGC.2 }}
+
+
+
+every_country = {
+
+	create_equipment_variant = {
+		name = "軽戦車"
+		type = light_tank_chassis_2
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_small_cannon
+			turret_type_slot = tank_light_two_man_tank_turret
+			suspension_type_slot = tank_christie_suspension
+			#sloped_armor_type_slot = vertical_armor
+			armor_type_slot = tank_cast_half_sloped_armor
+			engine_type_slot = tank_gasoline_engine
+			special_type_slot_1 = tank_radio_1
+			special_type_slot_2 = additional_machine_guns
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 4
+			tank_reliability_upgrade = 20
+		}
+		icon = "gfx/interface/technologies/ger_basic_light_tank.dds"
+		}
+		add_ideas = {
+			free_trade
+		}
+		add_political_power = -150
+		add_doctrine_cost_reduction = {
+			name = land_doc_bonus
+			cost_reduction = 0.75
+			uses = 3
+			category = land_doctrine
+		}
+		add_doctrine_cost_reduction = {
+			name = air_doc_bonus
+			cost_reduction = 0.8
+			uses = 4
+			category = air_doctrine
+		}
+}
+			} 
+		}
+	}

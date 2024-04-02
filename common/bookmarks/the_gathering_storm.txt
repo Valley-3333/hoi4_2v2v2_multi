@@ -2,29 +2,69 @@ bookmarks = {
 	bookmark = {
 		name = "GATHERING_STORM_NAME"
 		desc = "GATHERING_STORM_DESC"
-		date = 1936.1.1.12
+		date = 1938.10.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "GER"
+		default_country = "DEU"
 		default = yes
-
-
-		"GER"={
-			history = "GER_GATHERING_STORM_DESC"
-			ideology = fascism
-			available = { has_dlc = "Waking the Tiger" }
-
+		
+		"FRE"={
+			history = "FRE_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
 		}
-		"GER"={
-			history = "GER_GATHERING_STORM_DESC"
-			ideology = fascism
-			available = { NOT = { has_dlc = "Waking the Tiger" } }
-
+		"GBR"={
+			history = "GBR_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
 		}
-
-		"SOV"={
-			history = "SOV_GATHERING_STORM_DESC"
+		"DEU"={
+			history = "DEU_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"RIT"={
+			history = "RIT_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+			}	
+			focuses = {
+			}		
+		}
+		"RUS"={
+			history = "RUS_GATHERING_STORM_DESC"
 			ideology = communism
-
+			ideas = {
+			}
+			focuses = {
+			}	
+		}
+		"OTT"={
+			history = "OTT_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}	
+		}
+		"SCA"={
+			history = "SCA_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}	
+		}
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
 		}
 
 		effect = {

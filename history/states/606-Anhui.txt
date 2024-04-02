@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = CHI
+		#owner = CHI
 		victory_points = {
 			7222 5 
 		}
@@ -24,8 +24,8 @@ state={
 			9937 1 
 		}
 		buildings = {
-			infrastructure = 2
-			#industrial_complex = 0
+			infrastructure = 3 #infrastructure = 2
+			#industrial_complex = 1
 
 		}
 		#add_core_of = CHI
@@ -39,8 +39,7 @@ state={
 
 		}
 		1950.1.1 = {
-			owner = 
-CHI
+			#owner = CHI
 			#controller = PRC
 
 		}
@@ -50,7 +49,7 @@ CHI
 	provinces={
 		1001 1121 1146 1161 4079 4148 7025 7094 7222 9937 10008 10017 10040 10064 10079 11916 11973 11994 12036 12055 12061 
 	}
-	manpower =  18232400
+	manpower = 1
 	buildings_max_level_factor=1.000
 	state_category=town
 }

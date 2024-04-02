@@ -7,9 +7,7 @@ state={
 	}
 
 	history={
-		owner = 
-ETH
-
+		#owner = LUX
 		victory_points = {
 			5139 3
 		}
@@ -17,7 +15,7 @@ ETH
 			13772 2
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 			air_base = 1
 			5139 = {
 				naval_base = 1
@@ -27,8 +25,7 @@ ETH
 		}
 		#add_core_of = GAB
 		1972.1.1 = {
-			owner = 
-GAB
+			owner = GAB
 
 		}
 
@@ -37,7 +34,7 @@ GAB
 	provinces={
 		5139 8207 13765 13772 
 	}
-	manpower =  409700
+	manpower=409700
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

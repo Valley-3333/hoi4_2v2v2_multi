@@ -4,34 +4,34 @@ state={
 	name="STATE_103"
 
 	history={
+		owner = RIT add_core_of = RIT
 		victory_points = {
 			6889 1
 		}
 		buildings = {
-			infrastructure = 2
-			#industrial_complex = 0
+			infrastructure = 3 #infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
 			6889 = {
 				naval_base = 1
 
 			}
 
 		}
-		owner = GRE add_core_of = GRE
+		#add_core_of = YUG
 		#add_core_of = CRO
 		##add_claim_by = ITA
 		1954.6.22 = {
-			owner = 
-CRO
+			owner = CRO
 			#controller = CRO
 
 		}
 		1954.1.1 = {
-			owner = GER add_core_of = ITA
+			owner = RIT add_core_of = RIT
 			#controller = YUG
 		}
 		2000.1.1 = {
-			owner = 
-CRO
+			owner = CRO
 		}
 
 	}
@@ -39,7 +39,7 @@ CRO
 	provinces={
 		984 3868 3974 6889 11816 13601 
 	}
-	manpower = 1431700
+	manpower=1431700
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

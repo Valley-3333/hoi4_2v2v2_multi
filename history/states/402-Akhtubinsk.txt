@@ -7,19 +7,18 @@ state={
 	}
 
 	history={
-		owner = TUR add_core_of = TUR
+		owner = RUS add_core_of = RUS
 		victory_points = {
 			4294 3 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
-		#add_core_of = SOV
+		#add_core_of = RUS
 		#add_core_of = KAZ
 		2000.1.1 = {
-			owner = 
-KAZ
+			owner = KAZ
 			set_state_name = Aktobe
 			set_province_name = {
 				id = 4294
@@ -34,7 +33,7 @@ KAZ
 	provinces={
 		1247 4254 4294 7341 7370 7438 9528 10253 11480 12235 12254 
 	}
-	manpower = 282245
+	manpower=282245
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

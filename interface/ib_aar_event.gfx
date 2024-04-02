@@ -1,0 +1,27 @@
+spriteTypes = {
+
+	spriteType = { #最初の資源配布イベント画像
+		name = "omaeraunko"
+		texturefile = "gfx/event_pictures/ib_aar_event.png"
+	}
+
+	spriteType = { #資源ガチャ引くかどうか画像
+		name = "gomikasu"
+		texturefile = "gfx/event_pictures/ib_aar_event2.png"
+	}
+
+	spriteType = { #ガチャ外れ画像
+		name = "ochinchin"
+		texturefile = "gfx/event_pictures/ib_aar_event3.png"
+	}
+
+	spriteType = { #ガチャ当たり画像
+		name = "atariatari"
+		texturefile = "gfx/event_pictures/ib_aar_event4.png"
+	}
+
+	spriteType = { #ガチャ特大当たり画像
+		name = "sugoisugoi"
+		texturefile = "gfx/event_pictures/ib_aar_event5.png"
+	}
+}

@@ -4,8 +4,7 @@ state={
 	name="STATE_1078"
 
 	history={
-		
-
+		owner = OTT add_core_of = OTT
 		victory_points = {
 			10901 2 
 		}
@@ -13,8 +12,9 @@ state={
 			13591 1 
 		}
 		buildings = {
-			infrastructure = 1
-
+			infrastructure = 3 #infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 2
 		}
 		#add_core_of = SAU
 
@@ -23,7 +23,7 @@ state={
 	provinces={
 		4974 5058 7970 8101 10815 10901 12455 12749 13589 13590 13591 15116 
 	}
-	manpower =  242813
+	manpower=242813
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

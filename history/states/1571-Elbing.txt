@@ -3,7 +3,7 @@ state={
 	name="STATE_1571"
 
 	history={
-		owner = SOV add_core_of = SOV
+		owner = DEU add_core_of = DEU
 		victory_points = {
 			3380 2 
 		}
@@ -11,20 +11,9 @@ state={
 			infrastructure = 3
 
 		}
-		#add_core_of = GER
-		1954.1.1 = {
-			owner = SOV add_core_of = SOV
-			#add_core_of = SOV
-			#remove_core_of = GER
-			set_state_name = STATE_1571_2
-			set_province_name = {
-				id = 3380
-				name = VICTORY_POINTS_3380_2
-
-			}
-
-		}
-
+		#add_core_of = DEU
+		add_core_of = SCA
+		add_core_of = RUS
 	}
 	provinces={
 		266 3351 3380 6402 9327 9398 11245 

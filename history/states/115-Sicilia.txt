@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = ITA add_core_of = ITA
+		owner = RIT add_core_of = RIT
 		victory_points = {
 			10074 10 
 		}
@@ -24,8 +24,9 @@ state={
 			7059 1 
 		}
 		buildings = {
-			infrastructure = 2
-			#industrial_complex = 0
+			infrastructure = 3 #infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
 			air_base = 5
 			#dockyard = 1
 			10074 = {
@@ -46,7 +47,7 @@ state={
 			}
 
 		}
-		#add_core_of = ITA
+		#add_core_of = RIT
 		1954.7.26 = {
 			ENG = {
 				#set_province_controller = 1009
@@ -71,7 +72,7 @@ state={
 	provinces={
 		1009 1156 3857 4014 4159 7059 7147 10074 12047 14589 15098 15099 
 	}
-	manpower=3936571
+	manpower=4526571
 	buildings_max_level_factor=1.000
 	state_category=city
 }

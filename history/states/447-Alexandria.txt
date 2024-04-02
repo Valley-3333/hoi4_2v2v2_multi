@@ -8,8 +8,7 @@ state={
 	}
 
 	history={
-		owner = GRE add_core_of = GRE
-
+		owner = OTT add_core_of = OTT
 		victory_points = {
 			4076 5
 		}
@@ -23,8 +22,9 @@ state={
 			7011 2
 		}
 		buildings = {
-			infrastructure = 2
-			#industrial_complex = 0
+			infrastructure = 3 #infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
 			air_base = 3
 			4076 = {
 				naval_base = 8
@@ -33,13 +33,13 @@ state={
 
 		}
 		#add_core_of = EGY
-
+		add_core_of = RIT
 	}
 
 	provinces={
 		992 3996 4076 4145 7011 7091 7164 10005 10073 11964 12091 
 	}
-	manpower =  3859239
+	manpower=3859239
 	buildings_max_level_factor=1.000
 	state_category=town
 }

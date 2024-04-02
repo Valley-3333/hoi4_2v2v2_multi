@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+		#owner = JAP
 		victory_points = {
 			7110 15
 		}
@@ -28,10 +28,10 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			air_base = 2
+			air_base = 3
 			#dockyard = 3
 			#arms_factory = 2
-			#industrial_complex = 0
+			#industrial_complex = 2
 			9950 = {
 				naval_base = 6
 
@@ -45,7 +45,7 @@ state={
 	provinces={
 		1020 1025 1158 1183 4027 4102 4164 4198 7110 7178 9950 10011 10020 10092 11925 11949 12006 12032 
 	}
-	manpower =  9069000
+	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=large_city
 }

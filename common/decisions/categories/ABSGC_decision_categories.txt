@@ -1,0 +1,34 @@
+ABSGC = {
+
+	visible = {
+
+	}
+	allowed = {
+#		original_tag = all_country
+#		original_tag = ITA
+#		original_tag = ENG
+#		original_tag = FRA
+#		original_tag = SOV
+#		original_tag = TUR
+#		original_tag = MEX
+	}
+}
+
+Roman_Youso = {
+icon = GFX_decision_category_generic
+	visible = {
+
+	}
+	allowed = {
+	}
+}
+
+Anti_mojul_Youso = {
+	icon = GFX_decision_category_generic
+	picture = GFX_decision_cat_picture_ITA_reggianes_exports
+		visible = {
+	
+		}
+		allowed = {
+		}
+	}

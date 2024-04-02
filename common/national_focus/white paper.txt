@@ -1,0 +1,25 @@
+
+focus_tree = {
+	id = white_paper_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 50
+			tag = TIN
+		}
+	}
+	default = no
+	
+	focus = {
+		id = army_effort1
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 1
+		y = 0
+		cost = 1
+		completion_reward = {
+		}
+	}
+
+}		

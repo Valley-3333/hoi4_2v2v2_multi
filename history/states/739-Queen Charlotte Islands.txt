@@ -4,13 +4,12 @@ state={
 	name="STATE_739"
 
 	history={
-		#owner = CAN
-
+		#owner = GBR add_core_of = CAN
 		victory_points = {
 			1869 1
 		}
 		buildings = {
-			infrastructure = 0
+			infrastructure = 3 #infrastructure = 0
 			1869 = {
 				naval_base = 1
 
@@ -26,7 +25,7 @@ state={
 	provinces={
 		1869 
 	}
-	manpower = 1
+	manpower=4761
 	buildings_max_level_factor=1.000
 	state_category=tiny_island
 }

@@ -3,30 +3,25 @@ state={
 	name="STATE_1638"
 
 	history={
-		owner = ENG
+		owner = RIT add_core_of = RIT
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3 #infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
 			14296 = {
 				naval_base = 1
 
 			}
 
 		}
-		#add_core_of = ITA
-		1954.7.26 = {
-			#controller = ENG
-
-		}
-		1954.6.20 = {
-			#controller = ITA
-
-		}
-
+		#add_core_of = RIT
+		add_core_of = FRE
+		add_core_of = OTT
 	}
 	provinces={
 		14296 
 	}
-	manpower =  7665
+	manpower=7665
 	buildings_max_level_factor=1.000
 	state_category=tiny_island
 }

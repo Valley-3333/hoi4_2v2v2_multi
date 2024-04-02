@@ -4,25 +4,25 @@ state={
 	name="STATE_121"
 	resources={
 		steel=21.000
+		rubber = 120
 	}
 
 	history={
-		owner = ENG
+		owner = GBR add_core_of = GBR
 		victory_points = {
-			9392 11
+			9392 15
 		}
 		victory_points = {
-			3273 10
+			3273 35
 		}
 		victory_points = {
-			6300 1 
+			6300 3
 		}
 		buildings = {
 			infrastructure = 3
-			#industrial_complex = 2
-			#dockyard = 5
-			anti_air_building = 2
-			air_base = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 3
 			6300 = {
 				naval_base = 5
 
@@ -33,16 +33,9 @@ state={
 			}
 
 		}
-		add_core_of = ENG
+		#add_core_of = GBR
 		#add_core_of = SCO
-		1954.1.1 = {
-			buildings = {
-				#dockyard = 5
-				#industrial_complex = 2
-
-			}
-
-		}
+		add_core_of = SCA
 
 	}
 

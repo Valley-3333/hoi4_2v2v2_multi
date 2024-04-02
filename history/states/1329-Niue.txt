@@ -3,14 +3,13 @@ state={
 	name="STATE_1329"
 
 	history={
-		owner = 
-AST
+		#owner = AST
 		#add_core_of = NIU
 		victory_points = {
 			14306 1
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 			14306 = {
 				naval_base = 1
 
@@ -23,7 +22,7 @@ AST
 	provinces={
 		14306 
 	}
-	manpower =  1624
+	manpower=1624
 	buildings_max_level_factor=1.000
 	state_category=small_island
 }

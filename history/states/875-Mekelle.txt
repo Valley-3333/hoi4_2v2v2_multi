@@ -7,25 +7,23 @@ state={
 	}
 
 	history={
-		owner = 
-ETH
+		#owner = ETH
 		victory_points = {
 			2072 3 
 		}
 		buildings = {
-			infrastructure = 1
-			#industrial_complex = 0
+			infrastructure = 3 #infrastructure = 1
+			#industrial_complex = 1
 			air_base = 1
 
 		}
 		#add_core_of = ETH
 		1954.9.1 = {
-			owner = GER add_core_of = ITA
+			owner = RIT add_core_of = RIT
 
 		}
 		1954.11.22 = {
-			owner = 
-ETH
+			#owner = ETH
 
 		}
 
@@ -34,7 +32,7 @@ ETH
 	provinces={
 		2072 
 	}
-	manpower = 267291
+	manpower=267291
 	buildings_max_level_factor=1.000
 	state_category=town
 }

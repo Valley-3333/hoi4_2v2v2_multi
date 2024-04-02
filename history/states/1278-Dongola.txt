@@ -3,9 +3,7 @@ state={
 	name="STATE_1278"
 
 	history={
-		owner = 
-ETH
-
+		#owner = LUX
 		victory_points = {
 			14178 2
 		}
@@ -13,13 +11,12 @@ ETH
 			12836 1
 		}
 		buildings = {
-			infrastructure = 0
+			infrastructure = 3 #infrastructure = 0
 
 		}
 		#add_core_of = SUD
 		1960.1.1 = {
-			owner = 
-SUD
+			owner = SUD
 
 		}
 
@@ -28,7 +25,7 @@ SUD
 	provinces={
 		4138 4961 4963 8105 10745 10900 12796 12826 12836 14178 14179 
 	}
-	manpower =  833743
+	manpower=833743
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

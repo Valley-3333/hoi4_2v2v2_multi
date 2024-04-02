@@ -4,24 +4,20 @@ state={
 	name="STATE_962"
 
 	history={
-		owner = GER add_core_of = GER
+		owner = DEU add_core_of = DEU
 		buildings = {
 			infrastructure = 3
 
 		}
-		#add_core_of = GER
+		#add_core_of = DEU
 		#add_core_of = WUR
 		1954.1.1 = {
-			owner = 
-ETH
-
+			#owner = LUX
 			#remove_core_of = WUR
 
 		}
 		1950.1.1 = {
-			owner = 
-ETH
-
+			#owner = LUX
 			#add_core_of = LUX
 			#add_core_of = DDR
 			#remove_core_of = GER
@@ -33,7 +29,7 @@ ETH
 	provinces={
 		519 694 9655 11486 13261 15097 
 	}
-	manpower = 227331
+	manpower=1227331
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

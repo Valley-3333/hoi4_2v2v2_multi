@@ -4,12 +4,14 @@ state={
 	name="STATE_101"
 
 	history={
-		owner = ENG
+		owner = GBR add_core_of = GBR
 		victory_points = {
 			10245 1 
 		}
 		buildings = {
-			infrastructure = 0
+			infrastructure = 3 #infrastructure = 0
+			arms_factory = 1
+			industrial_complex = 2
 			10245 = {
 				naval_base = 1
 
@@ -17,26 +19,13 @@ state={
 
 		}
 		#add_core_of = GRL
-		1954.1.1 = {
-			add_manpower =   1000
-
-		}
-		1954.6.22 = {
-			owner = 
-ENG
-
-		}
-		1954.1.1 = {
-			
-
-		}
-
+		add_core_of = SCA
 	}
 
 	provinces={
 		10245 
 	}
-	manpower =  17000
+	manpower=1242000
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

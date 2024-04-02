@@ -4,12 +4,13 @@ state={
 	name="STATE_9"
 	resources={
 		steel=5.000
+		rubber = 120
 	}
 
 	history={
-		owner = GER add_core_of = HUN
+		owner = DEU add_core_of = DEU
 		victory_points = {
-			11542 15 
+			11542 35 
 		}
 		victory_points = {
 			14679 5 
@@ -28,34 +29,24 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			#arms_factory = 6
-			#industrial_complex = 0
-			#anti_air_building = 5
-			air_base = 3
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 2
 			6440 = {
-				bunker = 1
+				#bunker = 1
 
 			}
 
 		}
 		#add_core_of = CZE
-		1954.3.14 = {
-			owner = 
-ETH
-
-
-		}
-		1954.1.1 = {
-			owner = GER add_core_of = HUN
-
-		}
+		add_core_of = RIT
 
 	}
 
 	provinces={
 		494 583 3462 6418 6440 6592 9421 9429 9541 9569 11542 11556 13657 13658 14679 15105 15106 
 	}
-	manpower = 2692600
+	manpower=2692600
 	buildings_max_level_factor=1.000
 	state_category=large_city
 }

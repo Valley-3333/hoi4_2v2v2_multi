@@ -3,36 +3,24 @@ state={
 	name="STATE_1471"
 
 	history={
-		owner = GER add_core_of = GER
+		owner = DEU add_core_of = DEU
 		victory_points = {
 			707 1
 		}
 		buildings = {
-			infrastructure = 2
-
+			infrastructure = 3 #infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
 		}
-		#add_core_of = GER
-		#add_core_of = BAV
-		1954.1.1 = {
-			owner = 
-ENG
-
-		}
-		1950.1.1 = {
-			owner = 
-ETH
-
-			#add_core_of = LUX
-			#add_core_of = DDR
-			#remove_core_of = GER
-		}
+		#add_core_of = DEU
+		add_core_of = RIT
 
 	}
 
 	provinces={
 		707 3688 
 	}
-	manpower = 105929
+	manpower=105929
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

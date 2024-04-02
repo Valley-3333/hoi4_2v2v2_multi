@@ -3,7 +3,7 @@ state={
 	name="STATE_1590"
 
 	history={
-		owner = GRE
+		#owner = RIT add_core_of = RIT
 		victory_points = {
 			804 2
 		}
@@ -14,17 +14,17 @@ state={
 			11826 1
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
-		#add_core_of = TUR
+		owner = OTT add_core_of = OTT
 
 	}
 
 	provinces={
 		804 919 3807 3862 3964 11826 11844 
 	}
-	manpower =  424981
+	manpower=424981
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

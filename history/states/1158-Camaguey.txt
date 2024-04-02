@@ -4,7 +4,7 @@ state={
 	name="STATE_1158"
 
 	history={
-	#	owner = CUB
+		owner = GBR add_core_of = GBR
 		victory_points = {
 			4476 3 
 		}
@@ -15,17 +15,17 @@ state={
 			13702 1 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
 		#add_core_of = CUB
-
+		add_core_of = SCA
 	}
 
 	provinces={
 		4476 7546 13702 
 	}
-	manpower = 1
+	manpower=782458
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

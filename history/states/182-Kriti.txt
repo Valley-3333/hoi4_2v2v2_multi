@@ -4,7 +4,7 @@ state={
 	name="STATE_182"
 
 	history={
-		owner = GRE add_core_of = GRE
+		owner = GBR add_core_of = GBR
 		victory_points = {
 			9940 2
 		}
@@ -12,8 +12,9 @@ state={
 			12058 1
 		}
 		buildings = {
-			infrastructure = 2
-			#industrial_complex = 0
+			infrastructure = 3 #infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
 			air_base = 1
 			9940 = {
 				naval_base = 3
@@ -22,28 +23,14 @@ state={
 
 		}
 		#add_core_of = GRE
-		1954.6.22 = {
-			#controller = GER
-
-		}
-		1954.1.1 = {
-			GRE = {
-				#set_province_controller = 1164
-				#set_province_controller = 9940
-			}
-			
-		}
-		1954.1.1 = {
-			#controller = GRE
-
-		}
-
+		add_core_of = OTT
+		add_core_of = RIT
 	}
 
 	provinces={
 		1164 9940 12058 
 	}
-	manpower =  387900
+	manpower=387900
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

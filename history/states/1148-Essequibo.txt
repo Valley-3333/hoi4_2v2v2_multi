@@ -4,20 +4,17 @@ state={
 	
 	history={
 		#owner = BRA
-
 		victory_points = {
 			13689 1
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
 		#add_core_of = LUX
 		##add_claim_by = VEN
 		1972.1.1 = {
-			owner = 
-ETH
-
+			#owner = LUX
 			
 		}
 
@@ -26,7 +23,7 @@ ETH
 	provinces={
 		12716 13680 13684 13688 13689 
 	}
-	manpower = 1
+	manpower=45005
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

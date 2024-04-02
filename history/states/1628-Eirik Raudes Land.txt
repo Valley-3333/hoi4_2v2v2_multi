@@ -3,30 +3,17 @@ state={
 	name="STATE_1628"
 
 	history={
-		owner = ENG
+		owner = GBR add_core_of = GBR
 		#add_core_of = GRL
 		#add_claim_by = DEN
-		1954.1.1 = {
-			
-			#remove_claim_by = DEN
-
-		}
-		1954.6.22 = {
-			owner = 
-ENG
-
-		}
-		1954.1.1 = {
-			
-
-		}
+		add_core_of = SCA
 
 	}
 
 	provinces={
 		14223 
 	}
-	manpower =  1
+	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 	impassable=yes

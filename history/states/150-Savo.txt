@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		
+			owner = SCA add_core_of = SCA
 		victory_points = {
 			6033 2
 		}
@@ -15,18 +15,19 @@ state={
 			165 1
 		}
 		buildings = {
-			infrastructure = 2
-			#industrial_complex = 0
+			infrastructure = 3 #infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
 
 		}
 		#add_core_of = FIN
-
+		add_core_of = RUS
 	}
 
 	provinces={
 		37 136 141 165 3013 3125 3131 6033 6078 9104 9163 11043 11076 11141 11199 11210 13104 13108 13110 13111 13112 
 	}
-	manpower =  211100
+	manpower=1012000
 	buildings_max_level_factor=1.000
 	state_category=town
 }

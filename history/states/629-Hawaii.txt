@@ -4,8 +4,7 @@ state={
 	name="STATE_629"
 
 	history={
-		owner = 
-AST
+		##owner = USA add_core_of = USA
 		victory_points = {
 			4180 5 
 		}
@@ -13,15 +12,15 @@ AST
 			12021 1 
 		}
 		buildings = {
-			infrastructure = 1
-			air_base = 3
+			infrastructure = 3 #infrastructure = 1
+			air_base = 2
 			4180 = {
 				naval_base = 10
 
 			}
 
 		}
-		add_core_of = ENG
+		#add_core_of = USA
 		#add_core_of = HWI
 
 	}
@@ -29,7 +28,7 @@ AST
 	provinces={
 		4180 7112 7195 10048 12021 
 	}
-	manpower =  368336
+	manpower=368336
 	buildings_max_level_factor=1.000
 	state_category=town
 }

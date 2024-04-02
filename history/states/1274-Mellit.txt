@@ -3,13 +3,10 @@ state={
 	name="STATE_1274"
 
 	history={
-		owner = 
-ETH
-
+		#owner = LUX
 		#add_core_of = SUD
 		1960.1.1 = {
-			owner = 
-SUD
+			owner = SUD
 
 		}
 
@@ -18,7 +15,7 @@ SUD
 	provinces={
 		14175 
 	}
-	manpower =  4536
+	manpower=4536
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 	impassable=yes

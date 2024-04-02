@@ -4,18 +4,15 @@ state={
 	name="STATE_850"
 
 	history={
-		owner = 
-ETH
-
+		#owner = LUX
 		buildings = {
-			infrastructure = 0
+			infrastructure = 3 #infrastructure = 0
 
 		}
 		#add_core_of = EGY
 		#add_core_of = SUD
 		1960.1.1 = {
-			owner = 
-SUD
+			owner = SUD
 
 		}
 
@@ -24,7 +21,7 @@ SUD
 	provinces={
 		7939 
 	}
-	manpower =  194
+	manpower=194
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

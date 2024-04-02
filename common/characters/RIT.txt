@@ -1,0 +1,66 @@
+characters={
+	ITA_benito_mussolini={
+		name=ITA_benito_mussolini
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_Italy_Benito_Mussolini.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			traits = {
+				#british_bulldog
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ITA_papa={
+		name="ITA_papa"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/portrait_ITA_papa_pio_xii.dds"
+			}
+		}
+		
+		country_leader={
+			ideology=liberalism
+			traits={  }
+			expire="1965.1.1"
+			id=-1
+		}
+	}
+	ITA_king={
+		name="ITA_king"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/portrait_ITA_emperor_vittorio_emanuele_III.dds"
+			}
+		}
+		
+		country_leader={
+			ideology=despotism
+			traits={  }
+			expire="1965.1.1"
+			id=-1
+		}
+	}
+	#ITA_ferruccio_parri={
+	#	name=ITA_ferruccio_parri
+	#	portraits={
+	#		civilian={
+	#			large="GFX_portrait_italy_ferruccio_parri"
+	#		}
+	#	}
+		
+		
+	#	country_leader={
+	#		ideology=stalinism
+	#		traits={  }
+	#		expire="1965.1.1.1"
+	#		id=-1
+	#	}
+	#}
+
+
+}

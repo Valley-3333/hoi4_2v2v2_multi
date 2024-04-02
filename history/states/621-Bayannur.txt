@@ -7,14 +7,13 @@ state={
 			10629 2
 		}			
 		buildings = {
-			infrastructure = 0
+			infrastructure = 3 #infrastructure = 0
 		}
-		owner = CHI
-		add_core_of = CHI
+		#owner = CHI
+		#add_core_of = CHI
 		#add_core_of = PRC
 		1954.1.1 = {
-			owner = 
-CHI
+			#owner = CHI
 		}
 		1954.6.20 = {
 			#controller = MEN
@@ -23,15 +22,14 @@ CHI
 			#controller = SHX
 		}	
 		1950.1.1 = {
-			owner = 
-CHI
+			#owner = CHI
 		}
 	}
 
 	provinces={
 		2087 10629 12609 12880 
 	}
-	manpower =  580000
+	manpower=580000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

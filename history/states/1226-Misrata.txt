@@ -3,8 +3,7 @@ state={
 	name="STATE_1226"
 
 	history={
-		owner = GRE add_core_of = GRE
-
+		owner = RIT add_core_of = RIT
 		victory_points = {
 			9980 3
 		}
@@ -12,35 +11,19 @@ state={
 			7209 2
 		}
 		buildings = {
-			infrastructure = 1
-
+			infrastructure = 3 #infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 2
 		}
 		#add_core_of = LBA
-		1954.7.26 = {
-			owner = GER add_core_of = ITA
-			#controller = ENG
-
-		}
-		1954.6.20 = {
-			owner = 
-ETH
-
-			#controller = ENG
-
-		}
-		1953.3.7 = {
-			owner = 
-ETH
-			#controller = LBA
-
-		}
-
+		add_core_of = FRE
+		add_core_of = OTT
 	}
 
 	provinces={
 		1118 4194 7209 9980 
 	}
-	manpower = 297287
+	manpower=297287
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

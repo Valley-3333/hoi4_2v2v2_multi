@@ -4,13 +4,13 @@ state={
 	name="STATE_721"
 
 	history={
-		owner = ENG
+		#owner = AST
 		#add_core_of = LUX
 		victory_points = {
 			12190 2
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 			12190 = {
 				naval_base = 1
 
@@ -18,26 +18,20 @@ state={
 
 		}
 		1954.11.22 = {
-			owner = 
-JAP
+			#owner = JAP
 
 		}
 		1954.1.1 = {
-			owner = 
-ETH
-
+			#owner = LUX
 
 		}
 		1980.1.1 = {
-			owner = 
-AST
+			#owner = AST
 			set_state_name = "Timor Timur"
 
 		}
 		2000.1.1 = {
-			owner = 
-ETH
-
+			#owner = LUX
 			set_state_name = "Timor-Leste"
 
 		}
@@ -47,7 +41,7 @@ ETH
 	provinces={
 		1326 12178 12190 13001 
 	}
-	manpower =  455604
+	manpower=455604
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

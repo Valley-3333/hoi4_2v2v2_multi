@@ -3,9 +3,9 @@ state={
 	name="STATE_921"
 	
 	history={
-	#	owner = CUB
+		owner = GBR add_core_of = GBR
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3 #infrastructure = 2
 			8206 = {
 				naval_base = 4
 
@@ -13,12 +13,12 @@ state={
 
 		}
 		#add_core_of = CUB
-
+		add_core_of = SCA
 	}
 	provinces={
 		8206 
 	}
-	manpower =  1000
+	manpower=1000
 	buildings_max_level_factor=1.000
 	state_category=enclave
 }

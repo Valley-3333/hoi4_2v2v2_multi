@@ -7,19 +7,19 @@ state={
 	}
 
 	history={
-		owner = SOV add_core_of = SOV
+		owner = RUS add_core_of = RUS
 		victory_points = {
 			105 1 
 		}
 		buildings = {
-			infrastructure = 0
+			infrastructure = 3 #infrastructure = 0
 			105 = {
 				naval_base = 1
 
 			}
 
 		}
-		#add_core_of = SOV
+		#add_core_of = RUS
 
 	}
 

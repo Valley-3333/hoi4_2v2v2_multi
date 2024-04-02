@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = GER add_core_of = GER
+		owner = DEU add_core_of = DEU
 		victory_points = {
 			6282 5 
 		}
@@ -20,8 +20,9 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			#industrial_complex = 0
-			air_base = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 3
 			9361 = {
 				naval_base = 1
 
@@ -32,30 +33,9 @@ state={
 			}
 
 		}
-		#add_core_of = GER
-		1954.1.1 = {
-			owner = SOV add_core_of = SOV
-			#add_core_of = SOV
-			#remove_core_of = GER
-			set_state_name = "Pomorze Zachodnie"
-			set_province_name = {
-				id = 6282
-				name = Szczecin
-
-			}
-			set_province_name = {
-				id = 9361
-				name = Koszalin
-
-			}
-			set_province_name = {
-				id = 6309
-				name = "Stargard SzczecDEIki"
-
-			}
-
-		}
-
+		#add_core_of = DEU
+		add_core_of = SCA
+		add_core_of = RUS
 	}
 
 	provinces={

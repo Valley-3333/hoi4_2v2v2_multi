@@ -3,10 +3,9 @@ state={
 	name="STATE_1314"
 
 	history={
-		owner = 
-ENG
+		##owner = USA add_core_of = USA
 		buildings = {
-			infrastructure = 0
+			infrastructure = 3 #infrastructure = 0
 			14289 = {
 				naval_base = 1
 
@@ -18,7 +17,7 @@ ENG
 	provinces={
 		14289 
 	}
-	manpower =  1
+	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=tiny_island
 }

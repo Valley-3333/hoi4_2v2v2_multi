@@ -1,0 +1,281 @@
+ABSGC = {
+	clear___ai = {
+
+		icon = generic_industry
+
+
+		visible = {
+			is_ai = yes
+			NOT = {
+				has_country_flag = AI_CLEAR
+			}
+		}
+		allowed = { always = yes }
+
+		fire_only_once = no
+		
+
+		complete_effect = {
+			set_country_flag = AI_CLEAR
+			add_ideas = Closed_Economy
+			add_ideas = stiff_upper_lip
+			if = {
+				limit = { 
+					NOT = { tag = TIN } 
+			    }
+				TIN = {
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+						}	
+				}
+
+			}
+			every_state = {
+				limit = {
+					is_fully_controlled_by = TIN
+				}
+				add_core_of = TIN
+				set_building_level = {
+					type = infrastructure
+					level = 0
+					instant_build = yes
+					}
+					set_building_level = {
+						type = arms_factory
+						level = 0
+						instant_build = yes
+						}
+						set_building_level = {
+							type = industrial_complex
+							level = 0
+							instant_build = yes
+							}
+							set_building_level = {
+								type = air_base
+								level = 0
+								instant_build = yes
+								}
+			}
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 1000
+		}
+
+	}	
+
+	WAR_EUROPE_DESC_decision  = { #初心者チュートリアル
+
+		icon = GFX_decision_generic_decision
+
+
+		visible = {
+			is_ai = no
+
+		}
+		allowed = { always = yes }
+		available = {
+		}
+		fire_only_once = no
+		
+
+		complete_effect = {
+			country_event = {
+				id = ABSGC.4
+				days = 0
+				}
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 10
+		}
+
+	}
+
+
+
+	A_tech_EUROPE_Research  = { #集中工業研究
+
+		icon = generic_industry
+
+
+		visible = {
+			is_ai = no
+			NOT = { has_country_flag = B_tech_EUROPE_Flag }
+
+		}
+		allowed = { always = yes }
+		available = {
+			NOT = {
+				is_researching_technology = concentrated_industry
+				is_researching_technology = dispersed_industry
+				has_tech = dispersed_industry
+			}
+		}
+		fire_only_once = yes
+		
+
+		complete_effect = {
+			set_technology = {
+				concentrated_industry = 1
+				concentrated_industry2 = 1
+			}
+			set_country_flag = A_tech_EUROPE_Flag
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 10
+		}
+
+	}
+
+	B_tech_EUROPE_Research  = { #分散工業研究
+
+		icon = generic_industry
+
+
+		visible = {
+			is_ai = no
+			NOT = { has_country_flag = A_tech_EUROPE_Flag }
+		}
+		available = {
+			NOT = {
+				is_researching_technology = concentrated_industry
+				is_researching_technology = dispersed_industry
+				has_tech = concentrated_industry
+			}
+		}
+		allowed = { always = yes }
+
+		fire_only_once = yes
+		
+
+		complete_effect = {
+			set_technology = {
+				dispersed_industry = 1
+				dispersed_industry2 = 1
+			}
+			set_country_flag = B_tech_EUROPE_Flag
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 10
+		}
+
+	}
+
+	Democratic_NF_comprete  = { #民主NF選択
+
+		icon = GFX_decision_eng_puppet_usa
+
+
+		visible = {
+			is_ai = no
+			NOT = { has_country_flag = NF_FLAG }
+		}
+		available = {
+		}
+		allowed = { always = yes }
+
+		fire_only_once = yes
+		
+
+		complete_effect = {
+			complete_national_focus = liberty_ethos
+			complete_national_focus = interventionism_focus
+			complete_national_focus = volunteer_corps
+			set_country_flag = NF_FLAG
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 10
+		}
+
+	}
+	neutrality_NF_comprete  = { #中道NF選択
+
+		icon = GFX_decision_generic_monarchy
+
+
+		visible = {
+			is_ai = no
+			NOT = { has_country_flag = NF_FLAG }
+		}
+		available = {
+		}
+		allowed = { always = yes }
+
+		fire_only_once = yes
+		
+
+		complete_effect = {
+			complete_national_focus = liberty_ethos
+			complete_national_focus = neutrality_focus
+			complete_national_focus = deterrence
+			set_country_flag = NF_FLAG
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 10
+		}
+
+	}
+	communism_NF_comprete  = { #共産NF選択
+
+	icon = GFX_decision_SOV_secure_the_administration
+
+
+	visible = {
+		is_ai = no
+		NOT = { has_country_flag = NF_FLAG }
+	}
+	available = {
+	}
+	allowed = { always = yes }
+
+	fire_only_once = yes
+	
+
+	complete_effect = {
+		complete_national_focus = collectivist_ethos
+		complete_national_focus = internationalism_focus
+		complete_national_focus = political_correctness
+		set_country_flag = NF_FLAG
+	}
+	cost = 0
+	ai_will_do = {
+		factor = 10
+	}
+
+}
+Fascism_NF_comprete  = { #ファシNF選択
+
+icon = GFX_decision_ger_reichskommissariats
+
+
+visible = {
+	is_ai = no
+	NOT = { has_country_flag = NF_FLAG }
+}
+available = {
+}
+allowed = { always = yes }
+
+fire_only_once = yes
+
+
+complete_effect = {
+	complete_national_focus = collectivist_ethos
+	complete_national_focus = nationalism_focus
+	complete_national_focus = militarism
+	set_country_flag = NF_FLAG
+}
+cost = 0
+ai_will_do = {
+	factor = 10
+}
+
+}
+
+}

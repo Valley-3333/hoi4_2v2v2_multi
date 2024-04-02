@@ -1,0 +1,71 @@
+characters={
+	SOV_tsar_iosif_stalin = {
+		name = "皇帝スターリン"
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_SOV_tsar_stalin"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			traits={  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+	SOV_iosif_stalin = {
+		name = SOV_iosif_stalin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SOV/Portrait_Soviet_Joseph_Stalin.dds"
+			}
+			army = {
+				large = "gfx/leaders/SOV/Portrait_Soviet_Joseph_Stalin.dds"
+				small = "gfx/interface/ideas/idea_SOV_joseph_stalin.dds"
+			}
+		}
+		
+		
+		country_leader={
+			ideology=stalinism
+			traits={  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	SOV_tsar_vsevolod_ivanovich = {
+		name = "椅子"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POL/portrait_POL_Sejmik_Regency.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	SOV_tsar_vsevolod_ivanovich1 = {
+		name = SOV_tsar_vsevolod_ivanovich1
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SOV/portrait_SOV_vsevolod_ivanovich.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+
+
+
+
+
+}

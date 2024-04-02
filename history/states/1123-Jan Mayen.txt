@@ -3,9 +3,11 @@ state={
 	name="STATE_1123"
 	
 	history={
-		
+		owner = GBR add_core_of = GBR
 		buildings = {
-			infrastructure = 0
+			infrastructure = 3 #infrastructure = 0
+			arms_factory = 1
+			industrial_complex = 2
 			9096 = {
 				naval_base = 1
 
@@ -20,7 +22,7 @@ state={
 	provinces={
 		9096 
 	}
-	manpower =  35
+	manpower=1012000
 	buildings_max_level_factor=1.000
 	state_category=tiny_island
 }

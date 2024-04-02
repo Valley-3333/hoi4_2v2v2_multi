@@ -3,24 +3,22 @@ state={
 	name="STATE_1533"
 
 	history={
-		owner = AST add_core_of = AST
+		#owner = RAJ
 		victory_points = {
 			1403 2
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 			1403 = {
 				naval_base = 1
 
 			}
 
 		}
-		add_core_of = AST
+		#add_core_of = RAJ
 		#add_core_of = BRM
 		1954.9.1 = {
-			owner = 
-ETH
-
+			#owner = LUX
 			#remove_core_of = RAJ
 
 		}
@@ -33,8 +31,7 @@ ETH
 
 		}
 		1950.1.1 = {
-			owner = 
-BRM
+			owner = BRM
 			#controller = BRM
 
 		}
@@ -44,7 +41,7 @@ BRM
 	provinces={
 		1403 4336 12125 
 	}
-	manpower =  2054393
+	manpower=2054393
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

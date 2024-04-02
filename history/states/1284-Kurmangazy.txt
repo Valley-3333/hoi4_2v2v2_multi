@@ -3,16 +3,15 @@ state={
 	name="STATE_1284"
 
 	history={
-		owner = TUR add_core_of = TUR
+		owner = RUS add_core_of = RUS
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
-		#add_core_of = SOV
+		#add_core_of = RUS
 		#add_core_of = KAZ
 		2000.1.1 = {
-			owner = 
-KAZ
+			owner = KAZ
 
 		}
 
@@ -21,7 +20,7 @@ KAZ
 	provinces={
 		464 477 615 3459 3622 6498 6514 6523 9469 11457 11578 
 	}
-	manpower = 57138
+	manpower=57138
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

@@ -4,8 +4,7 @@ state={
 	name="STATE_410"
 
 	history={
-		owner = 
-TUR
+		#owner = PER
 		victory_points = {
 			14971 3 
 		}
@@ -19,7 +18,7 @@ TUR
 			14970 1 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
 		#add_core_of = PER
@@ -30,7 +29,7 @@ TUR
 	provinces={
 		2039 2070 4891 10782 12895 13082 14970 14971 15175 
 	}
-	manpower =  341053
+	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

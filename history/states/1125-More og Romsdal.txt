@@ -4,7 +4,7 @@ state={
 	name="STATE_1125"
 
 	history={
-		
+		owner = SCA add_core_of = SCA
 		victory_points = {
 			9127 1 
 		}
@@ -12,25 +12,18 @@ state={
 			3180 1
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
 		#add_core_of = NOR
-		1954.5.10 = {
-			#controller = GER
-
-		}
-		1954.1.1 = {
-			#controller = NOR
-
-		}
+		add_core_of = GBR
 
 	}
 
 	provinces={
 		188 199 3090 3096 3180 3188 9127 9216 11100 
 	}
-	manpower =  265540
+	manpower=1265540
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

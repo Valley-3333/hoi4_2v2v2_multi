@@ -4,7 +4,7 @@ state={
 	name="STATE_821"
 
 	history={
-		owner = GRE
+		owner = OTT add_core_of = OTT
 		victory_points = {
 			7107 2 
 		}
@@ -12,23 +12,21 @@ state={
 			1086 1 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
 		#add_core_of = PAL
 		#add_core_of = ISR
 		1950.1.1 = {
-			owner = GRE
+			owner = OTT add_core_of = OTT
 
 		}
 		1972.1.1 = {
-			owner = 
-ISR
+			owner = ISR
 
 		}
 		2000.1.1 = {
-			owner = 
-PAL
+			owner = PAL
 
 		}
 
@@ -37,7 +35,7 @@ PAL
 	provinces={
 		1 1086 7107 12147 
 	}
-	manpower =  97000
+	manpower=97000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

@@ -4,8 +4,7 @@ state={
 	name="STATE_331"
 
 	history={
-		#owner = CAN
-
+		owner = GBR add_core_of = GBR
 		victory_points = {
 			12505 2 
 		}
@@ -13,8 +12,9 @@ state={
 			7788 1 
 		}
 		buildings = {
-			infrastructure = 1
-			#industrial_complex = 0
+			infrastructure = 3 #infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 2
 			12505 = {
 				naval_base = 1
 
@@ -22,25 +22,14 @@ state={
 
 		}
 		#add_core_of = NFL
-		1954.1.1 = {
-			owner = 
-ETH
-
-
-		}
-		1950.1.1 = {
-			#owner = CAN
-
-			#add_core_of = CAN
-
-		}
+		add_core_of = SCA
 
 	}
 
 	provinces={
 		7758 7788 12505 12680 12698 14205 14209 
 	}
-	manpower = 1
+	manpower=321060
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

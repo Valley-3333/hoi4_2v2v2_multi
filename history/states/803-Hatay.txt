@@ -4,19 +4,19 @@ state={
 	name="STATE_803"
 
 	history={
-		owner = GRE
+		owner = RIT add_core_of = RIT
 		victory_points = {
 			12029 1 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
 		#add_core_of = SYR
-		#add_core_of = TUR
+		owner = OTT add_core_of = OTT
 		#add_core_of = HAT
 		1954.9.1 = {
-			owner = GRE
+			owner = OTT add_core_of = OTT
 
 		}
 
@@ -25,7 +25,7 @@ state={
 	provinces={
 		12029 14522 
 	}
-	manpower =  234379
+	manpower=234379
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

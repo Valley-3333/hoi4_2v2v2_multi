@@ -4,8 +4,7 @@ state={
 	name="STATE_773"
 
 	history={
-		owner = ENG
-
+		owner = OTT add_core_of = OTT
 		victory_points = {
 			4073 5
 		}
@@ -13,8 +12,9 @@ state={
 			12049 2
 		}
 		buildings = {
-			infrastructure = 1
-			#industrial_complex = 0
+			infrastructure = 3 #infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 2
 			4073 = {
 				naval_base = 2
 
@@ -27,9 +27,7 @@ state={
 		}
 		#add_core_of = EGY
 		1960.1.1 = {
-			owner = 
-ETH
-
+			owner = OTT add_core_of = OTT
 
 		}
 
@@ -38,7 +36,7 @@ ETH
 	provinces={
 		4073 12049 
 	}
-	manpower =  107300
+	manpower=107300
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

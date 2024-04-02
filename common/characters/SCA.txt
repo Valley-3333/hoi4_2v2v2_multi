@@ -1,0 +1,56 @@
+characters={
+	SWE_per_albin_hansson={
+		name=SWE_per_albin_hansson
+		portraits={
+			civilian={
+				large="gfx/leaders/SWE/Portrait_Sweden_Per_Albin_Hansson.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			traits={  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=despotism
+			traits={  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+	SWE_sven_linderot={
+		name=SWE_sven_linderot
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+			}
+		}
+		
+		
+		country_leader={
+			ideology=stalinism
+			traits={  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	SWE_sven_olov_lindholm={
+		name=SWE_sven_olov_lindholm
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+
+
+}

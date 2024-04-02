@@ -3,15 +3,14 @@ state={
 	name="STATE_1164"
 	
 	history={
-		owner = 
-AST
-		add_core_of = AST
+		#owner = AST
+		#add_core_of = AST
 	}
 	
 	provinces={
 		10473 
 	}
-	manpower =  2000
+	manpower=2000
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 	impassable=yes

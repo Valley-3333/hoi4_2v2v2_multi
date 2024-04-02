@@ -4,12 +4,14 @@ state={
 	name="STATE_337"
 
 	history={
-		owner = ENG
+		owner = GBR add_core_of = GBR
 		victory_points = {
 			13003 1 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3 #infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
 			13003 = {
 				naval_base = 1
 
@@ -18,27 +20,14 @@ state={
 		}
 		#add_core_of = DEN
 		#add_core_of = FAR
-		1954.1.1 = {
-			add_manpower =   900
-
-		}
-		1954.5.10 = {
-			owner = 
-ETH
-
-
-		}
-		1954.1.1 = {
-			
-
-		}
+		add_core_of = SCA
 
 	}
 
 	provinces={
 		13003 
 	}
-	manpower =  25000
+	manpower=25000
 	buildings_max_level_factor=1.000
 	state_category=small_island
 }

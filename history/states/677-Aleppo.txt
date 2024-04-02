@@ -8,29 +8,26 @@ state={
 	}
 
 	history={
-		owner = GRE
+		owner = OTT add_core_of = OTT
 		victory_points = {
 			12473 10
 		}
 		buildings = {
-			infrastructure = 1
-
+			infrastructure = 3 #infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 2
 		}
 		#add_core_of = SYR
 		1950.1.1 = {
-			owner = 
-SYR
+			#owner = SYR
 
 		}
 		1960.1.1 = {
-			owner = 
-ETH
-
+			owner = OTT add_core_of = OTT
 
 		}
 		1972.1.1 = {
-			owner = 
-SYR
+			#owner = SYR
 
 		}
 
@@ -39,7 +36,7 @@ SYR
 	provinces={
 		7671 12473 14584 
 	}
-	manpower =  683509
+	manpower=683509
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

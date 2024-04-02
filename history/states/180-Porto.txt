@@ -4,10 +4,7 @@ state={
 	name="STATE_180"
 
 	history={
-		owner = 
-ITA
-		add_core_of = ITA
-
+			owner = FRE add_core_of = FRE
 		victory_points = {
 			9817 10 
 		}
@@ -16,7 +13,8 @@ ITA
 		}
 		buildings = {
 			infrastructure = 3
-			#industrial_complex = 0
+			arms_factory = 1
+			industrial_complex = 2
 			#dockyard = 2
 			9817 = {
 				naval_base = 3
@@ -31,7 +29,7 @@ ITA
 	provinces={
 		724 877 3892 6921 6941 9817 11673 
 	}
-	manpower =  1895468
+	manpower=1895468
 	buildings_max_level_factor=1.000
 	state_category=large_town
 }

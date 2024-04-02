@@ -7,13 +7,12 @@ state={
 	}
 
 	history={
-		owner = 
-AST
+		#owner = AST
 		victory_points = {
 			10212 3 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 			10212 = {
 				naval_base = 2
 
@@ -29,8 +28,7 @@ AST
 
 		}
 		1972.1.1 = {
-			owner = 
-RAJ
+			#owner = SIA
 			#controller = MAL
 			#add_core_of = MAL
 			set_state_name = "Kota Kinabalu"
@@ -47,7 +45,7 @@ RAJ
 	provinces={
 		1335 4338 7358 10212 12171 12186 13302 
 	}
-	manpower =  285000
+	manpower=285000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

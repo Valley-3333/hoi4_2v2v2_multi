@@ -4,13 +4,12 @@ state={
 	name="STATE_693"
 
 	history={
-		owner = ENG
-
+	    owner = GBR add_core_of = GBR
 		victory_points = {
 			13699 1
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3 #infrastructure = 2
 			13699 = {
 				naval_base = 1
 
@@ -18,16 +17,13 @@ state={
 
 		}
 		#add_core_of = JAM
-		1972.1.1 = {
-			#remove_core_of = JAM
-
-		}
+		add_core_of = SCA
 	}
 
 	provinces={
 		13699 
 	}
-	manpower =  6000
+	manpower=6000
 	buildings_max_level_factor=1.000
 	state_category=tiny_island
 }

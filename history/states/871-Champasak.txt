@@ -3,27 +3,24 @@ state={
 	name="STATE_871"
 	
 	history = {
-		owner = AST add_core_of = AST
+		#owner = SIA
 		buildings = {
-			infrastructure = 0
+			infrastructure = 3 #infrastructure = 0
 
 		}
 		#add_core_of = LAO
 		#add_claim_by = SIA
 		1954.6.22 = {
-			owner = 
-RAJ
+			#owner = SIA
 
 		}
 		1954.1.1 = {
-			owner = 
-RAJ
+			#owner = SIA
 			#remove_claim_by = SIA
 
 		}
 		1956.1.1 = {
-			owner = 
-LAO
+			owner = LAO
 
 		}
 	}
@@ -31,7 +28,7 @@ LAO
 	provinces={
 		1592
 	}
-	manpower =  21560
+	manpower=21560
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

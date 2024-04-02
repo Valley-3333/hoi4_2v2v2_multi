@@ -3,13 +3,13 @@ state={
 	name="STATE_1342"
 
 	history={
-		owner = AST
+		#owner = RAJ
 		victory_points = {
 			9991 5
 		}
 		buildings = {
-			infrastructure = 2
-			#industrial_complex = 0
+			infrastructure = 3 #infrastructure = 2
+			#industrial_complex = 1
 			9991 = {
 				naval_base = 3
 
@@ -17,17 +17,15 @@ state={
 
 		}
 		#add_core_of = PAK
-		add_core_of = AST
+		#add_core_of = RAJ
 		#add_core_of = BAN
 		1950.1.1 = {
-			owner = 
-PAK
+			owner = PAK
 			#remove_core_of = RAJ
 
 		}
 		1972.1.1 = {
-			owner = 
-BAN
+			owner = BAN
 			#remove_core_of = PAK
 
 		}
@@ -36,7 +34,7 @@ BAN
 	provinces={
 		1142 9991 11968 14337 14338 
 	}
-	manpower =  3116000
+	manpower=3116000
 	buildings_max_level_factor=1.000
 	state_category=town
 }

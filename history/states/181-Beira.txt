@@ -7,10 +7,7 @@ state={
 	}
 
 	history={
-		owner = 
-ITA
-		add_core_of = ITA
-
+			owner = FRE add_core_of = FRE
 		victory_points = {
 	        3798 3
 		}
@@ -21,8 +18,8 @@ ITA
 	        938 1
 		}
 		buildings = {
-			infrastructure = 2
-			#industrial_complex = 0
+			infrastructure = 3 #infrastructure = 2
+			#industrial_complex = 1
 
 		}
 		#add_core_of = POR
@@ -32,7 +29,7 @@ ITA
 	provinces={
 		799 845 889 924 938 3798 3861 3969 6818 6924 6996 9787 11885 
 	}
-	manpower =  2420375
+	manpower=2420375
 	buildings_max_level_factor=1.000
 	state_category=city
 }

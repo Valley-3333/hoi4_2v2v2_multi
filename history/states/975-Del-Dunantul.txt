@@ -3,7 +3,7 @@ state={
 	name="STATE_975"
 	
 	history={
-		owner = GRE add_core_of = GRE
+		owner = RIT add_core_of = RIT
 		victory_points = {
 			11610 3
 		}
@@ -11,16 +11,11 @@ state={
 			6685 1
 		}
 		buildings = {
-			infrastructure = 2
-			#industrial_complex = 0
+			infrastructure = 3 #infrastructure = 2
+			#industrial_complex = 2
 		}
 		#add_core_of = HUN
-		1954.1.1 = {
-			#controller = SOV
-		}
-		1954.1.1 = {
-			#controller = HUN
-		}
+		add_core_of = DEU
 	}
 	
 	provinces={

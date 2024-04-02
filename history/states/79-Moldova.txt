@@ -4,7 +4,7 @@ state={
 	name="STATE_79"
 
 	history={
-		owner = SOV add_core_of = SOV
+		owner = OTT add_core_of = RUS
 		victory_points = {
 			9716 5
 		}
@@ -15,20 +15,13 @@ state={
 			6706 2
 		}
 		buildings = {
-			infrastructure = 2
-			#industrial_complex = 0
-			air_base = 1
+			infrastructure = 3 #infrastructure = 2
+
+			air_base = 2
 		}
 		#add_core_of = ROM
-		1954.1.1 = {
-			#controller = SOV
-
-		}
-		1954.1.1 = {
-			#controller = ROM
-			
-		}
-
+		add_core_of = DEU
+		add_core_of = OTT
 	}
 
 	provinces={

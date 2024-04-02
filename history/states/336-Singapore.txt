@@ -10,19 +10,17 @@ state={
 	}
 
 	history={
-		owner = AST add_core_of = AST
+		#owner = SIA
 		victory_points = {
 			12299 10 
 		}
 		buildings = {
-			infrastructure = 2
-			#industrial_complex = 0
+			infrastructure = 3 #infrastructure = 2
+			#industrial_complex = 1
 			air_base = 3
-			fuel_silo = 10
-			arms_factory = 5
 			12299 = {
 				naval_base = 8
-				coastal_bunker = 3
+				#coastal_bunker = 3
 
 			}
 
@@ -37,9 +35,7 @@ state={
 
 		}
 		1972.1.1 = {
-			owner = 
-ETH
-
+			#owner = LUX
 			#controller = LUX
 
 		}
@@ -49,7 +45,7 @@ ETH
 	provinces={
 		12299 
 	}
-	manpower =  1022096
+	manpower=1022096
 	buildings_max_level_factor=1.000
 	state_category=town
 }

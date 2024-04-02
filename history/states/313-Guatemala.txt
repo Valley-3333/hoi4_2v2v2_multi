@@ -15,9 +15,9 @@ state={
 			14072 2
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3 #infrastructure = 2
 			#arms_factory = 1
-			#industrial_complex = 0
+			#industrial_complex = 1
 			air_base = 1
 			14072 = {
 				naval_base = 1
@@ -32,7 +32,7 @@ state={
 	provinces={
 		10886 14070 14072 
 	}
-	manpower = 1
+	manpower=1771000
 	buildings_max_level_factor=1.000
 	state_category=town
 }

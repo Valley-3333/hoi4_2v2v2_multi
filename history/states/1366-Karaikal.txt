@@ -3,21 +3,21 @@ state={
 	name="STATE_1366"
 
 	history={
-		owner = AST
+		#owner = RAJ
 		victory_points = {
 			14410 1
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 			14410 = {
 				naval_base = 1
 
 			}
 
 		}
-		add_core_of = AST
+		#add_core_of = RAJ
 		1956.1.1 = {
-			owner = AST
+			#owner = RAJ
 
 		}
 
@@ -26,7 +26,7 @@ state={
 	provinces={
 		14410 
 	}
-	manpower =  200222
+	manpower = 1
 	buildings_max_level_factor=1.000
 	state_category=enclave
 }

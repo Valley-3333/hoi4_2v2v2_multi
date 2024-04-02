@@ -3,29 +3,29 @@ state={
 	name="STATE_1136"
 	
 	history={
-		
+			owner = SCA add_core_of = SCA
 		victory_points = {
 			3083 2
 		}
 		buildings = {
-			infrastructure = 2
-			#industrial_complex = 0
-			#dockyard = 1
+			infrastructure = 3 #infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
 			3083 = {
 				naval_base = 3
-				coastal_bunker = 1
+				#coastal_bunker = 1
 
 			}
 
 		}
 		#add_core_of = FIN
-
+		add_core_of = RUS
 	}
 	
 	provinces={
 		3083 6066 9094 9194 11172 13102 
 	}
-	manpower =  478582
+	manpower=8278582
 	buildings_max_level_factor=1.000
 	state_category=town
 }

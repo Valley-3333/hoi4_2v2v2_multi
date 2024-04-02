@@ -3,7 +3,7 @@ state={
 	name="STATE_1001"
 	
 	history={
-		owner = AST add_core_of = AST
+		#owner = SIA
 		#add_core_of = LAO
 		victory_points = {
 		    4539 2
@@ -12,24 +12,21 @@ state={
 		    1374 2
 		}
 		buildings = {
-			infrastructure = 0
+			infrastructure = 3 #infrastructure = 0
 
 		}
 		1954.11.22 = {
-			owner = 
-JAP
+			#owner = JAP
 			#controller = JAP
 
 		}
 		1954.1.1 = {
-			owner = 
-RAJ
+			#owner = SIA
 			#controller = VIN
 
 		}
 		1956.1.1 = {
-			owner = 
-LAO
+			owner = LAO
 			#controller = LAO
 
 		}
@@ -39,7 +36,7 @@ LAO
 	provinces={
 		1374 1563 1577 4539 4554 7426 10238 10453 12210 
 	}
-	manpower =  119848
+	manpower=119848
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

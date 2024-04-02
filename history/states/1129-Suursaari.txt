@@ -3,9 +3,11 @@ state={
 	name="STATE_1129"
 	
 	history={
-		owner = RUS add_core_of = SWE
+			owner = SCA add_core_of = SCA
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 2
 			13661 = {
 				naval_base = 1
 
@@ -13,22 +15,7 @@ state={
 
 		}
 		#add_core_of = FIN
-		1954.5.10 = {
-			owner = SOV add_core_of = SOV
-			#controller = SOV
-			#add_core_of = SOV
-			#remove_core_of = FIN
-			set_state_name = STATE_1129_2
-
-		}
-		1954.11.22 = {
-			#controller = FIN
-
-		}
-		1954.1.1 = {
-			#controller = SOV
-
-		}
+		add_core_of = RUS
 
 	}
 	

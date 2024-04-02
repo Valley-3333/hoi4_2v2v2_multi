@@ -1,0 +1,33 @@
+﻿capital = 1357
+
+set_research_slots = 0
+
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1932.9.18"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 100
+	fascism = 0
+	communism = 0
+}
+
+add_ideas = {
+	undisturbed_isolation
+	Tan_nation
+	closed_economy
+}
+
+
+set_convoys = 0
+set_stability = 0
+set_war_support = 0
+
+#リーダー
+recruit_character = SWI_adolf_hitler
+
+### Ship Variants ###
+

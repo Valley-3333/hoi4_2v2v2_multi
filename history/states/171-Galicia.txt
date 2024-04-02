@@ -2,15 +2,12 @@
 state={
 	id=171
 	name="STATE_171"
-	manpower =   2295085
+	manpower = 2295085
 	
 	state_category = city
 
 	history={
-		owner = 
-ITA
-		add_core_of = ITA
-
+			owner = FRE add_core_of = FRE
 		victory_points = {
 			758 3
 		}
@@ -25,9 +22,9 @@ ITA
 		}
 		buildings = {
 			infrastructure = 3
-			#dockyard = 1
-			#arms_factory = 1
-			air_base = 1
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 2
 			758 = {
 				naval_base = 6
 			}
@@ -37,8 +34,7 @@ ITA
 		}
 		#add_core_of = SPR
 		1954.9.1 = {
-			owner = 
-SPA
+			owner = SPA
 			#add_core_of = SPA
 			#remove_core_of = SPR
 

@@ -4,7 +4,7 @@ state={
 	name="STATE_1028"
 
 	history={
-		owner = ITA add_core_of = FRA
+		owner = FRE add_core_of = FRE
 		victory_points = {
 			11465 10 
 		}
@@ -12,31 +12,18 @@ state={
 			15216 1
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3 #infrastructure = 2
 			#dockyard = 1
 			#arms_factory = 2
-			#industrial_complex = 0
+			#industrial_complex = 1
 			15216 = {
 				naval_base = 2
 
 			}
 
 		}
-		add_core_of = ITA
-		#add_core_of = BRT
-		1954.6.22 = {
-			#controller = GER
-			#add_core_of = FFL
-
-		}
-		1954.1.1 = {
-			#controller = FRA
-
-		}
-		1954.1.1 = {
-			#remove_core_of = FFL
-
-		}
+		#add_core_of = FRE
+		add_core_of = GBR
 
 	}
 

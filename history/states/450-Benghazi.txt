@@ -2,19 +2,22 @@
 state={
 	id=450
 	name="STATE_450"
-
+	resources = {
+		rubber = 120
+	}
 	history={
-		owner = GRE add_core_of = GRE
-
+		owner = RIT add_core_of = RIT
 		victory_points = {
-			11954 3
+			11954 35
 		}
 		victory_points = {
 			1127 2
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 			air_base = 1
+			arms_factory = 1
+			industrial_complex = 2
 			11954 = {
 				naval_base = 1
 
@@ -22,31 +25,14 @@ state={
 
 		}
 		#add_core_of = LBA
-		1954.11.22 = {
-			owner = GER add_core_of = ITA
-			#controller = ENG
-
-		}
-		1954.6.20 = {
-			owner = 
-ETH
-
-			#controller = ENG
-
-		}
-		1950.1.1 = {
-			owner = 
-ETH
-			#controller = LBA
-
-		}
-
+		add_core_of = FRE
+		add_core_of = OTT
 	}
 
 	provinces={
 		1127 1198 4120 10123 11954 
 	}
-	manpower = 72535
+	manpower=1472535
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

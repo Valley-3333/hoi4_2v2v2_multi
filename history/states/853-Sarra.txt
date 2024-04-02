@@ -4,11 +4,9 @@ state={
 	name="STATE_853"
 
 	history={
-		owner = 
-ETH
-
+		#owner = LUX
 		1954.1.1 = {
-			owner = GER add_core_of = ITA
+			owner = RIT add_core_of = RIT
 			#add_core_of = LBA
 			#remove_core_of = SUD
 
@@ -18,14 +16,11 @@ ETH
 
 		}
 		1954.6.20 = {
-			owner = 
-ETH
-
+			#owner = LUX
 
 		}
 		1950.1.1 = {
-			owner = 
-ETH
+			owner = RIT add_core_of = RIT
 
 		}
 		#add_core_of = SUD
@@ -34,7 +29,7 @@ ETH
 	provinces={
 		4191
 	}
-	manpower = 580
+	manpower=580
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 	impassable=yes

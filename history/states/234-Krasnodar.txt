@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = TUR add_core_of = TUR
+		owner = RUS add_core_of = RUS
 		victory_points = {
 			3734 5 
 		}
@@ -19,33 +19,18 @@ state={
 			735 2 
 		}
 		buildings = {
-			infrastructure = 2
-			#industrial_complex = 0
+			infrastructure = 3 #infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
 			11668 = {
 				naval_base = 3
-				coastal_bunker = 1
+				#coastal_bunker = 1
 
 			}
 
 		}
-		#add_core_of = SOV
-		1954.11.22 = {
-			#controller = GER
-
-		}
-		1954.7.26 = {
-			#controller = SOV
-			GER = {
-				#set_province_controller = 6741
-				#set_province_controller = 11668
-
-			}
-
-		}
-		1954.6.20 = {
-			#controller = SOV
-
-		}
+		#add_core_of = RUS
+		add_core_of = OTT
 
 	}
 

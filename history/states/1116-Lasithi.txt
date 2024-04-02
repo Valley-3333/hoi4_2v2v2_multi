@@ -3,9 +3,9 @@ state={
 	name="STATE_1116"
 	
 	history={
-		owner = GRE add_core_of = GRE
+		owner = GBR add_core_of = GBR
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 			4170 = {
 				naval_base = 1
 
@@ -13,24 +13,14 @@ state={
 
 		}
 		#add_core_of = GRE
-		1954.6.22 = {
-			#controller = ITA
-
-		}
-		1954.6.20 = {
-			#controller = GER
-
-		}
-		1954.1.1 = {
-			#controller = GRE
-
-		}
+		add_core_of = OTT
+		add_core_of = RIT
 	}
 	
 	provinces={
 		4170 
 	}
-	manpower =  75381
+	manpower=75381
 	buildings_max_level_factor=1.000
 	state_category=enclave
 }

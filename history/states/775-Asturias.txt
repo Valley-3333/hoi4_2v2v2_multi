@@ -4,10 +4,7 @@ state={
 	name="STATE_775"
 
 	history={
-		owner = 
-ITA
-		add_core_of = ITA
-
+			owner = FRE add_core_of = FRE
 		victory_points = {
 			14875 3
 		}
@@ -16,7 +13,7 @@ ITA
 		}
 		buildings = {
 			infrastructure = 3
-			#industrial_complex = 0
+			#industrial_complex = 1
 			11707 = {
 				naval_base = 2
 
@@ -25,8 +22,7 @@ ITA
 		}
 		#add_core_of = SPR
 		1954.9.1 = {
-			owner = 
-SPA
+			owner = SPA
 			#add_core_of = SPA
 			#remove_core_of = SPR
 
@@ -37,7 +33,7 @@ SPA
 	provinces={
 		3729 3744 6749 9719 11707 14875 
 	}
-	manpower =  792000
+	manpower=792000
 	buildings_max_level_factor=1.000
 	state_category=large_town
 }

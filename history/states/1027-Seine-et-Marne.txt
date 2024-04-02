@@ -2,43 +2,20 @@
 state={
 	id=1027
 	name="STATE_1027"
-	resources={
-		#oil=5
-		#aluminium=10000
-		#rubber=10000
-		#tungsten=10000
-		#chromium=10000
-		#steel=10000
-	}
 
 	history={
-		owner = ITA add_core_of = FRA
+		owner = FRE add_core_of = FRE
 		victory_points = {
-			11506 50
+			11506 3
 		}
 		buildings = {
 			infrastructure = 3
-			#industrial_complex = 0
-			#arms_factory = 15
+			arms_factory = 1
+			industrial_complex = 2
 			#anti_air_building = 3
-			#fuel_silo = 10
 		}
-		add_core_of = ITA
-		1954.6.22 = {
-			owner = GER add_core_of = FRA
-			#controller = GER
-			#add_core_of = FFL
-
-		}
-		1954.1.1 = {
-			owner = GER add_core_of = FRA
-			#controller = FRA
-
-		}
-		1954.1.1 = {
-			#remove_core_of = FFL
-
-		}
+		#add_core_of = FRE
+		add_core_of = GBR
 
 	}
 

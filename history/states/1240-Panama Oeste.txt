@@ -3,7 +3,7 @@ state={
 	name="STATE_1240"
 
 	history={
-		owner = ENG
+		#owner = USA add_core_of = PAN
 		victory_points = {
 			4611 2
 		}
@@ -11,8 +11,8 @@ state={
 			1633 1
 		}
 		buildings = {
-			infrastructure = 1
-			#industrial_complex = 0
+			infrastructure = 3 #infrastructure = 1
+			#industrial_complex = 1
 			4611 = {
 				naval_base = 1
 
@@ -26,7 +26,7 @@ state={
 	provinces={
 		1633 4611 4624 14044 
 	}
-	manpower =  464038
+	manpower=464038
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

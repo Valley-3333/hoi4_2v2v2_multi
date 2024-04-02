@@ -4,7 +4,7 @@ state={
 	name="STATE_61"
 
 	history={
-		owner = GER add_core_of = GER
+		owner = DEU add_core_of = DEU
 		victory_points = {
 			321 5
 		}
@@ -19,42 +19,23 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			#arms_factory = 2
-			#industrial_complex = 0
-			#dockyard = 1
+			arms_factory = 1
+			industrial_complex = 2
 			321 = {
 				naval_base = 6
 			}
-			air_base = 2
+			air_base = 3
 
 		}
-		#add_core_of = GER
-		1954.1.1 = {
-			owner = SOV add_core_of = SOV
-
-		}
-		1950.1.1 = {
-			owner = 
-DDR
-			#add_core_of = LUX
-			#add_core_of = DDR
-			#remove_core_of = GER
-
-		}
-		1991.1.1 = {
-			owner = 
-ETH
-
-			#remove_core_of = DDR
-
-		}
+		#add_core_of = DEU
+		add_core_of = SCA
 
 	}
 
 	provinces={
 		268 293 321 3258 9294 11276 11305 
 	}
-	manpower = 1166353
+	manpower=1166353
 	buildings_max_level_factor=1.000
 	state_category=town
 }

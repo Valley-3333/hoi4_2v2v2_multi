@@ -4,49 +4,31 @@ state={
 	name="STATE_814"
 
 	history={
+		owner = RIT add_core_of = RIT
 		victory_points = {
 			599 1
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 			599 = {
-				bunker = 1
+				#bunker = 1
 
 			}
 			11595 = {
-				bunker = 1
+				#bunker = 1
 
 			}
 
 		}
-		#add_core_of = ITA
-		owner = GRE add_core_of = GRE
-		#add_core_of = SLV
-		1954.6.20 = {
-			owner = GER add_core_of = GER
-
-		}
-		1954.1.1 = {
-			owner = GER add_core_of = ITA
-			set_province_name = {
-				id = 599
-				name = Koper
-
-			}
-
-		}
-		2000.1.1 = {
-			owner = 
-SLV
-
-		}
+		#add_core_of = RIT
+		add_core_of = DEU
 
 	}
 
 	provinces={
 		599 11595 
 	}
-	manpower = 327000
+	manpower=1327000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

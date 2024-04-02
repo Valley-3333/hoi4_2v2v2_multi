@@ -1,0 +1,51 @@
+ideas = {
+
+	country = {
+triumphant_will = {
+			
+	allowed = {
+		always = no
+	}
+	removal_cost = -1
+
+	allowed_civil_war = {
+		has_government = fascism
+	}
+	
+	modifier = {
+		#political_power_gain = 1
+		#drift_defence_factor = 0.5
+		industrial_capacity_factory = 0.15
+	}
+	rule = {
+		can_create_factions = no
+	}
+}
+
+ENG_the_war_to_end_all_wars = {
+			
+	allowed = {
+		always = no
+	}
+	allowed_civil_war = {
+		NOT = {
+			has_government = fascism
+		}
+	}
+	picture = POL_ideology_drift_defence
+	removal_cost = -1
+				
+	modifier = {
+		industrial_capacity_factory = 0.1
+		consumer_goods_factor = -0.15
+		political_power_factor = 0.1
+		mobilization_speed = 0.30 #in 1/1000 of 1 %
+		Surrender_Limit = -0.05
+		resistance_damage_to_garrison = -0.25
+		resistance_decay = 0.25
+		justify_war_goal_time = -0.25
+		#compliance_gain = 0.5
+	}
+}
+}
+}

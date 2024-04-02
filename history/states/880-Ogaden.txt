@@ -4,13 +4,12 @@ state={
 	name="STATE_880"
 
 	history={
-		owner = 
-ETH
+		#owner = ETH
 		victory_points = {
 			14605 1
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
 		#add_core_of = ETH
@@ -25,7 +24,7 @@ ETH
 
 		}
 		1954.9.1 = {
-			owner = GER add_core_of = ITA
+			owner = RIT add_core_of = RIT
 
 		}
 		1954.11.22 = {
@@ -33,14 +32,11 @@ ETH
 
 		}
 		1954.1.1 = {
-			owner = 
-ETH
-
+			#owner = LUX
 
 		}
 		1956.1.1 = {
-			owner = 
-ETH
+			#owner = ETH
 
 		}
 
@@ -49,7 +45,7 @@ ETH
 	provinces={
 		12757 12812 13512 14604 14605 14606 
 	}
-	manpower = 1089143
+	manpower=1089143
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

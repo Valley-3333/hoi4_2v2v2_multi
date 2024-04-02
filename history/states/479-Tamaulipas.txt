@@ -21,8 +21,8 @@ state={
 			14997 2
 		}
 		buildings = {
-			infrastructure = 1
-			#industrial_complex = 0
+			infrastructure = 3 #infrastructure = 1
+			#industrial_complex = 1
 
 		}
 		#add_core_of = MEX
@@ -32,7 +32,7 @@ state={
 	provinces={
 		2083 5015 13088 13719 14997 14999 
 	}
-	manpower = 1
+	manpower=1032988
 	buildings_max_level_factor=1.000
 	state_category=town
 }

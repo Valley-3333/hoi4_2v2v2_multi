@@ -3,8 +3,7 @@ state={
 	name="STATE_1627"
 
 	history={
-		owner = 
-ENG
+		#owner = USA add_core_of = USA
 		victory_points = {
 			10685 2 
 		}
@@ -12,17 +11,17 @@ ENG
 			3719 1 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3 #infrastructure = 2
 
 		}
-		add_core_of = ENG
+		#add_core_of = USA
 
 	}
 
 	provinces={
 		1752 1870 3719 10685 12685 14228 
 	}
-	manpower =  69481
+	manpower=69481
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

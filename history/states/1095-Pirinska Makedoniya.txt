@@ -3,21 +3,15 @@ state={
 	name="STATE_1095"
 	
 	history={
-		owner = GRE add_core_of = GRE
+		owner = OTT add_core_of = OTT
 		victory_points = {
 			6857 1
 		}
 		buildings = {
-			infrastructure = 1
-			#industrial_complex = 0
+			infrastructure = 3 #infrastructure = 1
 		}
 		#add_core_of = BUL
-		1950.1.1 = {
-			set_province_name = { 
-				id = 6857 
-				name = VICTORY_POINTS_6857_2 
-			}
-		}
+		add_core_of = RIT
 	}
 	
 	provinces={

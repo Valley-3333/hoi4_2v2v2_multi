@@ -4,13 +4,14 @@ state={
 	name="STATE_690"
 
 	history={
-		owner = ENG
-
+		owner = GBR add_core_of = GBR
 		victory_points = {
 			10254 2 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3 #infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
 			10254 = {
 				naval_base = 1
 
@@ -30,18 +31,14 @@ state={
 
 		}
 		#add_core_of = BAH
-		1980.1.1 = {
-			owner = 
-BAH
-
-		}
+		add_core_of = SCA
 
 	}
 
 	provinces={
 		1513 4647 7245 10254 
 	}
-	manpower =  62000
+	manpower=62000
 	buildings_max_level_factor=1.000
 	state_category=small_island
 }

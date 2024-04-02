@@ -1,0 +1,174 @@
+characters={
+EUROPE_General_voitek={
+	name=EUROPE_General_voitek
+	portraits={
+		army={
+			large="gfx/leaders/POL/portrait_POL_king_woytek.dds"
+			small="gfx/interface/ideas/idea_mahatma_mohandas_gandhi.dds"
+		}
+	}
+	corps_commander={
+		traits={ bearer_of_artillery }
+		skill=3
+		attack_skill=3
+		defense_skill=3
+		planning_skill=3
+		logistics_skill=3
+	}
+}
+
+EUROPE_General_canada_death_bringer={
+	name=EUROPE_General_canada_death_bringer # 顔面凶器
+	portraits={
+		army={
+			large="gfx/leaders/CAN/Portrait_Canada_Adrien_Arcand.dds"
+			small="gfx/interface/ideas/idea_mahatma_mohandas_gandhi.dds"
+		}
+	}
+	corps_commander={
+		traits = { cavalry_officer cavalry_leader cavalry_expert }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+}
+EUROPE_General_dodo = {
+	name = EUROPE_General_dodo # ドードー鳥
+	portraits={
+		army={
+			large="gfx/leaders/AST/Portrait_Australia_Rod_Hull.dds"
+			small="gfx/interface/ideas/idea_mahatma_mohandas_gandhi.dds"
+		}
+	}
+	corps_commander={
+		traits = { desert_fox }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+}
+EUROPE_General_Boris = {
+	name = EUROPE_General_Boris # ボリスツルピカヨーグルト3世
+	portraits={
+		army={
+			large="gfx/leaders/BUL/Portrait_Bulgaria_Boris_III.dds"
+			small="gfx/interface/ideas/idea_mahatma_mohandas_gandhi.dds"
+		}
+	}
+	corps_commander={
+		traits = { urban_assault_specialist }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+}
+EUROPE_General_Mao = {
+	name = EUROPE_General_Mao # 毛同志
+	portraits={
+		army={
+			large="gfx/leaders/CHI/Portrait_China_Mao_Zedong.dds"
+			small="gfx/interface/ideas/idea_mahatma_mohandas_gandhi.dds"
+		}
+	}
+	corps_commander={
+		traits = { 	organizer commando}
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+}
+EUROPE_General_Perfect_human = {
+	name = EUROPE_General_Perfect_human # 中田敦彦
+	portraits={
+		army={
+			large="gfx/leaders/JAP/Portrait_Japan_Naruhiko_Higashikuni.dds"
+			small="gfx/interface/ideas/idea_mahatma_mohandas_gandhi.dds"
+		}
+	}
+	corps_commander={
+		traits = { disgruntled 	sick substance_addict}
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+}
+
+EUROPE_General_Turube = {
+	name = EUROPE_General_Turube # 鶴瓶
+	portraits={
+		army={
+			large="gfx/leaders/JAP/Portrait_Japan_Akira_Muto.dds"
+			small="gfx/interface/ideas/idea_mahatma_mohandas_gandhi.dds"
+		}
+	}
+	corps_commander={
+		traits = { trait_reckless trait_cautious }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+}
+EUROPE_General_Trotsky = {
+	name = EUROPE_General_Trotsky # トロツキー
+	portraits={
+		army={
+			large="gfx/leaders/SOV/Portrait_Leon_Trotsky.dds"
+			small="gfx/interface/ideas/idea_mahatma_mohandas_gandhi.dds"
+		}
+	}
+	corps_commander={
+		traits = { trait_SOV_determined }
+		skill = 3
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 3
+	}
+}
+EUROPE_General_Franco = {
+	name = EUROPE_General_Franco # フランコ
+	portraits={
+		army={
+			large="gfx/leaders/SPA/Portrait_Spain_Francisco_Franco.dds"
+			small="gfx/interface/ideas/idea_mahatma_mohandas_gandhi.dds"
+		}
+	}
+	corps_commander={
+		traits = { naval_invader invader_ii}
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+}
+EUROPE_General_Tito = {
+	name = EUROPE_General_Tito # チート
+	portraits={
+		army={
+			large="gfx/leaders/YUG/Portrait_Yugoslavia_Josip_Broz_Tito.dds"
+			small="gfx/interface/ideas/idea_mahatma_mohandas_gandhi.dds"
+		}
+	}
+	corps_commander={
+		traits = { commando camouflage_expert }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+}
+}

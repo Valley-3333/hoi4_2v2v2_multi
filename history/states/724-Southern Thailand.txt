@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = AST add_core_of = AST
+		#owner = SIA
 		victory_points = {
 			7236 3 
 		}
@@ -21,17 +21,17 @@ state={
 			12230 1 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
-		add_core_of = AST
+		#add_core_of = SIA
 
 	}
 
 	provinces={
 		1281 1308 1337 1366 1394 4312 4371 7236 10156 10158 12131 12201 12230 12286 
 	}
-	manpower =  2041700
+	manpower=2041700
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

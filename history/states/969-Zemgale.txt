@@ -4,37 +4,17 @@ state={
 	name="STATE_969"
 
 	history={
-		owner = SOV add_core_of = SOV
+		owner = RUS add_core_of = RUS
 		victory_points = {
 			6342 2 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3 #infrastructure = 2
 
 		}
 		#add_core_of = LAT
-		1954.6.21 = {
-			owner = SOV add_core_of = SOV
-
-		}
-		1954.11.22 = {
-			#controller = GER
-
-		}
-		1954.1.1 = {
-			#controller = SOV
-
-		}
-		1954.1.1 = {
-			#add_core_of = SOV
-
-		}
-		2000.1.1 = {
-			owner = SOV add_core_of = SOV
-			#remove_core_of = SOV
-
-		}
-
+		add_core_of = DEU
+		add_core_of = SCA
 	}
 
 	provinces={

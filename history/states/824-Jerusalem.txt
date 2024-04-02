@@ -2,30 +2,32 @@
 state={
 	id=824
 	name="STATE_824"
-
+	resources = {
+		rubber = 120
+	}
 	history={
-		owner = GRE
+		owner = OTT add_core_of = OTT
 		victory_points = {
-			13214 10 
+			13214 35
 		}
 		buildings = {
-			infrastructure = 2
-			#industrial_complex = 0
-			air_base = 1
+			infrastructure = 3 #infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 2
 
 		}
 		#add_core_of = PAL
 		#add_core_of = ISR
 		1950.1.1 = {
-			owner = 
-ISR
+			owner = ISR
 		}
 	}
 
 	provinces={
 		13214 
 	}
-	manpower =  324000
+	manpower=1324000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

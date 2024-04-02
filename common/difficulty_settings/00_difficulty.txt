@@ -1,0 +1,171 @@
+difficulty_settings = {
+	difficulty_setting = {
+		key = "custom_diff_strong_deu1"
+		modifier = diff_strong_ai_generic1
+		countries = { DEU }
+		multiplier = 1.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_deu2"
+		modifier = diff_strong_ai_generic2
+		countries = { DEU }
+		multiplier = 1.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_deu3"
+		modifier = diff_strong_ai_generic3
+		countries = { DEU }
+		multiplier = 1.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_deu4"
+		modifier = diff_strong_ai_generic4
+		countries = { DEU }
+		multiplier = 1.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_rit1"
+		modifier = diff_strong_ai_generic1
+		countries = { RIT }
+		multiplier = 1.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_rit2"
+		modifier = diff_strong_ai_generic2
+		countries = { RIT }
+		multiplier = 1.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_rit3"
+		modifier = diff_strong_ai_generic3
+		countries = { RIT }
+		multiplier = 1.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_rit4"
+		modifier = diff_strong_ai_generic4
+		countries = { RIT }
+		multiplier = 1.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_rus1"
+		modifier = diff_strong_ai_generic1
+		countries = { RUS }
+		multiplier = 1.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_rus2"
+		modifier = diff_strong_ai_generic2
+		countries = { RUS }
+		multiplier = 1.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_rus3"
+		modifier = diff_strong_ai_generic3
+		countries = { RUS }
+		multiplier = 1.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_rus4"
+		modifier = diff_strong_ai_generic4
+		countries = { RUS }
+		multiplier = 1.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_fre1"
+		modifier = diff_strong_ai_generic1
+		countries = { FRE }
+		multiplier = 1.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_fre2"
+		modifier = diff_strong_ai_generic2
+		countries = { FRE }
+		multiplier = 1.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_fre3"
+		modifier = diff_strong_ai_generic3
+		countries = { FRE }
+		multiplier = 1.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_fre4"
+		modifier = diff_strong_ai_generic4
+		countries = { FRE }
+		multiplier = 1.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_gbr1"
+		modifier = diff_strong_ai_generic1
+		countries = { GBR }
+		multiplier = 1.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_gbr2"
+		modifier = diff_strong_ai_generic2
+		countries = { GBR }
+		multiplier = 1.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_gbr3"
+		modifier = diff_strong_ai_generic3
+		countries = { GBR }
+		multiplier = 1.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_gbr4"
+		modifier = diff_strong_ai_generic4
+		countries = { GBR }
+		multiplier = 1.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_ott1"
+		modifier = diff_strong_ai_generic1
+		countries = { OTT }
+		multiplier = 1.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_ott2"
+		modifier = diff_strong_ai_generic2
+		countries = { OTT }
+		multiplier = 1.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_ott3"
+		modifier = diff_strong_ai_generic3
+		countries = { OTT }
+		multiplier = 1.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_ott4"
+		modifier = diff_strong_ai_generic4
+		countries = { OTT }
+		multiplier = 1.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_sca1"
+		modifier = diff_strong_ai_generic1
+		countries = { SCA }
+		multiplier = 1.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_sca2"
+		modifier = diff_strong_ai_generic2
+		countries = { SCA }
+		multiplier = 1.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_sca3"
+		modifier = diff_strong_ai_generic3
+		countries = { SCA }
+		multiplier = 1.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_sca4"
+		modifier = diff_strong_ai_generic4
+		countries = { SCA }
+		multiplier = 1.0
+	}
+
+}

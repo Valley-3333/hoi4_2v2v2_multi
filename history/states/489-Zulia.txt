@@ -8,7 +8,6 @@ state={
 
 	history={
 		#owner = BRA
-
 		victory_points = {
 			12772 5
 		}
@@ -16,8 +15,8 @@ state={
 			5088 2
 		}
 		buildings = {
-			infrastructure = 2
-			#industrial_complex = 0
+			infrastructure = 3 #infrastructure = 2
+			#industrial_complex = 2
 			12772 = {
 				naval_base = 5
 
@@ -31,7 +30,7 @@ state={
 	provinces={
 		1944 5088 7915 12772 13691 14945 
 	}
-	manpower = 1
+	manpower=1576373
 	buildings_max_level_factor=1.000
 	state_category=town
 }

@@ -4,8 +4,7 @@ state={
 	name="STATE_678"
 
 	history={
-		owner = ETH
-
+		owner = OTT add_core_of = OTT
 		#add_core_of = SAU
 
 	}
@@ -13,7 +12,7 @@ state={
 	provinces={
 		12740 
 	}
-	manpower =  42
+	manpower=42
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 	impassable=yes

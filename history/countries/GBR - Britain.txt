@@ -1,0 +1,441 @@
+capital = 126
+add_offsite_building = { type = arms_factory level = 20 }
+oob = "ENG_1939"
+army_experience = -100
+set_research_slots = 6
+set_convoys = 750
+add_political_power = 1052
+set_stability = 1
+set_war_support = 1
+
+add_ideas = {
+	ENG_the_war_to_end_all_wars
+	war_economy
+	generic_silent_workhorse
+}
+
+create_faction = "栄光ある孤立"
+add_to_faction = ENG
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 100
+	fascism = 0
+	communism = 0
+}
+
+
+
+	
+complete_national_focus = political_effort
+complete_national_focus = army_effort
+complete_national_focus = equipment_effort
+complete_national_focus = aviation_effort
+complete_national_focus = industrial_effort
+complete_national_focus = construction_effort
+complete_national_focus = construction_effort_2
+complete_national_focus = infrastructure_effort
+complete_national_focus = doctrine_effort
+complete_national_focus = doctrine_effort_2
+
+
+	add_tech_bonus = {
+		bonus = 1.0
+		uses = 1
+		technology = advanced_machine_tools
+	}
+	add_tech_bonus = {
+		name = armor_bonus
+		bonus = 1
+		ahead_reduction = 1
+		uses = 1
+		technology = improved_medium_tank_chassis
+	}
+	add_tech_bonus = {
+		bonus = 1
+		ahead_reduction = 2
+		uses = 1
+		technology = super_heavy_tank_chassis
+	}
+# Starting tech
+set_technology = {
+	#infantry
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	support_weapons = 1
+	support_weapons2 = 1
+
+	#motorised
+	motorised_infantry = 1
+	mechanised_infantry = 1
+	amphibious_mechanized_infantry = 1
+	
+	#artillery
+	gw_artillery = 1
+	artillery1 = 1
+	interwar_antiair = 1
+	interwar_antitank = 1
+	interwar_artillery = 1
+	interwar_antitank = 1
+
+	#special_forces
+	tech_special_forces = 1
+	marines = 1
+	paratroopers = 1
+
+	#electronics
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	decimetric_radar = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_encryption = 1
+	basic_decryption = 1
+	
+	#industry
+	basic_machine_tools = 1
+	improved_machine_tools = 1
+	synth_oil_experiments = 1
+	construction1 = 1
+	construction2 = 1
+	synth_oil_experiments = 1
+	fuel_refining = 1
+	fuel_silos = 1
+		
+	#support
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	tech_military_police = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_signal_company = 1
+	tech_maintenance_company = 1
+	
+	#train
+		basic_train = 1
+    railway_gun = 1
+
+	wartime_train = 1
+	armored_train = 1
+
+	
+	
+	#tank
+	gwtank_chassis = 1 #has_dlc = "No Step Back"
+	basic_light_tank_chassis = 1 #has_dlc = "No Step Back"
+	improved_light_tank_chassis = 1 #has_dlc = "No Step Back"
+	basic_heavy_tank_chassis = 1 #has_dlc = "No Step Back"
+	engine_tech_1 = 1 #has_dlc = "No Step Back"
+	basic_medium_tank_chassis = 1 #has_dlc = "No Step Back"
+	amphibious_tank_chassis = 1 #has_dlc = "No Step Back"
+	improved_heavy_tank_chassis = 1 #has_dlc = "No Step Back"
+	armor_tech_1 = 1 #has_dlc = "No Step Back"
+	armor_tech_2 = 2 #has_mod = "innovative balance"
+	engine_tech_2 = 1 #has_dlc = "No Step Back"
+	suspension_tech_1 = 1 #has_mod = "innovative balance"
+	suspension_tech_2 = 1 #has_mod = "innovative balance"
+	tankammo_tech_1 = 1 #has_mod = "innovative balance"
+	tankammo_tech_2 = 1 #has_mod = "innovative balance"
+	tankradio = 1 #has_mod = "innovative balance"
+	tankradio_2 = 1 #has_mod = "innovative balance"
+
+	#armored_car
+	armored_car1 = 1 #has_dlc = "La Resistance"
+
+	#navy
+	early_ship_hull_light = 1 #has_dlc = "Man the Guns"
+	basic_ship_hull_light = 1 #has_dlc = "Man the Guns"
+	early_ship_hull_cruiser = 1 #has_dlc = "Man the Guns"
+	basic_ship_hull_cruiser = 1 #has_dlc = "Man the Guns"
+	early_ship_hull_heavy = 1 #has_dlc = "Man the Guns"
+	basic_ship_hull_heavy = 1 #has_dlc = "Man the Guns"
+	early_ship_hull_carrier = 1 #has_dlc = "Man the Guns"
+	basic_ship_hull_carrier = 1 #has_dlc = "Man the Guns"
+	early_ship_hull_submarine = 1 #has_dlc = "Man the Guns"
+	basic_ship_hull_submarine = 1 #has_dlc = "Man the Guns"
+	basic_depth_charges = 1 #has_dlc = "Man the Guns"
+	improved_depth_charges = 1 #has_dlc = "Man the Guns"
+	sonar = 1 #has_dlc = "Man the Guns"
+	improved_sonar = 1 #has_dlc = "Man the Guns"
+	improved_airplane_launcher = 1 #has_dlc = "Man the Guns"
+	basic_cruiser_armor_scheme = 1 #has_dlc = "Man the Guns"
+	basic_torpedo = 1 #has_dlc = "Man the Guns"
+	magnetic_detonator = 1 #has_dlc = "Man the Guns"
+	improved_ship_torpedo_launcher = 1 #has_dlc = "Man the Guns"
+	basic_battery = 1 #has_dlc = "Man the Guns"
+	light_battery_4in_x1 = 1 #has_mod = "innovative balance"
+	light_battery_4in_x2 = 1 #has_mod = "innovative balance"
+	dp_light_battery_4in_x1 = 1 #has_mod = "innovative balance"
+	basic_medium_shell = 1 #has_dlc = "Man the Guns"
+	light_battery_5in_x1 = 1 #has_mod = "innovative balance"
+	basic_heavy_shell = 1 #has_dlc = "Man the Guns"
+	light_battery_5in_x2 = 1 #has_mod = "innovative balance"
+	medium_battery_5Hin_x1 = 1 #has_mod = "innovative balance"
+	medium_battery_5Hin_x2 = 1 #has_mod = "innovative balance"
+	damage_control_1 = 1 #has_dlc = "Man the Guns"
+	damage_control_2 = 1 #has_dlc = "Man the Guns"
+	fire_control_methods_1 = 1 #has_dlc = "Man the Guns"
+	fire_control_methods_2 = 1 #has_dlc = "Man the Guns"
+	medium_battery_6in_x1 = 1 #has_mod = "innovative balance"
+	medium_battery_8in_x2 = 1 #has_mod = "innovative balance"
+	heavy_battery_14in_x2 = 1 #has_mod = "innovative balance"
+	heavy_battery_14in_x3 = 1 #has_mod = "innovative balance"
+	heavy_battery_15in_x2 = 1 #has_mod = "innovative balance"
+	heavy_battery_16in_x2 = 1 #has_mod = "innovative balance"
+	triple_gun_battery = 1 #has_mod = "innovative balance"
+	twin_gun_battery = 1 #has_mod = "innovative balance"
+	ib_shell_tech2 = 1 #has_mod = "innovative balance"
+	smoke_generator = 1 #has_dlc = "Man the Guns"
+	basic_fire_control_system = 1 #has_dlc = "Man the Guns"
+	improved_fire_control_system = 1 #has_dlc = "Man the Guns"
+	mtg_transport = 1 #has_dlc = "Man the Guns"
+
+	#air
+	iw_small_airframe = 1 #has_dlc = "By Blood Alone"
+	basic_small_airframe = 1 #has_dlc = "By Blood Alone"
+	iw_medium_airframe = 1 #has_dlc = "By Blood Alone"
+	basic_medium_airframe = 1 #has_dlc = "By Blood Alone"
+	iw_large_airframe = 1 #has_dlc = "By Blood Alone"
+	basic_large_airframe = 1 #has_dlc = "By Blood Alone"
+	early_bombs = 1 #has_dlc = "By Blood Alone"
+	photo_reconnaisance = 1 #has_dlc = "By Blood Alone"
+	aa_lmg = 1 #has_dlc = "By Blood Alone"
+	survivability_studies = 1 #has_dlc = "By Blood Alone"
+	aa_hmg = 1 #has_dlc = "By Blood Alone"
+	engines_1 = 1 #has_dlc = "By Blood Alone"
+	engines_2 = 1 #has_dlc = "By Blood Alone"
+	range_improvements = 1 #has_dlc = "By Blood Alone"
+	aircraft_construction = 1 #has_dlc = "By Blood Alone"
+}
+
+
+
+
+
+
+
+# Order matters - here Chamberlain becomes starting leader
+
+#リーダー
+recruit_character = ENG_winston_churchill
+recruit_character = ENG_oswald_mosley
+recruit_character = ENG_harry_pollitt
+#recruit_character = ENG_horatio_dundas
+
+
+create_country_leader = {
+	name = "エリザベス女王"
+	desc = "POLITICS_elizabeth_ii_DESC"
+	picture = "gfx/leaders/ENG/portrait_eng_elizabeth_ii.dds"
+	expire = "1965.1.1"
+	ideology = centrism
+}
+
+#将軍
+
+recruit_character = ENG_alan_brooke
+recruit_character = ENG_bernard_montgomery
+recruit_character = ENG_claude_auchinleck
+recruit_character = ENG_neil_ritchie
+recruit_character = ENG_alan_cunningham
+recruit_character = ENG_william_slim
+recruit_character = ENG_richard_oconnor
+recruit_character = ENG_william_platt
+recruit_character = ENG_george_giffard
+recruit_character = ENG_harold_alexander
+recruit_character = ENG_jackie_smyth
+recruit_character = ENG_thomas_jacomb_hutton
+recruit_character = ENG_arthur_percival
+recruit_character = ENG_merton_beckwithsmith
+recruit_character = ENG_henry_pownall
+recruit_character = ENG_john_vereker
+recruit_character = ENG_henry_wilson
+recruit_character = ENG_william_gott
+recruit_character = ENG_jock_campbell
+recruit_character = ENG_oliver_leese
+recruit_character = ENG_miles_dempsey
+recruit_character = ENG_brian_horrocks
+recruit_character = ENG_archibald_wavell
+recruit_character = ENG_james_fownes_somerville
+recruit_character = ENG_henry_harwood
+recruit_character = ENG_andrew_cunningham
+recruit_character = ENG_bruce_fraser
+recruit_character = ENG_john_tovey
+recruit_character = ENG_bernard_rawlings
+recruit_character = ENG_john_cunningham
+recruit_character = ENG_charles_forbes
+recruit_character = ENG_algernon_willis
+recruit_character = ENG_arthur_power
+recruit_character = ENG_edmund_ironside
+#recruit_character = ENG_david_stirling
+recruit_character = ENG_james_somerville
+recruit_character = ENG_kenneth_anderson
+recruit_character = ENG_louis_mountbatten
+recruit_character = ENG_arthur_harris
+recruit_character = ENG_james_chadwick
+recruit_character = ENG_jfc_fuller
+recruit_character = ENG_frank_whittle
+recruit_character = ENG_random_communist_minister_15
+recruit_character = ENG_random_communist_minister_14
+recruit_character = ENG_ernle_chatfield
+recruit_character = ENG_trafford_leigh_mallory
+recruit_character = ENG_max_horton
+recruit_character = ENG_tom_phillips
+recruit_character = ENG_hugh_dowding
+recruit_character = ENG_charles_portal
+recruit_character = ENG_dudley_pound
+recruit_character = ENG_raymond_briggs
+recruit_character = ENG_frederick_bowhill
+recruit_character = ENG_cyril_newall
+recruit_character = ENG_sholto_douglas
+recruit_character = ENG_edward_ellington
+
+
+
+recruit_character = ENG_john_beckett
+#recruit_character = ENG_alan_turing
+recruit_character = ENG_clement_attlee
+recruit_character = ENG_ernest_bevin
+recruit_character = ENG_leslie_hore_belisha
+recruit_character = ENG_george_orwell
+recruit_character = ENG_nevile_henderson
+#recruit_character = ENG_david_lloyd_george
+recruit_character = ENG_mary_sophia_allen
+recruit_character = ENG_philip_kerr
+#recruit_character = ENG_sylvia_pankhurst
+#recruit_character = ENG_stewart_menzies
+recruit_character = ENG_maxwell_aitken
+recruit_character = ENG_thomas_moore
+
+create_corps_commander = {
+	name = "EUROPE_General_voitek"
+	portrait_path = GFX_portrait_POL_king_woytek
+	
+		traits={ bearer_of_artillery }
+		skill=3
+		attack_skill=3
+		defense_skill=3
+		planning_skill=3
+		logistics_skill=3
+	
+}
+
+create_corps_commander = {
+	name=EUROPE_General_canada_death_bringer # 顔面凶器
+	portrait_path = GFX_CAN_adrien_arcand
+	
+		traits = { cavalry_officer cavalry_leader cavalry_expert }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	
+}
+create_corps_commander = {
+	name = EUROPE_General_dodo # ドードー鳥
+	portrait_path = GFX_portrait_AST_rod_hull
+	
+		traits = { desert_fox }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	
+}
+create_corps_commander = {
+	name = EUROPE_General_Boris # ボリスツルピカヨーグルト3世
+	portrait_path = GFX_portrait_BUL_boris_iii
+	
+		traits = { urban_assault_specialist }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	
+}
+create_corps_commander = {
+	name = EUROPE_General_Mao # 毛同志
+	portrait_path = "gfx/leaders/CHI/Portrait_China_Mao_Zedong.dds"
+	
+		traits = { 	organizer commando}
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	
+}
+create_corps_commander = {
+	name = EUROPE_General_Perfect_human # 中田敦彦
+	portrait_path = "GFX_portrait_JAP_naruhiko_higashikuni"
+	
+	traits = { infantry_officer armor_officer }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	
+}
+
+create_corps_commander = {
+	name = EUROPE_General_Turube # 鶴瓶
+	portrait_path = "GFX_portrait_JAP_akira_muto"
+	
+		traits = { trait_reckless trait_cautious }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	
+}
+create_corps_commander = {
+	name = EUROPE_General_Trotsky # トロツキー
+	portrait_path = "GFX_portrait_MEX_leon_trotsky"
+	
+		traits = { trait_SOV_determined }
+		skill = 3
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 3
+	
+}
+create_corps_commander = {
+	name = EUROPE_General_Franco # フランコ
+	portrait_path = "GFX_portrait_spain_francisco_franco"
+	
+		traits = { naval_invader invader_ii}
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	
+}
+create_corps_commander = {
+	name = EUROPE_General_Tito # チート
+	portrait_path = "GFX_portrait_YUG_josip_broz_tito"
+	
+		traits = { commando camouflage_expert }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	
+}

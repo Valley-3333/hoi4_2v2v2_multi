@@ -4,55 +4,25 @@ state={
 	name="STATE_1170"
 
 	history={
-		owner = SOV add_core_of = SOV
+		owner = RUS add_core_of = RUS
 		victory_points = {
 			9454 2
 		}
 		buildings = {
-			infrastructure = 2
-			#industrial_complex = 0
+			infrastructure = 3 #infrastructure = 2
+			#industrial_complex = 1
 
 		}
-		#add_core_of = SOV
+		#add_core_of = POL
 		#add_core_of = UKR
-		1954.5.10 = {
-			owner = SOV add_core_of = SOV
-			set_state_name = STATE_1170_2
-			set_province_name = {
-				id = 9454
-				name = VICTORY_POINTS_9454
-
-			}
-
-		}
-		1954.11.22 = {
-			owner = 
-ETH
-
-
-		}
-		1954.6.20 = {
-			#controller = SOV
-
-		}
-		1954.1.1 = {
-			owner = SOV add_core_of = SOV
-
-		}
-		2000.1.1 = {
-			owner = 
-UKR
-			#controller = UKR
-			#remove_core_of = SOV
-
-		}
-
+		add_core_of = DEU
+		add_core_of = RIT
 	}
 
 	provinces={
 		438 491 3562 9454 11427 
 	}
-	manpower = 1600406
+	manpower=1600406
 	buildings_max_level_factor=1.000
 	state_category=town
 }

@@ -3,32 +3,27 @@ state={
 	name="STATE_1435"
 
 	history={
-		owner = 
-ETH
+		#owner = ETH
 		1954.11.22 = {
 			#controller = ENG
 
 		}
 		1954.6.20 = {
-			owner = 
-ETH
-
+			#owner = LUX
 
 		}
 		1953.3.7 = {
-			owner = 
-ETH
+			#owner = ETH
 			#controller = ETH
 
 		}
 		2000.1.1 = {
-			owner = 
-ERI
+			owner = ERI
 			#controller = ERI
 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
 		#add_core_of = ERI
@@ -38,7 +33,7 @@ ERI
 	provinces={
 		8043 13439 
 	}
-	manpower =  5439
+	manpower=5439
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

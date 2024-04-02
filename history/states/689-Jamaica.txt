@@ -4,13 +4,14 @@ state={
 	name="STATE_689"
 
 	history={
-		owner = ENG
-
+		owner = GBR add_core_of = GBR
 		victory_points = {
 			12304 2
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3 #infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
 			12304 = {
 				naval_base = 1
 
@@ -18,18 +19,14 @@ state={
 
 		}
 		#add_core_of = JAM
-		1972.1.1 = {
-			owner = 
-JAM
-			
-		}
+		add_core_of = SCA
 
 	}
 
 	provinces={
 		12304 12477 
 	}
-	manpower =  1067000
+	manpower=1067000
 	buildings_max_level_factor=1.000
 	state_category=town
 }

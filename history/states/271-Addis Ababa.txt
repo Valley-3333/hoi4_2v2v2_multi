@@ -3,35 +3,27 @@ state={
 	id=271
 	name="STATE_271"
 	resources={
-		oil=5
-		aluminium=10000
-		rubber=10000
-		tungsten=10000
-		chromium=10000
-		steel=10000
+		rubber=2.000
 	}
 
 	history={
-		owner = 
-ETH
+		#owner = ETH
 		victory_points = {
 			13520 10
 		}
 		buildings = {
-			infrastructure = 1
-			arms_factory = 15
-			fuel_silo = 10
-			#industrial_complex = 0
+			infrastructure = 3 #infrastructure = 1
+			#arms_factory = 2
+			#industrial_complex = 1
 
 		}
 		#add_core_of = ETH
 		1954.9.1 = {
-			owner = GER add_core_of = ITA
+			owner = RIT add_core_of = RIT
 
 		}
 		1954.11.22 = {
-			owner = 
-ETH
+			#owner = ETH
 
 		}
 
@@ -40,7 +32,7 @@ ETH
 	provinces={
 		13520 
 	}
-	manpower = 8643566
+	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=town
 }

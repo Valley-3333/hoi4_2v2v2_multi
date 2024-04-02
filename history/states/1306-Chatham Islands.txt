@@ -3,10 +3,9 @@ state={
 	name="STATE_1306"
 
 	history={
-		owner = 
-AST
+		#owner = AST
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 			14278 = {
 				naval_base = 1
 
@@ -20,7 +19,7 @@ AST
 	provinces={
 		14278 
 	}
-	manpower =  663
+	manpower=663
 	buildings_max_level_factor=1.000
 	state_category=tiny_island
 }

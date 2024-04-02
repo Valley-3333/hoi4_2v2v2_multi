@@ -1,34 +1,75 @@
-WEST_SPQR_UNIFIED = {
-	color = rgb { 153 0 0 }
-	color_ui = rgb { 153 0 0 }
+FRA_SPR = {
+	color = rgb { 242 205 94 }
+	color_ui = rgb { 255 255 122 }
 }
 
-EAST_SPQR_UNIFIED = {
-    color = rgb { 143 12 125 }
+TWO_EMPIRE = {
+	color = rgb { 194 198 215 }
+	color_ui = rgb { 255 255 255 }
+}
+
+BYZANT = {
+	color = rgb { 143 12 125 }
 	color_ui = rgb { 143 12 125 }
 }
 
-UK_colony = {
-    color = rgb { 201 56 93 }
-    color_ui = rgb { 255 73 121 }
+PRUSIA = {
+	color = rgb { 128 128 128 }
+	color_ui = rgb { 115 115 115 }
 }
-
-UK_africa = {
-	color = rgb { 170  10  10 }
-	color_ui = rgb { 200  10  10 }
+GER_HOLY = {
+	color = rgb { 128 128 128 }
+	color_ui = rgb { 128 128 128 }
 }
-
-Mongol_Empire = {
-    color = rgb { 0 76 177 }
-	color_ui = rgb { 0 76 177 }
+BENELUX = {
+	color = rgb { 255 128 0 }
+	color_ui = rgb { 255 128 0 }
 }
-
-Yuan = {
-    color = rgb { 108 140 42 }
+FRA_FREE = {
+	color = rgb { 57 113 228 }
+	color_ui = rgb { 74 147 255 }
+}
+BIG_FIN = {
+	color = rgb { 205 212 228 }
+	color_ui = rgb { 255 255 255 }
+}
+EU_UNION = {
+	color = rgb { 0 51 153 }
+	color_ui = rgb { 0 51 153 }
+}
+paradox = {
+	color = rgb { 93 181 227 }
+	color_ui = rgb { 121 235 255 }
+}
+Poland = {
+	color = rgb { 214 102 139 }
+	color_ui = rgb { 255 120 138 }
+}
+SPQR = {
+	color = rgb { 153 0 0 }
+	color_ui = rgb { 153 0 0 }
+}
+UKRI = {
+	color = rgb { 0  80  230 }
+	color_ui = rgb { 0  80  230 }	
+}
+ISRA = {
+	color = rgb { 152  130  191 }
+	color_ui = rgb { 152  130  191 }
+}
+Mongolia = {
+	color = rgb { 108 140 42 }
 	color_ui = rgb { 209 247 133 }
 }
-
-HRE = {
-    color = rgb { 128 128 128 }
-	color_ui = rgb { 128 128 128 }
+Angevin = {
+	color = rgb { 201 56 93 }
+	color_ui = rgb { 255 73 121 }
+}
+IREL = {
+	color = rgb { 80 159 90 }
+	color_ui = rgb { 104 207 117 }
+}
+PAPA = {
+	color = rgb { 255 255 204 }
+	color_ui = rgb { 255 255 26 }
 }

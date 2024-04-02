@@ -4,30 +4,25 @@ state={
 	name="STATE_793"
 
 	history={
-
+		#owner = LUX
 		victory_points = {
 			8035 1
 		}
 		buildings = {
-			infrastructure = 0
+			infrastructure = 3 #infrastructure = 0
 
 		}
 		#add_core_of = MRT
 		1954.6.22 = {
-			owner = 
-ETH
-
+			#owner = LUX
 
 		}
 		1954.11.22 = {
-			owner = 
-ETH
-
+			#owner = LUX
 
 		}
 		1972.1.1 = {
-			owner = 
-MRT
+			owner = MRT
 
 		}
 
@@ -36,7 +31,7 @@ MRT
 	provinces={
 		1897 1962 8035 10779 10838 10917 13851 13852 
 	}
-	manpower =  53261
+	manpower=53261
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

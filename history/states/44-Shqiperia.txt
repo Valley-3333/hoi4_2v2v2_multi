@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		owner = GRE add_core_of = GRE
+		owner = RIT add_core_of = RIT
 		victory_points = {
 			9914 5 
 		}
@@ -20,10 +20,10 @@ state={
 			9780 2 
 		}
 		buildings = {
-			infrastructure = 1
-			#arms_factory = 1
-			#industrial_complex = 0
-			air_base = 2
+			infrastructure = 3 #infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 3
 			11767 = {
 				naval_base = 4
 
@@ -31,25 +31,14 @@ state={
 
 		}
 		#add_core_of = ALB
-		1954.9.1 = {
-			owner = GER add_core_of = ITA
-
-		}
-		1954.6.20 = {
-			owner = GER add_core_of = GER
-
-		}
-		1954.1.1 = {
-			owner = GER add_core_of = ITA
-
-		}
+		add_core_of = OTT
 
 	}
 
 	provinces={
 		3884 3896 9780 9875 9914 11762 11767 
 	}
-	manpower=803000
+	manpower=1203000
 	buildings_max_level_factor=1.000
 	state_category=town
 }

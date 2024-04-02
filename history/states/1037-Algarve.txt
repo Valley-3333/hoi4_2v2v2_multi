@@ -3,16 +3,14 @@ state={
 	name="STATE_1037"
 	
 	history={
-		owner = 
-ITA
-		add_core_of = ITA
-
+			owner = FRE add_core_of = FRE
 		victory_points = {
 			6880 2
 		}
 		buildings = {
-			infrastructure = 2
-			#industrial_complex = 0
+			infrastructure = 3 #infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
 			3790 = {
 				naval_base = 2
 
@@ -25,7 +23,7 @@ ITA
 	provinces={
 		3790 6880 
 	}
-	manpower =  260000
+	manpower=260000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

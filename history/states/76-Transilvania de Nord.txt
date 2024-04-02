@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		owner = GRE add_core_of = GRE
+		owner = DEU add_core_of = DEU
 		victory_points = {
 			6711 5 
 		}
@@ -17,22 +17,16 @@ state={
 			3696 2
 		}
 		buildings = {
-			infrastructure = 2
-			#industrial_complex = 0
+			infrastructure = 3 #infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
 
 		}
 		#add_core_of = ROM
 		#add_claim_by = HUN
-		1954.6.22 = {
-			owner = GER add_core_of = HUN
-		}
-		1954.1.1 = {
-			#controller = ROM
-		}
-		1954.1.1 = {
-			owner = GER add_core_of = ROM
-			#remove_claim_by = HUN
-		}
+		add_core_of = RUS
+		add_core_of = OTT
+		add_core_of = RIT
 	}
 
 	provinces={

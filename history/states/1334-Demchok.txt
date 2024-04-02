@@ -3,12 +3,12 @@ state={
 	name="STATE_1334"
 
 	history={
-		owner = CHI
+		#owner = RAJ
 		buildings = {
-			infrastructure = 0
+			infrastructure = 3 #infrastructure = 0
 
 		}
-		add_core_of = AST
+		#add_core_of = RAJ
 		#add_core_of = CHI
 		#add_core_of = PRC
 		#add_core_of = TIB
@@ -18,7 +18,7 @@ state={
 	provinces={
 		14326 
 	}
-	manpower =  78
+	manpower=78
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

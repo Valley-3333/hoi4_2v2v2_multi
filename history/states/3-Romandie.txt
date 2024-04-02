@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = GER add_core_of = GER
+		owner = RIT add_core_of = RIT 
 		victory_points = {
 			6666 5 
 		}
@@ -16,12 +16,12 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			#industrial_complex = 0
-			air_base = 2
+			#industrial_complex = 1
+			air_base = 4
 
 		}
 		#add_core_of = SWI
-
+		add_core_of = FRE
 	}
 
 	provinces={

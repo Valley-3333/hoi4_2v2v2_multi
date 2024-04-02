@@ -4,46 +4,25 @@ state={
 	name="STATE_4"
 	resources={
 		oil=2.000
+		rubber = 120
 	}
-
 	history={
-		owner = GER add_core_of = GER
+		owner = RIT add_core_of = RIT
 		victory_points = {
-			11666 30 
+			11666 35 
 		}
 		victory_points = {
 			13207 2 
 		}
 		buildings = {
 			infrastructure = 3
-			#arms_factory = 3
-			#industrial_complex = 0
+			arms_factory = 1
+			industrial_complex = 2
 			air_base = 3
 
 		}
 		#add_core_of = AUS
-		1954.3.12 = {
-			owner = GER add_core_of = GER
-			#controller = GER
-			#add_core_of = GER
-
-		}
-		1954.1.1 = {
-			buildings = {
-				#anti_air_building = 5
-
-			}
-
-		}
-		1954.1.1 = {
-			owner = SOV add_core_of = SOV
-			#remove_core_of = GER
-
-		}
-		1956.1.1 = {
-			owner = GER add_core_of = GER
-
-		}
+		add_core_of = DEU
 
 	}
 

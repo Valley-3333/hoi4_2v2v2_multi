@@ -4,8 +4,7 @@ state={
 	name="STATE_518"
 
 	history={
-		owner = 
-AST
+		#owner = AST
 		victory_points = {
 			5187 2 
 		}
@@ -13,21 +12,21 @@ AST
 			5181 1 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3 #infrastructure = 2
 			5187 = {
 				naval_base = 2
 
 			}
 
 		}
-		add_core_of = AST
+		#add_core_of = AST
 
 	}
 
 	provinces={
 		2183 2189 5181 5187 10665 12645 
 	}
-	manpower =  224000
+	manpower=224000
 	buildings_max_level_factor=1.000
 	state_category=small_island
 }

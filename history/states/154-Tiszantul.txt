@@ -4,12 +4,12 @@ state={
 	name="STATE_154"
 
 	history={
-		owner = GRE add_core_of = GRE
+		owner = DEU add_core_of = DEU
 		1954.1.1 = {
 			#controller = SOV
 		}
 		1954.1.1 = {
-			owner = GER add_core_of = HUN
+			owner = DEU add_core_of = DEU
 			#controller = HUN
 		}
 		victory_points = {
@@ -23,13 +23,14 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			#industrial_complex = 0
+			#industrial_complex = 3
 			#arms_factory = 2
-			air_base = 1
+			air_base = 2
 
 		}
 		#add_core_of = HUN
-
+		add_core_of = RUS
+		add_core_of = RIT
 	}
 
 	provinces={

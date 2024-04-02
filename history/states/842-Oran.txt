@@ -7,8 +7,7 @@ state={
 	}
 
 	history={
-		owner = GRE add_core_of = GRE
-
+		owner = FRE add_core_of = FRE
 		victory_points = {
 			7132 5 
 		}
@@ -19,8 +18,10 @@ state={
 			13872 2 
 		}
 		buildings = {
-			infrastructure = 2
-			air_base = 1
+			infrastructure = 3 #infrastructure = 2
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 2
 			7132 = {
 				naval_base = 2
 
@@ -28,30 +29,14 @@ state={
 
 		}
 		#add_core_of = ALG
-		1954.6.22 = {
-			owner = 
-ETH
-
-
-		}
-		1954.11.22 = {
-			owner = 
-ETH
-
-
-		}
-		1972.1.1 = {
-			owner = 
-ALG
-
-		}
+		add_core_of = RIT
 
 	}
 
 	provinces={
 		3991 4116 4150 7008 7132 10045 11923 13872 13874 13875 13879 
 	}
-	manpower =  772486
+	manpower=772486
 	buildings_max_level_factor=1.000
 	state_category=town
 }

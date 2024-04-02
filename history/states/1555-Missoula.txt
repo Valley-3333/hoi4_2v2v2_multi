@@ -3,23 +3,22 @@ state={
 	name="STATE_1555"
 
 	history={
-		owner = 
-ENG
+		#owner = USA add_core_of = USA
 		victory_points = {
 			12676 1 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
-		add_core_of = ENG
+		#add_core_of = USA
 
 	}
 
 	provinces={
 		4838 12676 
 	}
-	manpower =  75516
+	manpower=75516
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

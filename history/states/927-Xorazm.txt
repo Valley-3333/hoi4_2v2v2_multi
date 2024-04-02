@@ -3,19 +3,18 @@ state={
 	name="STATE_927"
 	
 	history={
-		owner = TUR add_core_of = TUR
+		#owner = RUS add_core_of = RUS
 		victory_points = {
 			1576 1
 		}
 		buildings = {
-			infrastructure = 0
+			infrastructure = 3 #infrastructure = 0
 
 		}
-		#add_core_of = SOV
+		#add_core_of = RUS
 		#add_core_of = UZB
 		2000.1.1 = {
-			owner = 
-UZB
+			owner = UZB
 			#remove_core_of = SOV
 			
 		}
@@ -24,7 +23,7 @@ UZB
 	provinces={
 		1576 
 	}
-	manpower = 1
+	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

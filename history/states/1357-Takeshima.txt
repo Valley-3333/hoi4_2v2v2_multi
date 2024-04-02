@@ -3,26 +3,23 @@ state={
 	name="STATE_1357"
 
 	history={
-		
+		owner = TIN
 		buildings = {
-			infrastructure = 1
+			infrastructure = 1 #infrastructure = 1
+			victory_points = {
+				14373 1
+			}
 			14373 = {
-				naval_base = 1
+				naval_base = 0
 
 			}
 
 		}
+		#add_core_of = JAP
 		#add_core_of = KOR
-		#add_core_of = KOR
-		#add_core_of = LUX
+		add_core_of = TIN
 		1954.1.1 = {
-			owner = 
-ENG
-
-		}
-		1950.1.1 = {
-			owner = 
-KOR
+			#owner = USA add_core_of = USA
 
 		}
 
@@ -31,7 +28,7 @@ KOR
 	provinces={
 		14373 
 	}
-	manpower =  50
+	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=tiny_island
 }

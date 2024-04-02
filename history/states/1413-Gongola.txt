@@ -4,9 +4,7 @@ state={
 	name="STATE_1413"
 
 	history={
-		owner = 
-ETH
-
+		#owner = LUX
 		victory_points = {
 			10820 2 
 		}
@@ -14,13 +12,12 @@ ETH
 			14557 1 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
 		#add_core_of = NGA
 		1972.1.1 = {
-			owner = 
-NGA
+			owner = NGA
 
 		}
 
@@ -29,7 +26,7 @@ NGA
 	provinces={
 		1992 4889 8021 10820 14556 14557 14560 14563 
 	}
-	manpower =  3178950
+	manpower=3178950
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

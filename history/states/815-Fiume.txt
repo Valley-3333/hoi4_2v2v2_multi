@@ -4,42 +4,31 @@ state={
 	name="STATE_815"
 
 	history={
+		owner = RIT add_core_of = RIT
 		victory_points = {
 			11564 2
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3 #infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
 			11564 = {
-				bunker = 1
+				#bunker = 1
 
 			}
 
 		}
-		#add_core_of = ITA
-		owner = GRE add_core_of = GRE
+		#add_core_of = RIT
+		#add_core_of = YUG
 		#add_core_of = CRO
 		#add_claim_by = HUN
-		1954.6.20 = {
-			owner = GER add_core_of = GER
-
-		}
-		1954.1.1 = {
-			owner = GER add_core_of = ITA
-			set_province_name = { id = 11564 name = "Rijeka" }
-			#remove_claim_by = HUN
-			
-		}
-		2000.1.1 = {
-			owner = 
-CRO
-			
-		}		
+		add_core_of = DEU
 	}
 
 	provinces={
 		11564
 	}
-	manpower = 61810
+	manpower=61810
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

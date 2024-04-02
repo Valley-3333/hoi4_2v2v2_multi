@@ -1,18 +1,16 @@
 state={
 	id=713
 	name="STATE_713"
-	manpower =  96
+	manpower=96
 	state_category = tiny_island
 
 	history={
-		owner = 
-ETH
-
+		#owner = LUX
 		victory_points = {
 			2165 1
 		}
 		buildings = {
-			infrastructure = 0
+			infrastructure = 3 #infrastructure = 0
 			2165 = {
 				naval_base = 1
 			}

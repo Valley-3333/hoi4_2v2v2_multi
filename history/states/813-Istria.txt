@@ -4,45 +4,30 @@ state={
 	name="STATE_813"
 
 	history={
+		owner = RIT add_core_of = RIT
 		victory_points = {
 			11735 1 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 2
 			11735 = {
 				naval_base = 5
 
 			}
 
 		}
-		#add_core_of = ITA
-		owner = GRE add_core_of = GRE
-		#add_core_of = CRO
-		1954.6.20 = {
-			owner = GER add_core_of = GER
-
-		}
-		1954.1.1 = {
-			owner = GER add_core_of = ITA
-			set_province_name = {
-				id = 11735
-				name = Pula
-
-			}
-
-		}
-		2000.1.1 = {
-			owner = 
-CRO
-
-		}
+		#add_core_of = RIT
+		#add_core_of = YUG
+		add_core_of = DEU
 
 	}
 
 	provinces={
 		11735 14576 
 	}
-	manpower = 51000
+	manpower=51000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

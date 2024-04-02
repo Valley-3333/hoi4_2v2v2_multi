@@ -4,9 +4,7 @@ state={
 	name="STATE_788"
 
 	history={
-		owner = 
-ETH
-
+		#owner = LUX
 		victory_points = {
 			12707 3 
 		}
@@ -17,25 +15,20 @@ ETH
 			13758 1 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
 		#add_core_of = NGR
 		1954.6.22 = {
-			owner = 
-ETH
-
+			#owner = LUX
 
 		}
 		1954.11.22 = {
-			owner = 
-ETH
-
+			#owner = LUX
 
 		}
 		1972.1.1 = {
-			owner = 
-NGR
+			owner = NGR
 
 		}
 
@@ -44,7 +37,7 @@ NGR
 	provinces={
 		1975 2056 12707 13753 13755 13756 13758 13761 
 	}
-	manpower =  1908529
+	manpower=1908529
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

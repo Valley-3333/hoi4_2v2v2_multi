@@ -4,23 +4,22 @@ state={
 	name="STATE_1556"
 
 	history={
-		owner = 
-ENG
+		#owner = USA add_core_of = USA
 		victory_points = {
 			1719 3 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3 #infrastructure = 2
 
 		}
-		add_core_of = ENG
+		#add_core_of = USA
 
 	}
 
 	provinces={
 		1719 1734 6767 6827 7896 12550 12588 13241 13242 13243 
 	}
-	manpower =  308096
+	manpower=308096
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

@@ -4,7 +4,7 @@ state={
 	name="STATE_80"
 
 	history={
-		owner = SOV add_core_of = SOV
+		owner = RUS add_core_of = RUS
 		victory_points = {
 			9548 2 
 		}
@@ -15,42 +15,15 @@ state={
 		}
 		#add_core_of = ROM
 		#add_core_of = UKR
-		1954.6.22 = {
-			owner = SOV add_core_of = SOV
-			#add_core_of = SOV
-			set_state_name = Chernivtsi
-			set_province_name = {
-				id = 9548
-				name = Chernivtsi
-
-			}
-
-		}
-		1954.11.22 = {
-			#controller = ROM
-
-		}
-		1954.6.20 = {
-			#controller = SOV
-
-		}
-		1954.1.1 = {
-			#remove_core_of = ROM
-
-		}
-		2000.1.1 = {
-			owner = 
-UKR
-			#remove_core_of = SOV
-
-		}
-
+		add_core_of = DEU
+		add_core_of = OTT
+		add_core_of = RIT
 	}
 
 	provinces={
 		577 9548 15066 
 	}
-	manpower = 474600
+	manpower=474600
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

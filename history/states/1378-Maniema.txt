@@ -3,20 +3,17 @@ state={
 	name="STATE_1378"
 
 	history={
-		owner = 
-ETH
-
+		#owner = LUX
 		victory_points = {
 			10858 2
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
 		#add_core_of = COG
 		1972.1.1 = {
-			owner = 
-COG
+			owner = COG
 
 		}
 
@@ -25,7 +22,7 @@ COG
 	provinces={
 		10766 10858 14450 14457 14464 
 	}
-	manpower =  2049300
+	manpower=2049300
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

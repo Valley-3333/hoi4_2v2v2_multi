@@ -4,14 +4,12 @@ state={
 	name="STATE_297"
 
 	history={
-		owner = 
-ETH
-
+		#owner = LUX
 		victory_points = {
 			1903 2
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 			1903 = {
 				naval_base = 1
 
@@ -20,13 +18,11 @@ ETH
 		}
 		#add_core_of = EQG
 		1954.9.1 = {
-			owner = 
-SPA
+			owner = SPA
 
 		}
 		1972.1.1 = {
-			owner = 
-EQG
+			owner = EQG
 			set_state_name = Bioko
 
 		}
@@ -44,7 +40,7 @@ EQG
 	provinces={
 		1903 
 	}
-	manpower =  185000
+	manpower=185000
 	buildings_max_level_factor=1.000
 	state_category=small_island
 }

@@ -4,33 +4,26 @@ state={
 	name="STATE_1104"
 
 	history={
-		owner = 
-ETH
-
+		#owner = LUX
 		victory_points = {
 			12834 2 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
 		#add_core_of = SEN
 		#add_core_of = CSM
 		1954.6.22 = {
-			owner = 
-ETH
-
+			#owner = LUX
 
 		}
 		1954.11.22 = {
-			owner = 
-ETH
-
+			#owner = LUX
 
 		}
 		1972.1.1 = {
-			owner = 
-SEN
+			owner = SEN
 
 		}
 
@@ -39,7 +32,7 @@ SEN
 	provinces={
 		12834 13627 15118 
 	}
-	manpower =  205294
+	manpower=205294
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

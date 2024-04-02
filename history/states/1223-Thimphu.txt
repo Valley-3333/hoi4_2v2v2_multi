@@ -3,12 +3,12 @@ state={
 	name="STATE_1223"
 
 	history={
-		owner = AST
+		#owner = RAJ
 		victory_points = {
 			8010 1
 		}
 		buildings = {
-			infrastructure = 0
+			infrastructure = 3 #infrastructure = 0
 
 		}
 		#add_core_of = BHU
@@ -18,7 +18,7 @@ state={
 	provinces={
 		8010 13975 13976 
 	}
-	manpower =  138736
+	manpower=138736
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

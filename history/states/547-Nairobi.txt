@@ -4,9 +4,7 @@ state={
 	name="STATE_547"
 
 	history={
-		owner = 
-ETH
-
+		#owner = LUX
 		victory_points = {
 			1939 5
 		}
@@ -17,14 +15,13 @@ ETH
 			5079 1
 		}
 		buildings = {
-			infrastructure = 1
-			#industrial_complex = 0
+			infrastructure = 3 #infrastructure = 1
+			#industrial_complex = 1
 
 		}
 		#add_core_of = KEN
 		1972.1.1 = {
-			owner = 
-KEN
+			owner = KEN
 
 		}
 
@@ -33,7 +30,7 @@ KEN
 	provinces={
 		1939 2066 5079 6020 13135 14036 14039 
 	}
-	manpower =  3392000
+	manpower=3392000
 	buildings_max_level_factor=1.000
 	state_category=town
 }

@@ -1,0 +1,599 @@
+capital = 49
+army_experience = -100
+oob = "TUR_1939"
+add_political_power = 1052
+
+add_offsite_building = { type = arms_factory level = 20 }
+add_ideas = {
+	ENG_the_war_to_end_all_wars
+	generic_silent_workhorse
+	war_economy
+}
+
+create_faction = "パクス・オトマニカ"
+add_to_faction = OTT
+
+set_research_slots = 6
+set_convoys = 500
+set_stability = 1
+set_war_support = 1
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1935.2.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 0
+	neutrality = 100
+}
+
+
+
+	
+complete_national_focus = political_effort
+complete_national_focus = army_effort
+complete_national_focus = equipment_effort
+complete_national_focus = aviation_effort
+complete_national_focus = industrial_effort
+complete_national_focus = construction_effort
+complete_national_focus = construction_effort_2
+complete_national_focus = infrastructure_effort
+complete_national_focus = doctrine_effort
+complete_national_focus = doctrine_effort_2
+
+
+	add_tech_bonus = {
+		bonus = 1.0
+		uses = 1
+		technology = advanced_machine_tools
+	}
+	add_tech_bonus = {
+		name = armor_bonus
+		bonus = 1
+		ahead_reduction = 1
+		uses = 1
+		technology = improved_medium_tank_chassis
+	}
+	add_tech_bonus = {
+		bonus = 1
+		ahead_reduction = 2
+		uses = 1
+		technology = super_heavy_tank_chassis
+	}
+# Starting tech
+set_technology = {
+	#infantry
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	support_weapons = 1
+	support_weapons2 = 1
+
+	#motorised
+	motorised_infantry = 1
+	mechanised_infantry = 1
+	amphibious_mechanized_infantry = 1
+	
+	#artillery
+	gw_artillery = 1
+	artillery1 = 1
+	interwar_antiair = 1
+	interwar_antitank = 1
+	interwar_artillery = 1
+	interwar_antitank = 1
+
+	#special_forces
+	tech_special_forces = 1
+	marines = 1
+	paratroopers = 1
+
+	#electronics
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	decimetric_radar = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_encryption = 1
+	basic_decryption = 1
+	
+	#industry
+	basic_machine_tools = 1
+	improved_machine_tools = 1
+	synth_oil_experiments = 1
+	construction1 = 1
+	construction2 = 1
+	synth_oil_experiments = 1
+	fuel_refining = 1
+	fuel_silos = 1
+		
+	#support
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	tech_military_police = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_signal_company = 1
+	tech_maintenance_company = 1
+	
+	#train
+		basic_train = 1
+    railway_gun = 1
+
+	wartime_train = 1
+	armored_train = 1
+
+	
+	
+	#tank
+	gwtank_chassis = 1 #has_dlc = "No Step Back"
+	basic_light_tank_chassis = 1 #has_dlc = "No Step Back"
+	improved_light_tank_chassis = 1 #has_dlc = "No Step Back"
+	basic_heavy_tank_chassis = 1 #has_dlc = "No Step Back"
+	engine_tech_1 = 1 #has_dlc = "No Step Back"
+	basic_medium_tank_chassis = 1 #has_dlc = "No Step Back"
+	amphibious_tank_chassis = 1 #has_dlc = "No Step Back"
+	improved_heavy_tank_chassis = 1 #has_dlc = "No Step Back"
+	armor_tech_1 = 1 #has_dlc = "No Step Back"
+	armor_tech_2 = 2 #has_mod = "innovative balance"
+	engine_tech_2 = 1 #has_dlc = "No Step Back"
+	suspension_tech_1 = 1 #has_mod = "innovative balance"
+	suspension_tech_2 = 1 #has_mod = "innovative balance"
+	tankammo_tech_1 = 1 #has_mod = "innovative balance"
+	tankammo_tech_2 = 1 #has_mod = "innovative balance"
+	tankradio = 1 #has_mod = "innovative balance"
+	tankradio_2 = 1 #has_mod = "innovative balance"
+
+	#armored_car
+	armored_car1 = 1 #has_dlc = "La Resistance"
+
+	#navy
+	early_ship_hull_light = 1 #has_dlc = "Man the Guns"
+	basic_ship_hull_light = 1 #has_dlc = "Man the Guns"
+	early_ship_hull_cruiser = 1 #has_dlc = "Man the Guns"
+	basic_ship_hull_cruiser = 1 #has_dlc = "Man the Guns"
+	early_ship_hull_heavy = 1 #has_dlc = "Man the Guns"
+	basic_ship_hull_heavy = 1 #has_dlc = "Man the Guns"
+	early_ship_hull_carrier = 1 #has_dlc = "Man the Guns"
+	basic_ship_hull_carrier = 1 #has_dlc = "Man the Guns"
+	early_ship_hull_submarine = 1 #has_dlc = "Man the Guns"
+	basic_ship_hull_submarine = 1 #has_dlc = "Man the Guns"
+	basic_depth_charges = 1 #has_dlc = "Man the Guns"
+	improved_depth_charges = 1 #has_dlc = "Man the Guns"
+	sonar = 1 #has_dlc = "Man the Guns"
+	improved_sonar = 1 #has_dlc = "Man the Guns"
+	improved_airplane_launcher = 1 #has_dlc = "Man the Guns"
+	basic_cruiser_armor_scheme = 1 #has_dlc = "Man the Guns"
+	basic_torpedo = 1 #has_dlc = "Man the Guns"
+	magnetic_detonator = 1 #has_dlc = "Man the Guns"
+	improved_ship_torpedo_launcher = 1 #has_dlc = "Man the Guns"
+	basic_battery = 1 #has_dlc = "Man the Guns"
+	light_battery_4in_x1 = 1 #has_mod = "innovative balance"
+	light_battery_4in_x2 = 1 #has_mod = "innovative balance"
+	dp_light_battery_4in_x1 = 1 #has_mod = "innovative balance"
+	basic_medium_shell = 1 #has_dlc = "Man the Guns"
+	light_battery_5in_x1 = 1 #has_mod = "innovative balance"
+	basic_heavy_shell = 1 #has_dlc = "Man the Guns"
+	light_battery_5in_x2 = 1 #has_mod = "innovative balance"
+	medium_battery_5Hin_x1 = 1 #has_mod = "innovative balance"
+	medium_battery_5Hin_x2 = 1 #has_mod = "innovative balance"
+	damage_control_1 = 1 #has_dlc = "Man the Guns"
+	damage_control_2 = 1 #has_dlc = "Man the Guns"
+	fire_control_methods_1 = 1 #has_dlc = "Man the Guns"
+	fire_control_methods_2 = 1 #has_dlc = "Man the Guns"
+	medium_battery_6in_x1 = 1 #has_mod = "innovative balance"
+	medium_battery_8in_x2 = 1 #has_mod = "innovative balance"
+	heavy_battery_14in_x2 = 1 #has_mod = "innovative balance"
+	heavy_battery_14in_x3 = 1 #has_mod = "innovative balance"
+	heavy_battery_15in_x2 = 1 #has_mod = "innovative balance"
+	heavy_battery_16in_x2 = 1 #has_mod = "innovative balance"
+	triple_gun_battery = 1 #has_mod = "innovative balance"
+	twin_gun_battery = 1 #has_mod = "innovative balance"
+	ib_shell_tech2 = 1 #has_mod = "innovative balance"
+	smoke_generator = 1 #has_dlc = "Man the Guns"
+	basic_fire_control_system = 1 #has_dlc = "Man the Guns"
+	improved_fire_control_system = 1 #has_dlc = "Man the Guns"
+	mtg_transport = 1 #has_dlc = "Man the Guns"
+
+	#air
+	iw_small_airframe = 1 #has_dlc = "By Blood Alone"
+	basic_small_airframe = 1 #has_dlc = "By Blood Alone"
+	iw_medium_airframe = 1 #has_dlc = "By Blood Alone"
+	basic_medium_airframe = 1 #has_dlc = "By Blood Alone"
+	iw_large_airframe = 1 #has_dlc = "By Blood Alone"
+	basic_large_airframe = 1 #has_dlc = "By Blood Alone"
+	early_bombs = 1 #has_dlc = "By Blood Alone"
+	photo_reconnaisance = 1 #has_dlc = "By Blood Alone"
+	aa_lmg = 1 #has_dlc = "By Blood Alone"
+	survivability_studies = 1 #has_dlc = "By Blood Alone"
+	aa_hmg = 1 #has_dlc = "By Blood Alone"
+	engines_1 = 1 #has_dlc = "By Blood Alone"
+	engines_2 = 1 #has_dlc = "By Blood Alone"
+	range_improvements = 1 #has_dlc = "By Blood Alone"
+	aircraft_construction = 1 #has_dlc = "By Blood Alone"
+}
+
+#リーダー
+recruit_character = TUR_mustafa_kemal_ataturk
+recruit_character = TUR_sefik_husnu
+recruit_character = TUR_durrushehvar_i
+
+create_corps_commander = {
+	name = "EUROPE_General_voitek"
+	portrait_path = GFX_portrait_POL_king_woytek
+	
+		traits={ bearer_of_artillery }
+		skill=3
+		attack_skill=3
+		defense_skill=3
+		planning_skill=3
+		logistics_skill=3
+	
+}
+
+create_corps_commander = {
+	name=EUROPE_General_canada_death_bringer # 顔面凶器
+	portrait_path = GFX_CAN_adrien_arcand
+	
+		traits = { cavalry_officer cavalry_leader cavalry_expert }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	
+}
+create_corps_commander = {
+	name = EUROPE_General_dodo # ドードー鳥
+	portrait_path = GFX_portrait_AST_rod_hull
+	
+		traits = { desert_fox }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	
+}
+create_corps_commander = {
+	name = EUROPE_General_Boris # ボリスツルピカヨーグルト3世
+	portrait_path = GFX_portrait_BUL_boris_iii
+	
+		traits = { urban_assault_specialist }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	
+}
+create_corps_commander = {
+	name = EUROPE_General_Mao # 毛同志
+	portrait_path = "gfx/leaders/CHI/Portrait_China_Mao_Zedong.dds"
+	
+		traits = { 	organizer commando}
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	
+}
+create_corps_commander = {
+	name = EUROPE_General_Perfect_human # 中田敦彦
+	portrait_path = "GFX_portrait_JAP_naruhiko_higashikuni"
+	
+	traits = { infantry_officer armor_officer }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	
+}
+
+create_corps_commander = {
+	name = EUROPE_General_Turube # 鶴瓶
+	portrait_path = "GFX_portrait_JAP_akira_muto"
+	
+		traits = { trait_reckless trait_cautious }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	
+}
+create_corps_commander = {
+	name = EUROPE_General_Trotsky # トロツキー
+	portrait_path = "GFX_portrait_MEX_leon_trotsky"
+	
+		traits = { trait_SOV_determined }
+		skill = 3
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 3
+	
+}
+create_corps_commander = {
+	name = EUROPE_General_Franco # フランコ
+	portrait_path = "GFX_portrait_spain_francisco_franco"
+	
+		traits = { naval_invader invader_ii}
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	
+}
+create_corps_commander = {
+	name = EUROPE_General_Tito # チート
+	portrait_path = "GFX_portrait_YUG_josip_broz_tito"
+	
+		traits = { commando camouflage_expert }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	
+}
+
+create_corps_commander = {
+
+	name = "Cemil Cahit Toydemir"
+
+	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+
+	traits = { desert_fox }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+
+
+}
+
+
+create_corps_commander = {
+
+	name = "Nazmi Solok"
+
+	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
+
+	traits = { trickster }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+
+
+}
+
+
+create_corps_commander = {
+
+	name = "Salih Omurtak"
+	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
+
+	traits = {  hill_fighter }
+
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+
+}
+
+create_field_marshal = {
+
+	name = "Rauf Orbay"
+	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
+
+	traits = {  }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+
+}
+create_corps_commander = {
+	name = "Hasan Arfa"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	traits = { panzer_leader }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_field_marshal = {
+	name = "Petre Dumitrescu"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	traits = { offensive_doctrine logistics_wizard }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Ioan Mihail Racovita"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	traits = { hill_fighter }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+
+create_field_marshal = {
+
+	name = "Georgi Nikolov Popov"
+
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+
+	traits = { defensive_doctrine }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 4
+
+}
+
+
+
+create_corps_commander = {
+
+	name = "Markos Drakos"
+
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+
+	traits = { hill_fighter }
+
+	skill = 5
+	attack_skill = 5
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+
+}
+
+
+create_corps_commander = {
+
+	name = "Vasil Tenev Boydev"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+
+	traits = { panzer_leader }
+
+	skill = 4
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 4
+
+}
+
+
+create_navy_leader = {
+	name = "Thomas Cassin Kinkaid"
+	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
+	traits = { superior_tactician }
+	skill = 4
+}
+
+create_navy_leader = {
+	name = "Turk Deniz Kuvvetleri"
+	picture ="Portrait_Japan_Jisaburo_Ozawa.dds"
+	traits = { air_controller }
+	skill = 3
+}
+
+
+create_field_marshal = {
+
+	name = "Mustafa Kemal Ataturk"
+
+		picture = "1.dds"
+
+	traits = { thorough_planner  fast_planner  }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+
+}
+
+
+
+create_corps_commander = {
+
+	name = "Mehmet Kazm Orbay"
+
+		picture = "2.dds"
+
+	traits = { hill_fighter }
+
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+
+}
+
+
+
+create_field_marshal = {
+
+	name = "smail Cevat Cobanl"
+
+		picture = "3.dds"
+
+	traits = { desert_fox }
+
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+
+
+
+
+create_navy_leader = {
+	name = "Wilhelm Souchon"
+		picture = "Portrait_Soviet_Sergey_Gorshkov.dds"
+	traits = { battleship_adherent superior_tactician spotter }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 3
+}
+
+create_navy_leader = {
+	name = "Herbert Fitzherbert"
+	gfx = "GFX_RAJ_herbert_fitzherbert"
+	traits = { gentlemanly superior_tactician }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 2
+}
+	
+
+create_navy_leader = {
+	name = "Guy Hallifax"
+	gfx = "GFX_SAF_guy_halifax"
+	traits = { bold navy_career_officer superior_tactician spotter }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	maneuvering_skill = 3
+	coordination_skill = 1
+}
+
+### Ship Variants ###
+

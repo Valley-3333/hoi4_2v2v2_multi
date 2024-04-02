@@ -5,7 +5,6 @@ state={
 
 	history={
 		#owner = BRA
-
 		victory_points = {
 			14763 3
 		}
@@ -16,7 +15,7 @@ state={
 			8191 1
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
 		#add_core_of = PRU
@@ -26,7 +25,7 @@ state={
 	provinces={
 		5166 8191 12953 14760 14763 14764 14766 14769 
 	}
-	manpower = 1
+	manpower=1205527
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

@@ -3,15 +3,15 @@ state={
 	name="STATE_1144"
 	
 	history={
-		owner = SOV add_core_of = SOV
+		owner = RUS add_core_of = RUS
 		victory_points = {
 			13676 2
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
-		#add_core_of = SOV
+		#add_core_of = RUS
 		#add_core_of = UKR
 		#add_core_of = MOL
 		1954.11.22 = {
@@ -23,9 +23,7 @@ state={
 
 		}
 		2000.1.1 = {
-			owner = 
-ETH
-
+			#owner = LUX
 			#remove_core_of = SOV
 
 		}
@@ -34,7 +32,7 @@ ETH
 	provinces={
 		13676 13677 13678 
 	}
-	manpower = 469000
+	manpower=469000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

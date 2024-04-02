@@ -3,17 +3,14 @@ state={
 	name="STATE_1194"
 	
 	history={
-		owner = 
-ETH
-
+		#owner = LUX
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
 		#add_core_of = CHA
 		1972.1.1 = {
-			owner = 
-CHA
+			owner = CHA
 
 		}
 
@@ -22,7 +19,7 @@ CHA
 	provinces={
 		13745 
 	}
-	manpower =  30518
+	manpower=30518
 	buildings_max_level_factor=1.000
 	state_category=enclave
 }

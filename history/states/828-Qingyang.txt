@@ -4,7 +4,7 @@ state={
 	name="STATE_828"
 
 	history={
-		owner = CHI
+		#owner = CHI
 		victory_points = {
 			517 1 
 		}
@@ -12,15 +12,14 @@ state={
 			1647 1 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
 		#add_core_of = XSM
-		add_core_of = CHI
+		#add_core_of = CHI
 		#add_core_of = PRC
 		1950.1.1 = {
-			owner = 
-CHI
+			#owner = CHI
 			
 		}
 
@@ -29,7 +28,7 @@ CHI
 	provinces={
 		517 1647 3745 5025 
 	}
-	manpower =  600000
+	manpower=600000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

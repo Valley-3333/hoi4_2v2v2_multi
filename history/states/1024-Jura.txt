@@ -4,26 +4,26 @@ state={
 	name="STATE_1024"
 
 	history={
-		owner = ITA add_core_of = FRA
+		owner = FRE add_core_of = FRE
 		buildings = {
-			infrastructure = 2
-			#industrial_complex = 0
+			infrastructure = 3 #infrastructure = 2
+			#industrial_complex = 1
 
 		}
-		add_core_of = ITA
+		#add_core_of = FRE
 		1954.6.22 = {
-			owner = GER add_core_of = FRA
+			owner = FRE add_core_of = FRE
 			#controller = FRA
 			#add_core_of = FFL
 
 		}
 		1954.7.26 = {
-			owner = GER add_core_of = FRA
+			owner = FRE add_core_of = FRE
 			#controller = GER
 
 		}
 		1954.1.1 = {
-			owner = GER add_core_of = FRA
+			owner = FRE add_core_of = FRE
 			#controller = FRA
 
 		}

@@ -4,13 +4,14 @@ state={
 	name="STATE_198"
 
 	history={
-		owner = SOV add_core_of = SOV
+		owner = RUS add_core_of = RUS
 		buildings = {
-			infrastructure = 2
-			air_base = 2
-
+			infrastructure = 3 #infrastructure = 2
+			air_base = 3
+			arms_factory = 1
+			industrial_complex = 2
 		}
-		#add_core_of = SOV
+		#add_core_of = RUS
 		#add_core_of = UKR
 		1954.11.22 = {
 			#controller = GER
@@ -21,8 +22,7 @@ state={
 
 		}
 		2000.1.1 = {
-			owner = 
-UKR
+			owner = UKR
 			#controller = UKR
 			#remove_core_of = SOV
 
@@ -33,7 +33,7 @@ UKR
 	provinces={
 		6480 9481 9533 11464 11490 
 	}
-	manpower = 1893391
+	manpower=893391
 	buildings_max_level_factor=1.000
 	state_category=large_town
 }

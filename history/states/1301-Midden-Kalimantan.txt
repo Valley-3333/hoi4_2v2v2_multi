@@ -3,8 +3,7 @@ state={
 	name="STATE_1301"
 
 	history={
-		owner = 
-AST
+		#owner = AST
 		victory_points = {
 			7296 3
 		}
@@ -12,7 +11,7 @@ AST
 			2184 2
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
 		#add_core_of = INS
@@ -30,7 +29,7 @@ AST
 	provinces={
 		1225 1416 2184 5176 7227 7296 7424 8221 10138 10178 10266 10310 12110 12252 12280 12955 14251 
 	}
-	manpower =  2649803
+	manpower=2649803
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

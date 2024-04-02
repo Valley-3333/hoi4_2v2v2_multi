@@ -3,20 +3,12 @@ state={
 	id=46
 	name="STATE_46"
 	resources={
-		oil=200
+		oil=38.000
 	}
 
 	history={
-		owner = GRE add_core_of = GRE
-		1954.1.1 = {
-			#controller = SOV
-
-		}
-		1954.1.1 = {
-			owner = GER add_core_of = ROM
-			#controller = ROM
-
-		}
+		owner = OTT add_core_of = OTT
+		add_core_of = RIT
 		victory_points = {
 			9617 20 
 		}
@@ -31,13 +23,13 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			#arms_factory = 4
-			#industrial_complex = 0
-			air_base = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 3
 
 		}
 		#add_core_of = ROM
-
+		add_core_of = RUS
 	}
 
 	provinces={

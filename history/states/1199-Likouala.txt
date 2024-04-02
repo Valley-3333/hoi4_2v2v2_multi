@@ -3,20 +3,17 @@ state={
 	name="STATE_1199"
 	
 	history={
-		owner = 
-ETH
-
+		#owner = LUX
 		victory_points = {
 			13813 1
 		}
 		buildings = {
-			infrastructure = 0
+			infrastructure = 3 #infrastructure = 0
 
 		}
 		#add_core_of = RCG
 		1972.1.1 = {
-			owner = 
-RCG
+			owner = RCG
 
 		}
 
@@ -25,7 +22,7 @@ RCG
 	provinces={
 		6008 13813 
 	}
-	manpower =  120000
+	manpower=120000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

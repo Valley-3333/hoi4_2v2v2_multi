@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = GER add_core_of = HUN
+		owner = DEU add_core_of = DEU
 		victory_points = {
 			9414 2 
 		}
@@ -19,52 +19,12 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			#industrial_complex = 0
-			#anti_air_building = 1
+			arms_factory = 1
+			industrial_complex = 2
 
 		}
 		#add_core_of = CZE
-		1954.1.1 = {
-			buildings = {
-				424 = {
-					bunker = 1
-
-				}
-				469 = {
-					bunker = 1
-
-				}
-				3585 = {
-					bunker = 1
-
-				}
-				6470 = {
-					bunker = 1
-
-				}
-				9555 = {
-					bunker = 1
-
-				}
-				11432 = {
-					bunker = 1
-
-				}
-
-			}
-
-		}
-		1954.9.1 = {
-			owner = GER add_core_of = GER
-			#add_core_of = GER
-
-		}
-		1954.1.1 = {
-			owner = GER add_core_of = HUN
-			#remove_core_of = GER
-
-		}
-
+		add_core_of = RIT
 	}
 
 	provinces={

@@ -3,10 +3,9 @@ state={
 	name="STATE_1607"
 
 	history={
-		owner = 
-AST
+		#owner = AST
 		buildings = {
-			infrastructure = 0
+			infrastructure = 3 #infrastructure = 0
 			4352 = {
 				naval_base = 1
 
@@ -39,7 +38,7 @@ AST
 	provinces={
 		1361 4352 4421 7339 7412 
 	}
-	manpower =  194067
+	manpower=194067
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

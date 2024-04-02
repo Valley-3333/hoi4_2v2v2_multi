@@ -4,9 +4,7 @@ state={
 	name="STATE_551"
 
 	history={
-		owner = 
-ETH
-
+		#owner = LUX
 		victory_points = {
 			14177 2
 		}
@@ -14,15 +12,14 @@ ETH
 			12881 5
 		}
 		buildings = {
-			infrastructure = 1
-			#industrial_complex = 0
-			air_base = 1
+			infrastructure = 3 #infrastructure = 1
+			#industrial_complex = 1
+			air_base = 2
 
 		}
 		#add_core_of = SUD
 		1960.1.1 = {
-			owner = 
-SUD
+			owner = SUD
 
 		}
 
@@ -31,7 +28,7 @@ SUD
 	provinces={
 		12881 14176 14177 
 	}
-	manpower =  1993507
+	manpower=1993507
 	buildings_max_level_factor=1.000
 	state_category=town
 }

@@ -3,24 +3,23 @@ state={
 	name="STATE_1165"
 	
 	history={
-		owner = 
-AST
+		#owner = AST
 		buildings = {
-			infrastructure = 0
+			infrastructure = 3 #infrastructure = 0
 			13710 = {
 				naval_base = 1
 
 			}
 
 		}
-		add_core_of = AST
+		#add_core_of = AST
 
 	}
 	
 	provinces={
 		13710 
 	}
-	manpower =  347
+	manpower=347
 	buildings_max_level_factor=1.000
 	state_category=tiny_island
 }

@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = AST
+		#owner = RAJ
 		victory_points = {
 			2054 5 
 		}
@@ -24,18 +24,18 @@ state={
 			14960 2 
 		}
 		buildings = {
-			infrastructure = 1
-			#industrial_complex = 0
+			infrastructure = 3 #infrastructure = 1
+			#industrial_complex = 1
 
 		}
-		add_core_of = AST
+		#add_core_of = RAJ
 
 	}
 
 	provinces={
 		1908 2054 2092 4149 4915 4971 4984 7905 7998 10847 10866 12041 12718 12829 12844 12876 12886 14242 14957 14958 14959 14960 14978 
 	}
-	manpower =  11786000
+	manpower = 1
 	buildings_max_level_factor=1.000
 	state_category=town
 }

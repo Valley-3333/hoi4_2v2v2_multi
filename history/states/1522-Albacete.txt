@@ -3,21 +3,18 @@ state={
 	name="STATE_1522"
 
 	history={
-		owner = 
-ITA
-		add_core_of = ITA
-
+			owner = FRE add_core_of = FRE
 		victory_points = {
 			11884 2 
 		}
 		buildings = {
-			infrastructure = 2
-
+			infrastructure = 3 #infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
 		}
 		#add_core_of = SPR
 		1954.9.1 = {
-			owner = 
-SPA
+			owner = SPA
 			#add_core_of = SPA
 			#remove_core_of = SPR
 
@@ -28,7 +25,7 @@ SPA
 	provinces={
 		832 942 3835 9903 11807 11812 11884 
 	}
-	manpower =  402837
+	manpower=402837
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

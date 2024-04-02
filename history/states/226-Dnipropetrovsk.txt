@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = SOV add_core_of = SOV
+		owner = RUS add_core_of = RUS
 		victory_points = {
 			11437 10 
 		}
@@ -15,12 +15,13 @@ state={
 			11561 5
 		}
 		buildings = {
-			infrastructure = 2
-			#industrial_complex = 0
-			air_base = 1
+			infrastructure = 3 #infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 2
 
 		}
-		#add_core_of = SOV
+		#add_core_of = RUS
 		#add_core_of = UKR
 		1954.11.22 = {
 			#controller = GER
@@ -31,8 +32,7 @@ state={
 
 		}
 		2000.1.1 = {
-			owner = 
-UKR
+			owner = UKR
 			#controller = UKR
 			#remove_core_of = SOV
 
@@ -43,7 +43,7 @@ UKR
 	provinces={
 		6423 9419 9433 11422 11437 11561 
 	}
-	manpower = 2391047
+	manpower=1391047
 	buildings_max_level_factor=1.000
 	state_category=town
 }

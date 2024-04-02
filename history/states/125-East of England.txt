@@ -4,21 +4,20 @@ state={
 	name="STATE_125"
 
 	history={
-		owner = ENG
+		owner = GBR add_core_of = GBR
 		victory_points = {
-			322 3
+			322 5
 		}
 		victory_points = {
-			271 3
+			271 5
 		}
 		victory_points = {
-			221 2
+			221 3
 		}
 		buildings = {
 			infrastructure = 3
-			#arms_factory = 1
-			#industrial_complex = 3
-			anti_air_building = 2
+			arms_factory = 1
+			industrial_complex = 2
 			air_base = 5
 			#dockyard = 1
 			271 = {
@@ -31,8 +30,8 @@ state={
 			}
 
 		}
-		add_core_of = ENG
-
+		#add_core_of = GBR
+		add_core_of = FRE
 	}
 
 	provinces={

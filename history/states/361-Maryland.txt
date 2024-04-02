@@ -4,8 +4,7 @@ state={
 	name="STATE_361"
 
 	history={
-		owner = 
-ENG
+		#owner = USA add_core_of = USA
 		victory_points = {
 			6984 5 
 		}
@@ -17,7 +16,7 @@ ENG
 		}
 		buildings = {
 			infrastructure = 3
-			#industrial_complex = 0
+			#industrial_complex = 3
 			#dockyard = 1
 			air_base = 3
 			6984 = {
@@ -30,9 +29,9 @@ ENG
 			}
 
 		}
-		add_core_of = ENG
+		#add_core_of = USA
 		1954.1.1 = {
-			add_manpower =   51000
+			add_manpower = 51000
 			
 		}
 
@@ -41,7 +40,7 @@ ENG
 	provinces={
 		6823 6892 6929 6984 9758 11892 13209 
 	}
-	manpower =  1694000
+	manpower=1694000
 	buildings_max_level_factor=1.000
 	state_category=city
 }

@@ -4,9 +4,7 @@ state={
 	name="STATE_785"
 
 	history={
-		owner = 
-ETH
-
+		#owner = LUX
 		victory_points = {
 			1909 3 
 		}
@@ -17,7 +15,7 @@ ETH
 			12858 1
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3 #infrastructure = 2
 			1909 = {
 				naval_base = 1
 
@@ -26,20 +24,15 @@ ETH
 		}
 		#add_core_of = GNA
 		1954.6.22 = {
-			owner = 
-ETH
-
+			#owner = LUX
 
 		}
 		1954.11.22 = {
-			owner = 
-ETH
-
+			#owner = LUX
 
 		}
 		1960.1.1 = {
-			owner = 
-GNA
+			owner = GNA
 
 		}
 
@@ -48,7 +41,7 @@ GNA
 	provinces={
 		1909 12802 12858 13959 13960 
 	}
-	manpower =  2226708
+	manpower=2226708
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

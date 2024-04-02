@@ -4,19 +4,19 @@ state={
 	name="STATE_733"
 
 	history={
-		owner = AST
+		#owner = RAJ
 		victory_points = {
 			12251 1 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 			12251 = {
 				naval_base = 2
 
 			}
 
 		}
-		add_core_of = AST
+		#add_core_of = RAJ
 		1954.11.22 = {
 			#controller = JAP
 
@@ -31,7 +31,7 @@ state={
 	provinces={
 		10321 12251 
 	}
-	manpower =  29500
+	manpower=29500
 	buildings_max_level_factor=1.000
 	state_category=small_island
 }

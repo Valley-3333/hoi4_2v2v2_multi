@@ -7,15 +7,15 @@ state={
 	}
 
 	history={
-		owner = AST
+		#owner = RAJ
 		victory_points = {
 			1116 1
 		}
 		buildings = {
-			infrastructure = 0
+			infrastructure = 3 #infrastructure = 0
 
 		}
-		add_core_of = AST
+		#add_core_of = RAJ
 		#add_core_of = CHI
 		#add_core_of = PRC
 		#add_core_of = TIB
@@ -25,7 +25,7 @@ state={
 	provinces={
 		1116 1996 10810 12730 14329 
 	}
-	manpower =  200000
+	manpower=200000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

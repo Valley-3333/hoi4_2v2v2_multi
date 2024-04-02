@@ -1,0 +1,53 @@
+ideas = {
+	country = {
+		IB_aar_res = {
+			picture = generic_research_bonus
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = 0.1
+			}
+		}
+		IB_aar_manp = {
+			picture = generic_manpower_bonus
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				conscription_factor = 0.05
+			}
+		}
+
+		IB_aar_red_res = {
+			picture = great_depression
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = -0.1
+			}
+		}
+		IB_aar_red_manp = {
+			picture = great_depression
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				conscription_factor = -0.05
+			}
+		}
+	}
+}

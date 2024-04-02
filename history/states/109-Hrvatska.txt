@@ -7,6 +7,7 @@ state={
 	}
 
 	history={
+		owner = RIT add_core_of = RIT
 		victory_points = {
 			11581 10
 		}
@@ -18,25 +19,24 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			#industrial_complex = 0
+			arms_factory = 1
+			industrial_complex = 2
 
 		}
-		owner = GRE add_core_of = GRE
+		#add_core_of = YUG
 		#add_core_of = CRO
 		##add_claim_by = HUN
 		1954.6.22 = {
-			owner = 
-CRO
+			owner = CRO
 
 		}
 		1954.1.1 = {
-			owner = GER add_core_of = ITA
+			owner = RIT add_core_of = RIT
 			#remove_claim_by = HUN
 
 		}
 		2000.1.1 = {
-			owner = 
-CRO
+			owner = CRO
 			#remove_core_of = YUG
 
 		}
@@ -46,7 +46,7 @@ CRO
 	provinces={
 		591 624 3592 3596 3601 6611 9611 11581 11594 11901 
 	}
-	manpower = 1624400
+	manpower=1624400
 	buildings_max_level_factor=1.000
 	state_category=large_town
 }

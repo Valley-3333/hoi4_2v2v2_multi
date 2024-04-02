@@ -3,14 +3,12 @@ state={
 	name="STATE_936"
 	
 	history={
-		owner = 
-ENG
-
+		#owner = LUX
 		victory_points = {
 			13084 1
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 			13084 = {
 				naval_base = 1
 
@@ -23,7 +21,7 @@ ENG
 	provinces={
 		13084 
 	}
-	manpower =  2869
+	manpower=2869
 	buildings_max_level_factor=1.000
 	state_category=tiny_island
 }

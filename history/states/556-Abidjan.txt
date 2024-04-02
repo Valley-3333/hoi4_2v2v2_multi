@@ -7,9 +7,7 @@ state={
 	}
 
 	history={
-		owner = 
-ETH
-
+		#owner = LUX
 		victory_points = {
 			10803 5
 		}
@@ -17,7 +15,7 @@ ETH
 			13963 1
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3 #infrastructure = 2
 			10803 = {
 				naval_base = 3
 
@@ -26,20 +24,15 @@ ETH
 		}
 		#add_core_of = IVO
 		1954.6.22 = {
-			owner = 
-ETH
-
+			#owner = LUX
 
 		}
 		1954.11.22 = {
-			owner = 
-ETH
-
+			#owner = LUX
 
 		}
 		1972.1.1 = {
-			owner = 
-IVO
+			owner = IVO
 
 		}
 
@@ -48,7 +41,7 @@ IVO
 	provinces={
 		10803 13963 13964 13965 13968 
 	}
-	manpower =  3850700
+	manpower=3850700
 	buildings_max_level_factor=1.000
 	state_category=town
 }

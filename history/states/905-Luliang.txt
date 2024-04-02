@@ -2,16 +2,16 @@ state={
 	id=905
 	name="STATE_905"
 	history={
-		owner = CHI
+		#owner = CHI
 		victory_points = {
 			10367 2
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
 		#add_core_of = SHX
-		add_core_of = CHI
+		#add_core_of = CHI
 		#add_core_of = PRC
 		1954.9.1 = {
 			#controller = LUX
@@ -26,8 +26,7 @@ state={
 
 		}
 		1950.1.1 = {
-			owner = 
-CHI
+			#owner = CHI
 			#controller = PRC
 			#remove_core_of = SHX
 
@@ -37,7 +36,7 @@ CHI
 	provinces={
 		1034 1531 4074 10367 10507 12300 
 	}
-	manpower =  1400000
+	manpower=1400000
 	buildings_max_level_factor=1.000
 	state_category=town
 }

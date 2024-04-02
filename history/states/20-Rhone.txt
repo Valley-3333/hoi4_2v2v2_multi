@@ -8,46 +8,19 @@ state={
 	}
 
 	history={
-		owner = ITA add_core_of = FRA
+			owner = FRE add_core_of = FRE
 		victory_points = {
 			6786 2 
 		}
 		buildings = {
 			infrastructure = 3
 			#arms_factory = 1
-			#industrial_complex = 0
-			air_base = 2
+			#industrial_complex = 2
+			air_base = 4
 
 		}
-		add_core_of = ITA
-		1954.1.1 = {
-			buildings = {
-				#arms_factory = 2
-				#industrial_complex = 0
-
-			}
-
-		}
-		1954.6.22 = {
-			owner = GER add_core_of = FRA
-			#controller = FRA
-			#add_core_of = FFL
-
-		}
-		1954.7.26 = {
-			owner = GER add_core_of = FRA
-			#controller = GER
-
-		}
-		1954.1.1 = {
-			owner = GER add_core_of = FRA
-			#controller = FRA
-
-		}
-		1954.1.1 = {
-			#remove_core_of = FFL
-
-		}
+		#add_core_of = FRE
+		add_core_of = RIT
 
 	}
 

@@ -4,6 +4,7 @@ state={
 	name="STATE_45"
 
 	history={
+		owner = RIT add_core_of = RIT
 		victory_points = {
 		    3617 3
 		}
@@ -12,23 +13,12 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-
+			arms_factory = 1
+			industrial_complex = 2
 		}
-		owner = GRE add_core_of = GRE
+		#add_core_of = YUG
 		#add_core_of = SER
-		#add_claim_by = HUN
-		1954.6.22 = {
-			#controller = HUN
-
-		}
-		1954.1.1 = {
-			#controller = YUG
-
-		}
-		1954.1.1 = {
-			#remove_claim_by = HUN
-
-		}
+		add_core_of = OTT
 
 	}
 

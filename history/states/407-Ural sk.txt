@@ -4,19 +4,18 @@ state={
 	name="STATE_407"
 
 	history={
-		owner = TUR add_core_of = TUR
+		owner = RUS add_core_of = RUS
 		victory_points = {
 			566 3
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
-		#add_core_of = SOV
+		#add_core_of = RUS
 		#add_core_of = KAZ
 		2000.1.1 = {
-			owner = 
-KAZ
+			owner = KAZ
 			set_state_name = Oral
 			set_province_name = { id = 566 name = "Oral" }
 
@@ -27,7 +26,7 @@ KAZ
 	provinces={
 		468 470 545 566 3404 3406 3467 3515 3538 6491 6525 6551 6564 6588 9447 9487 9513 9538 9549 11472 11473 11482 11524 11537 11538 
 	}
-	manpower = 268572
+	manpower=268572
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

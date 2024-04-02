@@ -4,41 +4,23 @@ state={
 	name="STATE_1160"
 
 	history={
-		owner = GER add_core_of = GER
+		owner = DEU add_core_of = DEU
 		
 		buildings = {
 			infrastructure = 3
-			#industrial_complex = 0
+			arms_factory = 1
+			industrial_complex = 2
 
 		}
-		#add_core_of = GER
-		#add_core_of = RHI
-		1954.1.1 = {
-			
-
-		}
-		1954.1.1 = {
-			owner = 
-ETH
-
-			#controller = FRA
-
-		}
-		1950.1.1 = {
-			owner = 
-ETH
-
-			#add_core_of = LUX
-			#add_core_of = DDR
-			#remove_core_of = GER
-		}
+		#add_core_of = DEU
+		add_core_of = FRE
 
 	}
 
 	provinces={
 		529 14539 
 	}
-	manpower = 201597
+	manpower=201597
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

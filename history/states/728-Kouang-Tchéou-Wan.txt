@@ -4,19 +4,19 @@ state={
 	name="STATE_728"
 
 	history={
-		owner = CHI
+		#owner = CHI
 		victory_points = {
 			11981 2
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 			11981 = {
 				naval_base = 1
 
 			}
 
 		}
-		add_core_of = CHI
+		#add_core_of = CHI
 		#add_core_of = PRC
 		#add_core_of = GND
 		1954.9.1 = {
@@ -24,8 +24,7 @@ state={
 
 		}
 		1954.1.1 = {
-			owner = 
-CHI
+			#owner = CHI
 			set_state_name = Zhanjiang
 			set_province_name = {
 				id = 11981
@@ -35,8 +34,7 @@ CHI
 
 		}
 		1950.1.1 = {
-			owner = 
-CHI
+			#owner = CHI
 
 		}
 
@@ -45,7 +43,7 @@ CHI
 	provinces={
 		11981 
 	}
-	manpower =  200000
+	manpower=200000
 	buildings_max_level_factor=1.000
 	state_category=enclave
 }

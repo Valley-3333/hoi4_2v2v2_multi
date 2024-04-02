@@ -3,34 +3,17 @@ state={
 	name="STATE_1120"
 	
 	history={
-		owner = GER add_core_of = GER
+		owner = DEU add_core_of = DEU
 		victory_points = {
 			3485 1
 		}
 		buildings = {
-			infrastructure = 1
-
+			infrastructure = 3 #infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 2
 		}
-		#add_core_of = GER
-		##add_claim_by = CZE
-		1954.1.1 = {
-			owner = SOV add_core_of = SOV
-			#controller = POL
-			#add_core_of = SOV
-			#remove_core_of = GER
-			set_state_name = "Klodzko"
-			set_province_name = {
-				id = 3485
-				name = "Klodzko"
-
-			}
-
-		}
-		1960.1.1 = {
-			#remove_claim_by = CZE
-
-		}
-
+		#add_core_of = DEU
+		add_core_of = RIT
 	}
 	
 	provinces={

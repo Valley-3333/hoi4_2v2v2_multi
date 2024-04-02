@@ -4,7 +4,7 @@ state={
 	name="STATE_524"
 
 	history={
-		
+		#owner = JAP
 		victory_points = {
 			7186 10
 		}
@@ -18,7 +18,7 @@ state={
 			9955 1 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3 #infrastructure = 2
 			#arms_factory = 1
 			air_base = 3
 			12068 = {
@@ -34,8 +34,7 @@ state={
 		#add_core_of = CHI
 		#add_core_of = PRC
 		1954.1.1 = {
-			owner = 
-CHI
+			#owner = CHI
 
 		}
 
@@ -44,7 +43,7 @@ CHI
 	provinces={
 		1091 1175 4096 7186 7214 9955 11914 11959 12027 12068 
 	}
-	manpower =  4592537
+	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=large_town
 }

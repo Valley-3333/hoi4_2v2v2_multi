@@ -1,0 +1,67 @@
+characters={
+	FRA_edouard_daladier={
+		name=FRA_edouard_daladier
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/Portrait_France_Edouard_Daladier.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			traits={  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+	FRA_maurice_thorez={ #Communist Leader
+		name=FRA_maurice_thorez
+		portraits={
+			army={
+				small="GFX_idea_maurice_thorez"
+			}
+			civilian={
+				large="GFX_portrait_fra_maurice_thorez"
+			}
+		}
+		
+		
+		country_leader={
+			ideology=stalinism
+			traits={  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	FRA_philippe_petain={ #Fascist Leader
+		name=FRA_philippe_petain
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/Portrait_France_Philippe_Petain.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	#FRA_denis_guillaumat={ #Non-Aligned Leader
+	#	name=FRA_denis_guillaumat
+	#	portraits={
+	#		civilian={
+	#			large="gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	#		}
+	#	}
+	#	country_leader={
+	#		ideology=centrism
+	#		expire="1965.1.1.1"
+	#		id=-1
+	#	}
+	#}
+
+
+
+}

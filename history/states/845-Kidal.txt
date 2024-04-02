@@ -4,26 +4,19 @@ state={
 	name="STATE_845"
 
 	history={
-		owner = 
-ETH
-
+		#owner = LUX
 		#add_core_of = AZW
 		#add_core_of = MLI
 		1954.6.22 = {
-			owner = 
-ETH
-
+			#owner = LUX
 
 		}
 		1954.11.22 = {
-			owner = 
-ETH
-
+			#owner = LUX
 
 		}
 		1972.1.1 = {
-			owner = 
-MLI
+			owner = MLI
 
 		}
 	}
@@ -31,7 +24,7 @@ MLI
 	provinces={
 		1115 
 	}
-	manpower =  26000
+	manpower=26000
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 	impassable=yes

@@ -4,13 +4,12 @@ state={
 	name="STATE_1454"
 
 	history={
-		owner = 
-AST
+		#owner = PHI
 		victory_points = {
 			10302 2 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
 		#add_core_of = PHI
@@ -28,7 +27,7 @@ AST
 	provinces={
 		1368 7423 10302 
 	}
-	manpower =  1936423
+	manpower=1936423
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = ITA add_core_of = FRA
+			owner = FRE add_core_of = FRE
 		victory_points = {
 			9898 3 
 		}
@@ -17,37 +17,18 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			air_base = 1
+			air_base = 2
 
 		}
-		add_core_of = ITA
-		1954.6.22 = {
-			owner = GER add_core_of = FRA
-			#controller = FRA
-			#add_core_of = FFL
-
-		}
-		1954.7.26 = {
-			owner = GER add_core_of = FRA
-			#controller = GER
-
-		}
-		1954.1.1 = {
-			owner = GER add_core_of = FRA
-			#controller = FRA
-
-		}
-		1954.1.1 = {
-			#remove_core_of = FFL
-
-		}
+		#add_core_of = FRE
+		add_core_of = RIT
 
 	}
 
 	provinces={
 		752 760 3751 6770 6960 6962 9723 9898 11709 11711 11877 
 	}
-	manpower=1691200
+	manpower=1891200
 	buildings_max_level_factor=1.000
 	state_category=town
 }

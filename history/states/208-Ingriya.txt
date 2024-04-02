@@ -4,7 +4,7 @@ state={
 	name="STATE_208"
 
 	history={
-		owner = SOV add_core_of = SOV
+		owner = RUS add_core_of = RUS
 		victory_points = {
 			6174 1
 		}
@@ -15,33 +15,17 @@ state={
 			3120 1
 		}
 		buildings = {
-			infrastructure = 2
-			air_base = 2
+			infrastructure = 3 #infrastructure = 2
+			air_base = 3
 			9097 = {
-				bunker = 5
-				coastal_bunker = 5
+				#bunker = 5
+				#coastal_bunker = 5
 
 			}
 
 		}
-		#add_core_of = SOV
-		1954.11.22 = {
-			#controller = GER
-			SOV = {
-				#set_province_controller = 9097
-
-			}
-
-		}
-		1954.6.20 = {
-			#controller = SOV
-			set_province_name = {
-				id = 6174
-				name = Gatchina
-				
-			}
-
-		}
+		#add_core_of = RUS
+		add_core_of = SCA
 
 	}
 

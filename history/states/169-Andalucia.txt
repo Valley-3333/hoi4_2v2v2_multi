@@ -4,10 +4,7 @@ state={
 	name="STATE_169"
 
 	history={
-		owner = 
-ITA
-		add_core_of = ITA
-
+			owner = FRE add_core_of = FRE
 		victory_points = {
 			7183 10
 		}
@@ -25,9 +22,9 @@ ITA
 		}
 		buildings = {
 			infrastructure = 3
-			#industrial_complex = 0
+			#industrial_complex = 1
 			#arms_factory = 1
-			air_base = 2
+			air_base = 3
 			4195 = {
 				naval_base = 5
 
@@ -40,8 +37,7 @@ ITA
 		}
 		#add_core_of = SPR
 		1954.9.1 = {
-			owner = 
-SPA
+			owner = SPA
 			#add_core_of = SPA
 			#remove_core_of = SPR
 
@@ -52,7 +48,7 @@ SPA
 	provinces={
 		875 879 950 1048 1090 1178 1192 3810 3871 3940 4080 4095 4182 4195 6744 7098 7183 7198 9815 9891 10094 10111 11749 12070 12083 
 	}
-	manpower =  3175163
+	manpower=3175163
 	buildings_max_level_factor=1.000
 	state_category=city
 }

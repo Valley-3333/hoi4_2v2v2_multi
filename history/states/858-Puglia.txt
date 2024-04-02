@@ -4,7 +4,7 @@ state={
 	name="STATE_858"
 
 	history={
-		owner = ITA add_core_of = ITA
+		owner = RIT add_core_of = RIT
 		victory_points = {
 			11837 15 
 		}
@@ -21,9 +21,10 @@ state={
 			11998 1
 		}
 		buildings = {
-			infrastructure = 2
-			#dockyard = 3
-			air_base = 3
+			infrastructure = 3 #infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 2
 			11837 = {
 				naval_base = 10
 
@@ -34,7 +35,7 @@ state={
 			}
 
 		}
-		#add_core_of = ITA
+		#add_core_of = RIT
 		1954.1.1 = {
 			buildings = {
 				#dockyard = 4

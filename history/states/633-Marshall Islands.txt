@@ -4,14 +4,13 @@ state={
 	name="STATE_633"
 
 	history={
-		owner = 
-AST
+		#owner = JAP
 		victory_points = {
 			13042 1
 		}
 		buildings = {
-			infrastructure = 1
-			air_base = 1
+			infrastructure = 3 #infrastructure = 1
+			air_base = 2
 			13040 = {
 				naval_base = 1
 
@@ -44,14 +43,11 @@ AST
 		}
 		#add_core_of = LUX
 		1954.1.1 = {
-			owner = 
-ENG
+			#owner = USA add_core_of = USA
 
 		}
 		1991.1.1 = {
-			owner = 
-ETH
-
+			#owner = LUX
 
 		}
 
@@ -60,7 +56,7 @@ ETH
 	provinces={
 		1002 13039 13040 13041 13042 13043 13044 13045 13046 
 	}
-	manpower =  52517
+	manpower=52517
 	buildings_max_level_factor=1.000
 	state_category=small_island
 }

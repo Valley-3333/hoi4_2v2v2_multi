@@ -4,30 +4,17 @@ state={
 	name="STATE_802"
 
 	history={
-		owner = GER add_core_of = GER
+		owner = GBR add_core_of = GBR
 		victory_points = {
 			3488 2 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3 #infrastructure = 2
 
 		}
 		#add_core_of = BEL
-		#add_core_of = WLN
-		1954.9.1 = {
-			#add_claim_by = GER
-
-		}
-		1954.5.10 = {
-			#controller = GER
-
-		}
-		1954.1.1 = {
-			#controller = BEL
-			#remove_claim_by = GER
-
-		}
-
+		add_core_of = FRE
+		add_core_of = DEU
 	}
 
 	provinces={

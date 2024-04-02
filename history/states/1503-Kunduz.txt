@@ -3,8 +3,7 @@ state={
 	name="STATE_1503"
 
 	history={
-		owner = 
-TUR
+		#owner = PER
 		victory_points = {
 			14927 2
 		}
@@ -18,7 +17,7 @@ TUR
 			14921 1
 		}
 		buildings = {
-			infrastructure = 0
+			infrastructure = 3 #infrastructure = 0
 
 		}
 		#add_core_of = AFG
@@ -28,7 +27,7 @@ TUR
 	provinces={
 		10852 12248 12314 14918 14921 14923 14927 14928 
 	}
-	manpower =  953800
+	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

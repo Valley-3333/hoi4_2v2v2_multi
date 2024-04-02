@@ -4,10 +4,7 @@ state={
 	name="STATE_175"
 
 	history={
-		owner = 
-ITA
-		add_core_of = ITA
-
+			owner = FRE add_core_of = FRE
 		victory_points = {
 			858 4 
 		}
@@ -21,14 +18,14 @@ ITA
 			6993 1
 		}
 		buildings = {
-			#industrial_complex = 0
+			arms_factory = 1
+			industrial_complex = 2
 			infrastructure = 3
 
 		}
 		#add_core_of = SPR
 		1954.9.1 = {
-			owner = 
-SPA
+			owner = SPA
 			#add_core_of = SPA
 			#remove_core_of = SPR
 
@@ -39,7 +36,7 @@ SPA
 	provinces={
 		858 888 896 3891 3938 3945 3953 3986 6800 6832 6841 6879 6896 6914 6993 9757 9778 9785 9828 9852 9881 9933 11742 11820 11863 11870 12081 14963 
 	}
-	manpower =  848903
+	manpower=848903
 	buildings_max_level_factor=1.000
 	state_category=large_town
 }

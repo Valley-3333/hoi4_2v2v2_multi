@@ -3,24 +3,14 @@ state={
 	name="STATE_1090"
 	
 	history={
+		owner = RIT add_core_of = RIT
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
 		#add_core_of = MNT
-		owner = GRE add_core_of = GRE
-		1954.6.22 = {
-			#controller = ITA
-
-		}
-		1954.6.20 = {
-			#controller = GER
-
-		}
-		1954.1.1 = {
-			#controller = YUG
-			
-		}
+		#add_core_of = YUG
+		add_core_of = OTT
 	}
 	
 	provinces={

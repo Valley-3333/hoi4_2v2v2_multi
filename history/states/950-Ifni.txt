@@ -3,13 +3,12 @@ state={
 	name="STATE_950"
 	
 	history={
-		owner = GRE add_core_of = GRE
-
+		owner = FRE add_core_of = FRE
 		victory_points = {
 			12857 1
 		}
 		buildings = {
-			infrastructure = 0
+			infrastructure = 3 #infrastructure = 0
 			12857 = {
 				naval_base = 1
 
@@ -17,24 +16,13 @@ state={
 
 		}
 		#add_core_of = MOR
-		1954.9.1 = {
-			owner = 
-SPA
-			
-		}		
-		1972.1.1 = {
-			owner = 
-ETH
-
-
-		}
-
+		add_core_of = GBR
 	}
 	
 	provinces={
 		12857 
 	}
-	manpower =  51517
+	manpower=51517
 	buildings_max_level_factor=1.000
 	state_category=enclave
 }

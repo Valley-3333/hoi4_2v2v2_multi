@@ -3,17 +3,14 @@ state={
 	name="STATE_1304"
 
 	history={
-		owner = 
-ETH
-
+		#owner = LUX
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
 		#add_core_of = MZB
 		1974.1.1 = {
-			owner = 
-MZB
+			owner = MZB
 
 		}
 
@@ -22,7 +19,7 @@ MZB
 	provinces={
 		14276 
 	}
-	manpower =  2456
+	manpower=2456
 	buildings_max_level_factor=1.000
 	state_category=enclave
 }

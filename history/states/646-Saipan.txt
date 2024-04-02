@@ -4,13 +4,13 @@ state={
 	name="STATE_646"
 
 	history={
-		owner = AST
+		#owner = JAP
 		victory_points = {
 			13024 1
 		}
 		buildings = {
-			infrastructure = 1
-			air_base = 2
+			infrastructure = 3 #infrastructure = 1
+			air_base = 3
 			13024 = {
 				naval_base = 1
 
@@ -23,8 +23,7 @@ state={
 			
 		}
 		1954.1.1 = {
-			owner = 
-ENG
+			#owner = USA add_core_of = USA
 
 		}
 
@@ -33,7 +32,7 @@ ENG
 	provinces={
 		3995 13023 13024 
 	}
-	manpower =  21657
+	manpower=21657
 	buildings_max_level_factor=1.000
 	state_category=small_island
 }

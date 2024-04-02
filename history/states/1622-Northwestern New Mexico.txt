@@ -3,20 +3,19 @@ state={
 	name="STATE_1622"
 
 	history={
-		owner = 
-ENG
+		#owner = USA add_core_of = USA
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
-		add_core_of = ENG
+		#add_core_of = USA
 
 	}
 
 	provinces={
 		1972 10645 12552 
 	}
-	manpower =  123958
+	manpower=123958
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

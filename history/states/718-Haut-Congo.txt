@@ -7,9 +7,7 @@ state={
 	}
 
 	history={
-		owner = 
-ETH
-
+		#owner = LUX
 		victory_points = {
 			1950 3
 		}
@@ -17,13 +15,12 @@ ETH
 			14476 1
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
 		#add_core_of = COG
 		1972.1.1 = {
-			owner = 
-COG
+			owner = COG
 			set_state_name = Haut-Zaire
 			set_province_name = { id = 1950 name = "Kisangani" }
 
@@ -38,7 +35,7 @@ COG
 	provinces={
 		1950 2034 2073 2154 6027 8048 10951 11934 12808 12847 13177 14463 14466 14468 14473 14474 14475 14476 14478 14481 14482 
 	}
-	manpower =  6229078
+	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

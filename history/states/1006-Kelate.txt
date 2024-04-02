@@ -3,12 +3,12 @@ state={
 	name="STATE_1006"
 	
     history={
-		owner = AST add_core_of = AST
+		#owner = SIA
 		victory_points = {
 			12199 2
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 			12199 = {
 				naval_base = 1
 
@@ -36,7 +36,7 @@ state={
 	provinces={
 		4355 7329 12199 13308 
 	}
-	manpower =  314964
+	manpower=314964
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

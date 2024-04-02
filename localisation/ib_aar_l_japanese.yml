@@ -1,0 +1,57 @@
+﻿l_japanese:
+ ib_aar.1.t:0 "資源の付与"
+ ib_aar.1.d:0 "資源総量\n・石油500\n・アルミニウム600\n・ゴム400\n・タングステン400\n・鉄900\n・クロム400\n\n上記資源の内、10%が首都ステートに配置され、残り90%は国内のステートにランダムで配置されます。"
+ ib_aar.1.a:0 "神よ…。"
+
+ ib_aar_capital:0 "§G各種資源の10%が首都に配置されます。§!"
+ ib_aar_random:0 "§G各種資源の90%がランダムに配置されます。§!"
+
+ ib_aar.2.t:0 "期間限定 資源ガチャ"
+ ib_aar.2.d:0 "選択肢次第で一定の確率で資源が増加する可能性があるイベントです。本日のマルチプレイの運試しにいかがでしょうか？"
+ ib_aar.2.a:0 "§G引く！§!"
+ ib_aar.2.b:0 "§Cやめとく…§!"
+ ib_aar.2.c:0 "§Rこんなマルチ参加するんじゃなかった。§!"
+
+ ib_aar_completely_random:0 "§R注意：より極端な結果になる可能性があります…。§!"
+
+ ib_aar_hazure.1.t:0 "抽選結果：ハズレ"
+ ib_aar_hazure.1.d:0 "残念だねぇ…ｗ"
+ ib_aar_hazure.1.a:0 "HoI4辞めます。"
+ 
+ ib_aar_a.3.t:0 "抽選結果：三等賞"
+ ib_aar_a.3.d:0 "ランダムなステートに、資源+1%です。"
+ ib_aar_a.3.a:0 "無いよりはまぁ…。"
+
+ ib_aar_a.2.t:0 "抽選結果：二等賞"
+ ib_aar_a.2.d:0 "ランダムなステートに、資源+10%です。"
+ ib_aar_a.2.a:0 "やるやん"
+
+ ib_aar_a.1.t:0 "抽選結果：一等賞"
+ ib_aar_a.1.d:0 "おめでとうございます！首都に資源+30%です！"
+ ib_aar_a.1.a:0 "勝ったな"
+
+ ib_aar_saikyou.1.t:0 "「選ばれし者」"
+ ib_aar_saikyou.1.d:0 "首都に全資源が+100%されます。"
+ ib_aar_saikyou.1.a:0 "うっほうっほ"
+
+ ib_aar_saikyou.2.t:0 "すげえやつ？"
+ ib_aar_saikyou.2.d:0 "首都に全資源が+50%されます。"
+ ib_aar_saikyou.2.a:0 "いえーい"
+
+ ib_aar_saikyou.3.t:0 "まあまあ当たり"
+ ib_aar_saikyou.3.d:0 "このバフをあげます。"
+ ib_aar_saikyou.3.a:0 "わーい"
+
+ IB_aar_res:0 "研究速度バフ"
+ IB_aar_manp:0 "人的資源バフ"
+ IB_aar_red_res:0 "研究速度デバフ"
+ IB_aar_red_manp:0 "人的資源デバフ"
+
+ ib_aar_gomi.t:0 "鳥の糞"
+ ib_aar_gomi.d:0 "あなたにはこれが相応しい。"
+ ib_aar_gomi.a:0 "なんでこんな事に…。"
+
+ ib_aar_gomi.3.t:0 "厄日"
+ ib_aar_gomi.3.d:0 "おめでとうございます！ある意味あたりだね。物事は捉え様ですよ。"
+ ib_aar_gomi.3.a:0 "畜生めぇ！"
+

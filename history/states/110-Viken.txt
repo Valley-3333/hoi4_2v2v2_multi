@@ -5,12 +5,13 @@ state={
 	resources={
 		aluminium=5.000
 		steel=7.000
+		rubber = 120
 	}
 
 	history={
-		
+		owner = SCA add_core_of = SCA
 		victory_points = {
-			6115 15 
+			6115 35 
 		}
 		victory_points = {
 			14 1 
@@ -23,33 +24,26 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			#arms_factory = 2
-			#industrial_complex = 0
+			arms_factory = 1
+			industrial_complex = 2
 			#dockyard = 1
-			air_base = 2
+			air_base = 4
 			6115 = {
 				naval_base = 6
-				coastal_bunker = 3
+				#coastal_bunker = 3
 
 			}
 
 		}
 		#add_core_of = NOR
-		1954.5.10 = {
-			#controller = GER
-
-		}
-		1954.1.1 = {
-			#controller = NOR
-
-		}
+		add_core_of = GBR
 
 	}
 
 	provinces={
 		14 3007 3171 6115 9103 9204 11078 11151 11184 
 	}
-	manpower =  710219
+	manpower=14710219
 	buildings_max_level_factor=1.000
 	state_category=city
 }

@@ -1,0 +1,70 @@
+characters={
+	TUR_mustafa_kemal_ataturk={
+		
+			name=TUR_mustafa_kemal_ataturk
+			portraits={
+				civilian={
+					large="gfx/leaders/TUR/Portrait_Turkey_Mustafa_Kemal_Ataturk.dds"
+				}
+				army={
+					large = "gfx/leaders/TUR/Portrait_Turkey_Mustafa_Kemal_Ataturk_Military.dds"
+				}
+			}
+		country_leader={
+			ideology=conservatism
+			traits={  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=despotism
+			traits={  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+	TUR_sefik_husnu = {
+		name = TUR_sefik_husnu
+		portraits={
+				civilian={
+					large="gfx/leaders/TUR/Portrait_Turkey_Sefik_Husnu.dds"
+				}
+				army={
+					small="GFX_idea_tur_sefik_husnu"
+				}
+			}
+		
+		
+		country_leader={
+			ideology=stalinism
+			traits={  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	TUR_durrushehvar_i = {
+		name=TUR_durrushehvar_i
+		portraits={
+			civilian={
+				large="GFX_portrait_tur_durrusehvar_sultan" #Can become country leader later (Non-Aligned -> Despotism)
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=centrism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+
+
+
+
+}

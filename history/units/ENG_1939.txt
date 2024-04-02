@@ -1,0 +1,531 @@
+﻿division_template = {
+	name = "hohei"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		artillery_brigade = { x = 3 y = 0 }
+		anti_tank_brigade = { x = 3 y = 1 }
+		}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "kikou"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		light_armor = { x = 0 y = 3 }
+        light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		light_armor = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+        motorized = { x = 2 y = 1 }
+        motorized = { x = 2 y = 2 }
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }
+		maintenance_company = { x = 0 y = 1 }
+	}
+	
+	
+}
+division_template = {
+	name = "kikai" 			# SS division
+	# Note: actually a grouping of 3 independent SS-mot regiments
+	regiments = {
+		motorized = { x = 0 y = 0 }
+	    motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+	    motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		maintenance_company = { x = 0 y = 1 }
+	}
+	
+}
+division_template = {
+	name = "sanngaku"		# Gebirgsbrigade
+	#Note: precursor to Gebirgs-Divisions
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+	    mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+		artillery_brigade = { x = 3 y = 0 }
+		anti_tank_brigade = { x = 3 y = 1 }
+		}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "kihei"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+        cavalry = { x = 0 y = 2 }
+        cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	
+}
+division_template = {
+	name = "kuutei"			# Airborne Brigade
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		paratrooper = { x = 1 y = 0 }
+		paratrooper = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "kaihei"				#This template covers SNLF divisions; historically there were roughly 5 total, with 1 being paratroopers
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+		marine = { x = 1 y = 2 }
+		marine = { x = 2 y = 0 }
+		marine = { x = 2 y = 1 }
+	artillery_brigade = { x = 3 y = 0 }
+		anti_tank_brigade = { x = 3 y = 1 }
+		}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+	
+}
+division_template = {
+	name = "dokuso"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+
+units = {
+	#Aldershot Command
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "hohei"
+		location = 9239
+		division_template = "hohei"
+		start_experience_factor = 0.3
+	}
+
+       }

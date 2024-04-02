@@ -3,8 +3,7 @@ state={
 	name="STATE_1244"
 
 	history={
-		owner = AST
-
+		#owner = LUX
 		victory_points = {
 			14064 2
 		}
@@ -15,7 +14,7 @@ state={
 			12258 1
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 			14064 = {
 				naval_base = 5
 
@@ -25,9 +24,7 @@ state={
 		#add_core_of = LUX
 		#add_core_of = TEL
 		1950.1.1 = {
-			owner = 
-ETH
-
+			#owner = LUX
 			
 		}
 
@@ -36,7 +33,7 @@ ETH
 	provinces={
 		7344 10201 10229 12258 14064 
 	}
-	manpower =  1189000
+	manpower = 1
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

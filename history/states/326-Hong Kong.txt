@@ -4,7 +4,7 @@ state={
 	name="STATE_326"
 
 	history={
-		owner = CHI
+		#owner = CHI
 		victory_points = {
 			14087 10
 		}
@@ -12,21 +12,21 @@ state={
 			10062 2
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3 #infrastructure = 2
 			air_base = 1
 			14087 = {
 				naval_base = 6
-				coastal_bunker = 1
+				#coastal_bunker = 1
 
 			}
 			10062 = {
 				naval_base = 2
-				coastal_bunker = 1
+				#coastal_bunker = 1
 
 			}
 
 		}
-		add_core_of = CHI
+		#add_core_of = CHI
 		#add_core_of = PRC
 		1954.11.22 = {
 			#controller = JAP
@@ -37,8 +37,7 @@ state={
 
 		}
 		2000.1.1 = {
-			owner = 
-CHI
+			#owner = CHI
 			#controller = PRC
 
 		}
@@ -48,7 +47,7 @@ CHI
 	provinces={
 		10062 14087 
 	}
-	manpower =  1143516
+	manpower=1143516
 	buildings_max_level_factor=1.000
 	state_category=large_town
 }

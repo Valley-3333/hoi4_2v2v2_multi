@@ -1,0 +1,26 @@
+
+stability_good_modifier = {
+}
+
+stability_bad_modifier = {
+}
+
+war_support_good_modifier = {
+}
+
+war_support_bad_modifier = {
+}
+
+diff_strong_ai_generic1 = {
+	industrial_capacity_factory = 0.2
+	industrial_capacity_dockyard = 0.2
+}
+diff_strong_ai_generic2 = {
+	industrial_factory_donations = 40
+}
+diff_strong_ai_generic3 = {
+	industrial_factory_donations = 20
+}
+diff_strong_ai_generic4 = {
+	conscription_factor = 0.2
+}

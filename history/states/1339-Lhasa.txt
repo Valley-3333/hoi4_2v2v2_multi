@@ -7,8 +7,7 @@ state={
 	}
 
 	history={
-		owner = 
-CHI
+		#owner = CHI
 		victory_points = {
 			5033 10
 		}
@@ -16,8 +15,8 @@ CHI
 			14330 1
 		}
 		buildings = {
-			infrastructure = 1
-			#industrial_complex = 0
+			infrastructure = 3 #infrastructure = 1
+			#industrial_complex = 1
 			#arms_factory = 1
 
 		}
@@ -25,8 +24,7 @@ CHI
 		#add_core_of = CHI
 		#add_core_of = PRC
 		1953.3.7 = {
-			owner = 
-CHI
+			#owner = CHI
 
 		}
 
@@ -35,7 +33,7 @@ CHI
 	provinces={
 		2014 2098 4994 5033 7926 10918 14330 
 	}
-	manpower =  902500
+	manpower=902500
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

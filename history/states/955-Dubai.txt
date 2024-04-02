@@ -8,8 +8,7 @@ state={
 	}
 
 	history={
-		owner = ETH
-
+		owner = OTT add_core_of = OTT
 		victory_points = {
 			13248 3 
 		}
@@ -17,7 +16,7 @@ state={
 			14710 2
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
 		#add_core_of = UAE
@@ -27,7 +26,7 @@ state={
 	provinces={
 		10904 13247 13248 14710 
 	}
-	manpower =  25906
+	manpower=25906
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

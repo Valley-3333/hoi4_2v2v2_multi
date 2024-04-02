@@ -4,7 +4,7 @@ state={
 	name="STATE_923"
 
 	history={
-		owner = TUR add_core_of = TUR
+		#owner = RUS add_core_of = RUS
 		victory_points = {
 			12161 3 
 		}
@@ -12,14 +12,13 @@ state={
 			4482 2 
 		}
 		buildings = {
-			infrastructure = 0
+			infrastructure = 3 #infrastructure = 0
 
 		}
-		#add_core_of = SOV
+		#add_core_of = RUS
 		#add_core_of = TMS
 		2000.1.1 = {
-			owner = 
-TMS
+			owner = TMS
 			#remove_core_of = SOV
 			set_state_name = "Mary-Lebap"
 			set_province_name = {
@@ -35,7 +34,7 @@ TMS
 	provinces={
 		1649 4482 4549 4958 5003 7560 7924 10357 10414 10742 12161 12465 14692 14693 
 	}
-	manpower = 185000
+	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

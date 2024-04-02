@@ -3,8 +3,7 @@ state={
 	name="STATE_1046"
 	
 	history={
-		owner = 
-ETH
+		#owner = ETH
 		victory_points = {
 			4909 2
 		}
@@ -12,30 +11,27 @@ ETH
 			13434 1
 		}
 		1954.11.22 = {
-			owner = GER add_core_of = ITA
+			owner = RIT add_core_of = RIT
 			#controller = ENG
 
 		}
 		1954.6.20 = {
-			owner = 
-ETH
-
+			#owner = LUX
 			#controller = ENG
 
 		}
 		1950.1.1 = {
-			owner = GER add_core_of = ITA
+			owner = RIT add_core_of = RIT
 			#controller = ITA
 
 		}
 		1972.1.1 = {
-			owner = 
-SOM
+			owner = SOM
 			#controller = SOM
 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
 		#add_core_of = SOM
@@ -44,7 +40,7 @@ SOM
 	provinces={
 		1966 4909 10891 13427 13430 13432 13434 
 	}
-	manpower = 80342
+	manpower=80342
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

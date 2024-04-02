@@ -3,25 +3,18 @@ state={
 	name="STATE_1214"
 
 	history={
-		owner = 
-ETH
-
+		#owner = LUX
 		#add_core_of = ALG
 		1954.6.22 = {
-			owner = 
-ETH
-
+			#owner = LUX
 
 		}
 		1954.11.22 = {
-			owner = 
-ETH
-
+			#owner = LUX
 
 		}
 		1972.1.1 = {
-			owner = 
-ALG
+			owner = ALG
 
 		}
 
@@ -30,7 +23,7 @@ ALG
 	provinces={
 		1095 
 	}
-	manpower =  64781
+	manpower=64781
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 	impassable=yes

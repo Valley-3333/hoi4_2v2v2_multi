@@ -8,7 +8,7 @@ state={
 			15018 3 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
 		#add_core_of = MEX
@@ -18,7 +18,7 @@ state={
 	provinces={
 		12873 14996 15018 
 	}
-	manpower = 1
+	manpower=1235456
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

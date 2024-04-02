@@ -3,8 +3,7 @@ state={
 	name="STATE_1512"
 
 	history={
-		owner = 
-ENG
+		#owner = USA add_core_of = USA
 		victory_points = {
 			9814 30 
 		}
@@ -28,7 +27,7 @@ ENG
 		}
 		buildings = {
 			infrastructure = 3
-			#industrial_complex = 0
+			#industrial_complex = 2
 			#dockyard = 1
 			9814 = {
 				naval_base = 7
@@ -40,11 +39,11 @@ ENG
 			}
 
 		}
-		add_core_of = ENG
+		#add_core_of = USA
 		#add_core_of = CAL
 		1954.1.1 = {
 			buildings = {
-				#industrial_complex = 0
+				#industrial_complex = 2
 
 			}
 
@@ -55,7 +54,7 @@ ENG
 	provinces={
 		823 941 986 1562 3784 4657 4727 6881 7986 9814 9855 9911 10387 10483 11757 11795 11859 11876 12303 12374 14079 
 	}
-	manpower =  1865528
+	manpower=1865528
 	buildings_max_level_factor=1.000
 	state_category=city
 }

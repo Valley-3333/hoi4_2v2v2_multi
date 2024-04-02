@@ -3,11 +3,10 @@ state={
 	name="STATE_1586"
 
 	history={
-		owner = GRE
-
+		owner = OTT add_core_of = OTT
 		#add_core_of = SAU
 		1972.1.1 = {
-			owner = GRE
+			owner = OTT add_core_of = OTT
 			#add_core_of = JOR
 			#remove_core_of = SAU
 
@@ -18,7 +17,7 @@ state={
 	provinces={
 		15115 
 	}
-	manpower =  1
+	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

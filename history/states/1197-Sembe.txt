@@ -3,17 +3,14 @@ state={
 	name="STATE_1197"
 	
 	history={
-		owner = 
-ETH
-
+		#owner = LUX
 		buildings = {
-			infrastructure = 0
+			infrastructure = 3 #infrastructure = 0
 
 		}
 		#add_core_of = RCG
 		1972.1.1 = {
-			owner = 
-RCG
+			owner = RCG
 
 		}
 
@@ -22,7 +19,7 @@ RCG
 	provinces={
 		3109 
 	}
-	manpower =  85738
+	manpower=85738
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

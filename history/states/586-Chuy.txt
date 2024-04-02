@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = TUR add_core_of = TUR
+		#owner = RUS add_core_of = RUS
 		victory_points = {
 			12583 4
 		}
@@ -21,22 +21,21 @@ state={
 			10530 2
 		}
 		buildings = {
-			infrastructure = 1
-			#industrial_complex = 0
+			infrastructure = 3 #infrastructure = 1
+			#industrial_complex = 3
 
 		}
-		#add_core_of = SOV
+		#add_core_of = RUS
 		#add_core_of = KYR
 		1954.1.1 = {
 			buildings = {
-				#industrial_complex = 0
+				#industrial_complex = 4
 
 			}
 
 		}
 		2000.1.1 = {
-			owner = 
-KYR
+			owner = KYR
 			#remove_core_of = SOV
 			set_province_name = { id = 12583 name = "Bishkek" }
 		}		
@@ -45,7 +44,7 @@ KYR
 	provinces={
 		1483 2058 4224 7706 10408 10530 12581 12583 12640 
 	}
-	manpower = 2563404
+	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=city
 }

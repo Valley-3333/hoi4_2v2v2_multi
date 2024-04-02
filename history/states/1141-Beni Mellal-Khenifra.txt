@@ -3,8 +3,7 @@ state={
 	name="STATE_1141"
 	
 	history={
-		owner = GRE add_core_of = GRE
-
+		owner = FRE add_core_of = FRE
 		victory_points = {
 			10023 2
 		}
@@ -12,17 +11,17 @@ state={
 			10107 2
 		}
 		buildings = {
-			infrastructure = 0
+			infrastructure = 3 #infrastructure = 0
 
 		}
 	    #add_core_of = MOR
-
+		add_core_of = GBR
 	}
 	
 	provinces={
 		1152 1207 1989 4084 4108 4933 7908 8046 10023 10107 12042 
 	}
-	manpower =  192676
+	manpower=192676
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

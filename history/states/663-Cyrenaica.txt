@@ -4,38 +4,20 @@ state={
 	name="STATE_663"
 
 	history={
-		owner = GRE add_core_of = GRE
-
+		owner = RIT add_core_of = RIT
 		buildings = {
-			infrastructure = 0
+			infrastructure = 3 #infrastructure = 0
 
 		}
 		#add_core_of = LBA
-		1954.11.22 = {
-			owner = GER add_core_of = ITA
-			#controller = ENG
-
-		}
-		1954.6.20 = {
-			owner = 
-ETH
-
-			#controller = ENG
-
-		}
-		1950.1.1 = {
-			owner = 
-ETH
-			#controller = LBA
-
-		}
-
+		add_core_of = FRE
+		add_core_of = OTT
 	}
 
 	provinces={
 		1062 1186 4060 4063 4133 4200 5136 7063 7076 7139 7206 9977 10049 10785 10893 12025 12079 13078 13992 13999 
 	}
-	manpower = 8808
+	manpower=8808
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

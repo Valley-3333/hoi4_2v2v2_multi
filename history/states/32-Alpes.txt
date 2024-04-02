@@ -8,44 +8,17 @@ state={
 	}
 
 	history={
-		owner = ITA add_core_of = FRA
+			owner = FRE add_core_of = FRE
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3 #infrastructure = 2
 			3764 = {
-				bunker = 3
+				#bunker = 3
 				
 			}
 			
 		}
-		add_core_of = ITA
-		1954.1.1 = {
-			buildings = {
-				#anti_air_building = 2
-				
-			}
-			
-		}
-		1954.6.22 = {
-			owner = GER add_core_of = FRA
-			#controller = ITA
-			#add_core_of = FFL
-
-		}
-		1954.6.20 = {
-			owner = GER add_core_of = FRA
-			#controller = GER
-
-		}
-		1954.1.1 = {
-			owner = GER add_core_of = FRA
-			#controller = FRA
-
-		}
-		1954.1.1 = {
-			#remove_core_of = FFL
-
-		}
-
+		#add_core_of = FRE
+		add_core_of = RIT
 	}
 
 	provinces={

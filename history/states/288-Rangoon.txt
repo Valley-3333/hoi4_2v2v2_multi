@@ -7,13 +7,13 @@ state={
 	}
 
 	history={
-		owner = AST add_core_of = AST
+		#owner = RAJ
 		victory_points = {
 			1330 10
 		}
 		buildings = {
-			infrastructure = 2
-			#industrial_complex = 0
+			infrastructure = 3 #infrastructure = 2
+			#industrial_complex = 1
 			air_base = 1
 			1330 = {
 				naval_base = 4
@@ -21,12 +21,10 @@ state={
 			}
 
 		}
-		add_core_of = AST
+		#add_core_of = RAJ
 		#add_core_of = BRM
 		1954.9.1 = {
-			owner = 
-ETH
-
+			#owner = LUX
 			#remove_core_of = RAJ
 
 		}
@@ -39,8 +37,7 @@ ETH
 
 		}
 		1950.1.1 = {
-			owner = 
-BRM
+			owner = BRM
 			#controller = BRM
 
 		}
@@ -50,7 +47,7 @@ BRM
 	provinces={
 		1330 10267 14983 
 	}
-	manpower =  10000000
+	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=town
 }

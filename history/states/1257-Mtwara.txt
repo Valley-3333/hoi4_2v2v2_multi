@@ -3,20 +3,17 @@ state={
 	name="STATE_1257"
 
 	history={
-		owner = 
-ETH
-
+		#owner = LUX
 		victory_points = {
 			12944 1
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
 		#add_core_of = TZN
 		1972.1.1 = {
-			owner = 
-TZN
+			owner = TZN
 
 		}
 
@@ -25,7 +22,7 @@ TZN
 	provinces={
 		8182 8201 10845 12944 12967 14095 14096 14097 
 	}
-	manpower =  1270854
+	manpower=1270854
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

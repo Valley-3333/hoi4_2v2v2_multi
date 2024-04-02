@@ -4,14 +4,14 @@ state={
 	name="STATE_85"
 
 	history={
-		owner = SOV add_core_of = SOV
+		owner = DEU add_core_of = DEU
 		victory_points = {
 			362 10 
 		}
 		buildings = {
 			infrastructure = 3
-			#arms_factory = 1
-			#industrial_complex = 0
+			arms_factory = 1
+			industrial_complex = 2
 			#dockyard = 1
 			air_base = 1
 			362 = {
@@ -21,25 +21,9 @@ state={
 
 		}
 		#add_core_of = DNZ
-		#add_core_of = GER
-		#add_claim_by = POL
-		1954.9.1 = {
-			owner = GER add_core_of = GER
-
-		}
-		1954.1.1 = {
-			owner = SOV add_core_of = SOV
-			#controller = POL
-			#add_core_of = SOV
-			#remove_core_of = GER
-			set_state_name = STATE_85_2
-			set_province_name = {
-				id = 362
-				name = VICTORY_POINTS_362_2
-
-			}
-		}
-
+		#add_core_of = DEU
+		add_core_of = SCA
+		add_core_of = RUS
 	}
 
 	provinces={

@@ -4,8 +4,7 @@ state={
 	name="STATE_463"
 
 	history={
-		owner = 
-ENG
+		#owner = USA add_core_of = USA
 		victory_points = {
 			13091 2 
 		}
@@ -13,7 +12,7 @@ ENG
 			13203 1 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 			air_base = 1
 			13091 = {
 				naval_base = 1
@@ -21,7 +20,7 @@ ENG
 			}
 
 		}
-		add_core_of = ENG
+		#add_core_of = USA
 		#add_core_of = AKA
 
 	}
@@ -29,7 +28,7 @@ ENG
 	provinces={
 		1135 1830 4833 4848 7041 7855 7884 10636 10679 10694 10707 12022 12512 12661 13066 13090 13091 13202 13203 13355 14404 
 	}
-	manpower =  67500
+	manpower=67500
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

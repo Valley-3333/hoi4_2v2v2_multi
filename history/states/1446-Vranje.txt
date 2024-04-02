@@ -3,28 +3,17 @@ state={
 	name="STATE_1446"
 
 	history={
+		owner = OTT add_core_of = OTT
 		victory_points = {
 			11832 1
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
-		owner = GRE add_core_of = GRE
+		#add_core_of = YUG
 		#add_core_of = SER
-		#add_claim_by = BUL
-		1954.6.22 = {
-			#controller = BUL
-
-		}
-		1954.1.1 = {
-			#controller = YUG
-
-		}
-		1954.1.1 = {
-			#remove_claim_by = BUL
-
-		}
+		add_core_of = RIT
 
 	}
 

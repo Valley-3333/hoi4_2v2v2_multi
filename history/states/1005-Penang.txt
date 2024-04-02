@@ -3,12 +3,12 @@ state={
 	name="STATE_1005"
 
     history={
-		owner = AST add_core_of = AST
+		#owner = SIA
 		victory_points = {
 			7342 4
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3 #infrastructure = 2
 			7342 = {
 				naval_base = 3
 
@@ -17,22 +17,17 @@ state={
 		}
 		#add_core_of = MAL
 		1954.11.22 = {
-			owner = 
-ETH
-
+			#owner = LUX
 			#controller = JAP
 
 		}
 		1954.1.1 = {
-			owner = 
-ETH
-
+			#owner = LUX
 			#controller = ENG
 
 		}
 		1960.1.1 = {
-			owner = 
-RAJ
+			#owner = SIA
 			#controller = MAL
 
 		}
@@ -42,7 +37,7 @@ RAJ
 	provinces={
 		7342 
 	}
-	manpower =  708127 
+	manpower=708127 
 	buildings_max_level_factor=1.000
 	state_category=enclave
 }

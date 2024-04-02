@@ -4,21 +4,21 @@ state={
 	name="STATE_736"
 
 	history={
-		owner = ITA add_core_of = ITA
+		owner = RIT add_core_of = RIT
 		victory_points = {
 			628 2 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
-		#add_core_of = ITA
+		#add_core_of = RIT
 		1954.6.20 = {
-			owner = GER add_core_of = GER
+			owner = DEU add_core_of = DEU
 
 		}
 		1954.1.1 = {
-			owner = GER add_core_of = ITA
+			owner = RIT add_core_of = RIT
 
 		}
 
@@ -27,7 +27,7 @@ state={
 	provinces={
 		628 3657 9613 
 	}
-	manpower=800050
+	manpower=1800050
 	buildings_max_level_factor=1.000
 	state_category=town
 }

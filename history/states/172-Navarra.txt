@@ -7,31 +7,21 @@ state={
 	}
 
 	history={
-		owner = 
-ITA
-		add_core_of = ITA
-
+			owner = FRE add_core_of = FRE
 		victory_points = {
 		    3933 2
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3 #infrastructure = 2
 		}
 		#add_core_of = SPR
-		#add_core_of = BSQ
-		1954.9.1 = {
-			owner = 
-SPA
-			#add_core_of = SPA
-			#remove_core_of = SPR
-
-		}
+		add_core_of = RIT
 	}
 
 	provinces={
 		932 3737 3931 3933 9857 
 	}
-	manpower =  352108	
+	manpower=352108	
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

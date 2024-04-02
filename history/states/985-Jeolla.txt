@@ -3,7 +3,7 @@ state={
 	name="STATE_985"
 	
 	history={
-		owner = CHI
+		#owner = JAP
 		victory_points = {
 			13283 3
 		}
@@ -11,18 +11,17 @@ state={
 			4126 2
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
-		add_core_of = CHI
+		#add_core_of = KOR
+		#add_core_of = LUX
 		1954.1.1 = {
-			owner = 
-ENG
+			#owner = USA add_core_of = USA
 
 		}
 		1950.1.1 = {
-			owner = 
-KOR
+			owner = KOR
 
 		}
 
@@ -31,7 +30,7 @@ KOR
 	provinces={
 		4126 10110 11948 12085 13283 13286 
 	}
-	manpower =  380464
+	manpower=380464
 	buildings_max_level_factor=1.000
 	state_category=town
 }

@@ -3,27 +3,27 @@ state={
 	name="STATE_1105"
 	
 	history={
-		owner = GER add_core_of = HUN
+		owner = DEU add_core_of = HUN
 		victory_points = {
 			557 1
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3 #infrastructure = 2
 			#anti_air_building = 1
 			5283 = {
-				bunker = 1
+				#bunker = 1
 
 			}
 
 		}
 		#add_core_of = CZE
 		1954.9.1 = {
-			owner = GER add_core_of = GER
-			#add_core_of = GER
+			owner = DEU add_core_of = DEU
+			#add_core_of = DEU
 
 		}
 		1954.1.1 = {
-			owner = GER add_core_of = HUN
+			owner = DEU add_core_of = DEU
 			#remove_core_of = GER
 
 		}

@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = ITA add_core_of = ITA
+		owner = RIT add_core_of = RIT
 		victory_points = {
 			6780 5 
 		}
@@ -19,56 +19,40 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			#arms_factory = 3
-			air_base = 3
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 2
 			770 = {
-				bunker = 2
+				#bunker = 2
 
 			}
 			6635 = {
-				bunker = 1
+				#bunker = 1
 
 			}
 			6780 = {
-				bunker = 2
+				#bunker = 2
 
 			}
 			9738 = {
-				bunker = 2
+				#bunker = 2
 
 			}
 			11721 = {
-				bunker = 2
+				#bunker = 2
 
 			}
 			
 		}
-		#add_core_of = ITA
-		1954.6.20 = {
-			owner = 
-RSI
-			#controller = RSI
-
-		}
-		1954.1.1 = {
-			owner = GER add_core_of = ITA
-			#controller = ITA
-
-		}
-		1954.1.1 = {
-			buildings = {
-				#arms_factory = 7
-
-			}
-
-		}
+		#add_core_of = RIT
+		add_core_of = FRE
 
 	}
 
 	provinces={
 		770 771 776 3782 6635 6780 9738 9741 11570 11721 11723 11730 
 	}
-	manpower = 3457731
+	manpower=3957731
 	buildings_max_level_factor=1.000
 	state_category=city
 }

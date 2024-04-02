@@ -2,53 +2,26 @@
 state={
 	id=217
 	name="STATE_217"
-
+	resources = {
+		rubber = 120
+	}
 	history={
-		owner = SOV add_core_of = SOV
+		owner = RUS add_core_of = RUS
 		victory_points = {
-			3529 30 
+			3529 35
 		}
 		victory_points = {
 			9504 1 
 		}
 		buildings = {
 			infrastructure = 3
-			#arms_factory = 1
-			#industrial_complex = 0
+			arms_factory = 1
+			industrial_complex = 2
 			air_base = 1
 
 		}
-		#add_core_of = SOV
-		1954.1.1 = {
-			buildings = {
-				#arms_factory = 2
-
-			}
-
-		}
-		1954.11.22 = {
-			GER = {
-				#set_province_controller = 3529
-				#set_province_controller = 6527
-				#set_province_controller = 9474
-				#set_province_controller = 11447
-
-			}
-
-		}
-		1954.7.26 = {
-			#controller = SOV
-
-		}
-		1972.1.1 = {
-			set_state_name = STATE_217_2
-			set_province_name = {
-				id = 3529
-				name = VICTORY_POINTS_3529_2
-
-			}
-
-		}
+		#add_core_of = RUS
+		add_core_of = OTT
 
 	}
 

@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		owner = CHI
+		#owner = CHI
 		victory_points = {
 			7108 5 
 		}
@@ -29,12 +29,12 @@ state={
 			7141 2
 		}
 		buildings = {
-			infrastructure = 1
-			#industrial_complex = 0
+			infrastructure = 3 #infrastructure = 1
+			#industrial_complex = 1
 			9938 = {
 				naval_base = 1
-				coastal_bunker = 1
-				bunker = 1
+				#coastal_bunker = 1
+				#bunker = 1
 
 			}
 
@@ -43,8 +43,7 @@ state={
 		#add_core_of = PRC
 		#add_core_of = CHI
 		1954.9.1 = {
-			owner = 
-CHI
+			#owner = CHI
 			#remove_core_of = GND
 			JAP = {
 				#set_province_controller = 7108
@@ -54,8 +53,7 @@ CHI
 
 		}
 		1950.1.1 = {
-			owner = 
-CHI
+			#owner = CHI
 			#controller = PRC
 
 		}
@@ -65,7 +63,7 @@ CHI
 	provinces={
 		1078 1120 1162 1202 4050 4165 4207 7067 7108 7141 7182 9938 9970 9978 10080 12014 12095 
 	}
-	manpower =  11700000
+	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=town
 }

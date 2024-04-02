@@ -3,19 +3,16 @@ state={
 	name="STATE_1268"
 
 	history={
-		owner = 
-ETH
-
+		#owner = LUX
 		buildings = {
-			infrastructure = 0
+			infrastructure = 3 #infrastructure = 0
 
 		}
 		#add_core_of = SUD
 		#add_core_of = SSD
 
 		1960.1.1 = {
-			owner = 
-SUD
+			owner = SUD
 
 		}
 
@@ -24,7 +21,7 @@ SUD
 	provinces={
 		14121 
 	}
-	manpower =  11372
+	manpower=11372
 	buildings_max_level_factor=1.000
 	state_category=enclave
 }

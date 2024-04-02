@@ -3,7 +3,7 @@ state={
 	name="STATE_1505"
 
 	history={
-		owner = ITA add_core_of = FRA
+		owner = FRE add_core_of = FRE
 		victory_points = {
 			11483 5 
 		}
@@ -12,55 +12,24 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
-			#industrial_complex = 0
+			#industrial_complex = 1
 			air_base = 5
 			575 = {
 				naval_base = 6
 
 			}
 			11483 = {
-				bunker = 1
+				#bunker = 1
 
 			}
 			575 = {
-				bunker = 1
+				#bunker = 1
 
 			}
 
 		}
-		add_core_of = ITA
-		1954.1.1 = {
-			buildings = {
-				11483 = {
-					bunker = 2
-
-				}
-				575 = {
-					bunker = 2
-
-				}
-				
-			}
-			
-		}
-		1954.6.22 = {
-			#controller = GER
-			#add_core_of = FFL
-
-		}
-		1954.1.1 = {
-			#controller = FRA
-			GER = {
-				#set_province_controller = 575
-
-			}
-
-		}
-		1954.1.1 = {
-			#controller = FRA
-			#remove_core_of = FFL
-
-		}
+		#add_core_of = FRE
+		add_core_of = GBR
 
 	}
 

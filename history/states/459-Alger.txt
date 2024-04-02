@@ -4,17 +4,19 @@ state={
 	name="STATE_459"
 	resources={
 		steel=20.000
+		rubber = 120
 	}
 
 	history={
-		owner = GRE add_core_of = GRE
-
+		owner = FRE add_core_of = FRE
 		victory_points = {
-			1145 10
+			1145 35
 		}
 		buildings = {
-			infrastructure = 2
-			air_base = 2
+			infrastructure = 3 #infrastructure = 2
+			air_base = 3
+			arms_factory = 1
+			industrial_complex = 2
 			1145 = {
 				naval_base = 2
 
@@ -22,30 +24,14 @@ state={
 
 		}
 		#add_core_of = ALG
-		1954.6.22 = {
-			owner = 
-ETH
-
-
-		}
-		1954.11.22 = {
-			owner = 
-ETH
-
-
-		}
-		1972.1.1 = {
-			owner = 
-ALG
-
-		}
+		add_core_of = RIT
 
 	}
 
 	provinces={
 		1145 9964 11939 
 	}
-	manpower =  2317458
+	manpower=2817458
 	buildings_max_level_factor=1.000
 	state_category=large_town
 }

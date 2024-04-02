@@ -3,9 +3,7 @@ state={
 	name="STATE_1271"
 
 	history={
-		owner = 
-ETH
-
+		#owner = LUX
 		victory_points = {
 			14135 2
 		}
@@ -13,15 +11,14 @@ ETH
 			14142 1
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
 		#add_core_of = SUD
 		#add_core_of = SSD
 
 		1960.1.1 = {
-			owner = 
-SUD
+			owner = SUD
 
 		}
 
@@ -30,7 +27,7 @@ SUD
 	provinces={
 		10857 10908 14124 14127 14128 14130 14132 14134 14135 14138 14139 14142 14143 14148 
 	}
-	manpower =  4296600
+	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

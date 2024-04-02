@@ -1,0 +1,8 @@
+spriteTypes = {
+
+	spriteType = { #トヨタ
+		name = "GFX_Idea_Toyota_company"
+		texturefile = "gfx/interface/Toyota.png"
+	}
+
+}

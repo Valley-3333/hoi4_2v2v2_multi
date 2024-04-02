@@ -4,8 +4,7 @@ state={
 	name="STATE_1061"
 
 	history={
-		owner = ETH
-
+		#owner = LUX
 		victory_points = {
 			13496 3 
 		}
@@ -16,7 +15,7 @@ state={
 			5222 1 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 			air_base = 1
 			13496 = {
 				naval_base = 1
@@ -30,8 +29,7 @@ state={
 		}
 		#add_core_of = MAD
 		1972.1.1 = {
-			owner = 
-MAD
+			owner = MAD
 
 		}
 
@@ -40,7 +38,7 @@ MAD
 	provinces={
 		5128 5185 5222 8188 9170 13496 13500 13501 13502 13503 
 	}
-	manpower =  2855600
+	manpower=2855600
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

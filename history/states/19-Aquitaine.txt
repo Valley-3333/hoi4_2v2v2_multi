@@ -8,31 +8,32 @@ state={
 	}
 
 	history={
-		owner = ITA add_core_of = FRA
+		owner = FRE add_core_of = FRE
 		victory_points = {
 			9737 10 
 		}
 		buildings = {
 			infrastructure = 3
-			#arms_factory = 1
+			arms_factory = 1
+			industrial_complex = 2
 			#dockyard = 2
-			air_base = 2
+			air_base = 3
 			9737 = {
 				naval_base = 3
-				coastal_bunker = 1
+				#coastal_bunker = 1
 
 			}
 
 		}
-		add_core_of = ITA
+		#add_core_of = FRE
 		1954.6.22 = {
-			owner = GER add_core_of = FRA
+			owner = FRE add_core_of = FRE
 			#controller = GER
 			#add_core_of = FFL
 
 		}
 		1954.1.1 = {
-			owner = GER add_core_of = FRA
+			owner = FRE add_core_of = FRE
 			#controller = FRA
 
 		}
@@ -46,7 +47,7 @@ state={
 	provinces={
 		6621 6762 6777 9710 9737 11565 
 	}
-	manpower=1340400
+	manpower=1640400
 	buildings_max_level_factor=1.000
 	state_category=city
 }

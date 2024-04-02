@@ -8,15 +8,14 @@ state={
 	}
 
 	history={
-		
-
+		owner = OTT add_core_of = OTT
 		victory_points = {
 			13580 10
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3 #infrastructure = 2
 			#arms_factory = 1
-			#industrial_complex = 0
+			#industrial_complex = 1
 
 		}
 		#add_core_of = SAU
@@ -26,7 +25,7 @@ state={
 	provinces={
 		5093 8004 8060 8118 12727 12813 12870 13575 13580 
 	}
-	manpower =  1440000
+	manpower=1440000
 	buildings_max_level_factor=1.000
 	state_category=town
 }

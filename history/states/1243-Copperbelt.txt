@@ -3,20 +3,17 @@ state={
 	name="STATE_1243"
 
 	history={
-		owner = 
-ETH
-
+		#owner = LUX
 		victory_points = {
 			12677 3
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
 		#add_core_of = ZAM
 		1972.1.1 = {
-			owner = 
-ZAM
+			owner = ZAM
 
 		}
 
@@ -25,7 +22,7 @@ ZAM
 	provinces={
 		697 12677 14054 14055 14058 
 	}
-	manpower =  2542132
+	manpower=2542132
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

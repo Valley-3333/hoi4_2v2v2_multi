@@ -3,14 +3,12 @@ state={
 	name="STATE_1070"
 	
 	history={
-		owner = 
-ETH
-
+		owner = OTT add_core_of = OTT
 	    victory_points = {
 			13552 2
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
 		#add_core_of = YEM
@@ -20,7 +18,7 @@ ETH
 	provinces={
 		1973 10752 13552 
 	}
-	manpower =  2612222
+	manpower=2612222
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

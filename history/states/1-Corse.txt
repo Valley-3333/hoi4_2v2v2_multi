@@ -4,7 +4,7 @@ state={
 	name="STATE_1"
 
 	history={
-		owner = ITA
+		owner = RIT add_core_of = RIT
 		victory_points = {
 			3838 1 
 		}
@@ -12,8 +12,9 @@ state={
 			9851 1
 		}
 		buildings = {
-			infrastructure = 2
-			#industrial_complex = 0
+			infrastructure = 3 #infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
 			air_base = 1
 			3838 = {
 				naval_base = 3
@@ -21,33 +22,13 @@ state={
 			}
 
 		}
-		add_core_of = ITA
-		##add_claim_by = ITA
-		1954.6.22 = {
-			owner = GER add_core_of = FRA
-			#add_core_of = FFL
-
-		}
-		1954.7.26 = {
-			owner = GER add_core_of = FRA
-			#controller = ITA
-
-		}
-		1954.6.20 = {
-			#controller = FRA
-
-		}
-		1954.1.1 = {
-			#remove_core_of = FFL
-
-		}
-
+		add_core_of = FRE
 	}
 
 	provinces={
 		3838 9851 11804 
 	}
-	manpower = 322900
+	manpower=322900
 	buildings_max_level_factor=1.000
 	state_category=town
 }

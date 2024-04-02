@@ -4,8 +4,7 @@ state={
 	name="STATE_452"
 
 	history={
-		owner = GRE add_core_of = GRE
-
+		owner = OTT add_core_of = OTT
 		victory_points = {
 			11967 2
 		}
@@ -16,28 +15,18 @@ state={
 			9989 1
 		}
 		buildings = {
-			infrastructure = 1
-
+			infrastructure = 3 #infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 2
 		}
 		#add_core_of = EGY
-		1954.6.22 = {
-			ITA = {
-				#set_province_controller = 7079
-				#set_province_controller = 5078
-
-			}
-		}
-		1954.11.22 = {
-			#controller = EGY
-
-		}
-
+		add_core_of = RIT
 	}
 
 	provinces={
 		1071 5078 7079 9989 10061 11910 11967 12033 
 	}
-	manpower =  4359012
+	manpower=4359012
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

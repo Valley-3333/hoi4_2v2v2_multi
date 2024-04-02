@@ -2,18 +2,19 @@
 state={
 	id=113
 	name="STATE_113" # LeDEIter
-	manpower = 1357600
+	manpower = 3357600
 	resources={
 		aluminium=1 # was: 2
 		steel=2 # was: 3
+		rubber = 120
 	}
 	
 	state_category = city
 	
 	history={
-		owner = ENG
+		owner = GBR add_core_of = GBR
 		victory_points = {
-			11293 5 
+			11293 35 
 		}
 		victory_points = {
 			3359 1
@@ -23,14 +24,15 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			#arms_factory = 1
-			#industrial_complex = 3
-			air_base = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 3
 			11293 = {
 				naval_base = 6
 			}
 		}
-		add_core_of = ENG
+		#add_core_of = IRE
+		add_core_of = FRE
 	}
 
 	provinces={

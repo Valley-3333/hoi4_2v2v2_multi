@@ -4,7 +4,7 @@ state={
 	name="STATE_164"
 
 	history={
-		owner = GRE add_core_of = GRE
+		owner = OTT add_core_of = OTT
 		victory_points = {
 			10007 1 
 		}
@@ -12,7 +12,7 @@ state={
 			7003 1
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3 #infrastructure = 2
 			air_base = 1
 			10007 = {
 				naval_base = 4
@@ -25,31 +25,14 @@ state={
 
 		}
 		#add_core_of = GRE
-		1954.6.20 = {
-			owner = GER add_core_of = GER
-
-		}
-		1954.1.1 = {
-			owner = GER add_core_of = GRE
-			set_state_name = STATE_164_2
-			set_province_name = {
-				id = 10007
-				name = VICTORY_POINTS_10007_2
-
-			}
-			set_province_name = {
-				id = 7003
-				name = VICTORY_POINTS_7003_2
-
-			}
-		}
+		add_core_of = RIT
 
 	}
 
 	provinces={
 		7003 10007 
 	}
-	manpower = 120000
+	manpower=120000
 	buildings_max_level_factor=1.000
 	state_category=small_island
 }

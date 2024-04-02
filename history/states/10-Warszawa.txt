@@ -2,38 +2,30 @@
 state={
 	id=10
 	name="STATE_10"
-
+resources = {
+	rubber = 120
+}
 	history={
-		owner = SOV add_core_of = SOV
+		owner = DEU add_core_of = DEU
 		victory_points = {
-			3544 20 
+			3544 35 
 		}
 		buildings = {
 			infrastructure = 3
-			#arms_factory = 6
-			#industrial_complex = 0
-			#anti_air_building = 2
-			air_base = 3
-		}
-		#add_core_of = SOV
-		1954.5.10 = {
-			owner = 
-ETH
-
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 2
 
 		}
-		1954.1.1 = {
-			owner = SOV add_core_of = SOV
-			#controller = POL
-
-		}
+		#add_core_of = POL
+		add_core_of = RUS
 
 	}
 
 	provinces={
 		467 3482 3544 6511 9400 11492 
 	}
-	manpower = 2489000
+	manpower=2489000
 	buildings_max_level_factor=1.000
 	state_category=large_city
 }

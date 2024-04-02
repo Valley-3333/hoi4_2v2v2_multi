@@ -7,15 +7,16 @@ state={
 	}
 
 	history={
-		owner = SOV add_core_of = SOV
+		owner = RUS add_core_of = RUS
 		victory_points = {
 			6124 3 
 		}
 		buildings = {
-			infrastructure = 2
-
+			infrastructure = 3 #infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
 		}
-		#add_core_of = SOV
+		#add_core_of = RUS
 		1954.1.1 = {
 			set_state_name = STATE_400_2
 			set_province_name = {
@@ -31,7 +32,7 @@ state={
 	provinces={
 		31 88 146 272 359 3027 3139 3264 3270 3294 3363 6124 6162 6274 6288 6297 9146 9192 9370 10200 11087 11124 11193 11365 
 	}
-	manpower=2115475
+	manpower=115475
 	buildings_max_level_factor=1.000
 	state_category=town
 }

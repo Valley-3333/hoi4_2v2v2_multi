@@ -4,7 +4,7 @@ state={
 	name="STATE_114"
 
 	history={
-		owner = ITA
+		owner = RIT add_core_of = RIT
 		victory_points = {
 			11773 3 
 		}
@@ -12,10 +12,10 @@ state={
 			9772 2 
 		}
 		buildings = {
-			infrastructure = 2
-			#arms_factory = 0
-			#industrial_complex = 0
-			air_base = 3
+			infrastructure = 3 #infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 2
 			11773 = {
 				naval_base = 3
 
@@ -26,14 +26,14 @@ state={
 			}
 
 		}
-		#add_core_of = ITA
+		add_core_of = FRE
 
 	}
 
 	provinces={
 		902 6891 9772 9863 11755 11773 11824 11874 
 	}
-	manpower =  991921
+	manpower=991921
 	buildings_max_level_factor=1.000
 	state_category=town
 }

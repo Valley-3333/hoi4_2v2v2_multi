@@ -3,20 +3,17 @@ state={
 	name="STATE_1184"
 	
 	history={
-		owner = 
-ETH
-
+		#owner = LUX
 		victory_points = {
 			10948 1
 		}
 		buildings = {
-			infrastructure = 0
+			infrastructure = 3 #infrastructure = 0
 
 		}
 		#add_core_of = GAB
 		1972.1.1 = {
-			owner = 
-GAB
+			owner = GAB
 
 		}
 
@@ -25,7 +22,7 @@ GAB
 	provinces={
 		10948 13771 
 	}
-	manpower =  60685
+	manpower=60685
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

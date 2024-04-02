@@ -12,9 +12,9 @@ state={
 			12865 3 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3 #infrastructure = 2
 			#arms_factory = 1
-			#industrial_complex = 0
+			#industrial_complex = 1
 			air_base = 1
 			12865 = {
 				naval_base = 1
@@ -29,7 +29,7 @@ state={
 	provinces={
 		8017 12865 
 	}
-	manpower = 1
+	manpower=859761
 	buildings_max_level_factor=1.000
 	state_category=town
 }

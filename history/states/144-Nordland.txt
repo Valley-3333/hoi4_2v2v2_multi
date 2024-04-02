@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		
+		owner = SCA add_core_of = SCA
 		victory_points = {
 			192 3
 		}
@@ -25,8 +25,10 @@ state={
 			3048 1
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 			air_base = 1
+			arms_factory = 1
+			industrial_complex = 2
 			192 = {
 				naval_base = 3
 
@@ -38,21 +40,14 @@ state={
 
 		}
 		#add_core_of = NOR
-		1954.6.22 = {
-			#controller = GER
-
-		}
-		1954.1.1 = {
-			#controller = NOR
-
-		}
+		add_core_of = GBR
 
 	}
 
 	provinces={
 		38 44 91 173 192 3034 3048 3058 3088 3126 3132 3145 6071 6111 6130 6187 6214 9126 9208 11050 11090 11157 
 	}
-	manpower =  185251
+	manpower=1185251
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

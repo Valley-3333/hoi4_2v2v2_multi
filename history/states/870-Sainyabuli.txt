@@ -3,29 +3,26 @@ state={
 	name="STATE_870"
 	
 	history = {
-		owner = AST add_core_of = AST
+		#owner = SIA
 		victory_points = {
 		    10330 1
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 		}
 		#add_core_of = LAO
 		#add_claim_by = SIA
         1954.6.22 = {
-			owner = 
-RAJ
+			#owner = SIA
 
 		}
 		1954.1.1 = {
-			owner = 
-RAJ
+			#owner = SIA
 			#remove_claim_by = SIA
 
 		}
 		1956.1.1 = {
-			owner = 
-LAO
+			owner = LAO
 
 		}
 	}
@@ -33,7 +30,7 @@ LAO
 	provinces={
 		10330 10356 10456
 	}
-	manpower =  59940
+	manpower=59940
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

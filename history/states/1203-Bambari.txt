@@ -3,20 +3,17 @@ state={
 	name="STATE_1203"
 	
 	history={
-		owner = 
-ETH
-
+		#owner = LUX
 		victory_points = {
 			13825 1
 		}
 		buildings = {
-			infrastructure = 0
+			infrastructure = 3 #infrastructure = 0
 
 		}
 		#add_core_of = CAR
 		1972.1.1 = {
-			owner = 
-CAR
+			owner = CAR
 
 		}
 
@@ -25,7 +22,7 @@ CAR
 	provinces={
 		3165 12719 13822 13823 13825 13828 13829 13831 13832 
 	}
-	manpower =  276710
+	manpower=276710
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

@@ -4,7 +4,7 @@ state={
 	name="STATE_92"
 
 	history={
-		owner = SOV add_core_of = SOV
+		owner = DEU add_core_of = DEU
 		victory_points = {
 			3559 3
 		}
@@ -12,39 +12,19 @@ state={
 			6580 1
 		}
 		buildings = {
-			infrastructure = 2
-			#industrial_complex = 0
+			infrastructure = 3 #infrastructure = 2
+			#industrial_complex = 2
 			air_base = 1
 
 		}
-		#add_core_of = SOV
-		1954.1.1 = {
-			buildings = {
-				air_base = 2
-			}
-
-		}
-		1954.5.10 = {
-			owner = 
-ETH
-
-
-		}
-		1954.1.1 = {
-			#controller = SOV
-
-		}		
-		1954.1.1 = {
-			owner = SOV add_core_of = SOV
-			#controller = POL
-			
-		}
+		#add_core_of = POL
+		add_core_of = RUS
 	}
 
 	provinces={
 		3521 3559 6484 6580 9452 9521 9544 11399 11466 
 	}
-	manpower = 2464600
+	manpower=2464600
 	buildings_max_level_factor=1.000
 	state_category=town
 }

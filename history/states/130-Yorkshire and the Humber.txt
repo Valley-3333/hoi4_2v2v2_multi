@@ -7,23 +7,23 @@ state={
 	}
 
 	history={
-		owner = ENG
+		owner = GBR add_core_of = GBR
 		victory_points = {
-			9379 10
+			9379 15
 		}
 		victory_points = {
 			9315 5
 		}
 		victory_points = {
-			11297 3
+			11297 5
 		}
 		victory_points = {
-			9269 2
+			9269 3
 		}
 		buildings = {
 			infrastructure = 3
-			#arms_factory = 2
-			#industrial_complex = 3
+			arms_factory = 1
+			industrial_complex = 2
 			air_base = 5
 			11297 = {
 				naval_base = 5
@@ -31,15 +31,8 @@ state={
 			}
 
 		}
-		add_core_of = ENG
-		1954.1.1 = {
-			buildings = {
-				#arms_factory = 3
-				#industrial_complex = 4
-
-			}
-
-		}
+		#add_core_of = GBR
+		add_core_of = SCA
 
 	}
 

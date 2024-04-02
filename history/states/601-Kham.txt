@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = CHI
+		#owner = CHI
 		victory_points = {
 			8041 2
 		}
@@ -15,8 +15,8 @@ state={
 			10741 1
 		}
 		buildings = {
-			infrastructure = 0
-			#industrial_complex = 0
+			infrastructure = 3 #infrastructure = 0
+			#industrial_complex = 1
 
 		}
 		#add_core_of = CHI
@@ -27,8 +27,7 @@ state={
 
 		}
 		1953.3.7 = {
-			owner = 
-CHI
+			#owner = CHI
 
 		}
 
@@ -37,7 +36,7 @@ CHI
 	provinces={
 		4407 5018 5080 5102 8041 8059 10741 10856 
 	}
-	manpower =  368200
+	manpower=368200
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

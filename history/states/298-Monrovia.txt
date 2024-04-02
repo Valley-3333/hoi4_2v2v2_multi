@@ -7,9 +7,7 @@ state={
 	}
 
 	history={
-		owner = 
-ETH
-
+		#owner = LUX
 		victory_points = {
 			7959 5
 		}
@@ -20,9 +18,9 @@ ETH
 			13649 1
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 			#arms_factory = 1
-			#industrial_complex = 0
+			#industrial_complex = 1
 			7959 = {
 				naval_base = 2
 
@@ -36,7 +34,7 @@ ETH
 	provinces={
 		7959 13649 13650 13651 13653 
 	}
-	manpower =  745000
+	manpower=745000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

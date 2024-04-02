@@ -4,10 +4,9 @@ state={
 	name="STATE_642"
 
 	history={
-		owner = AST
-
+		#owner = LUX
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 			13050 = {
 				naval_base = 1
 
@@ -16,9 +15,7 @@ state={
 		}
 		#add_core_of = LUX
 		1980.1.1 = {
-			owner = 
-ETH
-
+			#owner = LUX
 
 		}
 
@@ -27,7 +24,7 @@ ETH
 	provinces={
 		13050 
 	}
-	manpower =  24
+	manpower=24
 	buildings_max_level_factor=1.000
 	state_category=tiny_island
 }

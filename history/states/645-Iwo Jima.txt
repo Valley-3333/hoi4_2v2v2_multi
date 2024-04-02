@@ -4,9 +4,9 @@ state={
 	name="STATE_645"
 
 	history={
-		
+		#owner = JAP
 		buildings = {
-			infrastructure = 0
+			infrastructure = 3 #infrastructure = 0
 			air_base = 1
 			13025 = {
 				naval_base = 1
@@ -14,15 +14,13 @@ state={
 			}
 
 		}
-		add_core_of = JAP
+		#add_core_of = JAP
 		1954.1.1 = {
-			owner = 
-ENG
+			#owner = USA add_core_of = USA
 
 		}
 		1972.1.1 = {
-			owner = 
-JAP
+			#owner = JAP
 
 		}
 
@@ -31,7 +29,7 @@ JAP
 	provinces={
 		13025 
 	}
-	manpower =  1018
+	manpower=1018
 	buildings_max_level_factor=1.000
 	state_category=small_island
 }

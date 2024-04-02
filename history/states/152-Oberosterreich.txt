@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = GER add_core_of = GER
+		owner = RIT add_core_of = RIT
 		victory_points = {
 			688 10 
 		}
@@ -20,32 +20,19 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			#industrial_complex = 0
+			arms_factory = 1
+			industrial_complex = 2
 
 		}
 		#add_core_of = AUS
-		1954.3.12 = {
-			owner = GER add_core_of = GER
-			#add_core_of = GER
-
-		}
-		1954.1.1 = {
-			owner = 
-ENG
-			#remove_core_of = GER
-
-		}
-		1956.1.1 = {
-			owner = GER add_core_of = GER
-
-		}
+		add_core_of = DEU
 
 	}
 
 	provinces={
 		688 3675 3684 3703 6708 9665 13206 
 	}
-	manpower = 963492
+	manpower=963492
 	buildings_max_level_factor=1.000
 	state_category=town
 }

@@ -4,7 +4,7 @@ state={
 	name="STATE_455"
 
 	history={
-		owner = GRE
+		owner = OTT add_core_of = OTT
 		victory_points = {
 			13350 5 
 		}
@@ -15,8 +15,9 @@ state={
 			7001 2 
 		}
 		buildings = {
-			infrastructure = 1
-			#industrial_complex = 0
+			infrastructure = 3 #infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 2
 
 		}
 		#add_core_of = JOR
@@ -26,7 +27,7 @@ state={
 	provinces={
 		1544 4574 7001 7151 7170 13350 13352 
 	}
-	manpower =  932000
+	manpower=932000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

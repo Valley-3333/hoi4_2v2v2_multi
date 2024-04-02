@@ -3,17 +3,18 @@ state={
 	name="STATE_1358"
 
 	history={
+		#owner = JAP
 		victory_points = {
 			13037 1
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
-		add_core_of = JAP
+		#add_core_of = JAP
 		1954.1.1 = {
-			owner = SOV add_core_of = SOV
-			#add_core_of = SOV
+			owner = RUS add_core_of = RUS
+			#add_core_of = RUS
 			set_state_name = STATE_1358_2
 			set_province_name = { id = 13037 name = VICTORY_POINTS_13037_2 }
 
@@ -24,7 +25,7 @@ state={
 	provinces={
 		13037 
 	}
-	manpower = 9501
+	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=tiny_island
 }

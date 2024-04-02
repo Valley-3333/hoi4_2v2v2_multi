@@ -3,13 +3,12 @@ state={
 	id=375
 	name="STATE_375"
 	resources={
-		oil=20000
+		oil=320.000
 		aluminium=50.000
 	}
 
 	history={
-		owner = 
-ENG
+		#owner = USA add_core_of = USA
 		victory_points = {
 			10337 10 
 		}
@@ -27,15 +26,15 @@ ENG
 		}
 		buildings = {
 			infrastructure = 3
-			#industrial_complex = 0
-			air_base = 2
+			#industrial_complex = 5
+			air_base = 3
 			10337 = {
 				naval_base = 3
 
 			}
 
 		}
-		add_core_of = ENG
+		#add_core_of = USA
 		#add_core_of = TEX
 
 	}
@@ -43,7 +42,7 @@ ENG
 	provinces={
 		805 1500 2082 3960 4577 5001 5022 5085 6968 7628 7836 7981 9829 9920 10337 10504 10778 10861 12341 12410 12486 13620 
 	}
-	manpower =  2026661
+	manpower=2026661
 	buildings_max_level_factor=1.000
 	state_category=city
 }

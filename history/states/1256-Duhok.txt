@@ -5,24 +5,24 @@ state={
 		oil=1.000
 	}
 	history={
-		owner = GRE
+		owner = OTT add_core_of = OTT
 		victory_points = {
 			10811 2 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
 		#add_core_of = IRQ
 		#add_core_of = KUR
 		#add_core_of = ASY
-
+		add_core_of = RUS
 	}
 
 	provinces={
 		10811 13346 
 	}
-	manpower =  1292535
+	manpower=1292535
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

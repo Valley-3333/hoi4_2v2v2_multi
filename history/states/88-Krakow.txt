@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = SOV add_core_of = SOV
+		owner = DEU add_core_of = DEU
 		victory_points = {
 			9427 10 
 		}
@@ -25,37 +25,20 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			#arms_factory = 1
-			#industrial_complex = 0
-			air_base = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 4
 
 		}
-		#add_core_of = SOV
-		1954.5.10 = {
-			owner = 
-ETH
-
-
-		}
-		1954.1.1 = {
-			SOV = {
-				#set_province_controller = 14379
-				
-			}
-
-		}
-		1954.1.1 = {
-			owner = SOV add_core_of = SOV
-			#controller = POL
-
-		}
-
+		#add_core_of = POL
+		add_core_of = RUS
+		add_core_of = RIT
 	}
 
 	provinces={
 		417 442 466 3410 6499 6522 9427 11398 11413 11507 14379 14746 
 	}
-	manpower = 3592800
+	manpower=3592800
 	buildings_max_level_factor=1.000
 	state_category=large_city
 }

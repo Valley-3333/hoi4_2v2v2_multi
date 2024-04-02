@@ -3,11 +3,9 @@ state={
 	name="STATE_1179"
 	
 	history={
-		owner = 
-ETH
-
+		#owner = LUX
 		buildings = {
-			infrastructure = 0
+			infrastructure = 3 #infrastructure = 0
 			13750 = {
 				naval_base = 1
 
@@ -16,13 +14,11 @@ ETH
 		}
 		#add_core_of = EQG
 		1954.9.1 = {
-			owner = 
-SPA
+			owner = SPA
 
 		}
 		1972.1.1 = {
-			owner = 
-EQG
+			owner = EQG
 
 		}
 
@@ -31,7 +27,7 @@ EQG
 	provinces={
 		13750 
 	}
-	manpower =  5232
+	manpower=5232
 	buildings_max_level_factor=1.000
 	state_category=tiny_island
 }

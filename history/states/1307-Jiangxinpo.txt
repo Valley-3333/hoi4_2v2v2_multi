@@ -4,20 +4,18 @@ state={
 	name="STATE_1307"
 
 	history={
-		owner = AST
+		#owner = RAJ
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
-		add_core_of = AST
+		#add_core_of = RAJ
 		#add_core_of = BRM
 		#add_claim_by = CHI
 		#add_claim_by = PRC
 		#add_claim_by = YUN
 		1954.9.1 = {
-			owner = 
-ETH
-
+			#owner = LUX
 			#remove_core_of = RAJ
 
 		}
@@ -26,8 +24,7 @@ ETH
 
 		}
 		1950.1.1 = {
-			owner = 
-BRM
+			owner = BRM
 
 		}
 		1972.1.1 = {
@@ -40,7 +37,7 @@ BRM
 	provinces={
 		1934 4226 4318 4996 14279 14993 14994 
 	}
-	manpower =  53877
+	manpower=53877
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

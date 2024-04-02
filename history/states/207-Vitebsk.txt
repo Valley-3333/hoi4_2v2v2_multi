@@ -4,7 +4,7 @@ state={
 	name="STATE_207"
 
 	history={
-		owner = SOV add_core_of = SOV
+		owner = RUS add_core_of = RUS
 		victory_points = {
 			11241 5 
 		}
@@ -12,11 +12,12 @@ state={
 			11220 2 
 		}
 		buildings = {
-			infrastructure = 2
-			air_base = 3
-
+			infrastructure = 3 #infrastructure = 2
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 2
 		}
-		#add_core_of = SOV
+		#add_core_of = RUS
 		#add_core_of = BLR
 		1954.11.22 = {
 			#controller = GER
@@ -27,8 +28,7 @@ state={
 
 		}
 		2000.1.1 = {
-			owner = 
-BLR
+			owner = BLR
 			#remove_core_of = SOV
 
 		}
@@ -38,7 +38,7 @@ BLR
 	provinces={
 		3331 6220 6371 9241 11220 11241 
 	}
-	manpower = 460342
+	manpower=460342
 	buildings_max_level_factor=1.000
 	state_category=town
 }

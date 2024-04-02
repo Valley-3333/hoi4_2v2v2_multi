@@ -7,9 +7,7 @@ state={
 	}
 
 	history={
-		owner = 
-ETH
-
+		#owner = LUX
 		victory_points = {
 			2196 10 
 		}
@@ -20,7 +18,7 @@ ETH
 			8183 2 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 			2196 = {
 				naval_base = 2
 
@@ -29,8 +27,7 @@ ETH
 		}
 		#add_core_of = TZN
 		1972.1.1 = {
-			owner = 
-TZN
+			owner = TZN
 
 		}
 
@@ -39,7 +36,7 @@ TZN
 	provinces={
 		2196 8183 8205 14100 
 	}
-	manpower =  5299000
+	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=town
 }

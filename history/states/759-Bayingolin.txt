@@ -4,21 +4,20 @@ state={
 	name="STATE_759"
 
 	history={
-		owner = CHI
+		#owner = CHI
 		victory_points = {
 			7790 1 
 		}
 		buildings = {
-			infrastructure = 0
+			infrastructure = 3 #infrastructure = 0
 
 		}
 		#add_core_of = SIK
-		add_core_of = CHI
+		#add_core_of = CHI
 		#add_core_of = PRC
 		#add_core_of = LUX
 		1950.1.1 = {
-			owner = 
-CHI
+			#owner = CHI
 
 		}
 
@@ -27,7 +26,7 @@ CHI
 	provinces={
 		1698 1943 2074 4709 4947 5736 7790 7792 8042 10315 10545 14854 14857 14859 15193 
 	}
-	manpower =  330810
+	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

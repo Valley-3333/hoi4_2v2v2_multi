@@ -3,33 +3,21 @@ state={
 	name="STATE_1091"
 	
 	history={
+		owner = RIT add_core_of = RIT
 		victory_points = {
 		    13597 1
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 			13597 = {
 				naval_base = 1
 
 			}
 
 		}
-		owner = GRE add_core_of = GRE
+		#add_core_of = YUG
 		#add_core_of = MNT
-		##add_claim_by = ITA
-		1954.6.22 = {
-			owner = GER add_core_of = ITA
-			#controller = ITA
-
-		}
-		1954.6.20 = {
-			owner = GER add_core_of = GER
-			#controller = GER
-		}
-		1954.1.1 = {
-			owner = GER add_core_of = ITA
-			#controller = YUG
-		}
+		add_core_of = OTT
 	}
 	
 	provinces={

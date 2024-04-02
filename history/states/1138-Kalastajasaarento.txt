@@ -3,34 +3,20 @@ state={
 	name="STATE_1138"
 	
 	history={
-		
+			owner = SCA add_core_of = SCA
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
 		#add_core_of = FIN
-		1954.5.10 = {
-			owner = SOV add_core_of = SOV
-			#controller = SOV
-			#add_core_of = SOV
-			set_state_name = "Rybachy"
-
-		}
-		1954.11.22 = {
-			#controller = FIN
-
-		}
-		1954.1.1 = {
-			#controller = SOV
-
-		}
+		add_core_of = RUS
 
 	}
 	
 	provinces={
 		13665 
 	}
-	manpower = 500
+	manpower=500
 	buildings_max_level_factor=1.000
 	state_category=enclave
 }

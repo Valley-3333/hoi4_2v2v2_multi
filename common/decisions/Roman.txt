@@ -1,0 +1,450 @@
+Roman_Youso = {
+	Roman_Youso_FRA_SPR = {
+
+		icon = GFX_decision_generic_form_nation
+
+
+		visible = {
+			is_ai = no
+			tag = FRE
+		}
+		allowed = { always = yes }
+
+		fire_only_once = no
+		
+
+		complete_effect = {
+			set_cosmetic_tag = FRA_SPR
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 0
+		}
+
+	}	
+	Roman_Youso_FRA_FREE = {
+
+		icon = GFX_decision_generic_form_nation
+
+
+		visible = {
+			is_ai = no
+			tag = FRE
+		}
+		allowed = { always = yes }
+
+		fire_only_once = no
+		
+
+		complete_effect = {
+			set_cosmetic_tag = FRA_FREE
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+
+	Roman_Youso_ENG_BENELUX = {
+
+		icon = GFX_decision_generic_form_nation
+
+
+		visible = {
+			is_ai = no
+			tag = GBR
+		}
+		allowed = { always = yes }
+
+		fire_only_once = no
+		
+
+		complete_effect = {
+			set_cosmetic_tag = BENELUX
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+	Roman_Youso_GER_HOLY = {
+
+		icon = GFX_decision_generic_form_nation
+
+
+		visible = {
+			is_ai = no
+			tag = DEU
+		}
+		allowed = { always = yes }
+
+		fire_only_once = no
+		
+
+		complete_effect = {
+			set_cosmetic_tag = GER_HOLY
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+
+	Roman_Youso_GRE_BYZANT = {
+
+		icon = GFX_decision_generic_form_nation
+
+
+		visible = {
+			is_ai = no
+			tag = OTT
+		}
+		allowed = { always = yes }
+
+		fire_only_once = no
+		
+
+		complete_effect = {
+			set_cosmetic_tag = BYZANT
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+
+	Roman_Youso_EU_UNION = {
+
+		icon = GFX_decision_generic_form_nation
+
+
+		visible = {
+			is_ai = no
+
+		}
+		available = {
+			controls_state = 126
+			controls_state = 16	
+			controls_state = 2
+			controls_state = 141
+			controls_state = 219
+			controls_state = 341	
+			controls_state = 1057
+			NOT = { has_global_flag = EU_UNION_GLOBAL_FLAG }
+		}
+		allowed = { always = yes }
+
+		fire_only_once = no
+		
+
+		complete_effect = {
+			set_cosmetic_tag = EU_UNION
+			set_global_flag = EU_UNION_GLOBAL_FLAG
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+	Roman_Youso_BIG_FIN = {
+
+		icon = GFX_decision_generic_form_nation
+
+
+		visible = {
+			is_ai = no
+            tag = SCA
+		}
+		allowed = { always = yes }
+
+		fire_only_once = no
+		
+
+		complete_effect = {
+			set_cosmetic_tag = BIG_FIN
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+	Roman_Youso_TWO_EMPIRE = {
+
+		icon = GFX_decision_generic_form_nation
+
+
+		visible = {
+			is_ai = no
+            tag = RIT
+		}
+		allowed = { always = yes }
+
+		fire_only_once = no
+		
+
+		complete_effect = {
+			set_cosmetic_tag = TWO_EMPIRE
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+	Roman_Youso_PRUSIA = {
+
+		icon = GFX_decision_generic_form_nation
+
+
+		visible = {
+			is_ai = no
+            tag = DEU
+		}
+		allowed = { always = yes }
+
+		fire_only_once = no
+		
+
+		complete_effect = {
+			set_cosmetic_tag = PRUSIA
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+	Roman_Youso_Paradox = {
+
+		icon = GFX_decision_generic_form_nation
+
+
+		visible = {
+			is_ai = no
+			tag = SCA
+		}
+		allowed = { always = yes }
+
+		fire_only_once = no
+		
+
+		complete_effect = {
+			set_cosmetic_tag = Paradox
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+	Roman_Youso_SPQR = {
+
+		icon = GFX_decision_generic_form_nation
+
+
+		visible = {
+			is_ai = no
+			tag = RIT
+		}
+		allowed = { always = yes }
+
+		fire_only_once = no
+		
+
+		complete_effect = {
+			set_cosmetic_tag = SPQR
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+	Roman_Youso_UKRI = {
+
+		icon = GFX_decision_generic_form_nation
+
+
+		visible = {
+			is_ai = no
+			tag = RUS
+		}
+		allowed = { always = yes }
+
+		fire_only_once = no
+		
+
+		complete_effect = {
+			set_cosmetic_tag = UKRI
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+	Roman_Youso_ISRA = {
+
+		icon = GFX_decision_generic_form_nation
+
+
+		visible = {
+			is_ai = no
+			tag = OTT
+		}
+		allowed = { always = yes }
+
+		fire_only_once = no
+		
+
+		complete_effect = {
+			set_cosmetic_tag = ISRA
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+	Roman_Youso_Poland = {
+
+		icon = GFX_decision_generic_form_nation
+
+
+		visible = {
+			is_ai = no
+			tag = RUS
+		}
+		allowed = { always = yes }
+
+		fire_only_once = no
+		
+
+		complete_effect = {
+			set_cosmetic_tag = Poland
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+	Roman_Youso_Mongolia = {
+
+		icon = GFX_decision_generic_form_nation
+
+
+		visible = {
+			is_ai = no
+			tag = RUS
+		}
+		allowed = { always = yes }
+
+		fire_only_once = no
+		
+
+		complete_effect = {
+			set_cosmetic_tag = Mongolia
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+	Roman_Youso_Angevin = {
+
+		icon = GFX_decision_generic_form_nation
+
+
+		visible = {
+			is_ai = no
+			tag = GBR
+		}
+		allowed = { always = yes }
+
+		fire_only_once = no
+		
+
+		complete_effect = {
+			set_cosmetic_tag = Angevin
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+	Roman_Youso_IREL = {
+
+		icon = GFX_decision_generic_form_nation
+
+
+		visible = {
+			is_ai = no
+			tag = GBR
+		}
+		allowed = { always = yes }
+
+		fire_only_once = no
+		
+
+		complete_effect = {
+			set_cosmetic_tag = IREL
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	Roman_Youso_PAPA = {
+
+icon = GFX_decision_generic_form_nation
+
+
+visible = {
+	is_ai = no
+	tag = RIT
+}
+allowed = { always = yes }
+
+fire_only_once = no
+
+
+complete_effect = {
+	set_cosmetic_tag = PAPA
+}
+cost = 0
+ai_will_do = {
+	factor = 0
+}
+}
+	Roman_Youso_BACK_Country = {
+
+		icon = GFX_decision_generic_form_nation
+
+
+		visible = {
+			is_ai = no
+		}
+		allowed = { always = yes }
+
+		fire_only_once = no
+		
+
+		complete_effect = {
+			drop_cosmetic_tag = yes
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 0
+		}
+
+	}
+}

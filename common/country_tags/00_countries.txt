@@ -1,0 +1,8 @@
+DEU	= "countries/Germany.txt"
+GBR = "countries/United Kingdom.txt"
+RUS = "countries/Soviet Union.txt"
+SCA	= "countries/Sweden.txt"
+FRE	= "countries/France.txt"
+RIT = "countries/Italy.txt"
+OTT = "countries/Turkey.txt"
+TIN = "countries/Tannu Tuva.txt"

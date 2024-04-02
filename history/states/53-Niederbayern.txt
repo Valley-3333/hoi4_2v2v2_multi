@@ -4,7 +4,7 @@ state={
 	name="STATE_53"
 
 	history={
-		owner = GER add_core_of = GER
+		owner = DEU add_core_of = DEU
 		victory_points = {
 			9515 2 
 		}
@@ -19,20 +19,18 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-
+			arms_factory = 1
+			industrial_complex = 2
 		}
-		#add_core_of = GER
+		#add_core_of = DEU
 		#add_core_of = BAV
 		1954.1.1 = {
-			owner = 
-ENG
+			#owner = USA add_core_of = USA
 			#controller = USA
 
 		}
 		1950.1.1 = {
-			owner = 
-ETH
-
+			#owner = LUX
 			#add_core_of = LUX
 			#add_core_of = DDR
 			#remove_core_of = GER
@@ -44,7 +42,7 @@ ETH
 	provinces={
 		532 571 586 3299 3541 3571 6725 9515 9681 11497 
 	}
-	manpower = 1324365
+	manpower=1324365
 	buildings_max_level_factor=1.000
 	state_category=city
 }

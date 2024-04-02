@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = ENG
+		owner = GBR add_core_of = GBR
 		victory_points = {
 			11136 2
 		}
@@ -17,22 +17,23 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			#dockyard = 2
+			arms_factory = 1
+			industrial_complex = 2
 			11136 = {
 				naval_base = 1
 
 			}
 
 		}
-		add_core_of = ENG
+		#add_core_of = GBR
 		#add_core_of = SCO
-
+		add_core_of = SCA
 	}
 
 	provinces={
 		200 3150 9161 11055 11136 11207 
 	}
-	manpower=745466
+	manpower=1345466
 	buildings_max_level_factor=1.000
 	state_category=town
 }

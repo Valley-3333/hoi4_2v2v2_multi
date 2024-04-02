@@ -1,0 +1,502 @@
+capital = 1057
+army_experience = -100
+add_named_threat = { threat = 40 name = 1939_bookmark_threat }
+add_offsite_building = { type = arms_factory level = 20 }
+add_political_power = 1052
+
+oob = "GER_1939"
+add_ideas = {
+	ENG_the_war_to_end_all_wars
+	triumphant_will
+	war_economy
+	generic_silent_workhorse
+}
+set_politics = {
+	ruling_party = fascism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 0
+	fascism = 100
+	communism = 0
+}
+
+create_faction = "枢軸国"
+add_to_faction = DEU
+
+set_research_slots = 6
+set_convoys = 500
+set_stability = 1
+set_war_support = 1
+
+complete_national_focus = political_effort
+complete_national_focus = army_effort
+complete_national_focus = equipment_effort
+complete_national_focus = aviation_effort
+complete_national_focus = industrial_effort
+complete_national_focus = construction_effort
+complete_national_focus = construction_effort_2
+complete_national_focus = infrastructure_effort
+complete_national_focus = doctrine_effort
+complete_national_focus = doctrine_effort_2
+
+
+    add_tech_bonus = {
+	    bonus = 1.0
+	    uses = 1
+	    technology = advanced_machine_tools
+	}
+	add_tech_bonus = {
+		name = armor_bonus
+		bonus = 1
+		ahead_reduction = 1
+		uses = 1
+		technology = improved_medium_tank_chassis
+    }
+    add_tech_bonus = {
+	    bonus = 1
+	    ahead_reduction = 2
+	    uses = 1
+	    technology = super_heavy_tank_chassis
+    }
+# Starting tech
+set_technology = {
+    #infantry
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	support_weapons = 1
+	support_weapons2 = 1
+
+	#motorised
+	motorised_infantry = 1
+	mechanised_infantry = 1
+	amphibious_mechanized_infantry = 1
+	
+	#artillery
+	gw_artillery = 1
+	artillery1 = 1
+	interwar_antiair = 1
+	interwar_antitank = 1
+	interwar_artillery = 1
+	interwar_antitank = 1
+
+    #special_forces
+	tech_special_forces = 1
+	marines = 1
+	paratroopers = 1
+
+	#electronics
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	decimetric_radar = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_encryption = 1
+	basic_decryption = 1
+	
+	#industry
+	basic_machine_tools = 1
+	improved_machine_tools = 1
+	synth_oil_experiments = 1
+	construction1 = 1
+	construction2 = 1
+	synth_oil_experiments = 1
+	fuel_refining = 1
+	fuel_silos = 1
+		
+	#support
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	tech_military_police = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_signal_company = 1
+	tech_maintenance_company = 1
+	
+	#train
+		basic_train = 1
+    railway_gun = 1
+    railway_gun = 1
+	wartime_train = 1
+	armored_train = 1
+
+	
+	
+    #tank
+	gwtank_chassis = 1 #has_dlc = "No Step Back"
+	basic_light_tank_chassis = 1 #has_dlc = "No Step Back"
+	improved_light_tank_chassis = 1 #has_dlc = "No Step Back"
+	basic_heavy_tank_chassis = 1 #has_dlc = "No Step Back"
+	engine_tech_1 = 1 #has_dlc = "No Step Back"
+	basic_medium_tank_chassis = 1 #has_dlc = "No Step Back"
+	amphibious_tank_chassis = 1 #has_dlc = "No Step Back"
+	improved_heavy_tank_chassis = 1 #has_dlc = "No Step Back"
+	armor_tech_1 = 1 #has_dlc = "No Step Back"
+	armor_tech_2 = 2 #has_mod = "innovative balance"
+	engine_tech_2 = 1 #has_dlc = "No Step Back"
+	suspension_tech_1 = 1 #has_mod = "innovative balance"
+	suspension_tech_2 = 1 #has_mod = "innovative balance"
+	tankammo_tech_1 = 1 #has_mod = "innovative balance"
+	tankammo_tech_2 = 1 #has_mod = "innovative balance"
+	tankradio = 1 #has_mod = "innovative balance"
+	tankradio_2 = 1 #has_mod = "innovative balance"
+
+	#armored_car
+	armored_car1 = 1 #has_dlc = "La Resistance"
+
+	#navy
+	early_ship_hull_light = 1 #has_dlc = "Man the Guns"
+	basic_ship_hull_light = 1 #has_dlc = "Man the Guns"
+	early_ship_hull_cruiser = 1 #has_dlc = "Man the Guns"
+	basic_ship_hull_cruiser = 1 #has_dlc = "Man the Guns"
+	early_ship_hull_heavy = 1 #has_dlc = "Man the Guns"
+	basic_ship_hull_heavy = 1 #has_dlc = "Man the Guns"
+	early_ship_hull_carrier = 1 #has_dlc = "Man the Guns"
+	basic_ship_hull_carrier = 1 #has_dlc = "Man the Guns"
+	early_ship_hull_submarine = 1 #has_dlc = "Man the Guns"
+	basic_ship_hull_submarine = 1 #has_dlc = "Man the Guns"
+	basic_depth_charges = 1 #has_dlc = "Man the Guns"
+	improved_depth_charges = 1 #has_dlc = "Man the Guns"
+	sonar = 1 #has_dlc = "Man the Guns"
+	improved_sonar = 1 #has_dlc = "Man the Guns"
+	improved_airplane_launcher = 1 #has_dlc = "Man the Guns"
+	basic_cruiser_armor_scheme = 1 #has_dlc = "Man the Guns"
+	basic_torpedo = 1 #has_dlc = "Man the Guns"
+	magnetic_detonator = 1 #has_dlc = "Man the Guns"
+	improved_ship_torpedo_launcher = 1 #has_dlc = "Man the Guns"
+	basic_battery = 1 #has_dlc = "Man the Guns"
+	light_battery_4in_x1 = 1 #has_mod = "innovative balance"
+	light_battery_4in_x2 = 1 #has_mod = "innovative balance"
+	dp_light_battery_4in_x1 = 1 #has_mod = "innovative balance"
+	basic_medium_shell = 1 #has_dlc = "Man the Guns"
+	light_battery_5in_x1 = 1 #has_mod = "innovative balance"
+	basic_heavy_shell = 1 #has_dlc = "Man the Guns"
+	light_battery_5in_x2 = 1 #has_mod = "innovative balance"
+	medium_battery_5Hin_x1 = 1 #has_mod = "innovative balance"
+	medium_battery_5Hin_x2 = 1 #has_mod = "innovative balance"
+	damage_control_1 = 1 #has_dlc = "Man the Guns"
+	damage_control_2 = 1 #has_dlc = "Man the Guns"
+	fire_control_methods_1 = 1 #has_dlc = "Man the Guns"
+	fire_control_methods_2 = 1 #has_dlc = "Man the Guns"
+	medium_battery_6in_x1 = 1 #has_mod = "innovative balance"
+	medium_battery_8in_x2 = 1 #has_mod = "innovative balance"
+	heavy_battery_14in_x2 = 1 #has_mod = "innovative balance"
+	heavy_battery_14in_x3 = 1 #has_mod = "innovative balance"
+	heavy_battery_15in_x2 = 1 #has_mod = "innovative balance"
+	heavy_battery_16in_x2 = 1 #has_mod = "innovative balance"
+	triple_gun_battery = 1 #has_mod = "innovative balance"
+	twin_gun_battery = 1 #has_mod = "innovative balance"
+	ib_shell_tech2 = 1 #has_mod = "innovative balance"
+	smoke_generator = 1 #has_dlc = "Man the Guns"
+	basic_fire_control_system = 1 #has_dlc = "Man the Guns"
+	improved_fire_control_system = 1 #has_dlc = "Man the Guns"
+	mtg_transport = 1 #has_dlc = "Man the Guns"
+
+	#air
+	iw_small_airframe = 1 #has_dlc = "By Blood Alone"
+	basic_small_airframe = 1 #has_dlc = "By Blood Alone"
+	iw_medium_airframe = 1 #has_dlc = "By Blood Alone"
+	basic_medium_airframe = 1 #has_dlc = "By Blood Alone"
+	iw_large_airframe = 1 #has_dlc = "By Blood Alone"
+	basic_large_airframe = 1 #has_dlc = "By Blood Alone"
+	early_bombs = 1 #has_dlc = "By Blood Alone"
+	photo_reconnaisance = 1 #has_dlc = "By Blood Alone"
+	aa_lmg = 1 #has_dlc = "By Blood Alone"
+	survivability_studies = 1 #has_dlc = "By Blood Alone"
+	aa_hmg = 1 #has_dlc = "By Blood Alone"
+	engines_1 = 1 #has_dlc = "By Blood Alone"
+	engines_2 = 1 #has_dlc = "By Blood Alone"
+	range_improvements = 1 #has_dlc = "By Blood Alone"
+	aircraft_construction = 1 #has_dlc = "By Blood Alone"
+}
+
+create_country_leader = {
+	name = "Konrad Adenauer"
+	desc = "POLITICS_KONRAD_ADENAUER_DESC"
+	picture = "gfx/leaders/GER/Portrait_Germany_Konrad_Adenauer.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		uy_trait
+	}
+}
+create_country_leader = {
+	name = "Wilhelm Pieck"
+	desc = "POLITICS_WILHELM_PIECK_DESC"
+	picture = "gfx/leaders/GER/Portrait_Germany_Wilhelm_Pieck.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {
+		exiled
+	}
+}
+
+#リーダー
+#recruit_character = GER_wilhelm_pieck
+recruit_character = GER_adolf_hitler
+#recruit_character = GER_konrad_adenauer
+recruit_character = GER_wilhelm_ii
+
+
+recruit_character = AD_GER_gerd_von_rundstedt
+recruit_character = AD_GER_erwin_rommel
+recruit_character = AD_GER_erich_von_manstein
+recruit_character = AD_GER_heinz_guderian
+recruit_character = AD_GER_kurt_student
+recruit_character = AD_GER_albert_kesselring
+recruit_character = AD_GER_karl_donitz
+recruit_character = AD_GER_erich_raeder
+recruit_character = AD_GER_alfred_saalwachter
+recruit_character = AD_GER_gunther_lutjens
+recruit_character = GER_von_braun
+recruit_character = GER_heisenberg
+recruit_character = GER_wolfram_von_richthofen
+recruit_character = GER_walther_wever
+recruit_character = GER_ernst_udet
+recruit_character = GER_otto_ciliax
+recruit_character = GER_ludwig_beck
+recruit_character = GER_wilhelm_keitel
+recruit_character = GER_franz_halder
+recruit_character = GER_walther_von_brauchitsch
+recruit_character = GER_hermann_goring
+recruit_character = GER_ritter_von_greim
+recruit_character = GER_ferdinand_schorner
+recruit_character = GER_werner_von_fritsch
+recruit_character = GER_hugo_sperrle
+recruit_character = GER_erhard_milch
+recruit_character = GER_erich_bey
+recruit_character = GER_viktor_schutze
+recruit_character = GER_fritz_todt
+recruit_character = GER_albert_speer
+recruit_character = GER_hjalmar_schacht
+recruit_character = GER_walther_funk
+recruit_character = GER_ernst_thalmann
+recruit_character = GER_kurt_schumacher
+recruit_character = GER_joseph_goebbels
+recruit_character = GER_rudolf_hess
+recruit_character = GER_heinrich_himmler
+recruit_character = GER_martin_bormann
+recruit_character = GER_joachim_von_ribbentrop
+recruit_character = GER_konstantin_von_neurath
+
+create_corps_commander = {
+	name = "EUROPE_General_voitek"
+	portrait_path = GFX_portrait_POL_king_woytek
+	
+		traits={ bearer_of_artillery }
+		skill=3
+		attack_skill=3
+		defense_skill=3
+		planning_skill=3
+		logistics_skill=3
+	
+}
+
+create_corps_commander = {
+	name=EUROPE_General_canada_death_bringer # 顔面凶器
+	portrait_path = GFX_CAN_adrien_arcand
+	
+		traits = { cavalry_officer cavalry_leader cavalry_expert }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	
+}
+create_corps_commander = {
+	name = EUROPE_General_dodo # ドードー鳥
+	portrait_path = GFX_portrait_AST_rod_hull
+	
+		traits = { desert_fox }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	
+}
+create_corps_commander = {
+	name = EUROPE_General_Boris # ボリスツルピカヨーグルト3世
+	portrait_path = GFX_portrait_BUL_boris_iii
+	
+		traits = { urban_assault_specialist }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	
+}
+create_corps_commander = {
+	name = EUROPE_General_Mao # 毛同志
+	portrait_path = "gfx/leaders/CHI/Portrait_China_Mao_Zedong.dds"
+	
+		traits = { 	organizer commando}
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	
+}
+create_corps_commander = {
+	name = EUROPE_General_Perfect_human # 中田敦彦
+	portrait_path = "GFX_portrait_JAP_naruhiko_higashikuni"
+	
+	traits = { infantry_officer armor_officer }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	
+}
+
+create_corps_commander = {
+	name = EUROPE_General_Turube # 鶴瓶
+	portrait_path = "GFX_portrait_JAP_akira_muto"
+	
+		traits = { trait_reckless trait_cautious }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	
+}
+create_corps_commander = {
+	name = EUROPE_General_Trotsky # トロツキー
+	portrait_path = "GFX_portrait_MEX_leon_trotsky"
+	
+		traits = { trait_SOV_determined }
+		skill = 3
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 3
+	
+}
+create_corps_commander = {
+	name = EUROPE_General_Franco # フランコ
+	portrait_path = "GFX_portrait_spain_francisco_franco"
+	
+		traits = { naval_invader invader_ii}
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	
+}
+create_corps_commander = {
+	name = EUROPE_General_Tito # チート
+	portrait_path = "GFX_portrait_YUG_josip_broz_tito"
+	
+		traits = { commando camouflage_expert }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	
+}
+
+
+
+
+
+
+#将軍
+
+recruit_character = GER_gerd_von_rundstedt
+recruit_character = GER_gunther_von_kluge
+recruit_character = GER_friedrich_paulus
+recruit_character = GER_erwin_rommel
+recruit_character = GER_erich_von_manstein
+recruit_character = GER_heinz_guderian
+recruit_character = GER_wilhelm_list
+recruit_character = GER_ewald_von_kleist
+recruit_character = GER_fedor_von_bock
+recruit_character = GER_walter_model
+recruit_character = GER_maximilian_von_weichs
+recruit_character = GER_wilhelm_ritter_von_leeb
+recruit_character = GER_georghans_reinhardt
+recruit_character = GER_walter_kruger
+recruit_character = GER_kurt_student
+recruit_character = GER_erwin_von_witzleben
+recruit_character = GER_hermann_hoth
+recruit_character = GER_johannes_blaskowitz
+recruit_character = GER_paul_hausser
+recruit_character = GER_friedrich_schulz
+recruit_character = GER_georg_von_kuchler
+recruit_character = GER_alfred_jodl
+recruit_character = GER_sepp_dietrich
+recruit_character = GER_hasso_von_manteuffel
+recruit_character = GER_albert_kesselring
+recruit_character = GER_gotthard_heinrici
+recruit_character = GER_ernsteberhard_hell
+recruit_character = GER_felix_steiner
+recruit_character = GER_alexander_von_falkenhausen
+
+#海軍
+
+recruit_character = GER_karl_donitz
+recruit_character = GER_erich_raeder
+recruit_character = GER_alfred_saalwachter
+recruit_character = GER_hermann_boehm
+recruit_character = GER_wilhelm_marschall
+recruit_character = GER_gunther_lutjens
+
+add_namespace = {
+	name = "ger_unit_leader"
+	type = unit_leader
+}
+
+
+
+
+if = {
+	limit = { has_dlc = "Man the Guns" } 
+	### Ship Variants ###
+	# Destroyers #
+	create_equipment_variant = {
+		name = "S Class"
+		type = ship_hull_light_1
+		name_group = CAN_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Sanguenay Class"
+		type = ship_hull_light_1
+		name_group = CAN_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = empty
+		}
+	}
+}

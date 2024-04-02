@@ -3,13 +3,13 @@ state={
 	name="STATE_1220"
 
 	history={
-		owner = ENG
+		#owner = AST
 		#add_core_of = LUX
 		victory_points = {
 			12206 1
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 			12206 = {
 				naval_base = 1
 
@@ -17,8 +17,7 @@ state={
 
 		}
 		1980.1.1 = {
-			owner = 
-AST
+			#owner = AST
 
 		}
 
@@ -27,7 +26,7 @@ AST
 	provinces={
 		12206 
 	}
-	manpower =  68913
+	manpower=68913
 	buildings_max_level_factor=1.000
 	state_category=enclave
 }

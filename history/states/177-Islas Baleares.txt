@@ -4,8 +4,7 @@ state={
 	name="STATE_177"
 
 	history={
-		owner = ENG
-
+		owner = FRE add_core_of = FRE
 		victory_points = {
 			9793 3 
 		}
@@ -18,6 +17,8 @@ state={
 		buildings = {
 			infrastructure = 3
 			air_base = 1
+			arms_factory = 1
+			industrial_complex = 2
 			9793 = {
 				naval_base = 2
 
@@ -33,20 +34,14 @@ state={
 
 		}
 		#add_core_of = SPR
-		1954.9.1 = {
-			owner = 
-SPA
-			#add_core_of = SPA
-			#remove_core_of = SPR
-
-		}
+		add_core_of = RIT
 
 	}
 
 	provinces={
 		7114 9793 9845 14575 
 	}
-	manpower =  365500
+	manpower=365500
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

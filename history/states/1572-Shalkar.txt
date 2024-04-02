@@ -3,16 +3,15 @@ state={
 	name="STATE_1572"
 
 	history={
-		owner = TUR add_core_of = TUR
+		#owner = RUS add_core_of = RUS
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
-		#add_core_of = SOV
+		#add_core_of = RUS
 		#add_core_of = KAZ
 		2000.1.1 = {
-			owner = 
-KAZ
+			owner = KAZ
 
 		}
 
@@ -21,7 +20,7 @@ KAZ
 	provinces={
 		1220 1314 1360 1371 1429 4376 4394 7313 7337 7354 7410 10131 10164 10264 12108 12163 12179 12198 12227 12294 
 	}
-	manpower = 26574
+	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

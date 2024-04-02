@@ -1,0 +1,338 @@
+add_namespace = ABSGC
+
+country_event = {
+	id = ABSGC.2
+	title = ABSGC.2.t
+	#always = yes
+	fire_only_once = YES
+	desc = ABSGC.2.d
+	
+	picture = GFX_report_event_ace_promoted
+	
+	is_triggered_only = YES
+
+	
+	
+	
+	option = { # EWMisplay
+		name = ABSGC.2.O.a
+		#trigger = { is_ai = no }
+		hidden_effect = {
+			every_state  = {
+				limit  = {
+					
+				NOT = {
+						is_controlled_by = DEU
+						is_controlled_by = OTT
+						is_controlled_by = SCA
+						is_controlled_by = RUS
+						is_controlled_by = GBR
+						is_controlled_by = FRE
+						is_controlled_by = RIT
+			    }
+
+				}
+			}
+		}
+		#TAN = {
+		#	transfer_state = 713
+		#	add_state_core = 713
+			
+		#	annex_country =	{ target = USA }
+		#	annex_country = { target = SAF }
+		#	annex_country = { target = PER }
+		#	annex_country = { target = RAJ }
+		#	annex_country = { target = MON }
+		#	annex_country = { target = CHI }
+		#	annex_country = { target = JAP }
+		#	annex_country = { target = BRA }
+		#	annex_country = { target = AST }
+		#	every_owned_state = {
+					
+		#			add_core_of = TAN
+		#		}
+		#}
+
+		DEU = {
+			random_owned_state = { #a
+        add_extra_state_shared_building_slots = 2
+        add_building_construction = {
+            type = industrial_complex
+            level = 2
+            instant_build = yes
+        }
+		}
+		random_owned_state = { #a
+        add_extra_state_shared_building_slots = 2
+        add_building_construction = {
+            type = industrial_complex
+            level = 2
+            instant_build = yes
+        }
+		}
+		random_owned_state = { #a
+        add_extra_state_shared_building_slots = 2
+        add_building_construction = {
+            type = industrial_complex
+            level = 2
+            instant_build = yes
+        }
+		}
+		random_owned_state = { #a
+        add_extra_state_shared_building_slots = 2
+        add_building_construction = {
+            type = industrial_complex
+            level = 2
+            instant_build = yes
+        }
+		}
+		random_owned_state = { #a
+        add_extra_state_shared_building_slots = 2
+        add_building_construction = {
+            type = industrial_complex
+            level = 2
+            instant_build = yes
+        }
+		}
+			
+	}
+}
+
+#option = { # ABSGCisplay
+#		name = ABSGC.2.O.b
+		#trigger = { is_ai = no }
+		#GER = {
+		#	remove_ideas = triumphant_will
+		#}
+#}
+
+#option = { # ABSGCisplay
+	#	name = ABSGC.2.O.c
+		#trigger = { is_ai = no }
+		#GER = {
+			#remove_ideas = triumphant_will
+			#annex_country =	{ target = ITA }
+			#every_owned_state = {					
+			#	add_core_of = DEU
+			#}
+		#}
+		#FRA = {
+			#annex_country =	{ target = SAF }
+			#every_owned_state = {					
+			#	add_core_of = FRE
+			#}
+		#}
+		#USA = {
+			#annex_country =	{ target = ENG }
+			#every_owned_state = {					
+			#	add_core_of = USA
+			#}
+		#}
+		#SOV = {
+			#annex_country =	{ target = SWE }
+			#every_owned_state = {					
+			#	add_core_of = RUS
+			#}
+		#}
+		#JAP = {
+			#annex_country =	{ target = MON }
+			#every_owned_state = {					
+			#	add_core_of = JAP
+			#}
+		#}
+		#CHI = {
+			#annex_country =	{ target = RAJ }
+			#every_owned_state = {					
+			#	add_core_of = CHI
+			#}
+		#}
+		#TUR = {
+			#annex_country =	{ target = PER }
+			#every_owned_state = {					
+			#	add_core_of = OTT
+			#}
+		#}
+		#AST = {
+			#annex_country =	{ target = BRA }
+			#every_owned_state = {					
+			#	add_core_of = AST
+			#}
+		#}
+}
+
+country_event = {
+	id = ABSGC.3
+	title = ABSGC.3.t
+	#always = yes
+	hidden = yes
+	fire_only_once = no
+	desc = ABSGC.3.d
+
+
+	trigger = {
+		any_country = {
+		has_idea = war_economy
+		NOT = {
+			has_idea = tot_economic_mobilisation
+		}
+        has_war = yes
+		NOT = {
+			has_country_flag = One_time_tortal_war_flag
+		}
+		}
+
+	}
+	
+	picture = GFX_report_event_ace_promoted
+	
+	immediate = {
+		random_country = {
+			limit = {
+				has_war = yes
+				has_idea = war_economy
+				NOT = {
+					has_idea = tot_economic_mobilisation
+				}
+			}
+			add_ideas = tot_economic_mobilisation
+			set_country_flag = One_time_tortal_war_flag
+		}
+	}
+}
+
+country_event = { #初心者用
+	id = ABSGC.4
+	title = ABSGC.4.t
+	fire_only_once = no
+	desc = ABSGC.4.desc
+
+
+	is_triggered_only = yes
+	
+	picture = GFX_report_event_ace_promoted
+	
+	option = {
+		name = ABSGC.4.a
+		#相互貿易
+		country_event = {
+			id = ABSGC.5
+			days = 0
+			}
+	}
+	option = {
+		name = ABSGC.4.b
+		#外交
+		country_event = {
+			id = ABSGC.6
+			days = 0
+			}
+	}
+	option = {
+		name = ABSGC.4.c
+		#戦争
+		country_event = {
+			id = ABSGC.7
+			days = 0
+			}
+	}
+	option = {
+		name = ABSGC.4.d
+		#その他
+		country_event = {
+			id = ABSGC.8
+			days = 0
+			}
+	}
+}
+country_event = { #相互貿易
+	id = ABSGC.5
+	title = ABSGC.5.t
+	fire_only_once = yes
+	desc = ABSGC.5.desc
+
+	is_triggered_only = yes
+	picture = GFX_report_event_ace_promoted
+	fire_only_once = no
+	option = {
+		name = ABSGC.5.a
+		country_event = {
+			id = ABSGC.4
+			days = 0
+			}
+		#OK
+	}
+	option = {
+		name = ABSGC.5.b
+		#OK
+	}
+}
+country_event = { #外交
+	id = ABSGC.6
+	title = ABSGC.6.t
+	fire_only_once = yes
+	desc = ABSGC.6.desc
+
+	is_triggered_only = yes
+	picture = GFX_report_event_ace_promoted
+	fire_only_once = no
+	option = {
+		name = ABSGC.6.a
+		country_event = {
+			id = ABSGC.4
+			days = 0
+			}
+		#OK
+
+	}
+	option = {
+		name = ABSGC.6.b
+		#OK
+	}
+}
+country_event = { #戦争
+	id = ABSGC.7
+	title = ABSGC.7.t
+	fire_only_once = yes
+	desc = ABSGC.7.desc
+
+	is_triggered_only = yes
+	picture = GFX_report_event_ace_promoted
+	fire_only_once = no
+	option = {
+		name = ABSGC.7.a
+		country_event = {
+			id = ABSGC.4
+			days = 0
+		}
+
+		#OK
+	}
+	option = {
+		name = ABSGC.7.b
+		#OK
+	}
+}
+country_event = { #その他
+	id = ABSGC.8
+	title = ABSGC.8.t
+	fire_only_once = yes
+	desc = ABSGC.8.desc
+	fire_only_once = no
+	is_triggered_only = yes
+	picture = GFX_report_event_ace_promoted
+	
+	option = {
+		name = ABSGC.8.a
+		country_event = {
+			id = ABSGC.4
+			days = 0
+			}
+
+		#OK
+	}
+
+	option = {
+		name = ABSGC.8.b
+		#OK
+	}
+}

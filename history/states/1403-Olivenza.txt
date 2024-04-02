@@ -3,22 +3,18 @@ state={
 	name="STATE_1403"
 
 	history={
-		owner = 
-ITA
-		add_core_of = ITA
-
+			owner = FRE add_core_of = FRE
 		victory_points = {
 			14530 1
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
 		#add_core_of = SPR
 		#add_claim_by = POR
 		1954.9.1 = {
-			owner = 
-SPA
+			owner = SPA
 			#add_core_of = SPA
 			#remove_core_of = SPR
 
@@ -29,7 +25,7 @@ SPA
 	provinces={
 		14530 
 	}
-	manpower =  11986
+	manpower=11986
 	buildings_max_level_factor=1.000
 	state_category=enclave
 }

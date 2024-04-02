@@ -4,43 +4,29 @@ state={
 	name="STATE_1183"
 
 	history={
-		owner = GER add_core_of = GER
+		owner = SCA add_core_of = SCA
 		victory_points = {
 			9347 20 
 		}
 		buildings = {
 			infrastructure = 3
-			#arms_factory = 1
-			#dockyard = 2
+			arms_factory = 1
+			industrial_complex = 2
 			9347 = {
 				naval_base = 5
 
 			}
 
 		}
-		#add_core_of = GER
-		1954.1.1 = {
-			owner = 
-ETH
-
-			#controller = ENG
-
-		}
-		1950.1.1 = {
-			owner = 
-ETH
-
-			#add_core_of = LUX
-			#add_core_of = DDR
-			#remove_core_of = GER
-		}
-
+		#add_core_of = DEU
+		add_core_of = GBR
+		add_core_of = DEU
 	}
 
 	provinces={
 		9347 
 	}
-	manpower = 1822445
+	manpower=1822445
 	buildings_max_level_factor=1.000
 	state_category=city
 }

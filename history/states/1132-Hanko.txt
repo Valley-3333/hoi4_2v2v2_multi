@@ -3,9 +3,9 @@ state={
 	name="STATE_1132"
 	
 	history={
-		
+			owner = SCA add_core_of = SCA
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 			11211 = {
 				naval_base = 3
 
@@ -13,26 +13,14 @@ state={
 
 		}
 		#add_core_of = FIN
-		1954.5.10 = {
-			owner = SOV add_core_of = SOV
-			#controller = SOV
-
-		}
-		1954.11.22 = {
-			#controller = FIN
-
-		}
-		1954.1.1 = {
-			
-
-		}
+		add_core_of = RUS
 
 	}
 	
 	provinces={
 		11211 
 	}
-	manpower = 8386
+	manpower=8386
 	buildings_max_level_factor=1.000
 	state_category=enclave
 }

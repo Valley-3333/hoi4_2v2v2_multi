@@ -4,7 +4,7 @@ state={
 	name="STATE_1614"
 
 	history={
-		
+		owner = SCA add_core_of = SCA
 		victory_points = {
 			6136 1 
 		}
@@ -15,25 +15,19 @@ state={
 			11113 1 
 		}
 		buildings = {
-			infrastructure = 0
-
+			infrastructure = 3 #infrastructure = 0
+			arms_factory = 1
+			industrial_complex = 2
 		}
 		#add_core_of = NOR
-		1954.5.10 = {
-			#controller = GER
-
-		}
-		1954.1.1 = {
-			#controller = NOR
-
-		}
+		add_core_of = GBR
 
 	}
 
 	provinces={
 		102 6114 6136 9135 9227 11113 11206 
 	}
-	manpower =  1240
+	manpower=1240
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

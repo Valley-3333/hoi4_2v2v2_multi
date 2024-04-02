@@ -4,8 +4,7 @@ state={
 	name="STATE_469"
 
 	history={
-		#owner = CAN
-
+		#owner = GBR add_core_of = CAN
 		victory_points = {
 			12663 2
 		}
@@ -13,8 +12,8 @@ state={
 			4739 2
 		}
 		buildings = {
-			infrastructure = 2
-			#industrial_complex = 0
+			infrastructure = 3 #infrastructure = 2
+			#industrial_complex = 1
 
 		}
 		#add_core_of = CAN
@@ -24,7 +23,7 @@ state={
 	provinces={
 		736 1671 1788 3481 3498 3769 3800 4695 4739 6779 9669 10552 10611 10656 11440 12593 12603 12663 12682 13167 13168 13183 13185 14245 
 	}
-	manpower = 1
+	manpower=915605
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

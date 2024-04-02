@@ -1,0 +1,859 @@
+capital = 219
+army_experience = -100
+oob = "SOV_1939"
+add_political_power = 1052
+add_offsite_building = { type = arms_factory level = 20 }
+
+add_ideas = {
+	ENG_the_war_to_end_all_wars
+	war_economy
+	generic_silent_workhorse
+}
+
+create_faction = "コミンテルン"
+add_to_faction = RUS
+
+set_research_slots = 6
+set_convoys = 500
+set_stability = 1
+set_war_support = 1
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1933.7.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 100
+}
+
+	
+complete_national_focus = political_effort
+complete_national_focus = army_effort
+complete_national_focus = equipment_effort
+complete_national_focus = aviation_effort
+complete_national_focus = industrial_effort
+complete_national_focus = construction_effort
+complete_national_focus = construction_effort_2
+complete_national_focus = infrastructure_effort
+complete_national_focus = doctrine_effort
+complete_national_focus = doctrine_effort_2
+
+
+	add_tech_bonus = {
+		bonus = 1.0
+		uses = 1
+		technology = advanced_machine_tools
+	}
+	add_tech_bonus = {
+		name = armor_bonus
+		bonus = 1
+		ahead_reduction = 1
+		uses = 1
+		technology = improved_medium_tank_chassis
+	}
+	add_tech_bonus = {
+		bonus = 1
+		ahead_reduction = 2
+		uses = 1
+		technology = super_heavy_tank_chassis
+	}
+# Starting tech
+set_technology = {
+	#infantry
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	support_weapons = 1
+	support_weapons2 = 1
+
+	#motorised
+	motorised_infantry = 1
+	mechanised_infantry = 1
+	amphibious_mechanized_infantry = 1
+	
+	#artillery
+	gw_artillery = 1
+	artillery1 = 1
+	interwar_antiair = 1
+	interwar_antitank = 1
+	interwar_artillery = 1
+	interwar_antitank = 1
+
+	#special_forces
+	tech_special_forces = 1
+	marines = 1
+	paratroopers = 1
+
+	#electronics
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	decimetric_radar = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_encryption = 1
+	basic_decryption = 1
+	
+	#industry
+	basic_machine_tools = 1
+	improved_machine_tools = 1
+	synth_oil_experiments = 1
+	construction1 = 1
+	construction2 = 1
+	synth_oil_experiments = 1
+	fuel_refining = 1
+	fuel_silos = 1
+		
+	#support
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	tech_military_police = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_signal_company = 1
+	tech_maintenance_company = 1
+	
+	#train
+		basic_train = 1
+    railway_gun = 1
+
+	wartime_train = 1
+	armored_train = 1
+
+	
+	
+	#tank
+	gwtank_chassis = 1 #has_dlc = "No Step Back"
+	basic_light_tank_chassis = 1 #has_dlc = "No Step Back"
+	improved_light_tank_chassis = 1 #has_dlc = "No Step Back"
+	basic_heavy_tank_chassis = 1 #has_dlc = "No Step Back"
+	engine_tech_1 = 1 #has_dlc = "No Step Back"
+	basic_medium_tank_chassis = 1 #has_dlc = "No Step Back"
+	amphibious_tank_chassis = 1 #has_dlc = "No Step Back"
+	improved_heavy_tank_chassis = 1 #has_dlc = "No Step Back"
+	armor_tech_1 = 1 #has_dlc = "No Step Back"
+	armor_tech_2 = 2 #has_mod = "innovative balance"
+	engine_tech_2 = 1 #has_dlc = "No Step Back"
+	suspension_tech_1 = 1 #has_mod = "innovative balance"
+	suspension_tech_2 = 1 #has_mod = "innovative balance"
+	tankammo_tech_1 = 1 #has_mod = "innovative balance"
+	tankammo_tech_2 = 1 #has_mod = "innovative balance"
+	tankradio = 1 #has_mod = "innovative balance"
+	tankradio_2 = 1 #has_mod = "innovative balance"
+
+	#armored_car
+	armored_car1 = 1 #has_dlc = "La Resistance"
+
+	#navy
+	early_ship_hull_light = 1 #has_dlc = "Man the Guns"
+	basic_ship_hull_light = 1 #has_dlc = "Man the Guns"
+	early_ship_hull_cruiser = 1 #has_dlc = "Man the Guns"
+	basic_ship_hull_cruiser = 1 #has_dlc = "Man the Guns"
+	early_ship_hull_heavy = 1 #has_dlc = "Man the Guns"
+	basic_ship_hull_heavy = 1 #has_dlc = "Man the Guns"
+	early_ship_hull_carrier = 1 #has_dlc = "Man the Guns"
+	basic_ship_hull_carrier = 1 #has_dlc = "Man the Guns"
+	early_ship_hull_submarine = 1 #has_dlc = "Man the Guns"
+	basic_ship_hull_submarine = 1 #has_dlc = "Man the Guns"
+	basic_depth_charges = 1 #has_dlc = "Man the Guns"
+	improved_depth_charges = 1 #has_dlc = "Man the Guns"
+	sonar = 1 #has_dlc = "Man the Guns"
+	improved_sonar = 1 #has_dlc = "Man the Guns"
+	improved_airplane_launcher = 1 #has_dlc = "Man the Guns"
+	basic_cruiser_armor_scheme = 1 #has_dlc = "Man the Guns"
+	basic_torpedo = 1 #has_dlc = "Man the Guns"
+	magnetic_detonator = 1 #has_dlc = "Man the Guns"
+	improved_ship_torpedo_launcher = 1 #has_dlc = "Man the Guns"
+	basic_battery = 1 #has_dlc = "Man the Guns"
+	light_battery_4in_x1 = 1 #has_mod = "innovative balance"
+	light_battery_4in_x2 = 1 #has_mod = "innovative balance"
+	dp_light_battery_4in_x1 = 1 #has_mod = "innovative balance"
+	basic_medium_shell = 1 #has_dlc = "Man the Guns"
+	light_battery_5in_x1 = 1 #has_mod = "innovative balance"
+	basic_heavy_shell = 1 #has_dlc = "Man the Guns"
+	light_battery_5in_x2 = 1 #has_mod = "innovative balance"
+	medium_battery_5Hin_x1 = 1 #has_mod = "innovative balance"
+	medium_battery_5Hin_x2 = 1 #has_mod = "innovative balance"
+	damage_control_1 = 1 #has_dlc = "Man the Guns"
+	damage_control_2 = 1 #has_dlc = "Man the Guns"
+	fire_control_methods_1 = 1 #has_dlc = "Man the Guns"
+	fire_control_methods_2 = 1 #has_dlc = "Man the Guns"
+	medium_battery_6in_x1 = 1 #has_mod = "innovative balance"
+	medium_battery_8in_x2 = 1 #has_mod = "innovative balance"
+	heavy_battery_14in_x2 = 1 #has_mod = "innovative balance"
+	heavy_battery_14in_x3 = 1 #has_mod = "innovative balance"
+	heavy_battery_15in_x2 = 1 #has_mod = "innovative balance"
+	heavy_battery_16in_x2 = 1 #has_mod = "innovative balance"
+	triple_gun_battery = 1 #has_mod = "innovative balance"
+	twin_gun_battery = 1 #has_mod = "innovative balance"
+	ib_shell_tech2 = 1 #has_mod = "innovative balance"
+	smoke_generator = 1 #has_dlc = "Man the Guns"
+	basic_fire_control_system = 1 #has_dlc = "Man the Guns"
+	improved_fire_control_system = 1 #has_dlc = "Man the Guns"
+	mtg_transport = 1 #has_dlc = "Man the Guns"
+
+	#air
+	iw_small_airframe = 1 #has_dlc = "By Blood Alone"
+	basic_small_airframe = 1 #has_dlc = "By Blood Alone"
+	iw_medium_airframe = 1 #has_dlc = "By Blood Alone"
+	basic_medium_airframe = 1 #has_dlc = "By Blood Alone"
+	iw_large_airframe = 1 #has_dlc = "By Blood Alone"
+	basic_large_airframe = 1 #has_dlc = "By Blood Alone"
+	early_bombs = 1 #has_dlc = "By Blood Alone"
+	photo_reconnaisance = 1 #has_dlc = "By Blood Alone"
+	aa_lmg = 1 #has_dlc = "By Blood Alone"
+	survivability_studies = 1 #has_dlc = "By Blood Alone"
+	aa_hmg = 1 #has_dlc = "By Blood Alone"
+	engines_1 = 1 #has_dlc = "By Blood Alone"
+	engines_2 = 1 #has_dlc = "By Blood Alone"
+	range_improvements = 1 #has_dlc = "By Blood Alone"
+	aircraft_construction = 1 #has_dlc = "By Blood Alone"
+}
+
+
+#リーダー
+recruit_character = SOV_tsar_iosif_stalin
+recruit_character = SOV_iosif_stalin
+recruit_character = SOV_tsar_vsevolod_ivanovich
+recruit_character = SOV_tsar_vsevolod_ivanovich1
+#recruit_character = ENG_harry_pollitt
+#recruit_character = ENG_neville_chamberlain
+#recruit_character = ENG_horatio_dundas
+
+create_corps_commander = {
+	name = "EUROPE_General_voitek"
+	portrait_path = GFX_portrait_POL_king_woytek
+	
+		traits={ bearer_of_artillery }
+		skill=3
+		attack_skill=3
+		defense_skill=3
+		planning_skill=3
+		logistics_skill=3
+	
+}
+
+create_corps_commander = {
+	name=EUROPE_General_canada_death_bringer # 顔面凶器
+	portrait_path = GFX_CAN_adrien_arcand
+	
+		traits = { cavalry_officer cavalry_leader cavalry_expert }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	
+}
+create_corps_commander = {
+	name = EUROPE_General_dodo # ドードー鳥
+	portrait_path = GFX_portrait_AST_rod_hull
+	
+		traits = { desert_fox }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	
+}
+create_corps_commander = {
+	name = EUROPE_General_Boris # ボリスツルピカヨーグルト3世
+	portrait_path = GFX_portrait_BUL_boris_iii
+	
+		traits = { urban_assault_specialist }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	
+}
+create_corps_commander = {
+	name = EUROPE_General_Mao # 毛同志
+	portrait_path = "gfx/leaders/CHI/Portrait_China_Mao_Zedong.dds"
+	
+		traits = { 	organizer commando}
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	
+}
+create_corps_commander = {
+	name = EUROPE_General_Perfect_human # 中田敦彦
+	portrait_path = "GFX_portrait_JAP_naruhiko_higashikuni"
+	
+	traits = { infantry_officer armor_officer }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	
+}
+
+create_corps_commander = {
+	name = EUROPE_General_Turube # 鶴瓶
+	portrait_path = "GFX_portrait_JAP_akira_muto"
+	
+		traits = { trait_reckless trait_cautious }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	
+}
+create_corps_commander = {
+	name = EUROPE_General_Trotsky # トロツキー
+	portrait_path = "GFX_portrait_MEX_leon_trotsky"
+	
+		traits = { trait_SOV_determined }
+		skill = 3
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 3
+	
+}
+create_corps_commander = {
+	name = EUROPE_General_Franco # フランコ
+	portrait_path = "GFX_portrait_spain_francisco_franco"
+	
+		traits = { naval_invader invader_ii}
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	
+}
+create_corps_commander = {
+	name = EUROPE_General_Tito # チート
+	portrait_path = "GFX_portrait_YUG_josip_broz_tito"
+	
+		traits = { commando camouflage_expert }
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	
+}
+
+
+
+
+add_namespace = {
+	name = "unit_leader_sov"
+	type = unit_leader
+}
+
+
+create_corps_commander = {
+	name = "Georgy Zhukov"
+	id = 410
+		picture = "Portrait_Soviet_Gregory_Zhukov.dds"
+	traits = { winter_specialist armor_officer media_personality war_hero }
+	skill = 5
+
+	
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Konstantin Rokossovsky"
+	id = 402
+		picture = "Portrait_Soviet_Konstantin_Rokossovsky.dds"
+	traits = {  armor_officer trait_cautious brilliant_strategist }
+	skill = 4
+	
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Aleksandr Vasilevsky"
+	id = 407
+		picture = "Portrait_Soviet_Aleksandr_Vasilevsky.dds"
+	traits = { armor_officer politically_connected }
+	skill = 4
+
+	
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Boris Shaposhnikov"
+		picture = "Portrait_Soviet_Boris_Shaposhnikov.dds"
+	traits = { trait_cautious career_officer }
+	skill = 3
+	
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Nikolai Vatutin"
+		picture = "Portrait_Soviet_Nikolai_Fyodorovich_Vatutin.dds"
+	traits = { infantry_officer trait_reckless }
+	skill = 3
+	
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Ivan Konev"
+	id = 408
+		picture = "Portrait_Soviet_Ivan_Konev.dds"
+	traits = { armor_officer harsh_leader politically_connected }
+	skill = 5
+
+
+	
+	attack_skill = 4
+	defense_skill = 5
+	planning_skill = 2
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Semyon Timoshenko"
+	id = 404
+		picture = "Portrait_Soviet_Semyon_Timoshenko.dds"
+	traits = { cavalry_officer politically_connected career_officer }
+	skill = 3
+
+
+	
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "Kliment Voroshilov"
+	id = 405
+		picture = "Portrait_Soviet_Kliment_Voroshilov.dds"
+	traits = {  politically_connected inflexible_strategist }
+	skill = 2
+
+
+	
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Mikhail Tukhachevsky"
+	id = 401
+		picture = "Portrait_Soviet_Mikhail_Tukhachevsky.dds"
+	traits = { offensive_doctrine brilliant_strategist career_officer infantry_officer trait_reckless }
+	skill = 4
+
+	
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Semyon Budyonny"
+		picture = "Portrait_Soviet_Semyon_Budyonny.dds"
+	traits = {  politically_connected inflexible_strategist }
+	skill = 2
+
+	
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Ivan Chernyakhovsky"
+		picture = "Portrait_Soviet_Ivan_Chernyakhovsky.dds"
+	traits = { armor_officer }
+	skill = 1 
+
+	
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Issa Pliyev"
+		picture = "Portrait_Soviet_Issa_Pliyev.dds"
+	traits = { cavalry_officer }
+	skill = 1
+
+	
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Leonid Govorov"
+		picture = "Portrait_Soviet_Leonid_Govorov.dds"
+	traits = {   }
+	skill = 3
+	
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Grigory Kulik"
+		picture = "Portrait_Soviet_Grigory_Kulik.dds"
+	traits = { old_guard career_officer politically_connected inflexible_strategist }
+	skill = 1	
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Kirill Meretskov"
+		picture = "Portrait_Soviet_Kirill_Meretskov.dds"
+	traits = { trait_reckless infantry_officer }
+	skill = 3
+	
+
+	
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Filipp Golikov"
+		picture = "Portrait_Soviet_Filipp_Golikov.dds"
+	traits = { career_officer }
+	skill = 3
+	
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Andrey Yeryomenko"
+		picture = "Portrait_Soviet_Andrey_Yeryomenko.dds"
+	traits = { cavalry_officer trait_reckless }
+	skill = 1 
+
+	
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Georgiy Zakharov"
+		picture = "Portrait_Soviet_Georgiy_Zakharov.dds"
+	traits = { career_officer }
+	skill = 1 
+
+	
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Yakov Cherevichenko"
+		picture = "Portrait_Soviet_Yakov_Cherevichenko.dds"
+	traits = { cavalry_officer }
+	skill = 3
+	
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Max Reyter"
+		picture = "Portrait_Soviet_Max_Andreyevich.dds"
+	traits = { career_officer }
+	skill = 1
+
+	
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Nikandr Chibisov"
+		picture = "Portrait_Soviet_Nikandr_Yevlampyevich_Chibisov.dds"
+	traits = { trickster }
+	skill = 3
+
+	
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Vasily Kuznetsov"
+		picture = "Portrait_Soviet_Vasily_Kuznetsov.dds"
+	traits = { commando infantry_officer }
+	skill = 3
+	
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Andrey Vlasov"
+		picture = "Portrait_Soviet_Andrey_Vlasov.dds"
+	traits = { winter_specialist infantry_officer }
+	id = 412
+	skill = 3
+	
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Ivan Fedyuninsky"
+		picture = "Portrait_Soviet_Ivan_Fedyuninsky.dds"
+	traits = { infantry_officer }
+	skill = 1 
+	
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Maksim Purkayev"
+		picture = "Portrait_Soviet_Maksim_Purkayev.dds"
+	traits = { career_officer }
+	skill = 3
+
+	
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Kuzma Galitsky"
+		picture = "Portrait_Soviet_Kuzma_Galitsky.dds"
+	traits = { infantry_officer }
+	skill = 1 
+
+	
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Markian Popov"
+		picture = "Portrait_Soviet_Matkian_Popov.dds"
+	traits = { winter_specialist infantry_officer brilliant_strategist }
+	skill = 2
+
+	
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Nikolai Berzarin"
+		picture = "Portrait_Soviet_Nikolai_Berzarin.dds"
+	traits = { infantry_officer }
+	skill = 3
+	
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Alexander Gorbatov"
+		picture = "Portrait_Soviet_Alexander_Gorbatov.dds"
+	traits = { career_officer cavalry_officer }
+	skill = 3
+	
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Kirill Moskalenko"
+		picture = "Portrait_Soviet_Kirill_Moskalenko.dds"
+	traits = {  }
+	skill = 3
+	
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Dmitry Lelyushenko"
+		picture = "Portrait_Soviet_Dmitri_Danilovich_Lelyushenko.dds"
+	traits = {armor_officer trait_reckless  }
+	skill = 1 
+	
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Andrei Grechko"
+		picture = "Portrait_Soviet_Andrei_Antonovich_Grechko.dds"
+	traits = { cavalry_officer }
+	skill = 3
+
+
+	
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Rodion Malinovsky"
+		picture = "Portrait_Soviet_Rodion_Malinovsky.dds"
+	traits = { career_officer old_guard trait_cautious politically_connected }
+	skill = 1 
+
+	
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Vasily Chuikov"
+		picture = "Portrait_Soviet_Vasily_Chuikov.dds"
+	traits = { brilliant_strategist career_officer }
+	skill = 1
+
+	
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "Filipp Oktyabrskiy"
+		picture = "Portrait_Soviet_Filipp_Oktyabrsky.dds"
+	traits = { ground_pounder ironside }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
+create_navy_leader = {
+	name = "Sergey Gorshkov"
+	id = 411
+		picture = "Portrait_Soviet_Sergey_Gorshkov.dds"
+	traits = { navy_career_officer bold }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 2
+}
+
+# Arrested in '41
+create_navy_leader = {
+	name = "Gordey Levchenko"
+	id = 406
+		picture = "Portrait_Soviet_Gordey_Levchenko.dds"
+	traits = { green_water_expert }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Arseniy Golovko"
+	id = 409
+		picture = "Portrait_Soviet_Arseniy_Golovko.dds"
+	traits = { arctic_water_expert spotter }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	maneuvering_skill = 3
+	coordination_skill = 3
+}
+
+create_navy_leader = {
+	name = "Vladimir Kasatonov"
+	id = 403
+		picture = "Portrait_Soviet_Vladimir_Kasatonov.dds"
+	traits = { seawolf }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+
+
+### Ship Variants ###

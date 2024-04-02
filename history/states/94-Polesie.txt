@@ -4,7 +4,7 @@ state={
 	name="STATE_94"
 
 	history={
-		owner = SOV add_core_of = SOV
+		owner = RUS add_core_of = RUS
 		victory_points = {
 			3392 3
 		}
@@ -12,48 +12,23 @@ state={
 			11503 2
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 			3392 = {
-				bunker = 5
+				#bunker = 5
 
 			}
 
 		}
-		#add_core_of = SOV
+		#add_core_of = POL
 		#add_core_of = BLR
-		1954.5.10 = {
-			owner = SOV add_core_of = SOV
-			set_province_name = { id = 3392 name = "Brest" }
-
-		}
-		1954.11.22 = {
-			#controller = GER
-
-		}
-		1954.6.20 = {
-			SOV = {
-				#set_province_controller = 6579
-				#set_province_controller = 13723
-
-			}
-		}
-		1954.1.1 = {
-			#controller = SOV
-
-		}
-		2000.1.1 = {
-			owner = 
-BLR
-			#remove_core_of = SOV
-			
-		}
+		add_core_of = DEU
 
 	}
 
 	provinces={
 		560 3392 6415 6546 6579 11285 11503 11528 13723 13724 
 	}
-	manpower = 1232200
+	manpower=1232200
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

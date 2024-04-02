@@ -4,7 +4,7 @@ state={
 	name="STATE_146"
 
 	history={
-		owner = RUS add_core_of = SWE
+			owner = SCA add_core_of = SCA
 		victory_points = {
 			9206 2
 		}
@@ -12,55 +12,33 @@ state={
 			3187 1
 		}
 		buildings = {
-			infrastructure = 2
-			#industrial_complex = 0
+			infrastructure = 3 #infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
 			9100 = {
-				bunker = 2
+				#bunker = 2
 
 			}
 			9105 = {
-				bunker = 2
+				#bunker = 2
 
 			}
 			9206 = {
-				coastal_bunker = 1
+				#coastal_bunker = 1
 
 			}
 
 		}
 		#add_core_of = FIN
 		#add_core_of = KRL
-		1954.5.10 = {
-			owner = SOV add_core_of = SOV
-			#controller = SOV
-			#add_core_of = SOV
-			#remove_core_of = FIN
-			set_province_name = { id = 9206 name = Vyborg }
-
-		}
-		1954.11.22 = {
-			#controller = FIN
-
-		}
-		1954.6.20 = {
-			SOV = {
-				#set_province_controller = 9150
-				#set_province_controller = 9100
-
-			}
-
-		}
-		1954.1.1 = {
-			#controller = SOV
-
-		}
+		add_core_of = RUS
 
 	}
 
 	provinces={
 		3050 3133 3187 6052 6150 6153 8103 9100 9105 9150 9176 9206 11046 11156 11162 
 	}
-	manpower=418635
+	manpower=1612000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

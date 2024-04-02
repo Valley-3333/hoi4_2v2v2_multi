@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = GRE add_core_of = GRE
+		owner = OTT add_core_of = OTT
 		victory_points = {
 			9635 3 
 		}
@@ -15,9 +15,9 @@ state={
 			687 1 
 		}
 		buildings = {
-			infrastructure = 2
-			#arms_factory = 1
-			#dockyard = 1
+			infrastructure = 3 #infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
 			9635 = {
 				naval_base = 8
 
@@ -29,16 +29,8 @@ state={
 
 		}
 		#add_core_of = ROM
-		1954.1.1 = {
-			#controller = SOV
-
-		}
-		1954.1.1 = {
-			#controller = ROM
-			#remove_claim_by = BUL
-
-		}
-
+		add_core_of = RUS
+		add_core_of = RIT
 	}
 
 	provinces={

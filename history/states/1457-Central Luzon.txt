@@ -4,8 +4,7 @@ state={
 	name="STATE_1457"
 
 	history={
-		owner = 
-AST
+		#owner = PHI
 		victory_points = {
 			10165 3 
 		}
@@ -16,8 +15,8 @@ AST
 			7351 2 
 		}
 		buildings = {
-			infrastructure = 2
-			#industrial_complex = 0
+			infrastructure = 3 #infrastructure = 2
+			#industrial_complex = 1
 			1415 = {
 				naval_base = 1
 
@@ -39,7 +38,7 @@ AST
 	provinces={
 		1288 1388 1415 7275 7323 7351 10165 10280 
 	}
-	manpower =  11218177
+	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=city
 }

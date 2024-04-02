@@ -4,7 +4,6 @@ state={
 
 	history={
 		#owner = BRA
-
 		victory_points = {
 			10855 5
 		}
@@ -15,7 +14,7 @@ state={
 			14943 2
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
 		#add_core_of = VEN
@@ -25,7 +24,7 @@ state={
 	provinces={
 		4942 5056 8024 10855 14939 14943 14946 
 	}
-	manpower = 1
+	manpower=2245744
 	buildings_max_level_factor=1.000
 	state_category=town
 }

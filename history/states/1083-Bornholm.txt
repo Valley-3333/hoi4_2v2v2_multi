@@ -3,13 +3,15 @@ state={
 	name="STATE_1083"
 	
 	history={
-		owner = 
-SOV
+			owner = SCA add_core_of = SCA
+			
 		victory_points = {
 			6361 1
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3 #infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
 			6361 = {
 				naval_base = 1
 
@@ -17,22 +19,14 @@ SOV
 
 		}
 		#add_core_of = DEN
-		1954.1.1 = {
-			owner = SOV add_core_of = SOV
-
-		}
-		1950.1.1 = {
-			owner = 
-SOV
-
-		}
+		add_core_of = DEU
 
 	}
 	
 	provinces={
 		6361 
 	}
-	manpower = 45550
+	manpower=45550
 	buildings_max_level_factor=1.000
 	state_category=small_island
 }

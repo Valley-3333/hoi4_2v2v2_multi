@@ -3,39 +3,23 @@ state={
 	name="STATE_977"
 	
 	history={
-		owner = GER add_core_of = GER
+		owner = RIT add_core_of = RIT
 		victory_points = {
 			6680 2 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3 #infrastructure = 2
 
 		}
 		#add_core_of = AUS
-		1954.3.12 = {
-			owner = GER add_core_of = GER
-			#controller = GER
-			#add_core_of = GER
-
-		}
-		1954.1.1 = {
-			owner = 
-ETH
-
-			#remove_core_of = GER
-
-		}
-		1956.1.1 = {
-			owner = GER add_core_of = GER
-
-		}
-
+		add_core_of = DEU
+		add_core_of = FRE
 	}
 	
 	provinces={
 		6680 
 	}
-	manpower = 155402
+	manpower=155402
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

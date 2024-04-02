@@ -3,10 +3,9 @@ state={
 	name="STATE_1440"
 
 	history={
-		owner = ENG
-
+		#owner = BRA
 		buildings = {
-			infrastructure = 0
+			infrastructure = 3 #infrastructure = 0
 			14627 = {
 				naval_base = 1
 
@@ -24,7 +23,7 @@ state={
 	provinces={
 		14627 14628 
 	}
-	manpower =  900
+	manpower=900
 	buildings_max_level_factor=1.000
 	state_category=tiny_island
 }

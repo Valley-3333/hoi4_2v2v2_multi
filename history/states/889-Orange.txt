@@ -4,9 +4,7 @@ state={
 	name="STATE_889"
 
 	history={
-		owner = 
-ETH
-
+		#owner = LUX
 		victory_points = {
 			12648 5
 		}
@@ -14,8 +12,8 @@ ETH
 			13399 2
 		}
 		buildings = {
-			infrastructure = 2
-			#industrial_complex = 0
+			infrastructure = 3 #infrastructure = 2
+			#industrial_complex = 1
 		}
 		#add_core_of = SAF
 
@@ -24,7 +22,7 @@ ETH
 	provinces={
 		5231 12064 12648 13388 13392 13393 13399 13400 15226 15227 
 	}
-	manpower =  747431
+	manpower=747431
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

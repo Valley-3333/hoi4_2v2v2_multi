@@ -4,7 +4,7 @@ state={
 	name="STATE_557"
 
 	history={
-
+		#owner = LUX
 		victory_points = {
 			13849 3
 		}
@@ -15,25 +15,20 @@ state={
 			13845 1
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
 		#add_core_of = MRT
 		1954.6.22 = {
-			owner = 
-ETH
-
+			#owner = LUX
 
 		}
 		1954.11.22 = {
-			owner = 
-ETH
-
+			#owner = LUX
 
 		}
 		1972.1.1 = {
-			owner = 
-MRT
+			owner = MRT
 			set_province_name = { id = 13850 name = "Nouadhibou" }
 
 		}
@@ -43,7 +38,7 @@ MRT
 	provinces={
 		5034 7992 10814 13845 13849 13850 
 	}
-	manpower =  400000
+	manpower=400000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

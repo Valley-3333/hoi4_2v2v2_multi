@@ -1,0 +1,26 @@
+political_actions = {
+	clear___ai = {
+
+		icon = generic_industry
+
+
+		visible = {
+			date < 1938.11.1
+			is_ai = yes
+		}
+
+		fire_only_once = no
+		
+
+		complete_effect = {
+			add_ideas =Closed_Economy
+			add_ideas = stiff_upper_lip
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 10
+		}
+
+	}	
+	
+}

@@ -3,20 +3,17 @@ state={
 	name="STATE_1380"
 
 	history={
-		owner = 
-ETH
-
+		#owner = LUX
 		victory_points = {
 			14441 3
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
 		#add_core_of = COG
 		1972.1.1 = {
-			owner = 
-COG
+			owner = COG
 			set_province_name = { id = 14441 name = "Kananga" }
 
 		}
@@ -26,7 +23,7 @@ COG
 	provinces={
 		1731 2024 4128 7716 8016 9986 14439 14441 14446 14449 14452 14455 
 	}
-	manpower =  6556917
+	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

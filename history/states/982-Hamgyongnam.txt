@@ -9,7 +9,7 @@ state={
 	}
 	
 	history={
-		owner = CHI add_core_of = CHI
+		#owner = JAP
 		victory_points = {
 		    6928 3
 		}
@@ -17,19 +17,17 @@ state={
 		    6922 2
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 
 		}
-		add_core_of = LUX
+		#add_core_of = KOR
 		#add_core_of = LUX
 		1954.1.1 = {
-			owner = SOV add_core_of = SOV
+			owner = RUS add_core_of = RUS
 
 		}
 		1950.1.1 = {
-			owner = 
-ETH
-
+			#owner = LUX
 			#add_core_of = LUX
 
 		}
@@ -39,7 +37,7 @@ ETH
 	provinces={
 		852 959 3852 3981 6922 6928 7070 10083 11878 13279 13280 
 	}
-	manpower = 827823
+	manpower=827823
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

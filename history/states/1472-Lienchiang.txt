@@ -4,10 +4,9 @@ state={
 	name="STATE_1472"
 
 	history={
-		owner = 
-CHI
+		#owner = CHI
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 			14747 = {
 				naval_base = 1
 
@@ -30,7 +29,7 @@ CHI
 	provinces={
 		14747 
 	}
-	manpower =  12716
+	manpower=12716
 	buildings_max_level_factor=1.000
 	state_category=tiny_island
 }

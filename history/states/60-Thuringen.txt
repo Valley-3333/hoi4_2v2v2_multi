@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		owner = GER add_core_of = GER
+		owner = DEU add_core_of = DEU
 		victory_points = {
 			6524 5 
 		}
@@ -27,11 +27,11 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			#arms_factory = 1
-			#industrial_complex = 0
+			arms_factory = 1
+			industrial_complex = 2
 
 		}
-		#add_core_of = GER
+		#add_core_of = DEU
 		1954.1.1 = {
 			buildings = {
 				synthetic_refinery = 3
@@ -41,21 +41,18 @@ state={
 
 		}
 		1954.1.1 = {
-			owner = SOV add_core_of = SOV
+			owner = RUS add_core_of = RUS
 
 		}
 		1950.1.1 = {
-			owner = 
-DDR
+			owner = DDR
 			#add_core_of = LUX
 			#add_core_of = DDR
 			#remove_core_of = GER
 
 		}
 		1991.1.1 = {
-			owner = 
-ETH
-
+			#owner = LUX
 			#remove_core_of = DDR
 
 		}
@@ -65,7 +62,7 @@ ETH
 	provinces={
 		425 482 538 3500 3561 6501 6524 9497 13116 
 	}
-	manpower = 2765214
+	manpower=2765214
 	buildings_max_level_factor=1.000
 	state_category=large_city
 }

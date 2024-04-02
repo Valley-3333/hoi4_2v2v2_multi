@@ -3,24 +3,20 @@ state={
 	name="STATE_1225"
 
 	history={
-		owner = 
-ETH
+		#owner = RIT add_core_of = LUX
 		#add_core_of = LBA
 		1954.11.22 = {
-			owner = GER add_core_of = ITA
+			owner = RIT add_core_of = RIT
 			#controller = ENG
 
 		}
 		1954.6.20 = {
-			owner = 
-ETH
-
+			#owner = LUX
 			#controller = ENG
 
 		}
 		1950.1.1 = {
-			owner = 
-ETH
+			owner = RIT add_core_of = RIT
 			#controller = LBA
 
 		}
@@ -30,7 +26,7 @@ ETH
 	provinces={
 		13991 
 	}
-	manpower = 2768
+	manpower=2768
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 	impassable=yes

@@ -4,7 +4,7 @@ state={
 	name="STATE_822"
 
 	history={
-		owner = GRE
+		owner = OTT add_core_of = OTT
 		victory_points = {
 			13212 3 
 		}
@@ -15,7 +15,7 @@ state={
 			11970 2 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 #infrastructure = 1
 			1015 = {
 				naval_base = 1
 
@@ -25,8 +25,7 @@ state={
 		#add_core_of = PAL
 		#add_core_of = ISR
 		1950.1.1 = {
-			owner = 
-ISR
+			owner = ISR
 			set_province_name = {
 				id = 1015
 				name = VICTORY_POINTS_1015_2
@@ -40,7 +39,7 @@ ISR
 	provinces={
 		1015 7176 10104 11970 13212 
 	}
-	manpower =  83000
+	manpower=83000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }
