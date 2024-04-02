@@ -1,7 +1,0 @@
-spriteTypes = {
-
-	spriteType = {
-		name = "GFX_report_event_GSA_thumbnail"
-		texturefile = "gfx/event_pictures/report_event_GSA_thumbnail.dds"
-	}
-}

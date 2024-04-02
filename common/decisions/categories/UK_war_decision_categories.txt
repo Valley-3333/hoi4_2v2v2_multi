@@ -1,5 +1,0 @@
-Opium_War = {
-	allowed = {
-	   is_in_faction_with = ENG
-	}
-}
